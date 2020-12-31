@@ -1,0 +1,11 @@
+body { font: normal 1em Verdana; 
+    margin: 1em 10%; 
+}
+
+h1 { font: normal 3em Georgia; color:black; 
+    margin: 1em 0 1em; 
+}
+
+ol li {
+    display: inline;
+}
