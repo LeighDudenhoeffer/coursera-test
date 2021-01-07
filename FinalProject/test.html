@@ -3,26 +3,30 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Element with Class Selector</title>
+        
         <style>
 
-            div p{
-                color: blue;
+            div, span{
+                background-color: rgb(169, 169, 231);
+            }
+
+            a:hover div:nth-child(5) {
+                font-size: 24px;
             }
 
         </style>
 </head>
 <body>
-    <div>
-        <div>
-            <div class="makeMeBlue">
-                <p>I'm feeling Blue!</p>
-            </div>
-        </div>
-        <section class="makeMeBlue">
-            <p>I just want to be left alone!</p>
-        </section>
-    </div>
-    
-    
+    <div>Hello</div>
+    <span>World!</span>
+
+    <a>
+        <div>Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
+        <div>Div 4</div>
+        <div>Div 5</div>
+        <div>Div 6</div>
+    </a>
 </body>
 </html>
