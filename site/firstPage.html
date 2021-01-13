@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <header>
+    <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <h1>My First Page!</h1>
-    </header>
+        <title>My First Page!</title>
+    </head>
     <body>
-        <h2>Greetings Earthings! I have come to take over your puny planet..... to be continued....</h2>
-        <p>
-            <img src="area51image.jpeg" width="400" height="235" alt="Picture of alien ships in area 51.">
-            <!--all images are inline-->
-            <!--always name your images in case they're link(s) get broken-->
-        </p>
-        <!-- Division -->
-        <div class="social">
-            <p>I may be found on the planet mars!</p> <!--enter email and/or webpage address here-->
-            <br>
-            <p>Additionally, I have a profile nowhere yet...</p> <!--ditto above-->
-        </div>
+        <h1>Greetings Earthings! I have come to take over your puny planet..... </h1>
+        <h1>to be continued........ maybe</h1>
+        
+                <img src="area51image.jpeg" width="480" alt="Picture of alien ships in area 51.">
+                <!--all images are inline ... also keep in mind that <img> tag includes width & height attributes-->
+                <!--always name your images in case they're link(s) get broken-->
 
+                <figure>
+                    <img src="alien-spaceships-ufo-with-blue-purple-light-beam.jpg" width = "600" alt="My blue and purple alien spaceships!">
+                    <figcaption>My blue and purple ships!</figcaption> <!--Sizing this way allows for the picture to always be at 50% of the total page width!-->
+                </figure>
+            
+        <!-- Division -->
+            <div class="social">
+                <p>I'm frequently found on the planet mars!</p> <!--enter email and/or webpage address here-->
+                <br>
+                <p>Additionally, it's very important to note the 4 types of links (see below)!</p> <!--ditto above-->
+            </div>
+            
+            <h2>The 4 types of links:</h2>
+            <ol>
+                <li>Absolute Reference: links to a fully formed URL and needs http or https</li>
+                <!--Ex. <a href="page2.html">Second Page</a> Also, your page should NEVER link to local folders-->
+                <li>Relative Reference: links to a file or a folder. Also used to call an ID tag</li>
+                <!--The id tag would refer to another location/folder inside the same file-->
+                <!--Ex. <a href="docs/page2.html">Second Page<?a>-->
+                <li>Internal Links: links that go from one page on a domain to a different page on the same domain.</li>
+                <!--Ex. -->
+                <li>Graphical Links: links that are "clickable" icons or images. The clickable component doesn't need to be text.</li>
+            </ol>
+                                
         <!-- Span -->
-        <p>Soon we aliens will be <span class="tooltip">writing HTML</span> with the best of them.</p>
-        <br>
-        <p><strong>P.S. Check out the the neat little cheat sheet below!</strong></p>
-        <br>
-        <a href="https://www.wpkube.com/?page_id=30250"
-        target="_blank" title="HTML Cheat sheet">HTML cheat sheet</a>
-            <img src="https://1adn3cp4l2-flywheel.netdna-ssl.com/wp-content/uploads/2017/09/html-chatsheet.jpg" alt="The Ultimate HTML 5 Cheat Sheet [Infographic]"/>
+            <p>Soon we aliens will be <span class="tooltip">writing HTML</span> with the best of them.</p>
+            <br>
+            <p><strong>P.S. Check out this neat little cheat sheet!</strong>
+            <a href="https://www.wpkube.com/?page_id=30250"
+            target="_blank" title="HTML Cheat Sheet">Printable HTML Cheat Sheet</a><br>
+            </p>
+    
+        <footer>
+            &copy; December 23, 2020 by An Alien From Mars Living on Earth<br>
+            <a href="https://learn.shayhowe.com/html-css/"
+            target="_blank" title="Learn to Code HTML & CSS">Learn to Code HTML & CSS by Shay Howe</a>
+        </footer>
+    
     </body>
-    <footer>
-        &copy; 2020 by An Alien From Mars Living on Earth<br>
-        <a href="https://learn.shayhowe.com/html-css/"
-        target="_blank" title="Learn to Code HTML & CSS">Learn to Code HTML & CSS by Shay Howe</a>
-        <br>
-        If you want to go <a href="index.html">HOME</a>, click it!
-    </footer>
 </html>
