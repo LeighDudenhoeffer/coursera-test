@@ -2,14 +2,36 @@
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <title>Document</title>
+        <title>The Box Model before</title>
         <style>
             
+            body {
+                background-color: bisque;
+            }
+
+            #box {
+                background-color: darkgreen;
+            }
+
+            #content {
+                background-color: darkred;
+            }
+
+            h1 {
+                margin-bottom: 30px;
+            }
+
         </style>
     </head>
 
     <body>
-                
+        
+        <h1>Box Model - before</h1>
+
+        <div id="box">
+            <div id="content">Help! I'm all boxed in!!!</div> <!--This trys to fill in the entire width of the browser!-->
+        </div>
+
         <footer>
             <a href="index.html">Home</a>
             <p>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</p>
