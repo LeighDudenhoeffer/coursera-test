@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Floating Before</title>
+        <style>
+            
+            body {
+                background-color: rgb(140, 221, 194);
+            }
+            
+            div {
+                background-color: #00FFFF;
+            }
+
+            p {
+                width: 50px;
+                height: 50px;
+                border: 1px solid black;
+                float: left;
+                margin-right: 10px;
+            }
+
+            #p1 {
+                background-color: #882aa5;
+                float: left;
+                height: 150;
+                }
+
+            #p2 {
+                background-color: #DEB887;
+                float: right;
+                height: 100px;
+            }
+            
+            #p3 {
+                background-color: #5F9EA0;
+                clear: right;
+                /*  Causes the box to jump to the next line down and align left */
+            }
+
+            #p4 {
+                background-color: #FF7F50;
+            }
+
+            section {
+                clear: left;
+                /* Causes everything in the section area to align left and present normally*/
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Floating elements!</h1>
+        <div>
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+            <p id="p4"></p>
+            <section>This is regular content continuing after the paragraph boxes.</section>
+        </div>
+
+        <br>
+        <br>
+        <br>
+                                
+        <footer>
+            <a href="index.html">Home</a>
+            <!--The copyright info was originally a paragraph, but because of the paragraph boxes,
+            this was displaying in box form. Enter the section!-->
+            <section>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</section>
+        </footer>
+
+    </body>
+    </html>
