@@ -24,6 +24,6 @@ a:link, a:visited {
     margin-bottom: 15px;
 }
 .row > div {
-    border: 2px solid red;
+    border: 1px solid red;
     background-color: rgb(199, 196, 196);
 }
