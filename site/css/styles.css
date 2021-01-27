@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(140, 221, 194);
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: rgb(245, 245, 7);
+    border-radius: 25px;
+    border: 1px solid black;
+    color: black;
+    display: block;
+    width: 350px;
+    height: 25px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+    a:hover, a:active {
+    background-color: chocolate;
+    color: black
+}
+
+.row {
+    margin-bottom: 15px;
+}
+.row > div {
+    border: 2px solid red;
+    background-color: rgb(199, 196, 196);
+}
