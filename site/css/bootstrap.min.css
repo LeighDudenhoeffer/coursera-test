@@ -1,27 +1,10 @@
-a:link, a:visited {
-    text-decoration: none;
-    background-color: rgb(245, 245, 7);
-    border-radius: 25px;
-    border: 1px solid black;
-    color: black;
-    display: block;
-    width: 350px;
-    height: 25px;
-    text-align: center;
-    margin-bottom: 6px;
-}
-
-    a:hover, a:active {
-    background-color: chocolate;
-    color: black
-}
-
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
 audio:not([controls]){display:none;}
 html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
 a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
-a:hover,a:active{outline:0;}
+a:hover,a:active{background-color: chocolate;color: black;outline:0;}
+a:link, a:visited{text-decoration: none;background-color: rgb(245, 245, 7);border-radius:25px;border:1px solid black;color: black;display:block;width:350px;height:25px;text-align:center;margin-bottom:6px;}
 sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline;}
 sup{top:-0.5em;}
 sub{bottom:-0.25em;}
