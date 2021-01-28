@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(140, 221, 194);
+}
+
+* {
+box-sizing: border-box;
+padding: 20px;
+align-self: stretch;
+}    
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p {
+    margin-right:25px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(22, 21, 21);
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    font-family: 'Trebuchet MS';
+    color: rgb(11, 61, 61);
+    }
+
+/*********** Base Styles ***********/
+#p1 {
+    background-color: #f0aaaa;
+    float: left;
+    font-size: auto;
+    width: 350px;
+    }
+
+#p2 {
+    background-color: #97f3cd;
+    float: left;
+    font-size: auto;
+    width: 350px;
+    }
+
+#p3 {
+    background-color: rgb(243, 167, 243);
+    float: left;
+    font-size: auto;
+    width: 350px;
+    }
+
+section {
+    clear: left;
+    }
+
+/* Simple Responsive Framework */
+.row {
+    width: 100%;
+    }
+
+/*********** Large devices only ***********/
+@media (min-width: 992px) {
+    #p1 {
+        width: 350px;
+        }
+    #p2 {
+        width: 350px;
+        }
+    #p3 {
+        width: 350px;
+        }
+}
+
+/*********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #p1 {
+        width: 50%;
+        }
+    #p2 {
+        width: 50%;
+        }
+    #p3 {
+        width: 50%;
+        }
+body {
+    background-color: rgb(178, 178, 231);
+    }
+}
+
+/********** Small devices only ************/
+@media (min-width: 320px) and (max-width: 767px) {
+    #p1 {
+        width: 30%;
+    }
+    #p2 {
+        width: 30%;
+        }
+    #p3 {
+        width: 30%;
+    }
+body {
+    background-color: rgb(149, 211, 211);
+}
+}
