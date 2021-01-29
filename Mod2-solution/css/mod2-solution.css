@@ -10,11 +10,12 @@ margin: 10px;
 h1 {
     margin-bottom: 15px;
     text-align: center;
+    font-family: Georgia;
     font-size: 2.5em;
 }
 
 p {
-    margin-right:25px;
+    margin-right: 25px;
     margin-bottom: 25px;
     border: 1px solid rgb(22, 21, 21);
     padding: 25px;
@@ -30,7 +31,7 @@ p {
     float: left;
     font-size: auto;
     width: 350px;
-    height: fit-content;
+    height: 100px;
     }
 
 #p2 {
@@ -38,7 +39,7 @@ p {
     float: left;
     font-size: auto;
     width: 350px;
-    height: fit-content;
+    height: 100px;
     }
 
 #p3 {
@@ -46,17 +47,38 @@ p {
     float: left;
     font-size: auto;
     width: 350px;
-    height: fit-content;
+    height: 100px;
     }
 
-span.menu {
+span.menu1 {
     float: right;
     border: 1px solid black;
     margin: -26px;
-    width: 90px;
+    width: 120px;
     text-align: center;
     color: #FFF;
     background-color: #9D080D;
+    padding: 3px;
+}
+span.menu2 {
+    float: right;
+    border: 1px solid black;
+    margin: -26px;
+    width: 120px;
+    text-align: center;
+    color: #FFF;
+    background-color: #0f6416;
+    padding: 3px;
+}
+
+span.menu3 {
+    float: right;
+    border: 1px solid black;
+    margin: -26px;
+    width: 120px;
+    text-align: center;
+    color: #FFF;
+    background-color: #0a0957;
     padding: 3px;
 }
 
@@ -90,7 +112,7 @@ span.menu {
         width: 300px;
         }
     #p3 {
-        width: 80%;
+        width: 90%;
         }
 body {
     background-color: rgb(178, 178, 231);
@@ -103,13 +125,13 @@ body {
         font-size: medium;
     }
     #p1 {
-        width: 70%;
+        width: 90%;
     }
     #p2 {
-        width: 70%;
+        width: 90%;
         }
     #p3 {
-        width: 70%;
+        width: 90%;
     }
 body {
     background-color: rgb(149, 211, 211);
