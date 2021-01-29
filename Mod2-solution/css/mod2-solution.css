@@ -4,7 +4,7 @@ body {
 
 * {
 box-sizing: border-box;
-margin: 10px;
+margin: 15px;
 }    
 
 h1 {
@@ -18,9 +18,8 @@ p {
     margin-right: 25px;
     margin-bottom: 25px;
     border: 1px solid rgb(22, 21, 21);
-    padding: 25px;
+    padding: 24px;
     width: 100%;
-    height: auto;
     font-family: 'Trebuchet MS';
     color: rgb(11, 61, 61);
     }
@@ -29,25 +28,25 @@ p {
 #p1 {
     background-color: #f0aaaa;
     float: left;
-    font-size: auto;
+    font-size: small;
     width: 350px;
-    height: 100px;
+    height: 105px;
     }
 
 #p2 {
     background-color: #97f3cd;
     float: left;
-    font-size: auto;
+    font-size: small;
     width: 350px;
-    height: 100px;
+    height: 105px;
     }
 
 #p3 {
     background-color: rgb(243, 167, 243);
     float: left;
-    font-size: auto;
+    font-size: small;
     width: 350px;
-    height: 100px;
+    height: 105px;
     }
 
 span.menu1 {
@@ -106,13 +105,13 @@ span.menu3 {
         font-size: large;
     }
     #p1 {
-        width: 300px;
+        width: 41%;
         }
     #p2 {
-        width: 300px;
+        width: 41%;
         }
     #p3 {
-        width: 90%;
+        width: 88%;
         }
 body {
     background-color: rgb(178, 178, 231);
@@ -125,13 +124,16 @@ body {
         font-size: medium;
     }
     #p1 {
-        width: 90%;
+        width: 95%;
+        font-size: smaller;
     }
     #p2 {
-        width: 90%;
+        width: 95%;
+        font-size: smaller;
         }
     #p3 {
-        width: 90%;
+        width: 95%;
+        font-size: smaller;
     }
 body {
     background-color: rgb(149, 211, 211);
