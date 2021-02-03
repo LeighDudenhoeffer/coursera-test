@@ -1,0 +1,18 @@
+body {
+    font-size: 16px;
+    color: #FFF;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
