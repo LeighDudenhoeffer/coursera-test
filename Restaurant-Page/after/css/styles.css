@@ -12,6 +12,10 @@ body {
     border: 0;
 }
 
+#logo-img {
+    background: url('../images/restaurant-logo_large.png') no-repeat;
+}
+
 .navbar-brand {
     padding-top: 25px;
 }
