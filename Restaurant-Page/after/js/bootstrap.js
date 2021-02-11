@@ -445,35 +445,29 @@
     </div>
   </a>
 </li>
-
-
 </ul>
 
-            </div>
-      </label>
-</form>  </div>
-</div>
-
-          </div>
-
+<div>
+  <div>
+    <div>
+      <div>
         <a href="/login?return_to=%2Fjhu-ep-coursera%2Ffullstack-course4%2Fblob%2Fmaster%2Fexamples%2FLecture29%2Fbefore%2Fjs%2Fbootstrap.js"
           class="HeaderMenu-link no-underline mr-3"
           data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture29/before/js/bootstrap.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9bc80818516348ce42105e3f7a575c90ace706582f8cc15f0455882500c62a38"
           data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
           Sign&nbsp;in
         </a>
-            <a href="/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=jhu-ep-coursera%2Ffullstack-course4"
-              class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
-              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture29/before/js/bootstrap.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9bc80818516348ce42105e3f7a575c90ace706582f8cc15f0455882500c62a38"
-              data-ga-click="Sign up, click to sign up for account, ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out">
-              Sign&nbsp;up
-            </a>
+        <a href="/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=jhu-ep-coursera%2Ffullstack-course4"
+          class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture29/before/js/bootstrap.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9bc80818516348ce42105e3f7a575c90ace706582f8cc15f0455882500c62a38"
+          data-ga-click="Sign up, click to sign up for account, ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out">
+          Sign&nbsp;up
+        </a>
       </div>
     </div>
   </div>
-</header>
+</div>
 
-    </div>
 
   <div id="start-of-content" class="show-on-focus"></div>
 
@@ -581,7 +575,7 @@
           Fork
 </a>
       <a href="/jhu-ep-coursera/fullstack-course4/network/members" class="social-count"
-         aria-label="7658 users forked this repository">
+        aria-label="7658 users forked this repository">
         7.7k
       </a>
   </li>
@@ -721,7 +715,7 @@
 
     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/jhu-ep-coursera/fullstack-course4/blob/571725d9040e89a11c4cc22ee8cfaca141785e3b/examples/Lecture29/before/js/bootstrap.js">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:dea5840cec421466feec493a1132eafd6a707de8d354e5584147a6ddab806054 -->
+// blob contrib key: blob_contributors:v22:dea5840cec421466feec493a1132eafd6a707de8d354e5584147a6ddab806054 //</div>
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -771,7 +765,7 @@
             spellcheck="false"
             autofocus
             placeholder="Filter definitions"
-            aria-label="Filter definitions">
+            aria-label="Filter definitions"/>
         </div>
       <div class="SelectMenu-list">
         <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
@@ -1382,10 +1376,10 @@
 
     <div>
           <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
-             data-platforms="windows,mac"
-             href="https://desktop.github.com"
-             aria-label="Open this file in GitHub Desktop"
-             data-ga-click="Repository, open with desktop">
+            data-platforms="windows,mac"
+            href="https://desktop.github.com"
+            aria-label="Open this file in GitHub Desktop"
+            data-ga-click="Repository, open with desktop">
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
@@ -1408,7 +1402,7 @@
 <table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c>/*!</span></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class={pl-c}>/*!</span></td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
