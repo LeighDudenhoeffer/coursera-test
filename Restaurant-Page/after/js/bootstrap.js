@@ -1406,15 +1406,15 @@
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Bootstrap v3.3.6 (http://getbootstrap.com)</span></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * Bootstrap v3.3.6 (http://getbootstrap.com)</span></td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Copyright 2011-2015 Twitter, Inc.</span></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * Copyright 2011-2015 Twitter, Inc.</span></td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Licensed under the MIT license</span></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * Licensed under the MIT license</span></td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
