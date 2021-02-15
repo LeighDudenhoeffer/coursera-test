@@ -1,9 +1,9 @@
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -1067,13 +1067,13 @@ th {
   }
   * {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
+      -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
   *:before,
   *:after {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
+      -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
   html {
@@ -1138,7 +1138,7 @@ th {
     border: 1px solid #ddd;
     border-radius: 4px;
     -webkit-transition: all .2s ease-in-out;
-         -o-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
             transition: all .2s ease-in-out;
   }
   .img-circle {
