@@ -3020,7 +3020,7 @@
       </tr>
       <tr>
         <td id="L382" class="blob-num js-line-number" data-line-number="382"></td>
-        <td id="LC382" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>if</span> <span class={pl-kos}>(</span><span class={pl-smi}>this</span><span class={pl-kos}>.</span><span class={pl-c1}>sliding</span><span class={pl-kos}>)</span>       <span class={pl-k}>return</span> <span class={pl-smi}>this</span><span class={pl-kos}>.</span><span class={pl-c1}>$element</span><span class={pl-kos}>.</span><span class={pl-en}>one</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;slid.bs.carousel&#39;</span><span class={pl-kos}>,</span> <span class={pl-k}>function</span> <span class={pl-kos}>(</span><span class={pl-kos}>)</span> <span class={pl-kos}></span> <span class={pl-s1}>that</span><span class={pl-kos}>.</span><span class={pl-en}>to</span><span class={pl-kos}>(</span><span class={pl-s1}>pos</span><span class={pl-kos}>)</span> <span class={pl-kos}>}</span><span class={pl-kos}>)</span> <span class={pl-c}>// yes, &quot;slid&quot;</span></td>
+        <td id="LC382" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>if</span> <span class={pl-kos}>(</span><span class={pl-smi}>this</span><span class={pl-kos}>.</span><span class={pl-c1}>sliding</span><span class={pl-kos}>)</span>       <span class={pl-k}>return</span> <span class={pl-smi}>this</span><span class={pl-kos}>.</span><span class={pl-c1}>$element</span><span class={pl-kos}>.</span><span class={pl-en}>one</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;slid.bs.carousel&#39;</span><span class={pl-kos}>,</span> <span class={pl-k}>function</span> <span class={pl-kos}>(</span><span class={pl-kos}>)</span> <span class={pl-kos}></span> <span class={pl-s1}>that</span><span class={pl-kos}>.</span><span class={pl-en}>to</span><span class={pl-kos}>(</span><span class={pl-s1}>pos</span><span class={pl-kos}>)</span> <span class={pl-kos}></span><span class={pl-kos}>)</span> <span class={pl-c}>// yes, &quot;slid&quot;</span></td>
       </tr>
       <tr>
         <td id="L383" class="blob-num js-line-number" data-line-number="383"></td>
@@ -3071,7 +3071,7 @@
       </tr>
       <tr>
         <td id="L394" class="blob-num js-line-number" data-line-number="394"></td>
-        <td id="LC394" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC394" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L395" class="blob-num js-line-number" data-line-number="395"></td>
@@ -3093,7 +3093,7 @@
       </tr>
       <tr>
         <td id="L399" class="blob-num js-line-number" data-line-number="399"></td>
-        <td id="LC399" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC399" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L400" class="blob-num js-line-number" data-line-number="400"></td>
@@ -3114,7 +3114,7 @@
       </tr>
       <tr>
         <td id="L404" class="blob-num js-line-number" data-line-number="404"></td>
-        <td id="LC404" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC404" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L405" class="blob-num js-line-number" data-line-number="405"></td>
@@ -3135,7 +3135,7 @@
       </tr>
       <tr>
         <td id="L409" class="blob-num js-line-number" data-line-number="409"></td>
-        <td id="LC409" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC409" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L410" class="blob-num js-line-number" data-line-number="410"></td>
@@ -3198,7 +3198,7 @@
       </tr>
       <tr>
         <td id="L424" class="blob-num js-line-number" data-line-number="424"></td>
-        <td id="LC424" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span><span class={pl-kos}>)</span></td>
+        <td id="LC424" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L425" class="blob-num js-line-number" data-line-number="425"></td>
@@ -3249,7 +3249,7 @@
       </tr>
       <tr>
         <td id="L436" class="blob-num js-line-number" data-line-number="436"></td>
-        <td id="LC436" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC436" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L437" class="blob-num js-line-number" data-line-number="437"></td>
@@ -3258,7 +3258,7 @@
       </tr>
       <tr>
         <td id="L438" class="blob-num js-line-number" data-line-number="438"></td>
-        <td id="LC438" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-s1}>slidEvent</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$</span><span class={pl-kos}>.</span><span class={pl-en}>Event</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;slid.bs.carousel&#39;</span><span class={pl-kos}>,</span> <span class={pl-kos}></span> <span class={pl-c1}>relatedTarget</span>: <span class={pl-s1}>relatedTarget</span><span class={pl-kos}>,</span> <span class={pl-c1}>direction</span>: <span class={pl-s1}>direction</span> <span class={pl-kos}>}</span><span class={pl-kos}>)</span> <span class={pl-c}>// yes, &quot;slid&quot;</span></td>
+        <td id="LC438" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-s1}>slidEvent</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$</span><span class={pl-kos}>.</span><span class={pl-en}>Event</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;slid.bs.carousel&#39;</span><span class={pl-kos}>,</span> <span class={pl-kos}></span> <span class={pl-c1}>relatedTarget</span>: <span class={pl-s1}>relatedTarget</span><span class={pl-kos}>,</span> <span class={pl-c1}>direction</span>: <span class={pl-s1}>direction</span> <span class={pl-kos}></span><span class={pl-kos}>)</span> <span class={pl-c}>// yes, &quot;slid&quot;</span></td>
       </tr>
       <tr>
         <td id="L439" class="blob-num js-line-number" data-line-number="439"></td>
@@ -3310,11 +3310,11 @@
       </tr>
       <tr>
         <td id="L451" class="blob-num js-line-number" data-line-number="451"></td>
-        <td id="LC451" class="blob-code blob-code-inner js-file-line">          <span class={pl-kos}>}</span><span class={pl-kos}>,</span> <span class={pl-c1}>0</span><span class={pl-kos}>)</span></td>
+        <td id="LC451" class="blob-code blob-code-inner js-file-line">          <span class={pl-kos}></span><span class={pl-kos}>,</span> <span class={pl-c1}>0</span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L452" class="blob-num js-line-number" data-line-number="452"></td>
-        <td id="LC452" class="blob-code blob-code-inner js-file-line">        <span class={pl-kos}>}</span><span class={pl-kos}>)</span></td>
+        <td id="LC452" class="blob-code blob-code-inner js-file-line">        <span class={pl-kos}></span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L453" class="blob-num js-line-number" data-line-number="453"></td>
@@ -3322,7 +3322,7 @@
       </tr>
       <tr>
         <td id="L454" class="blob-num js-line-number" data-line-number="454"></td>
-        <td id="LC454" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span> <span class={pl-k}>else</span> <span class={pl-kos}></span></td>
+        <td id="LC454" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span> <span class={pl-k}>else</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L455" class="blob-num js-line-number" data-line-number="455"></td>
@@ -3342,7 +3342,7 @@
       </tr>
       <tr>
         <td id="L459" class="blob-num js-line-number" data-line-number="459"></td>
-        <td id="LC459" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC459" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L460" class="blob-num js-line-number" data-line-number="460"></td>
@@ -3364,7 +3364,7 @@
       </tr>
       <tr>
         <td id="L464" class="blob-num js-line-number" data-line-number="464"></td>
-        <td id="LC464" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC464" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L465" class="blob-num js-line-number" data-line-number="465"></td>
@@ -3436,11 +3436,11 @@
       </tr>
       <tr>
         <td id="L481" class="blob-num js-line-number" data-line-number="481"></td>
-        <td id="LC481" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span><span class={pl-kos}>)</span></td>
+        <td id="LC481" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L482" class="blob-num js-line-number" data-line-number="482"></td>
-        <td id="LC482" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC482" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L483" class="blob-num js-line-number" data-line-number="483"></td>
@@ -3501,7 +3501,7 @@
       </tr>
       <tr>
         <td id="L496" class="blob-num js-line-number" data-line-number="496"></td>
-        <td id="LC496" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC496" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L497" class="blob-num js-line-number" data-line-number="497"></td>
@@ -3540,7 +3540,7 @@
       </tr>
       <tr>
         <td id="L505" class="blob-num js-line-number" data-line-number="505"></td>
-        <td id="LC505" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-s1}>$target</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$</span><span class={pl-kos}>(</span><span class={pl-s1}>$this</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;data-target&#39;</span><span class={pl-kos}>)</span> <span class={pl-c1}>||</span> <span class={pl-kos}>(</span><span class={pl-s1}>href</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$this</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;href&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>href</span><span class={pl-kos}>.</span><span class={pl-en}>replace</span><span class={pl-kos}>(</span><span class=pl-pds>/.<span class={pl-c1}>*</span><span class={pl-kos}>(?</span><span class={pl-c1}>=</span>#<span class={pl-kos}>[</span>^<span class=pl-cce>\s</span><span class={pl-kos}>]</span><span class={pl-c1}>+</span><span class=pl-cce>$</span><span class={pl-kos}>)</span>/</span><span class={pl-kos}>,</span> <span class={pl-s}>&#39;&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c}>// strip for ie7</span></td>
+        <td id="LC505" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-s1}>$target</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$</span><span class={pl-kos}>(</span><span class={pl-s1}>$this</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;data-target&#39;</span><span class={pl-kos}>)</span> <span class={pl-c1}>||</span> <span class={pl-kos}>(</span><span class={pl-s1}>href</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$this</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;href&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>href</span><span class={pl-kos}>.</span><span class={pl-en}>replace</span><span class={pl-kos}>(</span><span class={pl-pds}>/.<span class={pl-c1}>*</span><span class={pl-kos}>(?</span><span class={pl-c1}>=</span>#<span class={pl-kos}>[</span>^<span class=pl-cce>\s</span><span class={pl-kos}>]</span><span class={pl-c1}>+</span><span class=pl-cce>$</span><span class={pl-kos}>)</span>/</span><span class={pl-kos}>,</span> <span class={pl-s}>&#39;&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c}>// strip for ie7</span></td>
       </tr>
       <tr>
         <td id="L506" class="blob-num js-line-number" data-line-number="506"></td>
