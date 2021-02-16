@@ -1704,11 +1704,11 @@
       </tr>
       <tr>
         <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">      <span class={{pl-kos}}>}</span></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">      <span class={pl-kos}>}</span></td>
       </tr>
       <tr>
         <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">    <span class={{pl-kos}}>}</span></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
       </tr>
       <tr>
         <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
