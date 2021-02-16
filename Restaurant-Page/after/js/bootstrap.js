@@ -5105,11 +5105,11 @@
       </tr>
       <tr>
         <td id="L871" class="blob-num js-line-number" data-line-number="871"></td>
-        <td id="LC871" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// DROPDOWN PLUGIN DEFINITION</span></td>
+        <td id="LC871" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// DROPDOWN PLUGIN DEFINITION</span></td>
       </tr>
       <tr>
         <td id="L872" class="blob-num js-line-number" data-line-number="872"></td>
-        <td id="LC872" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// ==========================</span></td>
+        <td id="LC872" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// ==========================</span></td>
       </tr>
       <tr>
         <td id="L873" class="blob-num js-line-number" data-line-number="873"></td>
@@ -5187,11 +5187,11 @@
       </tr>
       <tr>
         <td id="L890" class="blob-num js-line-number" data-line-number="890"></td>
-        <td id="LC890" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// DROPDOWN NO CONFLICT</span></td>
+        <td id="LC890" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// DROPDOWN NO CONFLICT</span></td>
       </tr>
       <tr>
         <td id="L891" class="blob-num js-line-number" data-line-number="891"></td>
-        <td id="LC891" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// ====================</span></td>
+        <td id="LC891" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// ====================</span></td>
       </tr>
       <tr>
         <td id="L892" class="blob-num js-line-number" data-line-number="892"></td>
@@ -5226,11 +5226,11 @@
       </tr>
       <tr>
         <td id="L899" class="blob-num js-line-number" data-line-number="899"></td>
-        <td id="LC899" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// APPLY TO STANDARD DROPDOWN ELEMENTS</span></td>
+        <td id="LC899" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// APPLY TO STANDARD DROPDOWN ELEMENTS</span></td>
       </tr>
       <tr>
         <td id="L900" class="blob-num js-line-number" data-line-number="900"></td>
-        <td id="LC900" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// ===================================</span></td>
+        <td id="LC900" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// ===================================</span></td>
       </tr>
       <tr>
         <td id="L901" class="blob-num js-line-number" data-line-number="901"></td>
@@ -5277,31 +5277,31 @@
       </tr>
       <tr>
         <td id="L911" class="blob-num js-line-number" data-line-number="911"></td>
-        <td id="LC911" class="blob-code blob-code-inner js-file-line"><span class=pl-c>/* ========================================================================</span></td>
+        <td id="LC911" class="blob-code blob-code-inner js-file-line"><span class={pl-c}>/* ========================================================================</span></td>
       </tr>
       <tr>
         <td id="L912" class="blob-num js-line-number" data-line-number="912"></td>
-        <td id="LC912" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Bootstrap: modal.js v3.3.6</span></td>
+        <td id="LC912" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * Bootstrap: modal.js v3.3.6</span></td>
       </tr>
       <tr>
         <td id="L913" class="blob-num js-line-number" data-line-number="913"></td>
-        <td id="LC913" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * http://getbootstrap.com/javascript/#modals</span></td>
+        <td id="LC913" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * http://getbootstrap.com/javascript/#modals</span></td>
       </tr>
       <tr>
         <td id="L914" class="blob-num js-line-number" data-line-number="914"></td>
-        <td id="LC914" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * ========================================================================</span></td>
+        <td id="LC914" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * ========================================================================</span></td>
       </tr>
       <tr>
         <td id="L915" class="blob-num js-line-number" data-line-number="915"></td>
-        <td id="LC915" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Copyright 2011-2015 Twitter, Inc.</span></td>
+        <td id="LC915" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * Copyright 2011-2015 Twitter, Inc.</span></td>
       </tr>
       <tr>
         <td id="L916" class="blob-num js-line-number" data-line-number="916"></td>
-        <td id="LC916" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)</span></td>
+        <td id="LC916" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)</span></td>
       </tr>
       <tr>
         <td id="L917" class="blob-num js-line-number" data-line-number="917"></td>
-        <td id="LC917" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * ======================================================================== */</span></td>
+        <td id="LC917" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * ======================================================================== */</span></td>
       </tr>
       <tr>
         <td id="L918" class="blob-num js-line-number" data-line-number="918"></td>
@@ -5328,11 +5328,11 @@
       </tr>
       <tr>
         <td id="L923" class="blob-num js-line-number" data-line-number="923"></td>
-        <td id="LC923" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// MODAL CLASS DEFINITION</span></td>
+        <td id="LC923" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// MODAL CLASS DEFINITION</span></td>
       </tr>
       <tr>
         <td id="L924" class="blob-num js-line-number" data-line-number="924"></td>
-        <td id="LC924" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// ======================</span></td>
+        <td id="LC924" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// ======================</span></td>
       </tr>
       <tr>
         <td id="L925" class="blob-num js-line-number" data-line-number="925"></td>
@@ -5612,7 +5612,7 @@
       </tr>
       <tr>
         <td id="L990" class="blob-num js-line-number" data-line-number="990"></td>
-        <td id="LC990" class="blob-code blob-code-inner js-file-line">        <span class={pl-s1}>that</span><span class={pl-kos}>.</span><span class={pl-c1}>$element</span><span class={pl-kos}>.</span><span class={pl-en}>appendTo</span><span class={pl-kos}>(</span><span class={pl-s1}>that</span><span class={pl-kos}>.</span><span class={pl-c1}>$body</span><span class={pl-kos}>)</span> <span class=pl-c>// don&#39;t move modals dom position</span></td>
+        <td id="LC990" class="blob-code blob-code-inner js-file-line">        <span class={pl-s1}>that</span><span class={pl-kos}>.</span><span class={pl-c1}>$element</span><span class={pl-kos}>.</span><span class={pl-en}>appendTo</span><span class={pl-kos}>(</span><span class={pl-s1}>that</span><span class={pl-kos}>.</span><span class={pl-c1}>$body</span><span class={pl-kos}>)</span> <span class={pl-c}>// don&#39;t move modals dom position</span></td>
       </tr>
       <tr>
         <td id="L991" class="blob-num js-line-number" data-line-number="991"></td>
@@ -5655,7 +5655,7 @@
       </tr>
       <tr>
         <td id="L1000" class="blob-num js-line-number" data-line-number="1000"></td>
-        <td id="LC1000" class="blob-code blob-code-inner js-file-line">        <span class={pl-s1}>that</span><span class={pl-kos}>.</span><span class={pl-c1}>$element</span><span class={pl-kos}>[</span><span class={pl-c1}>0</span><span class={pl-kos}>]</span><span class={pl-kos}>.</span><span class={pl-c1}>offsetWidth</span> <span class=pl-c>// force reflow</span></td>
+        <td id="LC1000" class="blob-code blob-code-inner js-file-line">        <span class={pl-s1}>that</span><span class={pl-kos}>.</span><span class={pl-c1}>$element</span><span class={pl-kos}>[</span><span class={pl-c1}>0</span><span class={pl-kos}>]</span><span class={pl-kos}>.</span><span class={pl-c1}>offsetWidth</span> <span class={pl-c}>// force reflow</span></td>
       </tr>
       <tr>
         <td id="L1001" class="blob-num js-line-number" data-line-number="1001"></td>
@@ -5699,7 +5699,7 @@
       </tr>
       <tr>
         <td id="L1010" class="blob-num js-line-number" data-line-number="1010"></td>
-        <td id="LC1010" class="blob-code blob-code-inner js-file-line">        <span class={pl-s1}>that</span><span class={pl-kos}>.</span><span class={pl-c1}>$dialog</span> <span class=pl-c>// wait for modal to slide in</span></td>
+        <td id="LC1010" class="blob-code blob-code-inner js-file-line">        <span class={pl-s1}>that</span><span class={pl-kos}>.</span><span class={pl-c1}>$dialog</span> <span class={pl-c}>// wait for modal to slide in</span></td>
       </tr>
       <tr>
         <td id="L1011" class="blob-num js-line-number" data-line-number="1011"></td>
@@ -5874,7 +5874,7 @@
       </tr>
       <tr>
         <td id="L1051" class="blob-num js-line-number" data-line-number="1051"></td>
-        <td id="LC1051" class="blob-code blob-code-inner js-file-line">      <span class={pl-kos}>.</span><span class={pl-en}>off</span><span class={pl-kos}>(</span><span class=pl-s>&#39;focusin.bs.modal&#39;</span><span class={pl-kos}>)</span> <span class=pl-c>// guard against infinite focus loop</span></td>
+        <td id="LC1051" class="blob-code blob-code-inner js-file-line">      <span class={pl-kos}>.</span><span class={pl-en}>off</span><span class={pl-kos}>(</span><span class=pl-s>&#39;focusin.bs.modal&#39;</span><span class={pl-kos}>)</span> <span class={pl-c}>// guard against infinite focus loop</span></td>
       </tr>
       <tr>
         <td id="L1052" class="blob-num js-line-number" data-line-number="1052"></td>
@@ -6139,7 +6139,7 @@
       </tr>
       <tr>
         <td id="L1115" class="blob-num js-line-number" data-line-number="1115"></td>
-        <td id="LC1115" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>if</span> <span class={pl-kos}>(</span><span class={pl-s1}>doAnimate</span><span class={pl-kos}>)</span> <span class={pl-smi}>this</span><span class={pl-kos}>.</span><span class={pl-c1}>$backdrop</span><span class={pl-kos}>[</span><span class={pl-c1}>0</span><span class={pl-kos}>]</span><span class={pl-kos}>.</span><span class={pl-c1}>offsetWidth</span> <span class=pl-c>// force reflow</span></td>
+        <td id="LC1115" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>if</span> <span class={pl-kos}>(</span><span class={pl-s1}>doAnimate</span><span class={pl-kos}>)</span> <span class={pl-smi}>this</span><span class={pl-kos}>.</span><span class={pl-c1}>$backdrop</span><span class={pl-kos}>[</span><span class={pl-c1}>0</span><span class={pl-kos}>]</span><span class={pl-kos}>.</span><span class={pl-c1}>offsetWidth</span> <span class={pl-c}>// force reflow</span></td>
       </tr>
       <tr>
         <td id="L1116" class="blob-num js-line-number" data-line-number="1116"></td>
@@ -6266,7 +6266,7 @@
       </tr>
       <tr>
         <td id="L1145" class="blob-num js-line-number" data-line-number="1145"></td>
-        <td id="LC1145" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// these following methods are used to handle overflowing modals</span></td>
+        <td id="LC1145" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// these following methods are used to handle overflowing modals</span></td>
       </tr>
       <tr>
         <td id="L1146" class="blob-num js-line-number" data-line-number="1146"></td>
@@ -6367,7 +6367,7 @@
       </tr>
       <tr>
         <td id="L1169" class="blob-num js-line-number" data-line-number="1169"></td>
-        <td id="LC1169" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>if</span> <span class={pl-kos}>(</span>!<span class={pl-s1}>fullWindowWidth</span><span class={pl-kos}>)</span> <span class={pl-kos}>{</span> <span class=pl-c>// workaround for missing window.innerWidth in IE8</span></td>
+        <td id="LC1169" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>if</span> <span class={pl-kos}>(</span>!<span class={pl-s1}>fullWindowWidth</span><span class={pl-kos}>)</span> <span class={pl-kos}>{</span> <span class={pl-c}>// workaround for missing window.innerWidth in IE8</span></td>
       </tr>
       <tr>
         <td id="L1170" class="blob-num js-line-number" data-line-number="1170"></td>
@@ -6442,7 +6442,7 @@
       </tr>
       <tr>
         <td id="L1187" class="blob-num js-line-number" data-line-number="1187"></td>
-        <td id="LC1187" class="blob-code blob-code-inner js-file-line">  <span class=pl-v>Modal</span><span class={pl-kos}>.</span><span class={pl-c1}>prototype</span><span class={pl-kos}>.</span><span class={pl-en}>measureScrollbar</span> <span class={pl-c1}>=</span> <span class=pl-k>function</span> <span class={pl-kos}>(</span><span class={pl-kos}>)</span> <span class={pl-kos}>{</span> <span class=pl-c>// thx walsh</span></td>
+        <td id="LC1187" class="blob-code blob-code-inner js-file-line">  <span class=pl-v>Modal</span><span class={pl-kos}>.</span><span class={pl-c1}>prototype</span><span class={pl-kos}>.</span><span class={pl-en}>measureScrollbar</span> <span class={pl-c1}>=</span> <span class=pl-k>function</span> <span class={pl-kos}>(</span><span class={pl-kos}>)</span> <span class={pl-kos}>{</span> <span class={pl-c}>// thx walsh</span></td>
       </tr>
       <tr>
         <td id="L1188" class="blob-num js-line-number" data-line-number="1188"></td>
@@ -6484,11 +6484,11 @@
       </tr>
       <tr>
         <td id="L1197" class="blob-num js-line-number" data-line-number="1197"></td>
-        <td id="LC1197" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// MODAL PLUGIN DEFINITION</span></td>
+        <td id="LC1197" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// MODAL PLUGIN DEFINITION</span></td>
       </tr>
       <tr>
         <td id="L1198" class="blob-num js-line-number" data-line-number="1198"></td>
-        <td id="LC1198" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// =======================</span></td>
+        <td id="LC1198" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// =======================</span></td>
       </tr>
       <tr>
         <td id="L1199" class="blob-num js-line-number" data-line-number="1199"></td>
@@ -6574,11 +6574,11 @@
       </tr>
       <tr>
         <td id="L1218" class="blob-num js-line-number" data-line-number="1218"></td>
-        <td id="LC1218" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// MODAL NO CONFLICT</span></td>
+        <td id="LC1218" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// MODAL NO CONFLICT</span></td>
       </tr>
       <tr>
         <td id="L1219" class="blob-num js-line-number" data-line-number="1219"></td>
-        <td id="LC1219" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// =================</span></td>
+        <td id="LC1219" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// =================</span></td>
       </tr>
       <tr>
         <td id="L1220" class="blob-num js-line-number" data-line-number="1220"></td>
@@ -6613,11 +6613,11 @@
       </tr>
       <tr>
         <td id="L1227" class="blob-num js-line-number" data-line-number="1227"></td>
-        <td id="LC1227" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// MODAL DATA-API</span></td>
+        <td id="LC1227" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// MODAL DATA-API</span></td>
       </tr>
       <tr>
         <td id="L1228" class="blob-num js-line-number" data-line-number="1228"></td>
-        <td id="LC1228" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// ==============</span></td>
+        <td id="LC1228" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// ==============</span></td>
       </tr>
       <tr>
         <td id="L1229" class="blob-num js-line-number" data-line-number="1229"></td>
@@ -6638,7 +6638,7 @@
       </tr>
       <tr>
         <td id="L1233" class="blob-num js-line-number" data-line-number="1233"></td>
-        <td id="LC1233" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class={pl-s1}>$target</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$</span><span class={pl-kos}>(</span><span class={pl-s1}>$this</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class=pl-s>&#39;data-target&#39;</span><span class={pl-kos}>)</span> <span class={pl-c1}>||</span> <span class={pl-kos}>(</span><span class={pl-s1}>href</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>href</span><span class={pl-kos}>.</span><span class={pl-en}>replace</span><span class={pl-kos}>(</span><span class=pl-pds>/.<span class={pl-c1}>*</span><span class={pl-kos}>(?</span><span class={pl-c1}>=</span>#<span class={pl-kos}>[</span>^<span class=pl-cce>\s</span><span class={pl-kos}>]</span><span class={pl-c1}>+</span><span class=pl-cce>$</span><span class={pl-kos}>)</span>/</span><span class={pl-kos}>,</span> <span class=pl-s>&#39;&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class=pl-c>// strip for ie7</span></td>
+        <td id="LC1233" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class={pl-s1}>$target</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$</span><span class={pl-kos}>(</span><span class={pl-s1}>$this</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class=pl-s>&#39;data-target&#39;</span><span class={pl-kos}>)</span> <span class={pl-c1}>||</span> <span class={pl-kos}>(</span><span class={pl-s1}>href</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>href</span><span class={pl-kos}>.</span><span class={pl-en}>replace</span><span class={pl-kos}>(</span><span class=pl-pds>/.<span class={pl-c1}>*</span><span class={pl-kos}>(?</span><span class={pl-c1}>=</span>#<span class={pl-kos}>[</span>^<span class=pl-cce>\s</span><span class={pl-kos}>]</span><span class={pl-c1}>+</span><span class=pl-cce>$</span><span class={pl-kos}>)</span>/</span><span class={pl-kos}>,</span> <span class=pl-s>&#39;&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c}>// strip for ie7</span></td>
       </tr>
       <tr>
         <td id="L1234" class="blob-num js-line-number" data-line-number="1234"></td>
@@ -6664,7 +6664,7 @@
       </tr>
       <tr>
         <td id="L1239" class="blob-num js-line-number" data-line-number="1239"></td>
-        <td id="LC1239" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>if</span> <span class={pl-kos}>(</span><span class={pl-s1}>showEvent</span><span class={pl-kos}>.</span><span class={pl-en}>isDefaultPrevented</span><span class={pl-kos}>(</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class=pl-k>return</span> <span class=pl-c>// only register focus restorer if modal will actually get shown</span></td>
+        <td id="LC1239" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>if</span> <span class={pl-kos}>(</span><span class={pl-s1}>showEvent</span><span class={pl-kos}>.</span><span class={pl-en}>isDefaultPrevented</span><span class={pl-kos}>(</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class=pl-k>return</span> <span class={pl-c}>// only register focus restorer if modal will actually get shown</span></td>
       </tr>
       <tr>
         <td id="L1240" class="blob-num js-line-number" data-line-number="1240"></td>
