@@ -1,26 +1,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://github.githubassets.com">
-  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
-  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+    <link rel="dns-prefetch" href="https://github.githubassets.com">
+    <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+    <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+    <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
 
 
 
-  <link crossorigin="anonymous" media="all" integrity="sha512-bvmPnIfSXuQ7bosV8Ys+XNjZ7wqcfxwStr1JGjt4ibr/TK0ycsQZAYi4/4aziAgybJgv2/5+bw4lJF7CRSRs/g==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-6ef98f9c87d25ee43b6e8b15f18b3e5c.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-lNFQ64u2hSjbu5yXJJqbzOp3O2/qh8Galgk2D0Cv91AkMFstDpRyga72q3a1QPc1Nhm6C1UEqwZIU+6v8H9kAA==" rel="stylesheet" href="https://github.githubassets.com/assets/site-94d150eb8bb68528dbbb9c97249a9bcc.css" />
-    <link crossorigin="anonymous" media="all" integrity="sha512-OYEON3KwVcOaAjKMGi0JtdH2y6WwQk62dSm00zUQunKv3RMXf35VCNoIqIvdTN4BnQ7Ol55Bmq5DH/u65dMPMw==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-39810e3772b055c39a02328c1a2d09b5.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-bvmPnIfSXuQ7bosV8Ys+XNjZ7wqcfxwStr1JGjt4ibr/TK0ycsQZAYi4/4aziAgybJgv2/5+bw4lJF7CRSRs/g==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-6ef98f9c87d25ee43b6e8b15f18b3e5c.css" /></link>
+    <link crossorigin="anonymous" media="all" integrity="sha512-lNFQ64u2hSjbu5yXJJqbzOp3O2/qh8Galgk2D0Cv91AkMFstDpRyga72q3a1QPc1Nhm6C1UEqwZIU+6v8H9kAA==" rel="stylesheet" href="https://github.githubassets.com/assets/site-94d150eb8bb68528dbbb9c97249a9bcc.css" /></link>
+    <link crossorigin="anonymous" media="all" integrity="sha512-OYEON3KwVcOaAjKMGi0JtdH2y6WwQk62dSm00zUQunKv3RMXf35VCNoIqIvdTN4BnQ7Ol55Bmq5DH/u65dMPMw==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-39810e3772b055c39a02328c1a2d09b5.css" /></link>
 
 
 
-    <link crossorigin="anonymous" media="all" integrity="sha512-ujNAwWIRY0SW71DJCTFMlYtD8cZGAnKrWQmqt6jzyAbZDE9IIoDX1nrpT6oV/MB0lGmlf22WRTqcTH/snrXztQ==" rel="stylesheet" href="https://github.githubassets.com/assets/github-ba3340c16211634496ef50c909314c95.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-ujNAwWIRY0SW71DJCTFMlYtD8cZGAnKrWQmqt6jzyAbZDE9IIoDX1nrpT6oV/MB0lGmlf22WRTqcTH/snrXztQ==" rel="stylesheet" href="https://github.githubassets.com/assets/github-ba3340c16211634496ef50c909314c95.css" /></link>
 
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-8K2vvwbW+6H27Nad5ydg8PA2/aMD/LKq+EiK9s0U0hhVZxCI2tWBsYk9beAtisRw2j+Or5k2/F+6dk02nmj/PA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-f0adafbf.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-8K2vvwbW+6H27Nad5ydg8PA2/aMD/LKq+EiK9s0U0hhVZxCI2tWBsYk9beAtisRw2j+Or5k2/F+6dk02nmj/PA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-f0adafbf.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-Of+WG2CISim899I88sYG7d/75B6gHRWbUDvUOJDh52ZKHoHClE8JQ4nZbvOrvIVTGKCUe68JogcDBUMVtQ7F8w==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-39ff961b.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-7GvK4gfpB9Ztz8H6JMSvF2zkjlAfbaRjfl7n1VtRpOc7huXjL3iGa8FuQiFTvdPX1fd8IYbNtXZoEDZa3RVOrQ==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-ec6bcae2.js"></script>
 
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-cghBytHqvMPJMRSNqfJfZap7wXhJCk1MJoiCkbZPkbAyXj5TAOSqAV5HzJYkSDRsLKRzcG4rPjvtpjDno8+6SQ==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-720841ca.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-cghBytHqvMPJMRSNqfJfZap7wXhJCk1MJoiCkbZPkbAyXj5TAOSqAV5HzJYkSDRsLKRzcG4rPjvtpjDno8+6SQ==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-720841ca.js"></script>
 
     <script crossorigin="anonymous" defer="defer" integrity="sha512-xDmMfbDOi7C1qDeTcUUIjKfOAG5qhfSNSHRf7wT0crqnTCqtHlO1jBZmRSpjbpn4RyitzX75K0wQ/dpHqO/gAg==" type="application/javascript" data-module-id="./chunk-contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/chunk-contributions-spider-graph-c4398c7d.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-obMR8mPKx8OvqRe34LgnUcxeJ1qujiA4ND3H6UX13ExMlA/WfHLjEzXRmgGRcRvN/8J1nzc+Z+jgz/PLTFy6zg==" type="application/javascript" data-module-id="./chunk-drag-drop.js" data-src="https://github.githubassets.com/assets/chunk-drag-drop-a1b311f2.js"></script>
@@ -33,17 +33,17 @@
     <script crossorigin="anonymous" defer="defer" integrity="sha512-QBwrFY4kzAVN0nZmTYJLeEhi5bQ+42rE8h1g384XeZb7n62BykcUICACtaDQ473aIrRf38RSR7WDfNEIVuSlTA==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-401c2b15.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-su8FOuJFv0H16y8vmT+N3HiFpDQnHKiLz/UEdGxlCfgwnKBy202gaBmkcBpqXigRg+A8pMDXcSPIWSEW+IIKvQ==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-b2ef053a.js"></script>
 
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-ErMq1uty6eCwzrAQeYz8lUzm7jvz+wMlEWmBsxzKRaVKOXKaaq2rCt9iKxrnljKSqcJIbpUZqKIbOCmMdjX5Mw==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-12b32ad6.js"></script>
-<script crossorigin="anonymous" defer="defer" integrity="sha512-Ahh1vGV9jX7qzPdC1tA1y6PaLV9AbDPSlt2q8C7SUVVKTgoB5vDsUrKvaGh7Gj2Tv594XRcr0LjJdKA8HmL8iQ==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-021875bc.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ErMq1uty6eCwzrAQeYz8lUzm7jvz+wMlEWmBsxzKRaVKOXKaaq2rCt9iKxrnljKSqcJIbpUZqKIbOCmMdjX5Mw==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-12b32ad6.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Ahh1vGV9jX7qzPdC1tA1y6PaLV9AbDPSlt2q8C7SUVVKTgoB5vDsUrKvaGh7Gj2Tv594XRcr0LjJdKA8HmL8iQ==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-021875bc.js"></script>
 
-  <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width">
 
-  <title>fullstack-course4/bootstrap.js at master · jhu-ep-coursera/fullstack-course4 · GitHub</title>
-    <meta name="description" content="Example code for HTML, CSS, and Javascript for Web Developers Coursera Course - jhu-ep-coursera/fullstack-course4">
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-  <meta property="fb:app_id" content="1401488693436528">
-  <meta name="apple-itunes-app" content="app-id=1477376905" />
+    <title>fullstack-course4/bootstrap.js at master · jhu-ep-coursera/fullstack-course4 · GitHub</title>
+    <meta name="description" content="Example code for HTML, CSS, and Javascript for Web Developers Coursera Course - jhu-ep-coursera/fullstack-course4"></meta>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub"></link>
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub"></link>
+    <meta property="fb:app_id" content="1401488693436528"></meta>
+    <meta name="apple-itunes-app" content="app-id=1477376905" /></meta>
     <meta name="twitter:image:src" content="https://avatars.githubusercontent.com/u/13573168?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="jhu-ep-coursera/fullstack-course4" /><meta name="twitter:description" content="Example code for HTML, CSS, and Javascript for Web Developers Coursera Course - jhu-ep-coursera/fullstack-course4" />
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/13573168?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="jhu-ep-coursera/fullstack-course4" /><meta property="og:url" content="https://github.com/jhu-ep-coursera/fullstack-course4" /><meta property="og:description" content="Example code for HTML, CSS, and Javascript for Web Developers Coursera Course - jhu-ep-coursera/fullstack-course4" />
 
@@ -51,93 +51,96 @@
 
 
 
-  <link rel="assets" href="https://github.githubassets.com/">
+    <link rel="assets" href="https://github.githubassets.com/"></link>
 
 
-  <meta name="request-id" content="C727:66D0:46389F:670E29:60147B38" data-pjax-transient="true"/><meta name="html-safe-nonce" content="45e4c8255843a71c5473dd1059bb8d98ddf3016922d453d7bcb84e63bae432a2" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9qaHUtZXAtY291cnNlcmEvZnVsbHN0YWNrLWNvdXJzZTQvdHJlZS9tYXN0ZXIvZXhhbXBsZXMvTGVjdHVyZTI5L2JlZm9yZS9qcyIsInJlcXVlc3RfaWQiOiJDNzI3OjY2RDA6NDYzODlGOjY3MEUyOTo2MDE0N0IzOCIsInZpc2l0b3JfaWQiOiI5MDkyMDI0ODczMzMzODQ0OTEyIiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="c8960298787b755f18fff954d983fd48847f320eba3894961ab239dce5924c79" data-pjax-transient="true"/>
+    <meta name="request-id" content="C727:66D0:46389F:670E29:60147B38" data-pjax-transient="true"/><meta name="html-safe-nonce" content="45e4c8255843a71c5473dd1059bb8d98ddf3016922d453d7bcb84e63bae432a2" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9qaHUtZXAtY291cnNlcmEvZnVsbHN0YWNrLWNvdXJzZTQvdHJlZS9tYXN0ZXIvZXhhbXBsZXMvTGVjdHVyZTI5L2JlZm9yZS9qcyIsInJlcXVlc3RfaWQiOiJDNzI3OjY2RDA6NDYzODlGOjY3MEUyOTo2MDE0N0IzOCIsInZpc2l0b3JfaWQiOiI5MDkyMDI0ODczMzMzODQ0OTEyIiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="c8960298787b755f18fff954d983fd48847f320eba3894961ab239dce5924c79" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:51732606" data-pjax-transient>
 
 
-  <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
+    <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
 
 
 
-  <meta name="selected-link" value="repo_source" data-pjax-transient>
+    <meta name="selected-link" value="repo_source" data-pjax-transient></meta>
 
-    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
-  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
-  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
-  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY"></meta>
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU"></meta>
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA"></meta>
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc"></meta>
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" />
+    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" />
 
-  <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
-
-
-
-
-
-  <meta name="optimizely-datafile" content="{&quot;version&quot;: &quot;4&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;anonymizeIP&quot;: true, &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [], &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;groups&quot;: [], &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event.do_not_use_in_production&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}], &quot;revision&quot;: &quot;407&quot;}" />
-
-  // To prevent page flashing, the optimizely JS needs to be loaded in the head tag before the DOM renders //</meta>
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-VJrqSK702Mzl9EQxm2OvFxKaumGptgVdeJS2rsaLvVlOdR4HEu3ZFjtV83kMKdYRelUnxxaAFw0wthkpdEUafw==" type="application/javascript" src="https://github.githubassets.com/assets/optimizely-549aea48.js"></script>
+    <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
 
 
 
-      <meta name="hostname" content="github.com">
-    <meta name="user-login" content="">
+    <meta name="optimizely-datafile" content="{&quot;version&quot;: &quot;4&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;anonymizeIP&quot;: true, &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [], &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;groups&quot;: [], &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event.do_not_use_in_production&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}], &quot;revision&quot;: &quot;407&quot;}" />
 
-
-      <meta name="expected-hostname" content="github.com">
-
-
-    <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,ACTIONS_SHORT_SHA_WARNING">
-
-  <meta http-equiv="x-pjax-version" content="b605dcd943073ba15cd739f1ea6cf707fa205699471359259346600a408c5474">
-
-
-        <link href="https://github.com/jhu-ep-coursera/fullstack-course4/commits/master.atom" rel="alternate" title="Recent Commits to fullstack-course4:master" type="application/atom+xml">
-
-  <meta name="go-import" content="github.com/jhu-ep-coursera/fullstack-course4 git https://github.com/jhu-ep-coursera/fullstack-course4.git">
-
-  <meta name="octolytics-dimension-user_id" content="13573168" /><meta name="octolytics-dimension-user_login" content="jhu-ep-coursera" /><meta name="octolytics-dimension-repository_id" content="51732606" /><meta name="octolytics-dimension-repository_nwo" content="jhu-ep-coursera/fullstack-course4" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="51732606" /><meta name="octolytics-dimension-repository_network_root_nwo" content="jhu-ep-coursera/fullstack-course4" />
+    // To prevent page flashing, the optimizely JS needs to be loaded in the head tag before the DOM renders //</meta>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-VJrqSK702Mzl9EQxm2OvFxKaumGptgVdeJS2rsaLvVlOdR4HEu3ZFjtV83kMKdYRelUnxxaAFw0wthkpdEUafw==" type="application/javascript" src="https://github.githubassets.com/assets/optimizely-549aea48.js"></script>
 
 
 
-    <link rel="canonical" href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture29/before/js/bootstrap.js" data-pjax-transient>
 
 
-  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
-
-  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
-
-  <meta name="browser-optimizely-client-errors-url" content="https://api.github.com/_private/browser/optimizely_client/errors">
-
-  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
-  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
-  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
-
-<meta name="theme-color" content="#1e2327">
+    <meta name="hostname" content="github.com"></meta>
+    <meta name="user-login" content=""></meta>
 
 
-  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+    <meta name="expected-hostname" content="github.com"></meta>
 
 
-  <body class="logged-out env-production page-responsive page-blob">
+    <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,ACTIONS_SHORT_SHA_WARNING"></meta>
+
+    <meta http-equiv="x-pjax-version" content="b605dcd943073ba15cd739f1ea6cf707fa205699471359259346600a408c5474"></meta>
+
+
+    <link href="https://github.com/jhu-ep-coursera/fullstack-course4/commits/master.atom" rel="alternate" title="Recent Commits to fullstack-course4:master" type="application/atom+xml"></link>
+
+    <meta name="go-import" content="github.com/jhu-ep-coursera/fullstack-course4 git https://github.com/jhu-ep-coursera/fullstack-course4.git"></meta>
+
+    <meta name="octolytics-dimension-user_id" content="13573168" /><meta name="octolytics-dimension-user_login" content="jhu-ep-coursera" /><meta name="octolytics-dimension-repository_id" content="51732606" /><meta name="octolytics-dimension-repository_nwo" content="jhu-ep-coursera/fullstack-course4" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="51732606" /><meta name="octolytics-dimension-repository_network_root_nwo" content="jhu-ep-coursera/fullstack-course4" />
+
+
+
+    <link rel="canonical" href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture29/before/js/bootstrap.js" data-pjax-transient></link>
+
+
+    <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats"></meta>
+
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors"></meta>
+
+    <meta name="browser-optimizely-client-errors-url" content="https://api.github.com/_private/browser/optimizely_client/errors"></meta>
+
+    <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000"></link>
+    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png"></link>
+    <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg"></link>
+
+    <meta name="theme-color" content="#1e2327"></meta>
+
+
+    <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials"></link>
+
+</head>
+
+
+<body class="logged-out env-production page-responsive page-blob">
 
 
     <div class="position-relative js-header-wrapper ">
       <a href="#start-of-content" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
       <span class="progress-pjax-loader width-full js-pjax-loader-bar Progress position-fixed">
-    <span style="background-color: #79b8ff;width: 0%;" class="Progress-item progress-pjax-loader-bar "></span>
-</span>
+      <span style="background-color: #79b8ff;width: 0%;" class="Progress-item progress-pjax-loader-bar "></span>
+      </span>
+    </div>
 
 
 
-            <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
+  <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
   <div class="container-xl d-lg-flex flex-items-center p-responsive">
     <div class="d-flex flex-justify-between flex-items-center">
         <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
@@ -162,6 +165,8 @@
           </button>
         </div>
     </div>
+  </div>
+  </header>
 
     <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
       <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
@@ -169,6 +174,7 @@
           <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M5.72 5.72a.75.75 0 011.06 0L12 10.94l5.22-5.22a.75.75 0 111.06 1.06L13.06 12l5.22 5.22a.75.75 0 11-1.06 1.06L12 13.06l-5.22 5.22a.75.75 0 01-1.06-1.06L10.94 12 5.72 6.78a.75.75 0 010-1.06z"></path></svg>
         </button>
       </div>
+    </div>
 
         <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
           <ul class="d-lg-flex list-style-none">
@@ -3540,7 +3546,7 @@
       </tr>
       <tr>
         <td id="L505" class="blob-num js-line-number" data-line-number="505"></td>
-        <td id="LC505" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-s1}>$target</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$</span><span class={pl-kos}>(</span><span class={pl-s1}>$this</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;data-target&#39;</span><span class={pl-kos}>)</span> <span class={pl-c1}>||</span> <span class={pl-kos}>(</span><span class={pl-s1}>href</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$this</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;href&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>href</span><span class={pl-kos}>.</span><span class={pl-en}>replace</span><span class={pl-kos}>(</span><span class={pl-pds}>/.<span class={pl-c1}>*</span><span class={pl-kos}>(?</span><span class={pl-c1}>=</span>#<span class={pl-kos}>[</span>^<span class=pl-cce>\s</span><span class={pl-kos}>]</span><span class={pl-c1}>+</span><span class=pl-cce>$</span><span class={pl-kos}>)</span>/</span><span class={pl-kos}>,</span> <span class={pl-s}>&#39;&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c}>// strip for ie7</span></td>
+        <td id="LC505" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-s1}>$target</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$</span><span class={pl-kos}>(</span><span class={pl-s1}>$this</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;data-target&#39;</span><span class={pl-kos}>)</span> <span class={pl-c1}>||</span> <span class={pl-kos}>(</span><span class={pl-s1}>href</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$this</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;href&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>href</span><span class={pl-kos}>.</span><span class={pl-en}>replace</span><span class={pl-kos}>(</span><span class={pl-pds}>/.<span class={pl-c1}>*</span><span class={pl-kos}>(?</span><span class={pl-c1}>=</span>#<span class={pl-kos}>[</span>^<span class={pl-cce}>\s</span><span class={pl-kos}>]</span><span class={pl-c1}>+</span><span class={pl-cce}>$</span><span class={pl-kos}>)</span>/</span><span class={pl-kos}>,</span> <span class={pl-s}>&#39;&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c}>// strip for ie7</span></td>
       </tr>
       <tr>
         <td id="L506" class="blob-num js-line-number" data-line-number="506"></td>
@@ -3582,7 +3588,7 @@
       </tr>
       <tr>
         <td id="L515" class="blob-num js-line-number" data-line-number="515"></td>
-        <td id="LC515" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC515" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L516" class="blob-num js-line-number" data-line-number="516"></td>
@@ -3595,7 +3601,7 @@
       </tr>
       <tr>
         <td id="L518" class="blob-num js-line-number" data-line-number="518"></td>
-        <td id="LC518" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC518" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L519" class="blob-num js-line-number" data-line-number="519"></td>
@@ -3637,11 +3643,11 @@
       </tr>
       <tr>
         <td id="L528" class="blob-num js-line-number" data-line-number="528"></td>
-        <td id="LC528" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span><span class={pl-kos}>)</span></td>
+        <td id="LC528" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L529" class="blob-num js-line-number" data-line-number="529"></td>
-        <td id="LC529" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span><span class={pl-kos}>)</span></td>
+        <td id="LC529" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L530" class="blob-num js-line-number" data-line-number="530"></td>
@@ -3650,7 +3656,7 @@
       </tr>
       <tr>
         <td id="L531" class="blob-num js-line-number" data-line-number="531"></td>
-        <td id="LC531" class="blob-code blob-code-inner js-file-line"><span class={pl-kos}>}</span><span class={pl-kos}>(</span><span class={pl-s1}>jQuery</span><span class={pl-kos}>)</span><span class={pl-kos}>;</span></td>
+        <td id="LC531" class="blob-code blob-code-inner js-file-line"><span class={pl-kos}></span><span class={pl-kos}>(</span><span class={pl-s1}>jQuery</span><span class={pl-kos}>)</span><span class={pl-kos}>;</span></td>
       </tr>
       <tr>
         <td id="L532" class="blob-num js-line-number" data-line-number="532"></td>
@@ -3760,7 +3766,7 @@
       </tr>
       <tr>
         <td id="L557" class="blob-num js-line-number" data-line-number="557"></td>
-        <td id="LC557" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span> <span class={pl-k}>else</span> <span class={pl-kos}></span></td>
+        <td id="LC557" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span> <span class={pl-k}>else</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L558" class="blob-num js-line-number" data-line-number="558"></td>
@@ -3768,7 +3774,7 @@
       </tr>
       <tr>
         <td id="L559" class="blob-num js-line-number" data-line-number="559"></td>
-        <td id="LC559" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC559" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L560" class="blob-num js-line-number" data-line-number="560"></td>
@@ -3781,7 +3787,7 @@
       </tr>
       <tr>
         <td id="L562" class="blob-num js-line-number" data-line-number="562"></td>
-        <td id="LC562" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC562" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L563" class="blob-num js-line-number" data-line-number="563"></td>
@@ -3816,7 +3822,7 @@
       </tr>
       <tr>
         <td id="L570" class="blob-num js-line-number" data-line-number="570"></td>
-        <td id="LC570" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC570" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L571" class="blob-num js-line-number" data-line-number="571"></td>
@@ -3837,7 +3843,7 @@
       </tr>
       <tr>
         <td id="L575" class="blob-num js-line-number" data-line-number="575"></td>
-        <td id="LC575" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC575" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L576" class="blob-num js-line-number" data-line-number="576"></td>
@@ -3884,7 +3890,7 @@
       </tr>
       <tr>
         <td id="L586" class="blob-num js-line-number" data-line-number="586"></td>
-        <td id="LC586" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC586" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L587" class="blob-num js-line-number" data-line-number="587"></td>
@@ -3922,7 +3928,7 @@
       </tr>
       <tr>
         <td id="L595" class="blob-num js-line-number" data-line-number="595"></td>
-        <td id="LC595" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC595" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L596" class="blob-num js-line-number" data-line-number="596"></td>
@@ -4015,7 +4021,7 @@
       </tr>
       <tr>
         <td id="L617" class="blob-num js-line-number" data-line-number="617"></td>
-        <td id="LC617" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC617" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L618" class="blob-num js-line-number" data-line-number="618"></td>
@@ -4054,7 +4060,7 @@
       </tr>
       <tr>
         <td id="L626" class="blob-num js-line-number" data-line-number="626"></td>
-        <td id="LC626" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC626" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L627" class="blob-num js-line-number" data-line-number="627"></td>
@@ -4182,7 +4188,7 @@
       </tr>
       <tr>
         <td id="L656" class="blob-num js-line-number" data-line-number="656"></td>
-        <td id="LC656" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC656" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L657" class="blob-num js-line-number" data-line-number="657"></td>
@@ -4216,7 +4222,7 @@
       </tr>
       <tr>
         <td id="L664" class="blob-num js-line-number" data-line-number="664"></td>
-        <td id="LC664" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC664" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L665" class="blob-num js-line-number" data-line-number="665"></td>
@@ -4233,7 +4239,7 @@
       </tr>
       <tr>
         <td id="L668" class="blob-num js-line-number" data-line-number="668"></td>
-        <td id="LC668" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC668" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L669" class="blob-num js-line-number" data-line-number="669"></td>
@@ -4266,7 +4272,7 @@
       </tr>
       <tr>
         <td id="L676" class="blob-num js-line-number" data-line-number="676"></td>
-        <td id="LC676" class="blob-code blob-code-inner js-file-line">      <span class={pl-kos}>}</span><span class={pl-kos}>,</span> <span class={pl-smi}>this</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span></td>
+        <td id="LC676" class="blob-code blob-code-inner js-file-line">      <span class={pl-kos}></span><span class={pl-kos}>,</span> <span class={pl-smi}>this</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L677" class="blob-num js-line-number" data-line-number="677"></td>
@@ -4274,7 +4280,7 @@
       </tr>
       <tr>
         <td id="L678" class="blob-num js-line-number" data-line-number="678"></td>
-        <td id="LC678" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC678" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L679" class="blob-num js-line-number" data-line-number="679"></td>
@@ -4312,7 +4318,7 @@
       </tr>
       <tr>
         <td id="L687" class="blob-num js-line-number" data-line-number="687"></td>
-        <td id="LC687" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC687" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L688" class="blob-num js-line-number" data-line-number="688"></td>
@@ -4333,7 +4339,7 @@
       </tr>
       <tr>
         <td id="L692" class="blob-num js-line-number" data-line-number="692"></td>
-        <td id="LC692" class="blob-code blob-code-inner js-file-line">      <span class={pl-c1}>||</span> <span class={pl-kos}>(</span><span class={pl-s1}>href</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$trigger</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;href&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>href</span><span class={pl-kos}>.</span><span class={pl-en}>replace</span><span class={pl-kos}>(</span><span class=pl-pds>/.<span class={pl-c1}>*</span><span class={pl-kos}>(?</span><span class={pl-c1}>=</span>#<span class={pl-kos}>[</span>^<span class=pl-cce>\s</span><span class={pl-kos}>]</span><span class={pl-c1}>+</span><span class=pl-cce>$</span><span class={pl-kos}>)</span>/</span><span class={pl-kos}>,</span> <span class={pl-s}>&#39;&#39;</span><span class={pl-kos}>)</span> <span class={pl-c}>// strip for ie7</span></td>
+        <td id="LC692" class="blob-code blob-code-inner js-file-line">      <span class={pl-c1}>||</span> <span class={pl-kos}>(</span><span class={pl-s1}>href</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$trigger</span><span class={pl-kos}>.</span><span class={pl-en}>attr</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;href&#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>href</span><span class={pl-kos}>.</span><span class={pl-en}>replace</span><span class={pl-kos}>(</span><span class={pl-pds}>/.<span class={pl-c1}>*</span><span class={pl-kos}>(?</span><span class={pl-c1}>=</span>#<span class={pl-kos}>[</span>^<span class={pl-cce}>\s</span><span class={pl-kos}>]</span><span class={pl-c1}>+</span><span class={pl-cce}>$</span><span class={pl-kos}>)</span>/</span><span class={pl-kos}>,</span> <span class={pl-s}>&#39;&#39;</span><span class={pl-kos}>)</span> <span class={pl-c}>// strip for ie7</span></td>
       </tr>
       <tr>
         <td id="L693" class="blob-num js-line-number" data-line-number="693"></td>
@@ -4346,7 +4352,7 @@
       </tr>
       <tr>
         <td id="L695" class="blob-num js-line-number" data-line-number="695"></td>
-        <td id="LC695" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC695" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L696" class="blob-num js-line-number" data-line-number="696"></td>
@@ -4398,7 +4404,7 @@
       </tr>
       <tr>
         <td id="L707" class="blob-num js-line-number" data-line-number="707"></td>
-        <td id="LC707" class="blob-code blob-code-inner js-file-line">      <span class={pl-k}>if</span> <span class={pl-kos}>(</span>!<span class={pl-s1}>data</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>options</span><span class={pl-kos}>.</span><span class={pl-c1}>toggle</span> <span class={pl-c1}>&amp;&amp;</span> <span class=pl-pds>/show<span class={pl-c1}>|</span>hide/</span><span class={pl-kos}>.</span><span class={pl-en}>test</span><span class={pl-kos}>(</span><span class={pl-s1}>option</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-s1}>options</span><span class={pl-kos}>.</span><span class={pl-c1}>toggle</span> <span class={pl-c1}>=</span> <span class={pl-c1}>false</span></td>
+        <td id="LC707" class="blob-code blob-code-inner js-file-line">      <span class={pl-k}>if</span> <span class={pl-kos}>(</span>!<span class={pl-s1}>data</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>options</span><span class={pl-kos}>.</span><span class={pl-c1}>toggle</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-pds}>/show<span class={pl-c1}>|</span>hide/</span><span class={pl-kos}>.</span><span class={pl-en}>test</span><span class={pl-kos}>(</span><span class={pl-s1}>option</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-s1}>options</span><span class={pl-kos}>.</span><span class={pl-c1}>toggle</span> <span class={pl-c1}>=</span> <span class={pl-c1}>false</span></td>
       </tr>
       <tr>
         <td id="L708" class="blob-num js-line-number" data-line-number="708"></td>
@@ -4410,11 +4416,11 @@
       </tr>
       <tr>
         <td id="L710" class="blob-num js-line-number" data-line-number="710"></td>
-        <td id="LC710" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span><span class={pl-kos}>)</span></td>
+        <td id="LC710" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L711" class="blob-num js-line-number" data-line-number="711"></td>
-        <td id="LC711" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC711" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L712" class="blob-num js-line-number" data-line-number="712"></td>
@@ -4475,7 +4481,7 @@
       </tr>
       <tr>
         <td id="L725" class="blob-num js-line-number" data-line-number="725"></td>
-        <td id="LC725" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC725" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L726" class="blob-num js-line-number" data-line-number="726"></td>
@@ -4545,7 +4551,7 @@
       </tr>
       <tr>
         <td id="L741" class="blob-num js-line-number" data-line-number="741"></td>
-        <td id="LC741" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span><span class={pl-kos}>)</span></td>
+        <td id="LC741" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L742" class="blob-num js-line-number" data-line-number="742"></td>
@@ -4554,7 +4560,7 @@
       </tr>
       <tr>
         <td id="L743" class="blob-num js-line-number" data-line-number="743"></td>
-        <td id="LC743" class="blob-code blob-code-inner js-file-line"><span class={pl-kos}>}</span><span class={pl-kos}>(</span><span class={pl-s1}>jQuery</span><span class={pl-kos}>)</span><span class={pl-kos}>;</span></td>
+        <td id="LC743" class="blob-code blob-code-inner js-file-line"><span class={pl-kos}></span><span class={pl-kos}>(</span><span class={pl-s1}>jQuery</span><span class={pl-kos}>)</span><span class={pl-kos}>;</span></td>
       </tr>
       <tr>
         <td id="L744" class="blob-num js-line-number" data-line-number="744"></td>
@@ -4643,7 +4649,7 @@
       </tr>
       <tr>
         <td id="L764" class="blob-num js-line-number" data-line-number="764"></td>
-        <td id="LC764" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC764" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L765" class="blob-num js-line-number" data-line-number="765"></td>
@@ -4682,11 +4688,11 @@
       </tr>
       <tr>
         <td id="L773" class="blob-num js-line-number" data-line-number="773"></td>
-        <td id="LC773" class="blob-code blob-code-inner js-file-line">      <span class={pl-s1}>selector</span> <span class={pl-c1}>=</span> <span class={pl-s1}>selector</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-pds}>/#<span class={pl-kos}>[</span>A-Za-z<span class={pl-kos}>]</span>/</span><span class={pl-kos}>.</span><span class={pl-en}>test</span><span class={pl-kos}>(</span><span class={pl-s1}>selector</span><span class={pl-kos}>)</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>selector</span><span class={pl-kos}>.</span><span class={pl-en}>replace</span><span class={pl-kos}>(</span><span class=pl-pds>/.<span class={pl-c1}>*</span><span class={pl-kos}>(?</span><span class={pl-c1}>=</span>#<span class={pl-kos}>[</span>^<span class=pl-cce>\s</span><span class={pl-kos}>]</span><span class={pl-c1}>*</span><span class=pl-cce>$</span><span class={pl-kos}>)</span>/</span><span class={pl-kos}>,</span> <span class={pl-s}>&#39;&#39;</span><span class={pl-kos}>)</span> <span class={pl-c}>// strip for ie7</span></td>
+        <td id="LC773" class="blob-code blob-code-inner js-file-line">      <span class={pl-s1}>selector</span> <span class={pl-c1}>=</span> <span class={pl-s1}>selector</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-pds}>/#<span class={pl-kos}>[</span>A-Za-z<span class={pl-kos}>]</span>/</span><span class={pl-kos}>.</span><span class={pl-en}>test</span><span class={pl-kos}>(</span><span class={pl-s1}>selector</span><span class={pl-kos}>)</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>selector</span><span class={pl-kos}>.</span><span class={pl-en}>replace</span><span class={pl-kos}>(</span><span class={pl-pds}>/.<span class={pl-c1}>*</span><span class={pl-kos}>(?</span><span class={pl-c1}>=</span>#<span class={pl-kos}>[</span>^<span class={pl-cce}>\s</span><span class={pl-kos}>]</span><span class={pl-c1}>*</span><span class={pl-cce}>$</span><span class={pl-kos}>)</span>/</span><span class={pl-kos}>,</span> <span class={pl-s}>&#39;&#39;</span><span class={pl-kos}>)</span> <span class={pl-c}>// strip for ie7</span></td>
       </tr>
       <tr>
         <td id="L774" class="blob-num js-line-number" data-line-number="774"></td>
-        <td id="LC774" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC774" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L775" class="blob-num js-line-number" data-line-number="775"></td>
@@ -4708,7 +4714,7 @@
       </tr>
       <tr>
         <td id="L779" class="blob-num js-line-number" data-line-number="779"></td>
-        <td id="LC779" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC779" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L780" class="blob-num js-line-number" data-line-number="780"></td>
@@ -4741,7 +4747,7 @@
       </tr>
       <tr>
         <td id="L787" class="blob-num js-line-number" data-line-number="787"></td>
-        <td id="LC787" class="blob-code blob-code-inner js-file-line">      <span class={pl-k}>var</span> <span class={pl-s1}>relatedTarget</span> <span class={pl-c1}>=</span> <span class={pl-kos}></span> <span class={pl-c1}>relatedTarget</span>: <span class={pl-smi}>this</span> <span class={pl-kos}>}</span></td>
+        <td id="LC787" class="blob-code blob-code-inner js-file-line">      <span class={pl-k}>var</span> <span class={pl-s1}>relatedTarget</span> <span class={pl-c1}>=</span> <span class={pl-kos}></span> <span class={pl-c1}>relatedTarget</span>: <span class={pl-smi}>this</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L788" class="blob-num js-line-number" data-line-number="788"></td>
@@ -4759,7 +4765,7 @@
       </tr>
       <tr>
         <td id="L791" class="blob-num js-line-number" data-line-number="791"></td>
-        <td id="LC791" class="blob-code blob-code-inner js-file-line">      <span class={pl-k}>if</span> <span class={pl-kos}>(</span><span class={pl-s1}>e</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>e</span><span class={pl-kos}>.</span><span class={pl-c1}>type</span> <span class={pl-c1}>==</span> <span class={pl-s}>&#39;click&#39;</span> <span class={pl-c1}>&amp;&amp;</span> <span class=pl-pds>/input<span class={pl-c1}>|</span>textarea/i</span><span class={pl-kos}>.</span><span class={pl-en}>test</span><span class={pl-kos}>(</span><span class={pl-s1}>e</span><span class={pl-kos}>.</span><span class={pl-c1}>target</span><span class={pl-kos}>.</span><span class={pl-c1}>tagName</span><span class={pl-kos}>)</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>$</span><span class={pl-kos}>.</span><span class={pl-en}>contains</span><span class={pl-kos}>(</span><span class={pl-s1}>$parent</span><span class={pl-kos}>[</span><span class={pl-c1}>0</span><span class={pl-kos}>]</span><span class={pl-kos}>,</span> <span class={pl-s1}>e</span><span class={pl-kos}>.</span><span class={pl-c1}>target</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-k}>return</span></td>
+        <td id="LC791" class="blob-code blob-code-inner js-file-line">      <span class={pl-k}>if</span> <span class={pl-kos}>(</span><span class={pl-s1}>e</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>e</span><span class={pl-kos}>.</span><span class={pl-c1}>type</span> <span class={pl-c1}>==</span> <span class={pl-s}>&#39;click&#39;</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-pds}>/input<span class={pl-c1}>|</span>textarea/i</span><span class={pl-kos}>.</span><span class={pl-en}>test</span><span class={pl-kos}>(</span><span class={pl-s1}>e</span><span class={pl-kos}>.</span><span class={pl-c1}>target</span><span class={pl-kos}>.</span><span class={pl-c1}>tagName</span><span class={pl-kos}>)</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>$</span><span class={pl-kos}>.</span><span class={pl-en}>contains</span><span class={pl-kos}>(</span><span class={pl-s1}>$parent</span><span class={pl-kos}>[</span><span class={pl-c1}>0</span><span class={pl-kos}>]</span><span class={pl-kos}>,</span> <span class={pl-s1}>e</span><span class={pl-kos}>.</span><span class={pl-c1}>target</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-k}>return</span></td>
       </tr>
       <tr>
         <td id="L792" class="blob-num js-line-number" data-line-number="792"></td>
@@ -4794,11 +4800,11 @@
       </tr>
       <tr>
         <td id="L799" class="blob-num js-line-number" data-line-number="799"></td>
-        <td id="LC799" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span><span class={pl-kos}>)</span></td>
+        <td id="LC799" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L800" class="blob-num js-line-number" data-line-number="800"></td>
-        <td id="LC800" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC800" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L801" class="blob-num js-line-number" data-line-number="801"></td>
@@ -4879,7 +4885,7 @@
       </tr>
       <tr>
         <td id="L819" class="blob-num js-line-number" data-line-number="819"></td>
-        <td id="LC819" class="blob-code blob-code-inner js-file-line">      <span class={pl-kos}>}</span></td>
+        <td id="LC819" class="blob-code blob-code-inner js-file-line">      <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L820" class="blob-num js-line-number" data-line-number="820"></td>
@@ -4888,7 +4894,7 @@
       </tr>
       <tr>
         <td id="L821" class="blob-num js-line-number" data-line-number="821"></td>
-        <td id="LC821" class="blob-code blob-code-inner js-file-line">      <span class={pl-k}>var</span> <span class={pl-s1}>relatedTarget</span> <span class={pl-c1}>=</span> <span class={pl-kos}></span> <span class={pl-c1}>relatedTarget</span>: <span class={pl-smi}>this</span> <span class={pl-kos}>}</span></td>
+        <td id="LC821" class="blob-code blob-code-inner js-file-line">      <span class={pl-k}>var</span> <span class={pl-s1}>relatedTarget</span> <span class={pl-c1}>=</span> <span class={pl-kos}></span> <span class={pl-c1}>relatedTarget</span>: <span class={pl-smi}>this</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L822" class="blob-num js-line-number" data-line-number="822"></td>
@@ -4939,7 +4945,7 @@
       </tr>
       <tr>
         <td id="L833" class="blob-num js-line-number" data-line-number="833"></td>
-        <td id="LC833" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC833" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L834" class="blob-num js-line-number" data-line-number="834"></td>
@@ -4952,7 +4958,7 @@
       </tr>
       <tr>
         <td id="L836" class="blob-num js-line-number" data-line-number="836"></td>
-        <td id="LC836" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC836" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L837" class="blob-num js-line-number" data-line-number="837"></td>
@@ -4965,7 +4971,7 @@
       </tr>
       <tr>
         <td id="L839" class="blob-num js-line-number" data-line-number="839"></td>
-        <td id="LC839" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>if</span> <span class={pl-kos}>(</span>!<span class=pl-pds>/<span class={pl-kos}>(</span>38<span class={pl-c1}>|</span>40<span class={pl-c1}>|</span>27<span class={pl-c1}>|</span>32<span class={pl-kos}>)</span>/</span><span class={pl-kos}>.</span><span class={pl-en}>test</span><span class={pl-kos}>(</span><span class={pl-s1}>e</span><span class={pl-kos}>.</span><span class={pl-c1}>which</span><span class={pl-kos}>)</span> <span class={pl-c1}>||</span> <span class=pl-pds>/input<span class={pl-c1}>|</span>textarea/i</span><span class={pl-kos}>.</span><span class={pl-en}>test</span><span class={pl-kos}>(</span><span class={pl-s1}>e</span><span class={pl-kos}>.</span><span class={pl-c1}>target</span><span class={pl-kos}>.</span><span class={pl-c1}>tagName</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-k}>return</span></td>
+        <td id="LC839" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>if</span> <span class={pl-kos}>(</span>!<span class={pl-pds}>/<span class={pl-kos}>(</span>38<span class={pl-c1}>|</span>40<span class={pl-c1}>|</span>27<span class={pl-c1}>|</span>32<span class={pl-kos}>)</span>/</span><span class={pl-kos}>.</span><span class={pl-en}>test</span><span class={pl-kos}>(</span><span class={pl-s1}>e</span><span class={pl-kos}>.</span><span class={pl-c1}>which</span><span class={pl-kos}>)</span> <span class={pl-c1}>||</span> <span class={pl-pds}>/input<span class={pl-c1}>|</span>textarea/i</span><span class={pl-kos}>.</span><span class={pl-en}>test</span><span class={pl-kos}>(</span><span class={pl-s1}>e</span><span class={pl-kos}>.</span><span class={pl-c1}>target</span><span class={pl-kos}>.</span><span class={pl-c1}>tagName</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-k}>return</span></td>
       </tr>
       <tr>
         <td id="L840" class="blob-num js-line-number" data-line-number="840"></td>
@@ -5030,7 +5036,7 @@
       </tr>
       <tr>
         <td id="L854" class="blob-num js-line-number" data-line-number="854"></td>
-        <td id="LC854" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
+        <td id="LC854" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L855" class="blob-num js-line-number" data-line-number="855"></td>
@@ -5091,7 +5097,7 @@
       </tr>
       <tr>
         <td id="L868" class="blob-num js-line-number" data-line-number="868"></td>
-        <td id="LC868" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}>}</span></td>
+        <td id="LC868" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L869" class="blob-num js-line-number" data-line-number="869"></td>
@@ -11568,4 +11574,3 @@
 
   </body>
 </html>
-
