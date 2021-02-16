@@ -11,17 +11,17 @@
   <link crossorigin="anonymous" media="all" integrity="sha512-bvmPnIfSXuQ7bosV8Ys+XNjZ7wqcfxwStr1JGjt4ibr/TK0ycsQZAYi4/4aziAgybJgv2/5+bw4lJF7CRSRs/g==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-6ef98f9c87d25ee43b6e8b15f18b3e5c.css" />
   <link crossorigin="anonymous" media="all" integrity="sha512-lNFQ64u2hSjbu5yXJJqbzOp3O2/qh8Galgk2D0Cv91AkMFstDpRyga72q3a1QPc1Nhm6C1UEqwZIU+6v8H9kAA==" rel="stylesheet" href="https://github.githubassets.com/assets/site-94d150eb8bb68528dbbb9c97249a9bcc.css" />
     <link crossorigin="anonymous" media="all" integrity="sha512-OYEON3KwVcOaAjKMGi0JtdH2y6WwQk62dSm00zUQunKv3RMXf35VCNoIqIvdTN4BnQ7Ol55Bmq5DH/u65dMPMw==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-39810e3772b055c39a02328c1a2d09b5.css" />
-    
-    
-    
+
+
+
     <link crossorigin="anonymous" media="all" integrity="sha512-ujNAwWIRY0SW71DJCTFMlYtD8cZGAnKrWQmqt6jzyAbZDE9IIoDX1nrpT6oV/MB0lGmlf22WRTqcTH/snrXztQ==" rel="stylesheet" href="https://github.githubassets.com/assets/github-ba3340c16211634496ef50c909314c95.css" />
 
   <script crossorigin="anonymous" defer="defer" integrity="sha512-8K2vvwbW+6H27Nad5ydg8PA2/aMD/LKq+EiK9s0U0hhVZxCI2tWBsYk9beAtisRw2j+Or5k2/F+6dk02nmj/PA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-f0adafbf.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-Of+WG2CISim899I88sYG7d/75B6gHRWbUDvUOJDh52ZKHoHClE8JQ4nZbvOrvIVTGKCUe68JogcDBUMVtQ7F8w==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-39ff961b.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-7GvK4gfpB9Ztz8H6JMSvF2zkjlAfbaRjfl7n1VtRpOc7huXjL3iGa8FuQiFTvdPX1fd8IYbNtXZoEDZa3RVOrQ==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-ec6bcae2.js"></script>
-  
+
   <script crossorigin="anonymous" defer="defer" integrity="sha512-cghBytHqvMPJMRSNqfJfZap7wXhJCk1MJoiCkbZPkbAyXj5TAOSqAV5HzJYkSDRsLKRzcG4rPjvtpjDno8+6SQ==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-720841ca.js"></script>
-  
+
     <script crossorigin="anonymous" defer="defer" integrity="sha512-xDmMfbDOi7C1qDeTcUUIjKfOAG5qhfSNSHRf7wT0crqnTCqtHlO1jBZmRSpjbpn4RyitzX75K0wQ/dpHqO/gAg==" type="application/javascript" data-module-id="./chunk-contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/chunk-contributions-spider-graph-c4398c7d.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-obMR8mPKx8OvqRe34LgnUcxeJ1qujiA4ND3H6UX13ExMlA/WfHLjEzXRmgGRcRvN/8J1nzc+Z+jgz/PLTFy6zg==" type="application/javascript" data-module-id="./chunk-drag-drop.js" data-src="https://github.githubassets.com/assets/chunk-drag-drop-a1b311f2.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-TGnbT/6B5dxVwEk7iOlwSY9mfqhfq8m05ec+KjdlfEwoieq73iBeyidClQUSmFa2snukwzF9peY8c7FJf9FARA==" type="application/javascript" data-module-id="./chunk-emoji-picker-element.js" data-src="https://github.githubassets.com/assets/chunk-emoji-picker-element-4c69db4f.js"></script>
@@ -32,12 +32,12 @@
     <script crossorigin="anonymous" defer="defer" integrity="sha512-U+Pp1bYuA3fRqhike5Go//O/vsExaZLz00lrIby+rZ88yf03nQHz3wLZR9paWkakpD7TH5nS6AUpabCc7OFWpg==" type="application/javascript" data-module-id="./chunk-sortable-behavior.js" data-src="https://github.githubassets.com/assets/chunk-sortable-behavior-53e3e9d5.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-QBwrFY4kzAVN0nZmTYJLeEhi5bQ+42rE8h1g384XeZb7n62BykcUICACtaDQ473aIrRf38RSR7WDfNEIVuSlTA==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-401c2b15.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-su8FOuJFv0H16y8vmT+N3HiFpDQnHKiLz/UEdGxlCfgwnKBy202gaBmkcBpqXigRg+A8pMDXcSPIWSEW+IIKvQ==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-b2ef053a.js"></script>
-  
+
   <script crossorigin="anonymous" defer="defer" integrity="sha512-ErMq1uty6eCwzrAQeYz8lUzm7jvz+wMlEWmBsxzKRaVKOXKaaq2rCt9iKxrnljKSqcJIbpUZqKIbOCmMdjX5Mw==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-12b32ad6.js"></script>
 <script crossorigin="anonymous" defer="defer" integrity="sha512-Ahh1vGV9jX7qzPdC1tA1y6PaLV9AbDPSlt2q8C7SUVVKTgoB5vDsUrKvaGh7Gj2Tv594XRcr0LjJdKA8HmL8iQ==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-021875bc.js"></script>
 
   <meta name="viewport" content="width=device-width">
-  
+
   <title>fullstack-course4/bootstrap.js at master · jhu-ep-coursera/fullstack-course4 · GitHub</title>
     <meta name="description" content="Example code for HTML, CSS, and Javascript for Web Developers Coursera Course - jhu-ep-coursera/fullstack-course4">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
@@ -49,10 +49,10 @@
 
 
 
-    
+
 
   <link rel="assets" href="https://github.githubassets.com/">
-  
+
 
   <meta name="request-id" content="C727:66D0:46389F:670E29:60147B38" data-pjax-transient="true"/><meta name="html-safe-nonce" content="45e4c8255843a71c5473dd1059bb8d98ddf3016922d453d7bcb84e63bae432a2" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9qaHUtZXAtY291cnNlcmEvZnVsbHN0YWNrLWNvdXJzZTQvdHJlZS9tYXN0ZXIvZXhhbXBsZXMvTGVjdHVyZTI5L2JlZm9yZS9qcyIsInJlcXVlc3RfaWQiOiJDNzI3OjY2RDA6NDYzODlGOjY3MEUyOTo2MDE0N0IzOCIsInZpc2l0b3JfaWQiOiI5MDkyMDI0ODczMzMzODQ0OTEyIiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="c8960298787b755f18fff954d983fd48847f320eba3894961ab239dce5924c79" data-pjax-transient="true"/>
 
@@ -61,7 +61,7 @@
 
   <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
 
-  
+
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
@@ -74,18 +74,18 @@
 
   <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
-  
+
 
 
 
   <meta name="optimizely-datafile" content="{&quot;version&quot;: &quot;4&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;anonymizeIP&quot;: true, &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [], &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;groups&quot;: [], &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event.do_not_use_in_production&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}], &quot;revision&quot;: &quot;407&quot;}" />
-  
+
   // To prevent page flashing, the optimizely JS needs to be loaded in the head tag before the DOM renders //</meta>
   <script crossorigin="anonymous" defer="defer" integrity="sha512-VJrqSK702Mzl9EQxm2OvFxKaumGptgVdeJS2rsaLvVlOdR4HEu3ZFjtV83kMKdYRelUnxxaAFw0wthkpdEUafw==" type="application/javascript" src="https://github.githubassets.com/assets/optimizely-549aea48.js"></script>
 
 
 
-  
+
 
       <meta name="hostname" content="github.com">
     <meta name="user-login" content="">
@@ -97,7 +97,7 @@
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,ACTIONS_SHORT_SHA_WARNING">
 
   <meta http-equiv="x-pjax-version" content="b605dcd943073ba15cd739f1ea6cf707fa205699471359259346600a408c5474">
-  
+
 
         <link href="https://github.com/jhu-ep-coursera/fullstack-course4/commits/master.atom" rel="alternate" title="Recent Commits to fullstack-course4:master" type="application/atom+xml">
 
@@ -127,14 +127,14 @@
 
 
   <body class="logged-out env-production page-responsive page-blob">
-    
+
 
     <div class="position-relative js-header-wrapper ">
       <a href="#start-of-content" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
       <span class="progress-pjax-loader width-full js-pjax-loader-bar Progress position-fixed">
     <span style="background-color: #79b8ff;width: 0%;" class="Progress-item progress-pjax-loader-bar "></span>
-</span>      
-      
+</span>
+
 
 
             <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
@@ -145,7 +145,7 @@
         </a>
 
           <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
-            
+
 
           </div>
 
@@ -307,9 +307,9 @@
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash"></img>
 
             <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-              
+
 <ul class="d-none js-jump-to-suggestions-template-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="suggestion">
@@ -350,7 +350,7 @@
 </ul>
 
 <ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="scoped_search">
@@ -382,7 +382,7 @@
   </a>
 </li>
 
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-owner-scoped-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="owner_scoped_search">
@@ -414,7 +414,7 @@
   </a>
 </li>
 
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="global_search">
@@ -484,7 +484,7 @@
     <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
       <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
     </button>
-    
+
       <div>{{ message }}</div>
 
   </div>
@@ -493,7 +493,7 @@
 </div>
 
 
-    
+
 
   <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
 
@@ -508,19 +508,19 @@
   >
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
     <main id="js-repo-pjax-container" data-pjax-container >
-      
-
-      
-
-
-    
 
 
 
 
 
 
-  
+
+
+
+
+
+
+
 
 
   <div class="bg-gray-light pt-3 hide-full-screen mb-5">
@@ -537,7 +537,7 @@
   <strong itemprop="name" class="mr-2 flex-self-stretch">
     <a data-pjax="#js-repo-pjax-container" class="" href="/jhu-ep-coursera/fullstack-course4">fullstack-course4</a>
   </strong>
-  
+
 </h1>
 
 
@@ -582,7 +582,7 @@
 </ul>
 
       </div>
-        
+
 <nav aria-label="Repository" data-pjax="#js-repo-pjax-container" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 px-md-4 px-lg-5 bg-gray-light">
   <ul class="UnderlineNav-body list-style-none ">
           <li class="d-flex">
@@ -659,7 +659,7 @@
           </div>
 </summary>  <div>
     <details-menu role="menu" class="dropdown-menu dropdown-menu-sw ">
-  
+
             <ul>
                 <li data-menu-item="i0code-tab" hidden>
                   <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /jhu-ep-coursera/fullstack-course4" href="/jhu-ep-coursera/fullstack-course4">
@@ -705,12 +705,12 @@
 <div class="container-xl clearfix new-discussion-timeline px-3 px-md-4 px-lg-5">
   <div id="repo-content-pjax-container" class="repository-content " >
 
-    
-      
-    
+
+
+
 
 <div>
-  
+
 
 
     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/jhu-ep-coursera/fullstack-course4/blob/571725d9040e89a11c4cc22ee8cfaca141785e3b/examples/Lecture29/before/js/bootstrap.js">Permalink</a>
@@ -718,7 +718,7 @@
 // blob contrib key: blob_contributors:v22:dea5840cec421466feec493a1132eafd6a707de8d354e5584147a6ddab806054 //</div>
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
-      
+
 <div class="position-relative">
   <details class="details-reset details-overlay mr-0 mb-0 " id="branch-select-menu">
     <summary class="btn css-truncate"
@@ -1358,7 +1358,7 @@
 
     <div class="Box mt-3 position-relative
       ">
-      
+
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
@@ -1395,10 +1395,10 @@
   </div>
 </div>
 
-      
+
 
   <div itemprop="text" class="Box-body p-0 blob-wrapper data type-javascript  gist-border-0">
-      
+
 <table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
@@ -1418,7 +1418,7 @@
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-c> */</span></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> */</span></td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
@@ -1427,15 +1427,15 @@
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-s1>jQuery</span> <span class=pl-c1>===</span> <span class=pl-s>&#39;undefined&#39;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class={pl-k}>if</span> <span class={pl-kos}>(</span><span class={pl-k}>typeof</span> <span class={pl-s1}>jQuery</span> <span class={pl-c1}>===</span> <span class={pl-s}>&#39;undefined&#39;</span><span class={pl-kos}>)</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>throw</span> <span class=pl-k>new</span> <span class=pl-v>Error</span><span class=pl-kos>(</span><span class=pl-s>&#39;Bootstrap\&#39;s JavaScript requires jQuery&#39;</span><span class=pl-kos>)</span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">  <span class={pl-k}>throw</span> <span class={pl-k}>new</span> <span class={pl-v}>Error</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;Bootstrap\&#39;s JavaScript requires jQuery&#39;</span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
@@ -1444,31 +1444,31 @@
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-c1>+</span><span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>$</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class={pl-c1}>+</span><span class={pl-k}>function</span> <span class={pl-kos}>(</span><span class={pl-s1}>$</span><span class={pl-kos}>)</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">  <span class=pl-s>&#39;use strict&#39;</span><span class=pl-kos>;</span></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">  <span class={pl-s}>&#39;use strict&#39;</span><span class={pl-kos}>;</span></td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>var</span> <span class=pl-s1>version</span> <span class=pl-c1>=</span> <span class=pl-s1>$</span><span class=pl-kos>.</span><span class=pl-c1>fn</span><span class=pl-kos>.</span><span class=pl-c1>jquery</span><span class=pl-kos>.</span><span class=pl-en>split</span><span class=pl-kos>(</span><span class=pl-s>&#39; &#39;</span><span class=pl-kos>)</span><span class=pl-kos>[</span><span class=pl-c1>0</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>split</span><span class=pl-kos>(</span><span class=pl-s>&#39;.&#39;</span><span class=pl-kos>)</span></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">  <span class={pl-k}>var</span> <span class={pl-s1}>version</span> <span class={pl-c1}>=</span> <span class={pl-s1}>$</span><span class={pl-kos}>.</span><span class={pl-c1}>fn</span><span class={pl-kos}>.</span><span class={pl-c1}>jquery</span><span class={pl-kos}>.</span><span class={pl-en}>split</span><span class={pl-kos}>(</span><span class={pl-s}>&#39; &#39;</span><span class={pl-kos}>)</span><span class={pl-kos}>[</span><span class={pl-c1}>0</span><span class={pl-kos}>]</span><span class={pl-kos}>.</span><span class={pl-en}>split</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;.&#39;</span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-kos>(</span><span class=pl-s1>version</span><span class=pl-kos>[</span><span class=pl-c1>0</span><span class=pl-kos>]</span> <span class=pl-c1>&lt;</span> <span class=pl-c1>2</span> <span class=pl-c1>&amp;&amp;</span> <span class=pl-s1>version</span><span class=pl-kos>[</span><span class=pl-c1>1</span><span class=pl-kos>]</span> <span class=pl-c1>&lt;</span> <span class=pl-c1>9</span><span class=pl-kos>)</span> <span class=pl-c1>||</span> <span class=pl-kos>(</span><span class=pl-s1>version</span><span class=pl-kos>[</span><span class=pl-c1>0</span><span class=pl-kos>]</span> <span class=pl-c1>==</span> <span class=pl-c1>1</span> <span class=pl-c1>&amp;&amp;</span> <span class=pl-s1>version</span><span class=pl-kos>[</span><span class=pl-c1>1</span><span class=pl-kos>]</span> <span class=pl-c1>==</span> <span class=pl-c1>9</span> <span class=pl-c1>&amp;&amp;</span> <span class=pl-s1>version</span><span class=pl-kos>[</span><span class=pl-c1>2</span><span class=pl-kos>]</span> <span class=pl-c1>&lt;</span> <span class=pl-c1>1</span><span class=pl-kos>)</span> <span class=pl-c1>||</span> <span class=pl-kos>(</span><span class=pl-s1>version</span><span class=pl-kos>[</span><span class=pl-c1>0</span><span class=pl-kos>]</span> <span class=pl-c1>&gt;</span> <span class=pl-c1>2</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">  <span class={pl-k}>if</span> <span class={pl-kos}>(</span><span class={pl-kos}>(</span><span class={pl-s1}>version</span><span class={pl-kos}>[</span><span class={pl-c1}>0</span><span class={pl-kos}>]</span> <span class={pl-c1}>&lt;</span> <span class={pl-c1}>2</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>version</span><span class={pl-kos}>[</span><span class={pl-c1}>1</span><span class={pl-kos}>]</span> <span class={pl-c1}>&lt;</span> <span class={pl-c1}>9</span><span class={pl-kos}>)</span> <span class={pl-c1}>||</span> <span class={pl-kos}>(</span><span class={pl-s1}>version</span><span class={pl-kos}>[</span><span class={pl-c1}>0</span><span class={pl-kos}>]</span> <span class={pl-c1}>==</span> <span class={pl-c1}>1</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>version</span><span class={pl-kos}>[</span><span class={pl-c1}>1</span><span class={pl-kos}>]</span> <span class={pl-c1}>==</span> <span class={pl-c1}>9</span> <span class={pl-c1}>&amp;&amp;</span> <span class={pl-s1}>version</span><span class={pl-kos}>[</span><span class={pl-c1}>2</span><span class={pl-kos}>]</span> <span class={pl-c1}>&lt;</span> <span class={pl-c1}>1</span><span class={pl-kos}>)</span> <span class={pl-c1}>||</span> <span class={pl-kos}>(</span><span class={pl-s1}>version</span><span class={pl-kos}>[</span><span class={pl-c1}>0</span><span class={pl-kos}>]</span> <span class={pl-c1}>&gt;</span> <span class={pl-c1}>2</span><span class={pl-kos}>)</span><span class={pl-kos}>)</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>throw</span> <span class=pl-k>new</span> <span class=pl-v>Error</span><span class=pl-kos>(</span><span class=pl-s>&#39;Bootstrap\&#39;s JavaScript requires jQuery version 1.9.1 or higher, but lower than version 3&#39;</span><span class=pl-kos>)</span></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>throw</span> <span class={pl-k}>new</span> <span class={pl-v}>Error</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;Bootstrap\&#39;s JavaScript requires jQuery version 1.9.1 or higher, but lower than version 3&#39;</span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span><span class=pl-kos>(</span><span class=pl-s1>jQuery</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class={pl-kos}></span><span class={pl-kos}>(</span><span class={pl-s1}>jQuery</span><span class={pl-kos}>)</span><span class={pl-kos}>;</span></td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
@@ -1477,31 +1477,31 @@
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class=pl-c>/* ========================================================================</span></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class={pl-c}>/* ========================================================================</span></td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Bootstrap: transition.js v3.3.6</span></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * Bootstrap: transition.js v3.3.6</span></td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * http://getbootstrap.com/javascript/#transitions</span></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * http://getbootstrap.com/javascript/#transitions</span></td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * ========================================================================</span></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * ========================================================================</span></td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Copyright 2011-2015 Twitter, Inc.</span></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * Copyright 2011-2015 Twitter, Inc.</span></td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)</span></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)</span></td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * ======================================================================== */</span></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class={pl-c}> * ======================================================================== */</span></td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
@@ -1515,11 +1515,11 @@
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class=pl-c1>+</span><span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>$</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class={pl-c1}>+</span><span class={pl-k}>function</span> <span class={pl-kos}>(</span><span class={pl-s1}>$</span><span class={pl-kos}>)</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">  <span class=pl-s>&#39;use strict&#39;</span><span class=pl-kos>;</span></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">  <span class={pl-s}>&#39;use strict&#39;</span><span class={pl-kos}>;</span></td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
@@ -1528,11 +1528,11 @@
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)</span></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)</span></td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// ============================================================</span></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// ============================================================</span></td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
@@ -1541,11 +1541,11 @@
       </tr>
       <tr>
         <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>function</span> <span class=pl-en>transitionEnd</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">  <span class={pl-k}>function</span> <span class={pl-en}>transitionEnd</span><span class={pl-kos}>(</span><span class={pl-kos}>)</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>el</span> <span class=pl-c1>=</span> <span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-en>createElement</span><span class=pl-kos>(</span><span class=pl-s>&#39;bootstrap&#39;</span><span class=pl-kos>)</span></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-s1}>el</span> <span class={pl-c1}>=</span> <span class={pl-smi}>document</span><span class={pl-kos}>.</span><span class={pl-en}>createElement</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;bootstrap&#39;</span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
@@ -1554,27 +1554,27 @@
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>transEndEventNames</span> <span class=pl-c1>=</span> <span class=pl-kos>{</span></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-s1}>transEndEventNames</span> <span class={pl-c1}>=</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">      <span class=pl-c1>WebkitTransition</span> : <span class=pl-s>&#39;webkitTransitionEnd&#39;</span><span class=pl-kos>,</span></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">      <span class={pl-c1}>WebkitTransition</span> : <span class={pl-s}>&#39;webkitTransitionEnd&#39;</span><span class={pl-kos}>,</span></td>
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">      <span class=pl-c1>MozTransition</span>    : <span class=pl-s>&#39;transitionend&#39;</span><span class=pl-kos>,</span></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">      <span class={pl-c1}>MozTransition</span>    : <span class={pl-s}>&#39;transitionend&#39;</span><span class={pl-kos}>,</span></td>
       </tr>
       <tr>
         <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">      <span class=pl-c1>OTransition</span>      : <span class=pl-s>&#39;oTransitionEnd otransitionend&#39;</span><span class=pl-kos>,</span></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">      <span class={pl-c1}>OTransition</span>      : <span class={pl-s}>&#39;oTransitionEnd otransitionend&#39;</span><span class={pl-kos}>,</span></td>
       </tr>
       <tr>
         <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">      <span class=pl-c1>transition</span>       : <span class=pl-s>&#39;transitionend&#39;</span></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">      <span class={pl-c1}>transition</span>       : <span class={pl-s}>&#39;transitionend&#39;</span></td>
       </tr>
       <tr>
         <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
@@ -1583,23 +1583,23 @@
       </tr>
       <tr>
         <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-kos>(</span><span class=pl-k>var</span> <span class=pl-s1>name</span> <span class=pl-k>in</span> <span class=pl-s1>transEndEventNames</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>for</span> <span class={pl-kos}>(</span><span class={pl-k}>var</span> <span class={pl-s1}>name</span> <span class={pl-k}>in</span> <span class={pl-s1}>transEndEventNames</span><span class={pl-kos}>)</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>el</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>[</span><span class=pl-s1>name</span><span class=pl-kos>]</span> !== <span class=pl-c1>undefined</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">      <span class={pl-k}>if</span> <span class={pl-kos}>(</span><span class={pl-s1}>el</span><span class={pl-kos}>.</span><span class={pl-c1}>style</span><span class={pl-kos}>[</span><span class={pl-s1}>name</span><span class={pl-kos}>]</span> !== <span class={pl-c1}>undefined</span><span class={pl-kos}>)</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-kos>{</span> <span class=pl-c1>end</span>: <span class=pl-s1>transEndEventNames</span><span class=pl-kos>[</span><span class=pl-s1>name</span><span class=pl-kos>]</span> <span class=pl-kos>}</span></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">        <span class={pl-k}>return</span> <span class={pl-kos}></span> <span class={pl-c1}>end</span>: <span class={pl-s1}>transEndEventNames</span><span class={pl-kos}>[</span><span class={pl-s1}>name</span><span class={pl-kos}>]</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>}</span></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">      <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
@@ -1608,11 +1608,11 @@
       </tr>
       <tr>
         <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-c1>false</span> <span class=pl-c>// explicit for ie8 (  ._.)</span></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>return</span> <span class={pl-c1}>false</span> <span class={pl-c}>// explicit for ie8 (  ._.)</span></td>
       </tr>
       <tr>
         <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">  <span class={pl-ko}s></span></td>
       </tr>
       <tr>
         <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
@@ -1621,39 +1621,39 @@
       </tr>
       <tr>
         <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// http://blog.alexmaccaw.com/css-transitions</span></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">  <span class={pl-c}>// http://blog.alexmaccaw.com/css-transitions</span></td>
       </tr>
       <tr>
         <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line">  <span class=pl-s1>$</span><span class=pl-kos>.</span><span class=pl-c1>fn</span><span class=pl-kos>.</span><span class=pl-en>emulateTransitionEnd</span> <span class=pl-c1>=</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>duration</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">  <span class={pl-s1}>$</span><span class={pl-kos}>.</span><span class={pl-c1}>fn</span><span class={pl-kos}>.</span><span class={pl-en}>emulateTransitionEnd</span> <span class={pl-c1}>=</span> <span class={pl-k}>function</span> <span class={pl-kos}>(</span><span class={pl-s1}>duration</span><span class={pl-kos}>)</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>called</span> <span class=pl-c1>=</span> <span class=pl-c1>false</span></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-s1}>called</span> <span class={pl-c1}>=</span> <span class={pl-c1}>false</span></td>
       </tr>
       <tr>
         <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>$el</span> <span class=pl-c1>=</span> <span class=pl-smi>this</span></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-s1}>$el</span> <span class={pl-c1}>=</span> <span class={pl-smi}>this</span></td>
       </tr>
       <tr>
         <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>$</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>one</span><span class=pl-kos>(</span><span class=pl-s>&#39;bsTransitionEnd&#39;</span><span class=pl-kos>,</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span> <span class=pl-s1>called</span> <span class=pl-c1>=</span> <span class=pl-c1>true</span> <span class=pl-kos>}</span><span class=pl-kos>)</span></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">    <span class={pl-s1}>$</span><span class={pl-kos}>(</span><span class={pl-smi}>this</span><span class={pl-kos}>)</span><span class={pl-kos}>.</span><span class={pl-en}>one</span><span class={pl-kos}>(</span><span class={pl-s}>&#39;bsTransitionEnd&#39;</span><span class={pl-kos}>,</span> <span class={pl-k}>function</span> <span class={pl-kos}>(</span><span class={pl-kos}>)</span> <span class={pl-kos}></span> <span class={pl-s1}>called</span> <span class={pl-c1}>=</span> <span class={pl-c1}>true</span> <span class={pl-kos}>}</span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-en>callback</span> <span class=pl-c1>=</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span> <span class=pl-k>if</span> <span class=pl-kos>(</span>!<span class=pl-s1>called</span><span class=pl-kos>)</span> <span class=pl-s1>$</span><span class=pl-kos>(</span><span class=pl-s1>$el</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>trigger</span><span class=pl-kos>(</span><span class=pl-s1>$</span><span class=pl-kos>.</span><span class=pl-c1>support</span><span class=pl-kos>.</span><span class=pl-c1>transition</span><span class=pl-kos>.</span><span class=pl-c1>end</span><span class=pl-kos>)</span> <span class=pl-kos>}</span></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>var</span> <span class={pl-en}>callback</span> <span class={pl-c1}>=</span> <span class={pl-k}>function</span> <span class={pl-kos}>(</span><span class={pl-kos}>)</span> <span class={pl-kos}></span> <span class={pl-k}>if</span> <span class={pl-kos}>(</span>!<span class={pl-s1}>called</span><span class={pl-kos}>)</span> <span class={pl-s1}>$</span><span class={pl-kos}>(</span><span class={pl-s1}>$el</span><span class={pl-kos}>)</span><span class={pl-kos}>.</span><span class={pl-en}>trigger</span><span class={pl-kos}>(</span><span class={pl-s1}>$</span><span class={pl-kos}>.</span><span class={pl-c1}>support</span><span class={pl-kos}>.</span><span class={pl-c1}>transition</span><span class={pl-kos}>.</span><span class={pl-c1}>end</span><span class={pl-kos}>)</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>setTimeout</span><span class=pl-kos>(</span><span class=pl-en>callback</span><span class=pl-kos>,</span> <span class=pl-s1>duration</span><span class=pl-kos>)</span></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">    <span class={pl-en}>setTimeout</span><span class={pl-kos}>(</span><span class={pl-en}>callback</span><span class={pl-kos}>,</span> <span class={pl-s1}>duration</span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-smi>this</span></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">    <span class={pl-k}>return</span> <span class={pl-smi}>this</span></td>
       </tr>
       <tr>
         <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">  <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
@@ -1662,11 +1662,11 @@
       </tr>
       <tr>
         <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">  <span class=pl-s1>$</span><span class=pl-kos>(</span><span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">  <span class={pl-s1}>$</span><span class={pl-kos}>(</span><span class={pl-k}>function</span> <span class={pl-kos}>(</span><span class={pl-kos}>)</span> <span class={pl-kos}></span></td>
       </tr>
       <tr>
         <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>$</span><span class=pl-kos>.</span><span class=pl-c1>support</span><span class=pl-kos>.</span><span class=pl-c1>transition</span> <span class=pl-c1>=</span> <span class=pl-en>transitionEnd</span><span class=pl-kos>(</span><span class=pl-kos>)</span></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">    <span class={pl-s1}>$</span><span class={pl-kos}>.</span><span class={pl-c1}>support</span><span class={pl-kos}>.</span><span class={pl-c1}>transition</span> <span class={pl-c1}>=</span> <span class={pl-en}>transitionEnd</span><span class={pl-kos}>(</span><span class={pl-kos}>)</span></td>
       </tr>
       <tr>
         <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
@@ -1704,11 +1704,11 @@
       </tr>
       <tr>
         <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>}</span></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">      <span class={pl-kos}>}</span></td>
       </tr>
       <tr>
         <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">    <span class={pl-kos}>}</span></td>
       </tr>
       <tr>
         <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
@@ -11462,7 +11462,7 @@
 
     </div>
 
-  
+
 
   <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
     <summary data-hotkey="l" aria-label="Jump to line"></summary>
@@ -11500,7 +11500,7 @@
 
   </div>
 
-          
+
 <div class="footer container-xl width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
@@ -11528,7 +11528,7 @@
     <span class="f6 text-gray-light"></span>
   </div>
 
-  
+
 </div>
 
 
