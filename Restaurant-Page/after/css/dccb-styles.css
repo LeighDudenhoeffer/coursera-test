@@ -86,23 +86,51 @@ body {
 }
 /* END HEADER */
 
-/******** Large Devices Only ********/
-@media (min-width: 1000px) {
 
+/******** Large Devices Only ********/
+@media (min-width: 1200px) {
+    .jumbotron {
+        background: url('/images/jumbotron_1200.jpg') no-repeat;
+        height: 675px;
+        box-shadow: 0 0 50px #3F0C1F;
+        border: 2px solid #3F0C1F;
     }
+}
 
 /******** Medium Devices Only ********/
-@media (min-width: 481px) and (max-width: 999px){
+@media (min-width: 992px) and (max-width: 1199px){
+    /* Header */
     #logo-img {
         background: url('/images/restaurant-logo_medium.png') no-repeat;
         width: 100px;
         height: 100px;
         margin: 5px 5px 5px 0;
         }
+    /* End Header */
+
+    /* Home Page */
+    .jumbotron {
+        background: url('/images/jumbotron_992.jpg') no-repeat;
+        height: 558px;
+        box-shadow: 0 0 50px #3F0C1F;
+        border: 2px solid #3F0C1F;
+    }
+    /* End Home Page */
 }
 
 /******** Small Devices only ********/
-@media (min-width: 480px) and (max-width: 998px) {
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    .jumbotron {
+        background: url('/images/jumbotron_768.jpg') no-repeat;
+        height: 432px;
+        box-shadow: 0 0 50px #3F0C1F;
+        border: 2px solid #3F0C1F;
+    }
+}
+
+/******** Extra Small Devices only ********/
+@media (max-width: 767px) {
     /* Header */
     .navbar-brand {
         padding-top: 10px;
@@ -129,18 +157,28 @@ body {
             }
 
         #call-btn > a {
-        font-size: 1.5em;
-        display: block;
-        margin: 0 20px;
-        padding: 10px;
-        border: 2px solid #fff;
-        background-color: #f6b319;
-        color: #951c49;
+            font-size: 1.5em;
+            display: block;
+            margin: 0 20px;
+            padding: 10px;
+            border: 2px solid #fff;
+            background-color: #f6b319;
+            color: #951c49;
         }
         #xs-deliver {
-        margin-top: 5px;
-        font-size: .7em;
-        letter-spacing: .1em;
-        text-transform: uppercase;
+            margin-top: 5px;
+            font-size: .7em;
+            letter-spacing: .1em;
+            text-transform: uppercase;
         }
+
+        /* End Header /*
+
+        /* Home Page */
+        .jumbotron {
+            margin-top: 30px;
+            padding: 0;
+            box-shadow: 0 0 50px #3F0C1F;
+            border: 2px solid #3F0C1F;
+            }
     }
