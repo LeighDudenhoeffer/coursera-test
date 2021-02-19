@@ -147,9 +147,10 @@ body {
 }
 
 #address p {
+    line-height: 1.8;
     color: #557c3e;
     font-size: .8em
-    line-height: 1.8;
+
 }
 
 #testimonials {
