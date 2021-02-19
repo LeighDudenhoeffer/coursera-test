@@ -128,6 +128,8 @@ body {
     opacity: .8;
 }
 
+/******** End Home Page ********/
+
 /******** Large Devices Only ********/
 @media (min-width: 1200px) {
     .container .jumbotron {
@@ -214,4 +216,47 @@ body {
             margin-top: 30px;
             padding: 0;
             }
+
+        #menu-tile, #specials-tile {
+            width: 360px;
+            margin: 0 auto 15px;
+        }
+
+        .menu-item-photo{
+            margin-right: auto;
+        }
+
+        .menu-item-tile .menu-item-price{
+            text-align: center;
+        }
+
+        .me-item-description {
+            text-align: center;
+        }
+    }
+
+    /******** Super extra small devices Only! (e.g. iPhone 4) ********/
+    @media (max-width: 479px) {
+        /* Header */
+        .navbar-brand h1 { /*Restaurang name */
+            padding-top: 5px;
+            font-size: 6vw;
+        }
+        /* End Header */
+
+        /* Home page */
+        #menu-tile, #specials-tile {
+            width: 280px;
+            margin: 0 auto 15px;
+        }
+
+        .col-xxs-12 {
+            position: relative;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+            float: left;
+            width: 100%;
+        }
+        /* End Home Page */
     }
