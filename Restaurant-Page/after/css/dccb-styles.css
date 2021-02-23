@@ -80,11 +80,49 @@ body {
 .navbar-brand button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #61122f;
 }
+
 .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -30p;
 }
+
 /* END HEADER */
+
+/******** FOOTER ********/
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours, #address {
+    line-height: 2;
+}
+
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+
+#address p {
+    line-height: 1.8;
+    color: #557c3e;
+    font-size: .8em
+}
+
+#testimonials {
+    font-style: italic;
+}
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
+/******** END FOOTER ********/
+
 
 /* Home Page */
 .container .jumbotron {
@@ -162,39 +200,50 @@ body {
 
 /******** END MENU CATEGORIES PAGE ********/
 
-/******** FOOTER ********/
-.panel-footer {
-    margin-top: 30px;
-    padding-top: 35px;
-    padding-bottom: 30px;
-    background-color: #222;
-    border-top: 0;
+/******** SINGLE CATEGORIES PAGE ********/
+.menu-item-tile {
+    margin-bottom: 25px;
 }
-
-#hours, #address {
-    line-height: 2;
+.menu-item-tile hr {
+    width: 80%;
 }
-
-#hours > span, #address > span {
-    font-size: 1.3em;
+.menu-item-tile .menu-item-price {
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
 }
-
-#address p {
-    line-height: 1.8;
-    color: #557c3e;
-    font-size: .8em
-
+.menu-item-tile .menu-item-price span {
+    font-size: .6em;
 }
-
-#testimonials {
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+.menu-item-description {
+    padding-right: 30px;
+}
+h3.menu-item-title {
+    margin: 0 0 10px;
+}
+.menu-item-details {
+    font-size: .9em;
     font-style: italic;
 }
-
-#testimonials p:nth-child(2) {
-    margin-top: 25px;
-}
-
-/******** END FOOTER ********/
 
 /******** Large Devices Only ********/
 @media (min-width: 1200px) {
