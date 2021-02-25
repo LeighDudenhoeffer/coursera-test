@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(140, 221, 194);
+}
+
+* {
+box-sizing: border-box;
+margin: 0px;
+}
+
+#header {
+    background-color: #e9a449;
+    border: 2px solid black;
+    text-align: left;
+    padding: 20px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icon-bar {
+    width: 35px;
+    height: 6px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+
+h1 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Georgia;
+    font-size: 2.5em;
+    text-align: top;
+}
+
+h2 {
+    margin-bottom: 15 px;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 2em;
+}
+
+p {
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(22, 21, 21);
+    padding: 24px;
+    width: 100%;
+    font-family: 'Trebuchet MS';
+    color: rgb(11, 61, 61);
+    }
+
+/*********** Base Styles ***********/
+#p1 {
+    background-color: #f0aaaa;
+    float: left;
+    font-size: medium;
+    width: 350px;
+    height: 300px;
+    }
+
+#p2 {
+    background-color: #97f3cd;
+    float: left;
+    font-size: medium;
+    width: 350px;
+    height: 300px;
+    }
+
+#p3 {
+    background-color: rgb(243, 167, 243);
+    float: left;
+    font-size: medium;
+    width: 350px;
+    height: 300px;
+    }
+
+span.menu1 {
+    float: right;
+    border: 1px solid black;
+    margin: -26px;
+    width: 120px;
+    text-align: center;
+    color: #FFF;
+    background-color: #9D080D;
+    padding: 3px;
+}
+span.menu2 {
+    float: right;
+    border: 1px solid black;
+    margin: -26px;
+    width: 120px;
+    text-align: center;
+    color: #FFF;
+    background-color: #0f6416;
+    padding: 3px;
+}
+
+span.menu3 {
+    float: right;
+    border: 1px solid black;
+    margin: -26px;
+    width: 120px;
+    text-align: center;
+    color: #FFF;
+    background-color: #0a0957;
+    padding: 3px;
+}
+
+/* Simple Responsive Framework */
+.row {
+    width: 100%;
+    }
+
+/*********** Large devices only ***********/
+@media (min-width: 1000px) {
+    #p1 {
+        width: 350px;
+        }
+    #p2 {
+        width: 350px;
+        }
+    #p3 {
+        width: 350px;
+        }
+}
+
+/*********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 999px) {
+    h1 {
+        font-size: auto;
+    }
+    #p1 {
+        width: 41%;
+        }
+    #p2 {
+        width: 41%;
+        }
+    #p3 {
+        width: 88%;
+        }
+body {
+    background-color: rgb(178, 178, 231);
+    }
+}
+
+/********** Small devices only ************/
+@media (min-width: 320px) and (max-width: 767px) {
+    h1 {
+        font-size: auto;
+    }
+    #p1 {
+        width: 95%;
+        font-size: smaller;
+    }
+    #p2 {
+        width: 95%;
+        font-size: smaller;
+        }
+    #p3 {
+        width: 95%;
+        font-size: smaller;
+    }
+body {
+    background-color: rgb(149, 211, 211);
+}
+}
