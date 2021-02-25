@@ -16,7 +16,7 @@ margin: 0px;
 }
 
 .mobile-container {
-    max-width: 999px;
+    max-width: 899px;
     margin: auto;
     background-color: rgb(67, 172, 67);
     height: 150px;
@@ -28,9 +28,9 @@ margin: 0px;
     position: relative;
 }
 
-.topnav #myLinks {
-    display: none;
-}
+/*.topnav #myLinks {
+    display: none;  /* HELP!!! */
+/*}*/
 
 .topnav a {
     color: white;
