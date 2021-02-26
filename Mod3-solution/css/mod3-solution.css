@@ -15,44 +15,6 @@ margin: 0px;
     padding: 20px;
 }
 
-.mobile-container {
-    max-width: 899px;
-    margin: auto;
-    background-color: rgb(67, 172, 67);
-    height: 150px;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: rgb(67, 172, 67);
-    position: relative;
-}
-
-/*.topnav #myLinks {
-    display: none;  /* HELP!!! */
-/*}*/
-
-.topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-}
-
-.topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
 .active {
     background-color: #4CAF50;
     color: white;
@@ -64,18 +26,6 @@ margin: 0px;
     background-color: white;
     margin: 6px 0;
     transition: 0.4s;
-}
-
-#nav-list {
-    margin-top: 10px;
-}
-
-#nav-list a:hover{
-    background: #f0aaaa;
-}
-
-#navlist a span {
-    font-size: 1.8em;
 }
 
 .navbar-header button.navbar-toggle {
