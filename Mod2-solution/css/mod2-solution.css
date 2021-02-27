@@ -7,7 +7,7 @@ box-sizing: border-box;
 margin: 0px;
 }
 
-#header {
+.header {
     background-color: #e9a449;
     border: 2px solid black;
     text-align: left;
