@@ -1,19 +1,11 @@
-// should be undefined
-var x;
-console.log(x);
+// var string = "Hello";
+// string += " World";
+// string = string + " World";
+// console.log (string + "!");
 
-if (x == undefined) {
-    console.log ("x is undefined");
-}
-
-x = 5;
-if (x == undefined) {
-    console.log ("x is undefined");
-}
-else {
-    console.log ("x has been defined");
-}
-
+// ********** Regular math operators: +, -, *, /
+console.log ((5 * 4) / 3);
+console.log (undefined / 5);  //returns NaN (not a number)
 
 //Object Types
 //firstName: "Yaakov";
