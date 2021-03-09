@@ -4,4 +4,6 @@
 // alert(foo [1]);
 // alert(foo [2]);
 
-alert ("Welcome to Interactivity with JavaScript!!");
+// alert ("Welcome to Interactivity with JavaScript!!");
+// prompt ("Enter your first name:")
+document.write ("Welcome to Interactivity with JavaScript!!")
