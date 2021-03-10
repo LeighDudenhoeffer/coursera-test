@@ -1,0 +1,18 @@
+header {
+    color: #6E2C00;
+    background-color: #F7DC6F;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav {
+    font-size: 1.2em;
+    text-align: left;
+    text-transform: none;
+}
+
+h2 {
+    color: #6E2C00;
+}
