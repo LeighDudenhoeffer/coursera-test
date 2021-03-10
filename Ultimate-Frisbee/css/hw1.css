@@ -8,11 +8,28 @@ header {
 }
 
 nav {
+
     font-size: 1.2em;
     text-align: left;
     text-transform: none;
 }
 
+a:link {
+    color: #229954;
+    background-color: #F9E79F;
+    text-decoration: none;
+    text-align: center;
+}
+
 h2 {
     color: #6E2C00;
+    text-transform: uppercase;
+}
+
+section {
+    background-color: #7DCEA0;
+}
+
+img {
+    width: 350px;
 }
