@@ -1,30 +1,80 @@
-/*Can you:
-1) Put these divs next to each other
--Make the screen smaller, still working?
-2) Make them taller?
-3) Can you now center them under each other?
-*/
-
 body {
-    background-color: rgb(120, 190, 167);
+    background-color: #F7DC6F;
+    margin: 2%;
 }
 
-h2{
+header, footer {
+    background: #AF7AC5;
+    background: -moz-linear-gradient (top, #5D6D7E 0%, #AF7AC5 100%);
+    background: -webkit-linear-gradient (#5D6D7E 0%, #AF7AC5 100%);
+    background: -o-linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
+    background: linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
+}
+
+header {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', serif
+    padding-bottom: 15px;
 }
 
-div{
-    background-color: #2874A6;
-    color:#F1C40F;
-    box-sizing:border-box;
-    border-width: 5px 10px;
-    width: 40%;
-    display: inline-block;
-    height: 250px;
-    margin: 5px;
-    border: 5px solid #17202A;
-    padding: 20px;
-    /*margin:/*add here*/
-    margin-top: 30px;
+h1 {
+    color: #060606;
+    font-size: 300%
+}
+
+nav {
+    font-variant: small-caps;
+    font-size: 150%;
+    font-family: Helvetica, 'Times New Roman', Serif
+}
+
+a:link {
+    color: #2E0368;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3BEE36;
+}
+
+h2 {
+    font-family: Comic, 'Sans Serif';
+    color: #060606;
+    background: #AF7AC5
+}
+
+section {
+    width:30%;
+    height: 225px;
+    margin-right: 2%;
+    display:inline-block;
+    float:left;
+}
+
+progress {
+    border: 1px solid #060606;
+    border-radius: 15px;
+    height: 10px;
+    color: #3BEE36;
+}
+
+summary {
+    font-style: normal;
+}
+
+details {
+    font-style: italic;
+}
+
+footer{
+    background: #AF7AC5;
+    background: -moz-linear-gradient (top, #5D6D7E 0%, #AF7AC5 100%);
+    background: -webkit-linear-gradient (#5D6D7E 0%, #AF7AC5 100%);
+    background: -o-linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
+    background: linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
+    height:100px;
+    clear: both;
+}
+
+img{
+    width: 150px;
 }
