@@ -3,6 +3,11 @@ body {
     margin: 2%;
 }
 
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 nav a{
     text-align: center;
     color:#FFFFFF;
