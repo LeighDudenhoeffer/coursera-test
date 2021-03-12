@@ -1,0 +1,21 @@
+body {
+    background-color: #F7DC6F;
+    margin: 2%;
+}
+
+nav a{
+    text-align: center;
+    color:#FFFFFF;
+    background: #843700;
+    display: inline-block;
+    width: 18%;
+    height: 22px;
+    padding-top: 5px;
+    margin-right: 2%;
+}
+
+.current{
+    color: #000000;
+    background: #0FFF00;
+    text-transform: uppercase;
+}
