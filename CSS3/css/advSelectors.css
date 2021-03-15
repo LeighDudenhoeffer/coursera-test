@@ -1,6 +1,12 @@
 body {
-    background-color: #F7DC6F;
-    margin: 2%;
+    /* background-color: #F7DC6F; */
+    background-image: url(desertsandswithpalm65g.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 90%;
+    margin: 0 auto;
+    /* margin: 2%; */
 }
 
 header {
@@ -9,7 +15,7 @@ header {
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Sofia';
     font-size: 275%;
     color: #590000;
 }
@@ -29,4 +35,8 @@ nav a{
     color: #000000;
     background: #0FFF00;
     text-transform: uppercase;
+}
+
+div {
+    border-width: 10px 3px 4px 9px;
 }

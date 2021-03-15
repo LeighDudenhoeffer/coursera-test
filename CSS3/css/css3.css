@@ -1,9 +1,9 @@
 body {
-    /* background-color: #F7DC6F; */
-    background-image: url(desertsandswithpalm.jpg);
+    background-image: url(desertsandswithpalm65g.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 90%;
+    background-size: cover;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -21,6 +21,7 @@ header {
 }
 
 h1 {
+    font-family: 'Sofia';
     color: #060606;
     font-size: 300%
 }
