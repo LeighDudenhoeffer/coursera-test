@@ -1,5 +1,5 @@
 body {
-    background-image: url(desertsandswithpalm65g.jpg);
+    background-image: url('../images/desertsandswithpalm65g.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,7 +30,8 @@ h1 {
 nav {
     font-variant: small-caps;
     font-size: 150%;
-    font-family: Helvetica, 'Times New Roman', Serif
+    font-family: Helvetica, 'Times New Roman', Serif;
+    word-spacing: 8px;
 }
 
 a:link {
