@@ -12,10 +12,5 @@ console.log ("document.write isn't the best thing to use and is considered a vio
 
 var name;
     name = prompt ("Enter your name: ")
-    document.write (name);
-	document.write ("<h1>" + name + "</h1>");
-    document.write (name + 7+ "<br>");
-    document.write (document.title +"<br>");
-    var pars = document.getElementsByTagName ('p'); //this tells me how many paragraph elements exist on this page
-    document.write (pars + "</br>");
-    document.write (pars.length);
+
+alert ("Greetings, " + name + "! Welcome to JavaScript!");
