@@ -1,15 +1,24 @@
+body {
+    padding: 10px;
+    margin: 15px;
+}
+
 header {
-    color: #6E2C00;
+    color: #f78c44;
     background-color: #F7DC6F;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 2em;
+    background-image: url('../images/flywheel88p.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; how do I get the background to stretch across and be a certain height*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 150%;
     text-align: center;
     text-transform: uppercase;
 }
 
 nav {
     font-size: 1.2em;
-    text-align: left;
+    text-align: center;
     text-transform: none;
 }
 
@@ -20,13 +29,17 @@ a:link {
     text-align: center;
 }
 
+a {
+
+}
+
 h2 {
     color: #6E2C00;
     text-transform: uppercase;
 }
 
 section {
-    background-color: #7DCEA0;
+    /* background-color: #7DCEA0; */
 }
 
 img {
