@@ -1,45 +1,70 @@
 body {
-    padding: 10px;
+    /* padding: 10px; */
     margin: 15px;
 }
 
 header {
-    color: #f78c44;
+    color: #582401;
     background-color: #F7DC6F;
     background-image: url('../images/flywheel88p.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: center; how do I get the background to stretch across and be a certain height*/
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-    font-size: 150%;
+    height: 175px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 130%;
     text-align: center;
     text-transform: uppercase;
+    padding: 15px;
 }
 
 nav {
-    font-size: 1.2em;
+    font-size: 1.4em;
+    margin: 25px;
+    padding: 15px;
     text-align: center;
+    font-style: oblique;
     text-transform: none;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
 }
 
 a:link {
     color: #229954;
-    background-color: #F9E79F;
+    background-color: #dddddb;
     text-decoration: none;
     text-align: center;
 }
 
-a {
+a:hover {
+    color: rgb(17, 5, 100);
+}
 
+a:active {
+    color: aqua;
+}
+
+.left {
+    background-color: #097435;
+    position: left;
+    left: 15px;
+    width: 350px;
+    float: left;
+    /* padding: 10px;*/
+}
+
+.right {
+    position: relative;
+    float: right;
 }
 
 h2 {
     color: #6E2C00;
     text-transform: uppercase;
-}
-
-section {
-    /* background-color: #7DCEA0; */
 }
 
 img {
