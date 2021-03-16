@@ -11,3 +11,7 @@ console.log ("document.write isn't the best thing to use and is considered a vio
 function displayDate() {
     document.getElementById("demo").innerHTML=Date();
 }
+
+function message(msg) {
+    document.getElementById('output').innerHTML = msg + " event";
+}

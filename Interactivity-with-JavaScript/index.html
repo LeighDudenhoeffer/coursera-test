@@ -8,14 +8,19 @@
         <link rel="stylesheet" href="css/interactiveScript.css" type="text/css">
     </head>
 
-    <!-- <body onload="setDate()"> -->
-        <h1>JS date function!</h1>
+    <body onload="message('LOAD')" onresize="message('RESIZE')">
+        <h1>JavaScript Events - Responding to Events!</h1>
         <noscript>Your browser doesn't support or has JavaScript disabled.</noscript>
 
-        <br>
-        <!-- <p>The current date is <span id = "date"></span></p> -->
         <p id="demo">This will display the date when the button is clicked.</p>
         <button type="button" onclick="displayDate()">Display Date</button>
+
+        <br>
+        <p onclick="message('CLICK')">It is possible to call functions based on Events.</p>
+        <p onmouseover="message('MouseOver')">Click on the paragraph above to trigger an <em>onclick</em>
+        event. Reload the page to see the onload event. </p>
+
+        <p id = "output"></p>
 
         <br>
         <br>
