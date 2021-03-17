@@ -18,6 +18,7 @@ header {
 }
 
 nav {
+    opacity: .75;
     font-size: 1.4em;
     margin: 25px;
     padding: 15px;
@@ -26,40 +27,33 @@ nav {
     text-transform: none;
 }
 
-#nav {
-    list-style-type: none;
-    margin: 20px;
-    padding: 5px;
-    text-align: center;
-}
-
 a:link {
-    color: #229954;
-    background-color: #dddddb;
+    color: #02421d;
+    /* need a text container for each of these links */
     text-decoration: none;
     text-align: center;
 }
 
 a:hover {
-    color: rgb(17, 5, 100);
+    color: rgb(104, 248, 61);
 }
 
 a:active {
-    color: aqua;
+    color: rgb(248, 143, 6);
 }
 
 .left {
-    background-color: #097435;
-    position: left;
-    left: 15px;
-    width: 350px;
+    /* position: left; */
+    /* left: 15px; */
+    clear: both;
     float: left;
-    /* padding: 10px;*/
+    width: 350px;
+    border: 20px solid #025525;
 }
 
 .right {
-    position: relative;
-    float: right;
+    margin: 20px;
+    position: right;
 }
 
 h2 {
