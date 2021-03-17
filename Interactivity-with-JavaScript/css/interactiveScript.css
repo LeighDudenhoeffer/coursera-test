@@ -13,3 +13,29 @@ h1 {
     font-family: 'Sofia';
     font-size: 2em;
 }
+
+.closed {
+    display: none;
+}
+.open {
+    display: block;
+}
+button {
+    width: 150px;
+    background-color: #0ACC00;
+    margin-left: 15px;
+    font-size: 120%;
+}
+p{
+    /* border:1.25px solid black; */
+    text-align: center;
+    margin: 20px;
+    width:250px;
+    height: 20px;
+}
+#stuff{
+    text-align: center;
+    color: #CC9600;
+    background-color: #581c1c;
+}
+
