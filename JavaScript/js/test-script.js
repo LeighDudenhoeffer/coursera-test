@@ -16,3 +16,4 @@ if (myVariable > 5) {
 } else {
     alert ("lower")
 }
+
