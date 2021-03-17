@@ -43,22 +43,27 @@ a:active {
 }
 
 .left {
-    /* position: left; */
-    /* left: 15px; */
+    width: 350px;
+    border: 20px solid #229954;
     clear: both;
     float: left;
-    width: 350px;
-    border: 20px solid #025525;
 }
 
 .right {
-    margin: 20px;
-    position: right;
+    margin: 0;
 }
 
 h2 {
     color: #6E2C00;
     text-transform: uppercase;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+table {
+    font-size: 1.2em;
 }
 
 img {
