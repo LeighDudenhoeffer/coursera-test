@@ -23,14 +23,14 @@ header {
     margin: 0;
 }
 
-nav {
-    opacity: .75;
+nav a{
+    opacity: .85;
     font-size: 1.4em;
     margin: 25px;
     padding: 15px;
     text-align: center;
+    text-decoration: none;
     font-style: oblique;
-    text-transform: none;
 }
 
 a:link {
