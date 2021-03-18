@@ -36,6 +36,10 @@ nav a{
     font-style: oblique;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 a:visited {
     color: black;
 }
@@ -76,6 +80,7 @@ table {
 li {
     list-style: none;
     font-size: 1.2em;
+    text-decoration: none;
 }
 
 img {
