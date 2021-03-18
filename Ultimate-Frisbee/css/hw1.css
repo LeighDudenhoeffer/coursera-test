@@ -1,5 +1,4 @@
 body {
-    /* padding: 10px; */
     margin: 15px;
 }
 
@@ -43,15 +42,18 @@ a:link {
     text-decoration: none;
 }
 
-
 a:hover {
     color: deeppink;
     text-decoration: underline;
 }
 
 a:active {
-    color: darkgreen;
-    background: #f8bfc8;
+    color: rgb(7, 110, 7);
+}
+
+a:visited {
+    color: #F7DC6F;
+    background-color: transparent;
 }
 
 .left {
@@ -62,7 +64,7 @@ a:active {
 }
 
 .right {
-    margin: 0;
+    margin: 05;
 }
 
 h2 {
