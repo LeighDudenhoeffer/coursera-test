@@ -14,6 +14,11 @@ h1 {
     font-size: 2em;
 }
 
+a {
+    color: rgb(95, 10, 173);
+    text-decoration: none;
+}
+
 .closed {
     display: none;
 }
