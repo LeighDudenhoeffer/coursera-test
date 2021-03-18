@@ -23,9 +23,10 @@ h1 {
 
 button{
     width:150px;
-        background-color: #14CC00;
-        margin-left:15px;
-        font-size:120%;
+    border-radius: 15px;
+    background-color: #14CC00;
+    margin-left:15px;
+    font-size:120%;
 }
 
 #demo{
