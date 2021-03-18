@@ -24,6 +24,9 @@ header {
 }
 
 nav a{
+    text-align: center;
+    text-decoration: none;
+    font-style: oblique;
     font-size: 1.5em;
     color: rgb(75, 4, 42);
     background: #fceef0;
@@ -32,10 +35,7 @@ nav a{
     width: 20%;
     margin: 25px;
     height: 24px;
-    padding-top: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-style: oblique;
+    padding-top: 10px 10px;
 }
 
 a:link {
