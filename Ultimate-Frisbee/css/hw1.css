@@ -27,15 +27,22 @@ nav a{
     text-align: center;
     text-decoration: none;
     font-style: oblique;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: rgb(75, 4, 42);
     background: #fceef0;
-    opacity: .78;
+    opacity: .62;
     display: inline-block;
     width: 20%;
     margin: 25px;
-    height: 24px;
+    height: 40px;
     padding-top: 10px 10px;
+    border-radius: 16px;
+}
+
+.current {
+    color: #060606;
+    background: #fceef0;
+    text-transform: lowercase;
 }
 
 a:link {
