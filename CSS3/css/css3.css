@@ -52,7 +52,8 @@ a:focus {
 h2 {
     font-family: Comic, 'Sans Serif';
     color: #060606;
-    background: #AF7AC5
+    background: #AF7AC5;
+    border-radius: 8px;
 }
 
 section {
