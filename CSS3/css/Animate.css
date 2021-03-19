@@ -1,0 +1,29 @@
+body {
+    background-image: url('../images/desertsandswithpalm65g.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-family: 'Sofia';
+    color: #b217f5;
+    font-size: 300%
+}
+
+p {
+    font-size: 175%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
