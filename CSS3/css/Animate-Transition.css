@@ -12,6 +12,16 @@ header {
     padding-bottom: 15px;
 }
 
+footer {
+	background: #AF7AC5;
+    background: -moz-linear-gradient (top, #5D6D7E 0%, #AF7AC5 100%);
+    background: -webkit-linear-gradient (#5D6D7E 0%, #AF7AC5 100%);
+    background: -o-linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
+    background: linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
+    border-radius: 12px;
+    max-width: 100%;
+}
+
 h1 {
     font-family: 'Sofia';
     color: #b217f5;
@@ -22,8 +32,56 @@ p {
     font-size: 175%;
 }
 
+div {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+    padding: 2%;
+    display: inline-block;
+    transition: 2s ease;
+}
+
+div:hover {
+    width: 175px;
+    background-color: #41045c;
+}
+
+div:focus {
+    background-color: #5adf91;
+}
+
+.animate {
+    background: #FF7300;
+    -webkit-transition: -webkit-transform 1s,opacity 1s, background 1s, width 1s, height 1s, font-size 1s;
+    -webkit-border-radius: 5px;
+    -o-transition-property:width,height,-o-transform,background,font-size,opacity;
+	-o-transition-duration:1s,1s,1s,1s,1s,1s;
+	-moz-transition-property:width,height,-o-transform,background,font-size,opacity;
+	-moz-transition-duration:1s,1s,1s,1s,1s,1s;
+	transition-property:width,height,transform,background,font-size,opacity;
+	transition-duration:1s,1s,1s,1s,1s,1s;
+	opacity:0.6;
+}
+
+.animate:hover{
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	opacity:1;
+	background:#1ec7e6;
+	width:110px;
+	height:68px;
+}
+
 a {
     text-decoration: none;
     font-size: 1.5em;
 }
 
+img{
+    width: 150px;
+}
