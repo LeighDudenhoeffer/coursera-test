@@ -48,8 +48,13 @@ nav a{
 div {
     color: #AF7AC5;
     background-color: #000000;
-    border-width: 10px 3px 4px 9px;
+    border-width: 14px 8px 6px 10px;
     border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
 footer{
