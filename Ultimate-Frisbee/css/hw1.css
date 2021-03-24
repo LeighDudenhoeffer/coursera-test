@@ -11,7 +11,7 @@ header {
     height: 175px;
     width: auto;
     font-family: Georgia, Times, 'Times New Roman', serif;
-    font-size: 130%;
+    font-size: 120%;
     text-align: center;
     text-transform: uppercase;
     padding: 15px;
@@ -28,7 +28,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     font-style: oblique;
-    font-size: 1.1em;
+    font-size: 1em;
     color: rgb(114, 3, 62);
     background: #fceef0;
     opacity: .72;
@@ -63,23 +63,12 @@ aside {
 }
 
 section {
-    width:60%;
-    height: 80%px;
+    width:70%;
+    height: 75%;
     margin-right: 2%;
     float: right;
     padding-right: 12px;
 }
-
-/* .left {
-    width: 350px;
-    border: 20px solid #229954;
-    clear: both;
-    float: left;
-}
-
-.right {
-    margin: 05;
-} */
 
 h2 {
     color: #6E2C00;
@@ -95,13 +84,13 @@ table {
 }
 
 li {
-    list-style: none;
+    list-style: square;
     font-size: 1.2em;
     text-decoration: none;
 }
 
 img {
-    width: 250px;
+    width: 230px;
     border-width: 15px;
     border-color: #229954;
 }
@@ -121,22 +110,22 @@ img {
 /*********** Medium devices only **********/
 @media (min-width: 499) and (max-width: 999px) {
 
-    h1, h2 {
-        width: 80%;
+    h1, h2, p {
+        width: 70%;
         font-size: medium;
     }
-    .column {
-        width: 100%;
+    aside, section {
+        width: 70%;
     }
 }
 
 /********** Small devices only ************/
 @media (min-width: 280px) and (max-width: 500) {
-    h1, h2 {
-        width: 80%;
+    h1, h2, p {
+        width: 60%;
         font-size: medium;
     }
-    .column {
-        width: 100%;
+    aside, section {
+        width: 60%;
     }
 }
