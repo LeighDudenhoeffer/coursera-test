@@ -55,11 +55,12 @@ a:active {
 }
 
 aside.left {
-    width: 20%;
-    height: 400px;
-    margin-right: 2px;
+    background-color: #229954;
+    width: 200px;
+    height: 380px;
+    margin: 4px;
     float: left;
-    padding: 16px 2px 6px 2px;
+    padding: 10px 2px 6px 2px;
 }
 
 section.right {
@@ -91,9 +92,7 @@ li {
 }
 
 img {
-    width: 196px;
-    border-width: 15px;
-    border-color: #229954;
+    width: 194px;
 }
 
 /* Simple Responsive Framework */
