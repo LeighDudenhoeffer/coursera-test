@@ -63,8 +63,8 @@ aside {
 }
 
 section {
-    width:70%;
-    height: 75%;
+    width: 74%;
+    height: 80%;
     margin-right: 2%;
     float: right;
     padding-right: 12px;
@@ -90,7 +90,7 @@ li {
 }
 
 img {
-    width: 230px;
+    width: 220px;
     border-width: 15px;
     border-color: #229954;
 }
