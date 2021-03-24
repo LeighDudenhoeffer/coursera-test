@@ -9,6 +9,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 175px;
+    width: auto;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 130%;
     text-align: center;
@@ -26,12 +27,12 @@ nav a{
     text-align: center;
     text-decoration: none;
     font-style: oblique;
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: rgb(114, 3, 62);
     background: #fceef0;
     opacity: .72;
     display: inline-block;
-    width: 20%;
+    width: 16%;
     margin: 25px;
     height: 40px;
     padding-top: 10px;
@@ -52,7 +53,23 @@ a:active {
     color: rgb(7, 110, 7);
 }
 
-.left {
+aside {
+    width: 110px;
+    height: 400px;
+    margin-right: 2%;
+    float: left;
+    padding: 2px;
+}
+
+section {
+    width:60%;
+    height: 300px;
+    margin-right: 2%;
+    float: right;
+    padding: 2px;
+}
+
+/* .left {
     width: 350px;
     border: 20px solid #229954;
     clear: both;
@@ -61,7 +78,7 @@ a:active {
 
 .right {
     margin: 05;
-}
+} */
 
 h2 {
     color: #6E2C00;
