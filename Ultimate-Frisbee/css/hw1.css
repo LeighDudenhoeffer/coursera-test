@@ -57,10 +57,10 @@ a:active {
 aside.left {
     background-color: #229954;
     width: 200px;
-    height: 380px;
-    margin: 4px;
+    height: 378px;
+    /* margin: 4px; */
     float: left;
-    padding: 10px 2px 6px 2px;
+    padding: 6px 2px 6px 2px;
 }
 
 section.right {
