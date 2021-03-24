@@ -15,6 +15,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     padding: 15px;
+
 }
 
 #nav {
@@ -27,15 +28,15 @@ nav a{
     text-align: center;
     text-decoration: none;
     font-style: oblique;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: rgb(114, 3, 62);
     background: #fceef0;
     opacity: .72;
     display: inline-block;
     width: 16%;
-    margin: 25px;
+    margin: 12px;
     height: 40px;
-    padding-top: 10px;
+    padding-top: 12px;
     border-radius: 16px;
 }
 
@@ -54,19 +55,19 @@ a:active {
 }
 
 aside {
-    width: 110px;
+    width: 16%;
     height: 400px;
-    margin-right: 2%;
+    margin-right: 1%;
     float: left;
-    padding: 2px;
+    padding-top: 6px;
 }
 
 section {
     width:60%;
-    height: 300px;
+    height: 80%px;
     margin-right: 2%;
     float: right;
-    padding: 2px;
+    padding-right: 12px;
 }
 
 /* .left {
@@ -100,5 +101,42 @@ li {
 }
 
 img {
-    width: 350px;
+    width: 250px;
+    border-width: 15px;
+    border-color: #229954;
+}
+
+/* Simple Responsive Framework */
+.row {
+    width: 90%;
+    }
+
+/*********** Large devices only ***********/
+@media (min-width: 1000px) {
+    h1, h2 {
+        width: 100%;
+    }
+}
+
+/*********** Medium devices only **********/
+@media (min-width: 499) and (max-width: 999px) {
+
+    h1, h2 {
+        width: 80%;
+        font-size: medium;
+    }
+    .column {
+        width: 100%;
+    }
+}
+
+/********** Small devices only ************/
+@media (min-width: 280px) and (max-width: 500) {
+    h1, h2 {
+        width: 80%;
+        font-size: medium;
+    }
+    .column {
+        width: 100%;
+    }
 }
