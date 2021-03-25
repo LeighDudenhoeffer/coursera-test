@@ -57,9 +57,9 @@ a:active {
 aside.left {
     background-color: #229954;
     width: 200px;
-    height: 378px;
+    height: 381px;
     float: left;
-    padding: 6px 1px 5px 6px;
+    padding: 6px 1px 6px 6px;
 }
 
 section.right {
@@ -91,7 +91,9 @@ li {
 }
 
 img {
+    position: auto;
     width: 194px;
+    border: 1px solid #060606
 }
 
 /* Simple Responsive Framework */
