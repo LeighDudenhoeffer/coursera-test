@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Interactivity JS Class - "this"</title>
+        <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+        <script src="js/this.js"></script>
+        <link rel="stylesheet" href="css/this.css" type="text/css">
+    </head>
+
+<body>
+    <h1>JavaScript - "this"!</h1>
+
+<img src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/Colleen82.jpg" alt = "Awesome 80's haircut" onclick="console.log(this.alt)">
+
+<div onclick = "console.log(this.innerHTML)">Hi There, checking out a div</div>
+
+<hr>
+
+<img src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/FamilyChristmas74.jpg" alt = "Another Beautiful Picture" id = "ID-1" onclick="displayId(this)">
+
+<div onclick = "displayId(this)" id = "ID-2">Another Div</div><br><br>
+
+
+<footer>
+    <a href="https://www.cnet.com/news/nasa-says-we-should-search-for-aliens-by-looking-for-their-pollution/">
+        How to Find Aliens from Outer Space!</a>
+    <br>
+    <br>
+    <a href="index.html">Home</a>
+    <p>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</p>
+</footer>
+</body>

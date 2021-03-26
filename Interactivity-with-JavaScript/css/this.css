@@ -1,0 +1,24 @@
+body {
+    /* background-color: aquamarine; */
+    background-image: url('../images/desertsandswithpalm65g.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 90%;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    font-family: 'Sofia';
+    font-size: 2em;
+}
+
+a {
+    color: rgb(95, 10, 173);
+    text-decoration: none;
+}
+
+img{
+    height:200px;
+}
