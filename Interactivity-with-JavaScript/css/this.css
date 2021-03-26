@@ -19,12 +19,6 @@ a {
     text-decoration: none;
 }
 
-#hoverbox {
-    margin: 2%;
-    border: 1px solid #060606;
-    background-color: #b3b3b3;
-}
-
 #message {
     line-height: 100px;
     text-align: center;
@@ -39,4 +33,6 @@ a {
 
 img{
     height:200px;
+    margin: .5%;
+    border: 1px solid #060606;
 }
