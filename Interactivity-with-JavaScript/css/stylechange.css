@@ -12,6 +12,7 @@ body {
 h1 {
     font-family: 'Sofia';
     font-size: 2em;
+    padding-top: 30px;
 }
 
 a {
