@@ -20,25 +20,71 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: #5f7401;
+}
+
 #message {
     line-height: 100px;
     text-align: center;
     width: 575px;
     height: 100px;
-    border: 3px solid #060606;
+    border: 3px solid #5f035b;
     margin: 0 auto;
     margin-bottom: 10px;
-    background-color: #8e68ff;
+    background-color: #52eb73;
     font-size: 140%;
 }
 
 .preview {
-    width: 20%;
-    border: 10px solid #060606;
+    width: 175px;
+    margin-right: 10%;
+    border: 10px solid #5f7401;
 }
 
 img{
     height:200px;
-    margin: .5%;
+    margin: 15px;
     border: 1px solid #060606;
+}
+
+/* Simple Responsive Framework */
+.row {
+    width: 90%;
+    }
+
+/*********** Large devices only ***********/
+@media (min-width: 1000px) {
+    h1, h2 {
+        width: 100%;
+    }
+}
+
+/*********** Medium devices only **********/
+@media (min-width: 499) and (max-width: 999px) {
+
+    h1, h2, p {
+        width: 70%;
+        font-size: medium;
+    }
+    aside, section {
+        width: 100%;
+    }
+    img {
+        width: 80%;
+    }
+}
+
+/********** Small devices only ************/
+@media (min-width: 280px) and (max-width: 500) {
+    h1, h2, p {
+        width: 50%;
+        font-size: small;
+    }
+    aside, section {
+        width: 70%;
+    }
+    img {
+        width: 60%;
+    }
 }

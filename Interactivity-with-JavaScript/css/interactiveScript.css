@@ -50,3 +50,43 @@ p{
     background-color: #581c1c;
 }
 
+/* Simple Responsive Framework */
+.row {
+    width: 90%;
+    }
+
+/*********** Large devices only ***********/
+@media (min-width: 1000px) {
+    h1, h2 {
+        width: 100%;
+    }
+}
+
+/*********** Medium devices only **********/
+@media (min-width: 499) and (max-width: 999px) {
+
+    h1, h2, p {
+        width: 70%;
+        font-size: medium;
+    }
+    aside, section {
+        width: 100%;
+    }
+    img {
+        width: 80%;
+    }
+}
+
+/********** Small devices only ************/
+@media (min-width: 280px) and (max-width: 500) {
+    h1, h2, p {
+        width: 50%;
+        font-size: small;
+    }
+    aside, section {
+        width: 70%;
+    }
+    img {
+        width: 60%;
+    }
+}
