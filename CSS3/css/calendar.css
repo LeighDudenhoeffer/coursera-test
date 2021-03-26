@@ -21,7 +21,7 @@ h1 {
     font-family: 'Sofia';
     text-align: center;
     color: #060606;
-    font-size: 200%
+    font-size: 240%
 }
 
 /* Set the table color, border, and spacing... */
@@ -29,8 +29,8 @@ table.cal {
     color: #2C3E04;
     border-spacing: 0;
     border: 2px solid #2C3E04;
-    -webkit-border-radius: 25px 25px 0 0;
-    border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 22px 22px 0 0;
+    border-radius: 0 0 22px 22px;
 }
 
 /* Alternating colors between even and odd weeks. */
@@ -43,16 +43,73 @@ tr:nth-child(even) {
 
 /* Curve the bottom by curving the row and the element. Each element needs to curve a different corner */
 tr:last-child {
-    -webkit-border-radius: 25px 25px 0 0;
-    border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 22px 22px 0 0;
+    border-radius: 0 0 22px 22px;
 }
 
 tr:last-child>td:first-child {
-	-webkit-border-radius: 0 0 0 25px;
-	border-radius: 0 0 0 25px;
+	-webkit-border-radius: 0 0 0 22px;
+	border-radius: 0 0 0 22px;
 }
 
 tr:last-child>td:last-child{
-	-webkit-border-radius: 0 0 25px 0;
-	border-radius: 0 0 25px 0;
+	-webkit-border-radius: 0 0 22px 0;
+	border-radius: 0 0 22px 0;
+}
+
+/* Format the caption. Use border-radius for just some corners. */
+.cal caption {
+    text-transform: uppercase;
+    background-color: #600570;
+    color: #ffffff;
+    font-size: 180%;
+    -webkit-border-radius: 22px 22px 0 0;
+    border-radius: 22px, 22px, 0 0;
+}
+
+/* Format the common heading and element attributes. */
+.cal th, .cal td {
+    font-size: 22px;
+    margin: 2px;
+    padding-bottom: 2px;
+}
+
+/* Format the table headings. */
+th {
+    text-align: center;
+    background: #AF7AC5;
+}
+
+.old {
+    padding: 0;
+    margin: 0;
+    background-color: #e9cef5;
+    border-spacing: 0;
+}
+
+/* Set the size and alignment for elements */
+.cal td {
+    width: 106px;
+    height: 106px;
+    vertical-align: top;
+}
+
+/* Format holidays */
+.holiday {
+    margin: 0;
+    padding: 0;
+    background-color: #51A39D;
+}
+
+/*By default, hide the appointments*/
+span {
+	display: block;
+	text-align: center;
+	color: #600570;
+	visibility: hidden;
+}
+
+/*Show the appointments when the date is clicked on*/
+td:active>span {
+	visibility:visible;
 }
