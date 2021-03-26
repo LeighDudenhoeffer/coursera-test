@@ -19,6 +19,24 @@ a {
     text-decoration: none;
 }
 
+#hoverbox {
+    margin: 2%;
+    border: 1px solid #060606;
+    background-color: #b3b3b3;
+}
+
+#message {
+    line-height: 100px;
+    text-align: center;
+    width: 575px;
+    height: 100px;
+    border: 3px solid #060606;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: #8e68ff;
+    font-size: 120%;
+}
+
 img{
     height:200px;
 }
