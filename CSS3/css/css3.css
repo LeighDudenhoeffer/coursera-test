@@ -3,8 +3,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 5px;
 }
 
 header, footer {
@@ -19,7 +19,7 @@ header, footer {
 
 header {
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 h1 {
@@ -29,10 +29,31 @@ h1 {
 }
 
 nav {
+    box-sizing: border-box;
+    background-color: #AF7AC5;
+    display: inline-block;
+    width: 21%;
+    min-width: 120px;
+    margin-left: 15px;
+    height: 100vh;
+    border-radius: 22px;
     font-variant: small-caps;
     font-size: 150%;
     font-family: Helvetica, 'Times New Roman', Serif;
     word-spacing: 8px;
+}
+
+nav a {
+    display:block;
+	line-height: 45px;
+	height:45px;
+	color: #FFFFFF;
+	background-color:#486B02;
+	text-decoration: none;
+	background-color:#486B02;
+	background: url('../imgs/arrow.png') no-repeat;
+	padding-left: 50px;
+	margin:10px 0 10px 5px;
 }
 
 a:link {
@@ -85,7 +106,7 @@ footer{
     background: -webkit-linear-gradient (#5D6D7E 0%, #AF7AC5 100%);
     background: -o-linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
     background: linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
-    height:150px;
+    height:100px;
     clear: both;
 }
 
