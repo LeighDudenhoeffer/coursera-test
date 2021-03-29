@@ -64,3 +64,8 @@ footer{
 img{
     width: 150px;
 }
+
+/* Simple Responsive Framework */
+.row {
+    width: 90%;
+    }
