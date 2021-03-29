@@ -13,7 +13,7 @@ header, footer {
     background: -webkit-linear-gradient (#5D6D7E 0%, #AF7AC5 100%);
     background: -o-linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
     background: linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
-    border-radius: 22px;
+    /* border-radius: 22px; */
     max-width: 100%;
 }
 
@@ -25,22 +25,22 @@ header {
 h1 {
     font-family: 'Sofia';
     color: #060606;
-    font-size: 300%
+    font-size: 250%
 }
 
 nav {
     box-sizing: border-box;
     background-color: #AF7AC5;
     display: inline-block;
-    width: 21%;
+    width: 18%;
     min-width: 120px;
-    margin-left: 15px;
+    margin-left: 1px;
     height: 100vh;
-    border-radius: 22px;
+    /* border-radius: 22px; */
     font-variant: small-caps;
-    font-size: 150%;
+    font-size: 125%;
     font-family: Helvetica, 'Times New Roman', Serif;
-    word-spacing: 8px;
+    word-spacing: 6px;
 }
 
 nav a {
@@ -52,7 +52,7 @@ nav a {
 	text-decoration: none;
 	background-color:#486B02;
 	background: url('../imgs/arrow.png') no-repeat;
-	padding-left: 50px;
+	padding-left: 20px;
 	margin:10px 0 10px 5px;
 }
 
@@ -78,10 +78,10 @@ h2 {
 }
 
 section {
-    width:30%;
+    width:25%;
     height: 300px;
     margin-right: 2%;
-    float: left;
+    float: right;
     padding: 2px;
 }
 
