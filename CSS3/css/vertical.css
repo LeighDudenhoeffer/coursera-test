@@ -35,7 +35,15 @@ h2 {
     border-radius: 6px;
 }
 
-
+nav {
+    box-sizing: border-box;
+    background-color: #AF7AC5;
+    display: inline-block;
+    width: 20%;
+    min-width: 125px;
+    margin-right: 15px;
+    height: 400px;
+}
 
 section {
     width:30%;
