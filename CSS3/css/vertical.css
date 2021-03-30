@@ -4,8 +4,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
     max-width: 100%;
-    margin: 1%;
-    padding: 1%;
+    margin: 0.5%;
+    padding: 0.55%;
 }
 
 header, footer {
@@ -41,7 +41,7 @@ section {
     width:30%;
     height: 300px;
     margin-right: 2%;
-    float: left;
+    float: right;
     padding: 2px;
 }
 
