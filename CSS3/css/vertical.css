@@ -87,3 +87,33 @@ img{
 .row {
     width: 90%;
     }
+
+/*********** Large devices only ***********/
+@media (min-width: 1000px) {
+    h1, h2, header {
+        width: 100%;
+    }
+}
+
+/*********** Medium devices only **********/
+@media (min-width: 499) and (max-width: 999px) {
+
+    h1, h2, header {
+        width: 80%;
+        font-size: medium;
+    }
+    nav {
+        width: 100%;
+    }
+}
+
+/********** Small devices only ************/
+@media (min-width: 280px) and (max-width: 500) {
+    h1, h2, header {
+        width: 80%;
+        font-size: smaller;
+    }
+    nav {
+        width: 100%;
+    }
+}
