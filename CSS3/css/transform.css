@@ -31,3 +31,20 @@ h1 {
 p {
     font-size: 175%;
 }
+
+nav {
+    box-sizing: border-box;
+    border: 1px solid #AF7AC5;
+    color: #ffffff;
+    background-color: #083a0c;
+    overflow: auto;
+    padding-left: 20px;
+}
+
+nav a {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 50px;
+    color: #ffffff;
+
+}
