@@ -42,10 +42,6 @@ section {
     padding: 2px;
 }
 
-summary {
-    font-style: normal;
-}
-
 details {
     font-style: italic;
 }
