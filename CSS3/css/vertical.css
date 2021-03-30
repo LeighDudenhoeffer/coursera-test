@@ -53,12 +53,13 @@ nav a {
     text-decoration: none;
     display: block;
     line-height: 25px;
-    height: 30px;
+    height: 40px;
+    padding: 20px 0px 0px 40px;
 }
 
 section {
     width:30%;
-    height: 300px;
+    height: 250px;
     margin-right: 2%;
     float: right;
     padding: 2px;
