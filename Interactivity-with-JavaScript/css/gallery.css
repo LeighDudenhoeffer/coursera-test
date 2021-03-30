@@ -1,4 +1,3 @@
-/*Name this external file gallery.css*/
 body{
     margin: 2%;
     border: 1px solid black;
@@ -22,7 +21,7 @@ h1 {
     line-height:650px;
     width: 575px;
     height: 650px;
-    border:5px solid black;
+    border:5px solid #060606;
     margin:0 auto;
     background-color: #a85eaa;
     background-image: url('');
@@ -36,7 +35,7 @@ h1 {
 .preview{
     width:10%;
     margin-left:17%;
-    border: 10px solid black;
+    border: 10px solid #060606;
 }
 img{
     width:95%;
