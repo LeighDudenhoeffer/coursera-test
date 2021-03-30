@@ -49,6 +49,8 @@ nav {
 }
 
 nav a {
+    display: block;
+    color: #2E0368;
     text-decoration: none;
     display: block;
 }
