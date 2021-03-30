@@ -101,30 +101,31 @@ img{
 
 /*********** Large devices only ***********/
 @media (min-width: 1000px) {
-    h1, h2 {
+    h1, h2, p {
         width: 100%;
     }
 }
 
 /*********** Medium devices only **********/
-@media (min-width: 499) and (max-width: 999px) {
-
-    h1, h2 {
-        width: 80%;
-        font-size: medium;
+@media (min-width: 500) and (max-width: 999px) {
+    h1, h2, p {
+        width: 70%;
+        font-size: small;
     }
-    .column {
-        width: 100%;
+    nav a, section {
+        width: 70%;
+        font-size: small;
     }
 }
 
 /********** Small devices only ************/
-@media (min-width: 280px) and (max-width: 500) {
-    h1, h2 {
-        width: 80%;
-        font-size: medium;
+@media (min-width: 280px) and (max-width: 499) {
+    h1, h2, p {
+        width: 60%;
+        font-size: 10px;
     }
-    .column {
-        width: 100%;
+    nav a, section {
+        width: 40%;
+        font-size: 10px;
     }
 }
