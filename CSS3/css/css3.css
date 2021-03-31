@@ -108,24 +108,30 @@ img{
 
 /*********** Medium devices only **********/
 @media (min-width: 500) and (max-width: 999px) {
-    h1, h2, p {
-        width: 60%;
+    h1, p {
+        width: 70%;
         font-size: small;
+    }
+    h2 {
+        font-size: .9em;
     }
     nav a, section {
         width: 60%;
-        font-size: small;
+        font-size: .9em;
     }
 }
 
 /********** Small devices only ************/
 @media (min-width: 280px) and (max-width: 499) {
-    h1, h2, p {
+    h1, p {
         width: 50%;
         font-size: 8px;
     }
+    h2 {
+        font-size: .8em;
+    }
     nav a, section {
         width: 40%;
-        font-size: 8px;
+        font-size: .9em;
     }
 }
