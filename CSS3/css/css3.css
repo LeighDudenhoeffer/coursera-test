@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    max-width: 90%;
+    max-width: 94%;
     margin: 0 auto;
 }
 
@@ -60,7 +60,7 @@ h2 {
 section {
     width: 30%;
     height: 250px;
-    margin-right: 2%;
+    margin-right: 10px;
     float: left;
     padding: 2px;
 }
