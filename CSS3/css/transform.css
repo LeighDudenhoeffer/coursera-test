@@ -40,7 +40,7 @@ nav a {
     text-decoration: none;
     margin: 1% 5% 1% 0;
     padding: 1% 5%;
-    border-radius: 16px;
+    border-radius: 24px;
 }
 
 nav a:hover {
@@ -54,9 +54,10 @@ nav a:hover {
 
 img {
     -webkit-transform: rotate(30deg);  /* Chrome, Safari, Opera */
-		-moz-transform: rotate(30deg);  /* Firefox */
-			-ms-transform: rotate(30deg);  /* IE 9 */
-				transform: rotate(30deg);  /* Modern Browsers */
+	-moz-transform: rotate(30deg);  /* Firefox */
+	-ms-transform: rotate(30deg);  /* IE 9 */
+	transform: rotate(30deg);  /* Modern Browsers */
+    transition-delay: 2s;
 }
 
 .box {

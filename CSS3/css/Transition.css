@@ -39,10 +39,10 @@ div {
 	border: 1px solid #000000;
 	border-radius: 6px;
   	transition-property: color, width, background, border-radius;
-	transition-duration: .5s;
+	transition-duration: 1s;
 	transition-timing-function: linear;
-	transition-delay: .5s;
-	transition: .5s linear .5s;
+	transition-delay: .7s;
+	transition: 1s linear 1s;
 }
 
 div:hover {
