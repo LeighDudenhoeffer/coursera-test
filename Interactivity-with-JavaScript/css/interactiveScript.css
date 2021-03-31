@@ -1,5 +1,5 @@
 body {
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     background-image: url('../images/desertsandswithpalm65g.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +19,6 @@ nav {
     box-sizing: border-box;
     border: 1px solid #AF7AC5;
     color: #083a0c;
-    /* overflow: auto; */
     padding-left: 16px;
 }
 
@@ -76,7 +75,6 @@ button {
     font-size: 120%;
 }
 p{
-    /* border:1.25px solid black; */
     text-align: center;
     margin: 20px;
     width:250px;
