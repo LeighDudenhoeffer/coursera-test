@@ -60,9 +60,9 @@ h2 {
 section {
     width: 30%;
     height: 250px;
-    margin-right: 15px;
+    margin-right: 3%;
     float: left;
-    padding: 6px;
+    padding: 4px;
     overflow: auto;
 }
 
@@ -124,10 +124,10 @@ img{
 @media (min-width: 280px) and (max-width: 499) {
     h1, h2, p {
         width: 60%;
-        font-size: 10px;
+        font-size: 8px;
     }
     nav a, section {
         width: 40%;
-        font-size: 10px;
+        font-size: 8px;
     }
 }
