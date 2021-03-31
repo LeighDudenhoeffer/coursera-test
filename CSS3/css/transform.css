@@ -13,16 +13,6 @@ header {
     /* padding-bottom: 15px; */
 }
 
-footer {
-	background: #AF7AC5;
-    background: -moz-linear-gradient (top, #5D6D7E 0%, #AF7AC5 100%);
-    background: -webkit-linear-gradient (#5D6D7E 0%, #AF7AC5 100%);
-    background: -o-linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
-    background: linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
-    border-radius: 12px;
-    max-width: 100%;
-}
-
 h1 {
     font-family: 'Sofia';
     color: #b217f5;
@@ -50,7 +40,7 @@ nav a {
     text-decoration: none;
     margin: 1% 5% 1% 0;
     padding: 1% 5%;
-    border-radius: 22px;
+    border-radius: 16px;
 }
 
 nav a:hover {
@@ -74,4 +64,15 @@ img {
     width:120px;
     height:110px;
     background: url("../images/star-fish.png") no-repeat;
+}
+
+footer {
+	background: #AF7AC5;
+    background: -moz-linear-gradient (top, #5D6D7E 0%, #AF7AC5 100%);
+    background: -webkit-linear-gradient (#5D6D7E 0%, #AF7AC5 100%);
+    background: -o-linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
+    background: linear-gradient(#5D6D7E 0%, #AF7AC5 100%);
+    border-radius: 12px;
+    height: 130px;
+    clear: both;
 }
