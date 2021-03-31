@@ -60,9 +60,9 @@ h2 {
 section {
     width: 30%;
     height: 250px;
-    margin-right: 10px;
+    margin-right: 15px;
     float: left;
-    padding: 2px;
+    padding: 6px;
     overflow: auto;
 }
 
@@ -109,30 +109,25 @@ img{
 
 /*********** Medium devices only **********/
 @media (min-width: 500) and (max-width: 999px) {
-    h1, p {
+
+    h1, h2, p {
         width: 70%;
         font-size: small;
     }
-    h2 {
-        font-size: .9em;
-    }
     nav a, section {
-        width: 60%;
-        font-size: .9em;
+        width: 70%;
+        font-size: small;
     }
 }
 
 /********** Small devices only ************/
 @media (min-width: 280px) and (max-width: 499) {
-    h1, p {
-        width: 50%;
-        font-size: 8px;
-    }
-    h2 {
-        font-size: .8em;
+    h1, h2, p {
+        width: 60%;
+        font-size: 10px;
     }
     nav a, section {
         width: 40%;
-        font-size: .9em;
+        font-size: 10px;
     }
 }
