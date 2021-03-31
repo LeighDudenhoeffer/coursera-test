@@ -1,5 +1,6 @@
 body {
     background-image: url('../images/desertsandswithpalm65g.jpg');
+    background-color: aquamarine;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -9,7 +10,7 @@ body {
 
 header {
     text-align: center;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
 }
 
 footer {
@@ -35,8 +36,8 @@ p {
 nav {
     box-sizing: border-box;
     border: 1px solid #AF7AC5;
-    color: #ffffff;
-    background-color: #083a0c;
+    color: #083a0c;
+    background-color: #ffffff;
     overflow: auto;
     padding-left: 20px;
 }
@@ -46,5 +47,32 @@ nav a {
     display: inline-block;
     height: 50px;
     color: #ffffff;
+    background-color: #083a0c;
+    text-decoration: none;
+    margin: 1% 5% 1% 0;
+    padding: 1% 5%;
+    border-radius: 22px;
+}
 
+nav a:hover {
+    color: #00ff00;
+    border-radius: 0;
+}
+
+.current {
+    background-color: #800000;
+}
+
+img {
+    -webkit-transform: rotate(30deg);  /* Chrome, Safari, Opera */
+		-moz-transform: rotate(30deg);  /* Firefox */
+			-ms-transform: rotate(30deg);  /* IE 9 */
+				transform: rotate(30deg);  /* Modern Browsers */
+}
+
+.box {
+    margin: 50px;
+    width:120px;
+    height:110px;
+    background: url("../images/star-fish.png") no-repeat;
 }
