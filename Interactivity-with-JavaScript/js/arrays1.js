@@ -1,11 +1,11 @@
-var fruits = ["Banana", " Orange", " Apple", " Mango"];
+var treats = ["Cookie", " Brownie", " Ice cream", " M&Ms"];
 
-function loadFruits() {
-    document.getElementById("fruits").innerHTML = fruits;
+function loadTreats() {
+    document.getElementById("treats").innerHTML = treats;
 }
 
 function myFunction() {
-    var fruit = prompt("What is your favorite fruit?");
-    fruits[fruits.length] = fruit;
-    document.getElementById("fruits").innerHTML = fruits;
+    var treat = prompt("What is your favorite treat? ");
+    treats[treats.length] = treat;
+    document.getElementById("treats").innerHTML = treats;
 }
