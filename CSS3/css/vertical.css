@@ -53,14 +53,14 @@ nav a {
     text-decoration: none;
     display: block;
     line-height: 22px;
+    width: 40%;
     height: 36px;
     padding: 20px 0px 0px 20px;
 }
 
 section {
-    width:28%;
+    width:40%;
     height: 250px;
-    margin-right: 32%;
     float: right;
     padding: 2px;
     overflow: auto;
@@ -88,35 +88,3 @@ img{
 .row {
     width: 90%;
     }
-
-/*********** Large devices only ***********/
-@media (min-width: 1000px) {
-    h1, h2, p {
-        width: 100%;
-    }
-}
-
-/*********** Medium devices only **********/
-@media (min-width: 500) and (max-width: 999px) {
-
-    h1, h2, p {
-        width: 70%;
-        font-size: small;
-    }
-    nav a, section {
-        width: 70%;
-        font-size: small;
-    }
-}
-
-/********** Small devices only ************/
-@media (min-width: 280px) and (max-width: 499) {
-    h1, h2, p {
-        width: 60%;
-        font-size: 10px;
-    }
-    nav a, section {
-        width: 40%;
-        font-size: 10px;
-    }
-}
