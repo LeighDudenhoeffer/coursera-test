@@ -1,12 +1,10 @@
 body {
-    /* background-color: #F7DC6F; */
     background-image: url('../images/desertsandswithpalm65g.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     max-width: 90%;
     margin: 0 auto;
-    /* margin: 2%; */
 }
 
 header {
