@@ -22,7 +22,6 @@ nav {
     box-sizing: border-box;
     border: 1px solid #AF7AC5;
     color: #083a0c;
-    /* overflow: auto; */
     padding-left: 16px;
 }
 
@@ -41,10 +40,6 @@ nav a {
 nav a:hover {
     color: #00ff00;
     border-radius: 0;
-}
-
-.current {
-    background-color: #800000;
 }
 
 .rotate {
