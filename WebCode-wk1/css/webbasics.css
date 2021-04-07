@@ -9,7 +9,33 @@ body {
 }
 
 nav {
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
     padding: 18px;
+    font-family: 'Sofia';
+}
+
+a:link {
+    color: rgb(109, 79, 3);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(8, 165, 8);
+}
+
+a:focus {
+    background: #8a3b46;
+    color: #ff9f51;
+}
+
+section {
+    width: 50%;
+    padding: 14px;
+}
+
+footer {
+    font-family: 'Sofia';
+    font-size: 170%;
+    text-align: center;
 }
