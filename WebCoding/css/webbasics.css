@@ -10,14 +10,16 @@ body {
 
 nav {
     font-size: 200%;
+    font-weight: bold;
     text-align: center;
     padding: 18px;
     font-family: 'Sofia';
 }
 
 a:link {
-    color: rgb(109, 79, 3);
+    color: rgb(119, 69, 3);
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -30,8 +32,12 @@ a:focus {
 }
 
 section {
-    width: 50%;
+    width: 100%;
     padding: 14px;
+}
+
+ul {
+    font-size: 1.6em;
 }
 
 footer {
