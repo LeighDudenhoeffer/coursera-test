@@ -3,7 +3,9 @@ body {
     background-color: rgb(92, 189, 156);
     background-repeat: repeat-y;
     background-size: cover;
+    width: auto;
     max-width: 95%;
+    height: auto;
     margin: 0 auto;
 }
 
