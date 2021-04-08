@@ -1,15 +1,11 @@
 body {
     background-image: url('../images/British-Wallpapers-HD-Opacity64-mda.jpg');
     background-color: rgb(92, 189, 156);
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
+    background-attachment: fixed;
     max-width: 95%;
     margin: 0 auto;
-}
-
-.thin_border {
-    border: 3px solid rgba(139, 0, 0, 0.555);
 }
 
 nav {
