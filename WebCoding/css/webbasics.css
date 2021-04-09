@@ -53,7 +53,7 @@ h2, p{
 .column {
     float: left;
     width: 46%;
-    margin: 8px 8px 0;
+    margin: 8px 8px 0 0;
     padding: 6px;
 }
 
