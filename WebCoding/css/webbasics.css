@@ -35,9 +35,19 @@ a:focus {
     color: #ff9f51;
 }
 
+.thin_border {
+    border: 2px solid rgba(139, 0, 0, 0.712);
+}
+
+h1 {
+    font-size: 1.7em;
+    margin-left: 8px;
+}
+
 h2, p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.3em;
+    margin-left: 8px;
 }
 
 .column {
