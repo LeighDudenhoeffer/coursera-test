@@ -3,6 +3,7 @@ body {
     background-color: rgb(92, 189, 156);
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: center center;
     background-attachment: fixed;
     max-width: 95%;
     margin: 0 auto;
@@ -29,6 +30,10 @@ a:hover {
 a:focus {
     background: #8a3b46;
     color: #ff9f51;
+}
+
+h1, h2, h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .column {
