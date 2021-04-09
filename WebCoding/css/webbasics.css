@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url('../images/British-Wallpapers-HD-Opacity64-mda.jpg');
     background-color: rgb(92, 189, 156);
@@ -39,7 +43,7 @@ h2, p{
 .column {
     float: left;
     width: 46%;
-    padding: 5px;
+    padding: 6px;
 }
 
 .row::after {
@@ -60,7 +64,7 @@ ul {
 
 footer {
     font-family: 'Sofia';
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -79,23 +83,23 @@ footer {
 /*********** Medium devices only **********/
 @media (min-width: 500) and (max-width: 999px) {
 
-    h1, h2, p {
+    h1, h2, h3 {
         width: 70%;
         font-size: small;
     }
-    nav a, section {
-        width: 70%;
+    nav a, footer {
+        width: 60%;
         font-size: small;
     }
 }
 
 /********** Small devices only ************/
 @media (min-width: 280px) and (max-width: 499) {
-    h1, h2, p {
+    h1, h2, h3 {
         width: 60%;
         font-size: small;
     }
-    nav a, section {
+    nav a, footer {
         width: 40%;
         font-size: small;
     }
