@@ -43,6 +43,7 @@ h2, p{
 .column {
     float: left;
     width: 46%;
+    margin: 8px 8px 0;
     padding: 6px;
 }
 
@@ -53,7 +54,7 @@ h2, p{
 }
 
 img {
-    height: 160px;
+    height: 150px;
     margin: 15px;
     border: 3px solid rgba(139, 0, 0, 0.712);
 }
