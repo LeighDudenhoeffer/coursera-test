@@ -1,6 +1,7 @@
 body {
     background-image: url('../images/British-Wallpapers-HD-Opacity64-mda.jpg');
     background-color: rgb(92, 189, 156);
+    background-position: center;
     background-repeat: repeat;
     background-size: cover;
     max-width: 95%;
