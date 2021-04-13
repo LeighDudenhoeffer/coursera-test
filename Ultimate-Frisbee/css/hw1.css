@@ -33,11 +33,11 @@ nav a{
     background: #fceef0;
     opacity: .72;
     display: inline-block;
-    width: 16%;
+    width: 18%;
     margin: 12px;
     height: 40px;
-    padding-top: 12px;
-    border-radius: 16px;
+    padding-top: 22px;
+    border-radius: 14px;
 }
 
 a:link {
