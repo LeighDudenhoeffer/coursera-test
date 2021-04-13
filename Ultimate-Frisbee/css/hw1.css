@@ -84,7 +84,23 @@ table {
     font-size: 1.2em;
 }
 
+td {
+    padding: 10px;
+}
+
+th {
+    padding: 5px;
+    background-color: #81e448;
+    border-radius: 4px 4px 0  0;
+}
+
+/* tbody {
+    border: #582401;
+    border-radius: 12px 0;
+} */
+
 li {
+    background-color: #95ccac;
     list-style: square;
     font-size: 1.2em;
     text-decoration: none;
