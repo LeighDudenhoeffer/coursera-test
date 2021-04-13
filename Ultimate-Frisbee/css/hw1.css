@@ -31,7 +31,7 @@ nav a{
     font-size: 1em;
     color: rgb(114, 3, 62);
     background: #fceef0;
-    opacity: .72;
+    opacity: .68;
     display: inline-block;
     width: 18%;
     margin: 12px;
@@ -47,11 +47,13 @@ a:link {
 
 a:hover {
     color: deeppink;
-    text-decoration: underline;
+    text-decoration: none;
+    border-radius: 0;
 }
 
 a:active {
     color: #229954;
+    background-color: rgb(249, 249, 252);
 }
 
 aside.left {
@@ -82,10 +84,9 @@ p {
 
 table {
     font-size: 1.2em;
-}
-
-td {
-    padding: 10px;
+    width: 700px;
+    border-collapse: collapse;
+    background-color: #bce0a7;
 }
 
 th {
@@ -94,10 +95,15 @@ th {
     border-radius: 4px 4px 0  0;
 }
 
-/* tbody {
-    border: #582401;
-    border-radius: 12px 0;
-} */
+td {
+    color: rgb(33, 48, 48);
+    padding: 5px;
+    border: 2px solid #fceef0
+}
+
+td:hover {
+    text-decoration: #060606;
+}
 
 li {
     background-color: #95ccac;
