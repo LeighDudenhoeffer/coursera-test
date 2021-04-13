@@ -89,9 +89,10 @@ table {
 }
 
 th {
-    padding: 5px;
+    padding: 8px;
     background-color: #81e448;
     border-radius: 2px 2px 0  0;
+    text-shadow: 2px 2px 5px #6E2C00;
 }
 
 td {
