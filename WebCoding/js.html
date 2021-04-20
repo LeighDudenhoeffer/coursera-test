@@ -5,7 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Intro to Javascript</title>
         <link rel="stylesheet" type="text/css" href="css/webbasics.css">
-        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+        <!-- In this example use jQuery to change the content itself. The $ is shorthand for the jQuery
+        function. WE're passing in a CSS selector which gets this element by its id. The html function
+        sets the html content of an element.-->
+        <script>function myFunction() {
+            document.getElementById("paragraph").innerHTML = "Paragraph Changed.";
+        }
+        </script>
 </head>
 
 <body>
@@ -18,11 +25,16 @@
 			Hello
 	</h1>
 
+    <h1 id="title" onclick="console.log('Hello beautiful');"></h1>
+        <h1>Hello beautiful!</h1>
+
+    <p id="paragraph">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+
+
     <!-- In this case the onclick functions writes something to the console.
 	The console is an object so we use the dot (.) notation to call a function on it -->
 
-    <h1 id="title" onclick="console.log('hello beautiful');"></h1>
-        Hello beautiful!
 
 
     <br><br>
