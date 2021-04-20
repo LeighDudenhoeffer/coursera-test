@@ -3,10 +3,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Intro javascript</title>
+        <title>Intro to Javascript</title>
         <link rel="stylesheet" type="text/css" href="css/webbasics.css">
-        <script src="js/webbasics.js"></script>
-
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 
 <body>
@@ -14,7 +13,7 @@
     The value of the attribute is some javascript code.
     In this case it creates an alert pop up dialog-->
 
-	<h1 id="title" onclick="alert('hello');" >
+	<h1 id="title" onclick="$('#title').html('Goodbye');">
 			Hello
 	</h1>
 
