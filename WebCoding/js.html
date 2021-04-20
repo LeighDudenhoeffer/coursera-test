@@ -6,13 +6,10 @@
         <title>Intro to Javascript</title>
         <link rel="stylesheet" type="text/css" href="css/webbasics.css">
         <!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+        <script src="js/webbasics.js"></script>
         <!-- In this example use jQuery to change the content itself. The $ is shorthand for the jQuery
         function. WE're passing in a CSS selector which gets this element by its id. The html function
         sets the html content of an element.-->
-        <script>function myFunction() {
-            document.getElementById("paragraph").innerHTML = "Paragraph Changed.";
-        }
-        </script>
 </head>
 
 <body>
@@ -22,13 +19,16 @@
 
 	<h1 id="title"
         onclick="$('#title').html('Goodbye');">
-			Hello
-	</h1>
+			Hello Beautiful!</h1> <br>
+            <h2>Placing scripts in external files as some awesome advantages!
+            <ol>
+                <li>It separates HTML and code.</li>
+                <li>It makes HTML and JavaScript easier to read and maintain.</li>
+                <li>Cached JavaScript files can speed up page loads.</li>
+            </ol>
+            </h2>
 
-    <h1 id="title" onclick="console.log('Hello beautiful');"></h1>
-        <h1>Hello beautiful!</h1>
-
-    <p id="paragraph">A Paragraph</p>
+        <p id="paragraph">A Paragraph</p>
     <button type="button" onclick="myFunction()">Try it</button>
 
 
