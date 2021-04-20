@@ -3,6 +3,6 @@ function myFunction() {
 }
 
 function aFunction() {
-    document.getElementById("demo1").innerHTML="Hello Leigh!";
+    document.getElementById("demo1").innerHTML="Hello!!!";
     document.getElementById("demo2").innerHTML="How are you today?"
 }
