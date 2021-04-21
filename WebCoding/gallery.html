@@ -27,49 +27,25 @@
         <a href="js.html">The JS page</a>
     </nav>
     <hr>
-    <div class="container">
-        <h1>Photo Gallery</h1>
-        <div class="row">
-            <div class="col-md-3">
-                <img class="crop-img"
-                src="images/weather1_big.jpg" alt="a dark stormy sky">
-            </div>
-            <div class="col-md-3">
-                <img class="crop-img"
-                src="images/weather2_big.jpg" alt="another stormy sky">
-            </div>
-            <div class="col-md-3">
-                <img class="crop-img"
-                src="images/weather3_big.jpg" alt="rainy foggy sky">
-            </div>
-            <div class="col-md-3">
-                <img class="crop-img"
-                src="images/weather4_big.jpg" alt="a very snowy day">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <img id="bigImage" class="large-img"
-                src="images/weather1_big.jpg" alt="a dark stormy sky">
-            </div>
-            <div class="col-md-12">
-                <img id="bigImage" class="large-img"
-                src="images/weather2_big.jpg" alt="another stormy sky">
-            </div>
-            <div class="col-md-12">
-                <img id="bigImage" class="large-img"
-                src="images/weather3_big.jpg" alt="a rainy foggy sky">
-            </div>
-            <div class="col-md-12">
-                <img id="bigImage" class="large-img"
-                src="images/weather4_big.jpg" alt="a very snow day">
-            </div>
-        </div>
-    </div>
+
+    <img class = "preview" src = "" alt = "A dark stormy sky" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+	<img class = "preview" src = "" alt = "Another stormy sky" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+	<img class = "preview" src = "" alt = "A foggy rainy day" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+    <img class = "preview" src = "" alt = "A snowy day" onmouseover="upDate(this)" onmouseout="unDo()">
+
+	<div id = "image">
+		Hover over an image to display here.
+	</div>
+
+	<br><br><br>
 
     <hr>
     <footer>
-		<a href="https://www.cnet.com/news/nasa-says-we-should-search-for-aliens-by-looking-for-their-pollution/" target="_blank">How to Find Aliens from Outer Space!</a>
+		<a href="https://www.cnet.com/news/nasa-says-we-should-search-for-aliens-by-looking-for-their-pollution/"
+        target="_blank">How to Find Aliens from Outer Space!</a>
 		<h3>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</h3>
 	</footer>
 	</body>

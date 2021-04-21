@@ -69,15 +69,25 @@ img {
     border: 3px solid rgba(139, 0, 0, 0.712);
 }
 
-.crop-img {
-    max-height: 150px;
-    max-width: 100%;
-    margin-bottom: 10px;
+#image {
+    line-height:650px;
+    width: 575px;
+    height: 650px;
+    border: 2px solid #060606;
+    margin: 0 auto;
+    background-color: #a85eaa;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom: 25px;
+    font-size: 150%;
 }
-
-.large-img {
-    max-width: 100%;
-    margin-top: 10px;
+.preview{
+    width:10%;
+    margin-left:17%;
+    border: 10px solid #060606;
 }
 
 ul {
