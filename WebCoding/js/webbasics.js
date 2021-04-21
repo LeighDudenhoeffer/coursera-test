@@ -27,5 +27,5 @@ function upDate(previewPic){
 
 function unDo(){
     document.getElementById('image').style.backgroundImage = "none";
-    document.getElementById('image').innerHTML = "Hover over a puppy below to display here.";
+    document.getElementById('image').innerHTML = "Hover over an image to display here.";
     }
