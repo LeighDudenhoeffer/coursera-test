@@ -69,6 +69,17 @@ img {
     border: 3px solid rgba(139, 0, 0, 0.712);
 }
 
+.crop-img {
+    max-height: 150px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.large-img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
 ul {
     font-size: 1.6em;
 }
