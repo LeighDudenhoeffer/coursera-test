@@ -43,3 +43,58 @@ h1 {
     font-size: 1.7em;
     margin-left: 8px;
 }
+
+
+
+
+
+
+/* Simple Responsive Framework */
+.row {
+    width: 100%;
+    }
+
+/*********** Large devices only ***********/
+@media (min-width: 1000px) {
+    h1, h2, p {
+        width: 100%;
+    }
+}
+
+/*********** Medium devices only **********/
+@media (min-width: 500) and (max-width: 999px) {
+
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: auto;
+    }
+
+    h1, h2, h3 {
+        width: 70%;
+        font-size: small;
+    }
+    nav a, footer {
+        width: 60%;
+        font-size: small;
+    }
+}
+
+/********** Small devices only ************/
+@media (min-width: 280px) and (max-width: 499) {
+
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: auto;
+    }
+
+    h1, h2, h3 {
+        width: 60%;
+        font-size: small;
+    }
+    nav a, footer {
+        width: 40%;
+        font-size: small;
+    }
+}
