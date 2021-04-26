@@ -18,6 +18,7 @@ nav {
 
 .album_cover {
     width: 25%;
+    border: 3px solid #5a263c;
 }
 
 h1 {
