@@ -21,6 +21,10 @@ nav {
     border: 3px solid #5a263c;
 }
 
+.photo_list {
+    width: 25%;
+}
+
 h1, h2 {
     font-size: 1.7em;
     margin-left: 8px;
