@@ -21,7 +21,7 @@ nav {
     border: 3px solid #5a263c;
 }
 
-h1 {
+h1, h2 {
     font-size: 1.7em;
     margin-left: 8px;
 }
