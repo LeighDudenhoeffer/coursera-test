@@ -25,6 +25,10 @@ nav {
     width: 25%;
 }
 
+.photo_large {
+    width: 100%;
+}
+
 h1, h2 {
     font-size: 1.7em;
     margin-left: 8px;
