@@ -5,10 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Learning Bootstrap</title>
     <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/mycss.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"> </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,11 +24,12 @@
 
         <!-- start of collapsed navbar-->
         <div class="navbar-header">
-          <button type="button"
-          class="navbar-toggle collapsed"
+          <button type="button" id="navbarToggle"
+          class="navbar-toggle"
           data-toggle="collapse"
           data-target="#main-navbar"
-          aria-expanded="false">open!</button>
+          aria-expanded="false">
+          <span class="sr-only"></span>OPEN!</button>
         </div><!-- / collapsed navbar-->
 
         <!-- start un-collapsed navbar-->
@@ -43,7 +44,7 @@
     </nav>
 
     <div class="container">
-      <h1>Hello. Welcome to my bootstrap site!!</h1>
+      <h1>Hello. Welcome to my bootstrap site!</h1>
       <h2>If you click on the Albums or All photos link, you should be pleasantly surprised!</h2>
     </div>
 
