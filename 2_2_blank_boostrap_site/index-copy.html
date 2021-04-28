@@ -4,9 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Learning Bootstrap</title>
-    <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/mycss.css">
     <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
   </head>
@@ -14,31 +14,41 @@
   <body>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
+        <ul class="nav navtabs">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown toggle" data-toggle="dropdown" href="photos.html">All Photos</a>
+            <ul class="dropdown-menu">
+              <li><a href="photo1.html">a hummingbird from Science Magazine</a></li>
+              <li><a href="photo2.html">a hummingbird from birdwatchingdaily</a></li>
+              <li><a href="photo3.html">a hummingbird from bored panda</a></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
 
-        <!-- start collapsed navbar -->
-        <div class="navbar-header">
-          <button
-          type="button"
-          class="navbar-toggle"
-          data-toggle="collapse"
-          data-target="#main-navbar"
-          aria-expanded="false">
-          </button>
-          <a class="navbar-brand" href="index-copy.html">Hummingbirds</a>
-        </div><!-- / collapsed navbar -->
 
-        <!-- start un-collapsed navbar -->
-        <div
-          class="collapse navbar-collapse"
-          id="main_navbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index-copy.html">Home</a></li>
-            <li><a href="albums.html">Albums</a></li>
-            <li><a href="photos.html">All photos</a></li>
-          </ul>
-        </div><!-- / un-collapsed navbar -->
-      </div><!-- / container -->
-    </nav>
+            <!-- <img class="photo_list" src="./images/audubon_org.jpg" alt=""></a>
+            <img class="photo_list" src="./images/birdwatchingdaily.jfif" alt=""></a>
+            <img class="photo_list" src="./images/boredpanda_com.jpg" alt=""></a>
+            <a href="photo4.html"><img class="photo_list" src="./images/cameoglassuk.jfif" alt="a hummingbird from cameo glass uk dot uk"></a>
+            <a href="photo5.html"><img class="photo_list" src="./images/celebrateurbanbirds_com.jpg" alt="a hummingbird from celebrate urban birds dot com"></a>
+            <a href="photo6.html"><img class="photo_list" src="./images/climate_audobon_org.jpg" alt="a hummingbird from Climate audobon dot org"></a>
+            <a href="photo7.html"><img class="photo_list" src="./images/earthsky_org.jpg" alt="a hummingbird from Science Magazine dot com"></a>
+            <a href="photo8.html"><img class="photo_list" src="./images/feathertailedstories_blogspot.jpg" alt="a hummingbird from Science Magazine dot com"></a>
+            <a href="photo9.html"><img class="photo_list" src="./images/friendsofanimals_org.jpg" alt="a hummingbird from Science Magazine dot com"></a>
+            <a href="photo10.html"><img class="photo_list" src="./images/funwithflorafaunaandfungi_blogs.jpg" alt="a hummingbird from Science Magazine dot com"></a>
+            <a href="photo11.html"><img class="photo_list" src="./images/hdwawalle_com.jpg" alt="a hummingbird from Science Magazine dot com"></a>
+            <a href="photo12.html"><img class="photo_list" src="./images/naturedocumentaries_org.jpg" alt="a hummingbird from Science Magazine dot com"></a>
+            <a href="photo13.html"><img class="photo_list" src="./images/sciencemagpic.jfif" alt="a hummingbird from Science Magazine dot com"></a>
+            <a href="photo14.html"><img class="photo_list" src="./images/theawesomedaily.jfif" alt="a hummingbird from Science Magazine dot com"></a>
+            <a href="photo15.html"><img class="photo_list" src="./images/theawesomedaily_com.jpg" alt="a hummingbird from Science Magazine dot com"></a>
+            <a href="photo16.html"><img class="photo_list" src="./images/weneedfun_com.jpg" alt="a hummingbird from Science Magazine dot com"></a>
+          </ul> -->
 
     <div class="container">
       <h1>Hello. Welcome to my hummingbird bootstrap site!</h1>
