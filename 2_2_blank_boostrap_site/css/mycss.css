@@ -34,7 +34,21 @@ h1, h2 {
     margin-left: 8px;
 }
 
+table {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
 
+td, th {
+    border: 2px solid #5a263c;
+    text-align: left;
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(223, 188, 145);
+}
 
 
 
