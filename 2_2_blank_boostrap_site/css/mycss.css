@@ -46,8 +46,13 @@ a:hover {
     width: 100%;
 }
 
-h1, h2 {
-    font-size: 1.7em;
+h1 {
+    font-size: 1.6em;
+    margin-left: 8px;
+}
+
+h2 {
+    font-size: 1.2em;
     margin-left: 8px;
 }
 
@@ -65,7 +70,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-    background-color: rgb(223, 188, 145);
+    background-color: rgb(230, 183, 126);
 }
 
 
