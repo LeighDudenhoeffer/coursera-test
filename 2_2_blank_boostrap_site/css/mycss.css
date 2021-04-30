@@ -16,6 +16,17 @@ nav {
     font-family: 'Sofia';
 }
 
+a:link {
+    color: rgb(10, 6, 1);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(8, 165, 8);
+    font-weight: bold;
+}
+
 .album_cover {
     width: 180px;
     height: 160px;
@@ -41,6 +52,7 @@ h1, h2 {
 
 table {
     font-family: 'Franklin Gothic Medium', sans-serif;
+    color: black;
     border-collapse: collapse;
     width: 90%;
 }
