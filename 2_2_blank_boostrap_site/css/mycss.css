@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    font-size: 176%;
+    font-size: 150%;
     font-weight: bold;
     color: #5a263c;
     text-align: left;
@@ -29,8 +29,8 @@ a:hover {
 }
 
 .album_cover {
-    width: 180px;
-    height: 160px;
+    width: 150px;
+    height: 118px;
     border: 2px solid #5a263c;
     margin: 2px;
 }
@@ -106,7 +106,7 @@ tr:nth-child(even) {
         width: 30%;
     }
 
-    nav a, footer {
+    nav, nav a, footer {
         width: 60%;
         font-size: small;
     }
@@ -125,7 +125,7 @@ tr:nth-child(even) {
         width: 60%;
         font-size: small;
     }
-    nav a, footer {
+    nav, nav a, footer {
         width: 40%;
         font-size: small;
     }
