@@ -17,6 +17,12 @@ nav {
     font-family: 'Sofia';
 }
 
+h1 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Sofia;
+}
+
 a:link {
     color: rgb(10, 6, 1);
     text-decoration: none;
