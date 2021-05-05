@@ -40,12 +40,8 @@ a:hover {
 }
 
 [data-component="slideshow"] .slide.active {
-    display: block;
-}
-
-/* .inline-block {
     display: inline-block;
-} */
+}
 
 /* Simple Responsive Framework */
 .row {
