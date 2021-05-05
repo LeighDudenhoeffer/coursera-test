@@ -1,8 +1,8 @@
 body {
-    background-image: url('../images/British-Wallpapers-HD-Opacity64-mda1.jpg');
+    background-image: url('../images/pexels-djalma-paiva-armelin-705314_60opaq_sm.jpg');
     background-color: rgb(92, 189, 156);
-    background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     max-width: 95%;
     margin: 0 auto;
@@ -32,4 +32,17 @@ a:link {
 a:hover {
     color: rgb(8, 165, 8);
     font-weight: bold;
+}
+
+[data-component="slideshow"] .slide {
+    display: none;
+    text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
 }
