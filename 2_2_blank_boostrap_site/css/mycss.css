@@ -1,6 +1,6 @@
 body {
     background-image: url('../images/pexels-djalma-paiva-armelin-705314_60opaq_sm.jpg');
-    background-color: rgb(92, 189, 156);
+    background-color: rgb(141, 238, 205);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -18,13 +18,18 @@ nav {
 }
 
 a:link {
-    color: rgb(10, 6, 1);
+    color: rgb(94, 37, 4);
     text-decoration: none;
     font-weight: bold;
 }
 
+a:visited {
+    color: rgb(247, 134, 247);
+    text-decoration: none;
+}
+
 a:hover {
-    color: rgb(8, 165, 8);
+    color: rgb(55, 172, 9);
     font-weight: bold;
 }
 
