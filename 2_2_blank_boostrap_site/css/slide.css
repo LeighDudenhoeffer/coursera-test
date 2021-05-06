@@ -85,7 +85,22 @@ img {
     background-color: #05680a;
 }
 
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
 
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
 
 
 /* Simple Responsive Framework */
@@ -101,7 +116,7 @@ img {
 }
 
 /*********** Medium devices only **********/
-@media (min-width: 500) and (max-width: 999px) {
+@media (min-width: 499px) and (max-width: 999px) {
 
     .responsive {
         padding: 0 6px;
@@ -129,7 +144,7 @@ img {
 }
 
 /********** Small devices only ************/
-@media (min-width: 280px) and (max-width: 499) {
+@media (min-width: 350px) and (max-width: 500px) {
 
     .responsive {
         padding: 0 6px;
@@ -149,4 +164,9 @@ img {
     .slide {
         width: 50%;
     }
+}
+
+/************** Extra Small devices only ****************/
+@media only screen and (max-width: 349px) {
+    .prev, .next, .text {font-size: 10px;}
 }
