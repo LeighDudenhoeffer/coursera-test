@@ -1,19 +1,26 @@
-var slideshows = document.querySelectorAll('[data-component="slideshow"]');
-slideshows.forEach(initSlideshow);
+var slideIndex = 1;
+showSlides(slideIndex);
 
-function initSlideshow(slideshow) {
-    var slides = document.querySelectorAll(`#${slideshow.id} [role="list"] .slide`);
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
 
-    var index = 0, time = 2000;
-    slides[index].classList.add('active');
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
 
-    setInterval(  () => {
-        slides[index].classList.remove('active');
-
-        index++;
-        if (index === slides.length) index = 0;
-
-        slides[index].classList.add('active');
-
-    }, time);
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("slides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "")
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
 }
