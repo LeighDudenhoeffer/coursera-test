@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 body {
     background-image: url('../images/pexels-djalma-paiva-armelin-705314_60opaq_sm.jpg');
     background-color: rgb(92, 189, 156);
@@ -34,14 +36,19 @@ a:hover {
     font-weight: bold;
 }
 
-[data-component="slideshow"] .slide {
-    display: none;
-    text-align: left;
+img {
+    border-radius: 8px;
 }
 
-[data-component="slideshow"] .slide.active {
-    display: inline-block;
+.slides {display: none;}
+
+.slideshow-container {
+    max-width: 400px;
+    position: relative;
+    margin: auto;
 }
+
+
 
 /* Simple Responsive Framework */
 .row {
