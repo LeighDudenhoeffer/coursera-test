@@ -48,6 +48,12 @@ img {
     margin: auto;
 }
 
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+
+}
+
 
 
 /* Simple Responsive Framework */
