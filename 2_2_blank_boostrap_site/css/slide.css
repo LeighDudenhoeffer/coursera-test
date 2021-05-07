@@ -108,7 +108,7 @@ img {
         width: auto;
     }
 
-    h1, h2, h3 {
+    a, h1, h2, h3 {
         width: 70%;
         font-size: small;
     }
@@ -118,7 +118,7 @@ img {
     }
 
     .slides {
-        width: 50%;
+        width: 40%;
     }
 
     nav, nav a, footer {
@@ -136,13 +136,17 @@ img {
         width: auto;
     }
 
-    h1, h2, h3 {
-        width: 50%;
+    .album_cover {
+        width: 30%;
+    }
+
+    a, h1, h2, h3 {
+        width: 60%;
         font-size: small;
     }
 
     .slides {
-        width: 50%;
+        width: 40%;
     }
 
     nav, nav a, footer {
