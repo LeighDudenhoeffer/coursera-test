@@ -52,13 +52,12 @@ img {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: fit-content;
+    width: auto;
     padding: 16px;
     margin-top: -22px;
     color: #060606;
     font-weight: bold;
     transition: 0.6s ease;
-    /* font-size: 18px; */
     user-select: none;
 }
 
@@ -114,7 +113,7 @@ img {
     }
 
     h1, h2, h3 {
-        width: 60%;
+        width: 70%;
         font-size: small;
     }
 
@@ -127,7 +126,7 @@ img {
         font-size: small;
     }
 
-    .slide {
+    .slides {
         width: 50%;
     }
 }
@@ -146,11 +145,11 @@ img {
         font-size: small;
     }
     nav, nav a, footer {
-        width: 40%;
+        width: 50%;
         font-size: small;
     }
 
-    .slide {
+    .slides {
         width: 50%;
     }
 }
