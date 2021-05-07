@@ -62,7 +62,7 @@ img {
 }
 
 .next {
-    right: 0;
+    right: 65%;
 }
 
 .prev:hover, .next:hover {
@@ -121,13 +121,13 @@ img {
         width: 30%;
     }
 
+    .slides {
+        width: 50%;
+    }
+
     nav, nav a, footer {
         width: 60%;
         font-size: small;
-    }
-
-    .slides {
-        width: 50%;
     }
 }
 
@@ -144,12 +144,12 @@ img {
         width: 50%;
         font-size: small;
     }
+    .slides {
+        width: 50%;
+    }
+
     nav, nav a, footer {
         width: 50%;
         font-size: small;
-    }
-
-    .slides {
-        width: 50%;
     }
 }
