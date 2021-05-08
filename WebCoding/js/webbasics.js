@@ -1,4 +1,4 @@
-// This function only needs to be called once and doesn't need a name.
+// This function needs to be called only once and doesn't need a name.
 //Clicking Hello (at the top of the page) turns it on and clicking the resulting, "Goodbye"
 //turns it off again.
 function sayGoodbye() {
