@@ -38,4 +38,4 @@ $("#number").html(counter);
 function count() {
     counter = counter + 1;  // firstly one is added to the variable ‘counter'
     $("#number").text(counter);  // set the h1 element (with id “number”) with the value of ‘counter'
-}
+    }
