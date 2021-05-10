@@ -28,14 +28,4 @@ function upDate(previewPic){
 function unDo(){
     document.getElementById('image').style.backgroundImage = "none";
     document.getElementById('image').innerHTML = "Hover over an image to display it in this space.";
-    }
-
-// this is a variable, we start it at 0
-var counter = 0;
-// display the variable in the element "number"
-$("#number").html(counter);
-// when this function is called it runs everything inside the curly brackets
-function count() {
-    counter = counter + 1;  // firstly one is added to the variable ‘counter'
-    $("#number").text(counter);  // set the h1 element (with id “number”) with the value of ‘counter'
-    }
+}

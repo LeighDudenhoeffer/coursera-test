@@ -30,11 +30,33 @@
     </nav>
     <hr>
 
-    <h1>This is a slideshow of the photos from the <a href="gallery.html">photo gallery</a>!</h1>
+    <div class="container">
+        <h1>This is a slideshow of the photos from the <a href="gallery.html">photo gallery</a>!</h1>
+    </div>
+    <br>
+    <hr>
 
-    <!-- <h1 id="number"
-        onclick="count();">
-    </h1> -->
+    <div class="slideshow-container">
+        <div class="slides"><!--1-->
+            <div class="numbertext">1 / 4</div>
+            <img src="./images/weather1_big.jpg" alt="a foggy evening at home">
+        </div>
+        <div class="slides"><!--2-->
+            <div class="numbertext">2 / 4</div>
+            <img src="./images/weather2_big.jpg" alt="a very thick spring snowstorm">
+        </div>
+        <div class="slides"><!--3-->
+            <div class="numbertext">3 / 4</div>
+            <img src="./images/weather3_big.jpg" alt="a foggy rainy day">
+        </div>
+        <div class="slides"><!--4-->
+            <div class="numbertext">4 / 4</div>
+            <img src="./images/weather4_big.jpg" alt="a January snow day">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
 
 	<br><br><br>
 
