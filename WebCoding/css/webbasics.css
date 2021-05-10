@@ -90,6 +90,18 @@ img {
     border: 2px solid #060606;
 }
 
+.weatherslides {
+    display: none;
+}
+
+#wimg {
+    width: 520px;
+    height: 390px;
+    vertical-align: middle;
+    border: 2px solid #060606;
+    border-radius: 8px;
+}
+
 ul {
     font-size: 1.6em;
 }
