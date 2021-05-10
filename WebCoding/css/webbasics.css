@@ -137,8 +137,13 @@ footer {
         width: 70%;
         font-size: small;
     }
+
+    .slides {
+        width: 50%;
+    }
+
     nav a, footer {
-        width: 60%;
+        width: 50%;
         font-size: small;
     }
 }
@@ -156,6 +161,11 @@ footer {
         width: 60%;
         font-size: small;
     }
+
+    .slides {
+        width: 50%;
+    }
+
     nav a, footer {
         width: 40%;
         font-size: small;
