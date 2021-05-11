@@ -156,11 +156,11 @@ footer {
     }
 
     h1, h2, h3 {
-        width: 70%;
+        width: 60%;
         font-size: small;
     }
 
-    .slides {
+    #wimg {
         width: 50%;
     }
 
@@ -174,17 +174,17 @@ footer {
 @media (min-width: 280px) and (max-width: 499) {
 
     .responsive {
-        padding: 0 6px;
+        padding: 0 3px;
         float: left;
         width: auto;
     }
 
     h1, h2, h3 {
-        width: 60%;
+        width: 50%;
         font-size: small;
     }
 
-    .slides {
+    #wimg {
         width: 50%;
     }
 
