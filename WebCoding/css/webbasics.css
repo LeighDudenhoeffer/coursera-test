@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-    font-size: 200%;
+    font-size: 180%;
     font-weight: bold;
     text-align: center;
     padding: 18px;
@@ -40,7 +40,7 @@ a:focus {
 }
 
 h1 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     margin-left: 8px;
 }
 
@@ -76,7 +76,7 @@ img {
     margin: 0 auto;
     background-image: url('');
     background-repeat: no-repeat;
-    color: #060606;
+    color: #5f0404;
     text-align: center;
     background-size: 100%;
     margin-bottom: 25px;
@@ -130,7 +130,7 @@ ul {
 
 footer {
     font-family: 'Sofia';
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
 }
 
@@ -152,11 +152,11 @@ footer {
     .responsive {
         padding: 0 6px;
         float: left;
-        width: auto;
+        width: 70%;
     }
 
-    h1, h2, h3 {
-        width: 60%;
+    h1, h2, h3, p {
+        width: 70%;
         font-size: small;
     }
 
@@ -165,7 +165,7 @@ footer {
     }
 
     nav a, footer {
-        width: 50%;
+        width: 60%;
         font-size: small;
     }
 }
@@ -176,20 +176,20 @@ footer {
     .responsive {
         padding: 0 3px;
         float: left;
-        width: auto;
+        width: 60%;
     }
 
-    h1, h2, h3 {
+    h1, h2, h3, p {
         width: 50%;
         font-size: small;
     }
 
     #wimg {
-        width: 50%;
+        width: 40%;
     }
 
     nav a, footer {
         width: 40%;
-        font-size: small;
+        font-size: smaller;
     }
 }
