@@ -43,14 +43,10 @@ var counter = 0;
 				counter =  0;
 			}
 
-			// $(".chapter-thumbnail").length
-			// is the number of elements that
-			// match the selector .chapter-thumbnail
-			// i.e. the number of chapter thumbnails
-			// if counter is equal to or more than
-			// the number of thumbnails it means
-			// we've gone past the last chapter which
-			// is $(".chapter-thumbnail").length-1
+			// $(".chapter-thumbnail").length is the number of elements that
+			// match the selector .chapter-thumbnail i.e. the number of chapter thumbnails
+			// if counter is equal to or more than the number of thumbnails it means
+			// we've gone past the last chapter which is $(".chapter-thumbnail").length-1
 			// (because we start counting at 0)
 			if(counter >=
 				$(".chapter-thumbnail").length){
@@ -58,10 +54,8 @@ var counter = 0;
 			$(".chapter-thumbnail").length-1;
 			}
 
-			// we get the id of the chapter thumbnail
-			// we want by putting counter on the end
+			// we get the id of the chapter thumbnail we want by putting counter on the end
 			// of it.
-			// we can do a virtual click on the
-			// chapter thumbnail to select it
+			// we can do a virtual click on the chapter thumbnail to select it
 			$("#chapter"+counter).click();
 		});
