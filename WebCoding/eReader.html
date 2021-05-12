@@ -1293,33 +1293,24 @@ Exeunt
 			$('li').removeClass('night');
 		});
 
-		// this is a variable to keep track
-		// of which chapter we are on
+		// this is a variable to keep track of which chapter we are on
 		var counter = 0;
 
-		// when we click on a chapter thumbnail
-		// it displays that chapter
-		// this code is pretty similar to the
-		// image gallery, but I've added some code
+		// when we click on a chapter thumbnail it displays that chapter
+		// this code is pretty similar to the image gallery, but I've added some code
 		// to update the counter
 		$(".chapter-thumbnail").click(function(){
-			// copy the html from the thumbnail (this)
-			// to the main viwer
+			// copy the html from the thumbnail (this) to the main viwer
 			$("#mainViewer").html(
 				$(this).html());
 
-			// get the id of this element so we can
-			// get hold of its number
+			// get the id of this element so we can get hold of its number
 			var id = $(this).attr("id");
 
-			// set the counter to the number of the
-			// chapter we selected.
-			// We get this by taking the last charcter
-			// of the id and convert it to a number
-			// id.slice gets a subsection of the string
-			// passing in -1 means we get just the
-			// last character
-			// parseInt converts it to a number (integer)
+			// set the counter to the number of the chapter we selected.
+			// We get this by taking the last charcter of the id and convert it to a number
+			// id.slice gets a subsection of the string passing in -1 means we get just the
+			// last character parseInt converts it to a number (integer)
 			counter = parseInt(id.slice(-1));
 		});
 
