@@ -1,16 +1,14 @@
-		// this is a variable to keep track of which chapter we are on
-		var counter = 0;
+// this is a variable to keep track of which chapter we are on
+var counter = 0;
 
-		// when we click on a chapter thumbnail it displays that chapter
-		// this code is pretty similar to the image gallery, but I've added some code
-		// to update the counter
-		$(".chapter-thumbnail").click(function(){
+// when we click on a chapter thumbnail it displays that chapter
+// this code is pretty similar to the image gallery, but I've added some code to update the counter
+	$(".chapter-thumbnail").click(function(){
 			// copy the html from the thumbnail (this) to the main viwer
 			$("#mainViewer").html(
 				$(this).html());
 
-			// get the id of this element so we can get hold of its number
-			var id = $(this).attr("id");
+		var id = $(this).attr("id");
 
 			// set the counter to the number of the chapter we selected.
 			// We get this by taking the last charcter of the id and convert it to a number
@@ -25,21 +23,14 @@
 		// when we click on the main viewer we want to move forward or backward in the chapter
 		$("#mainViewer").click(function (event){
 
-			// move forward if we click to the right
-			// or backward if we click to the left
+			// move forward if we click to the right or backward if we click to the left
 
-			// event.offsetX is the horizontal
-			// position of the mouse inside the
-			// element we have clicked on,
-			// it will be between 0
-			// and the width of the element
+			// event.offsetX is the horizontal position of the mouse inside the
+			// element we have clicked on, it will be between 0 and the width of the element
 
-			// $(this).width()*0.3 is 30% of
-			// the with of the element
+			// $(this).width()*0.3 is 30% of the with of the element
 
-			// if event.offsetX is less than
-			// 30% of the width, it means it is
-			// on the left hand side
+			// if event.offsetX is less than 30% of the width, it means it is on the left hand side
 			if(event.offsetX
 				< $(this).width()*0.3){
 				// if we've clicked on the left
@@ -51,9 +42,7 @@
 				counter = counter + 1;
 			}
 
-			// If we've gone below 0 it means
-			// we were at the beginning, and
-			// should just stay at zero
+			// If we've gone below 0 it means we were at the beginning, and should just stay at zero
 			if(counter < 0){
 				counter =  0;
 			}
