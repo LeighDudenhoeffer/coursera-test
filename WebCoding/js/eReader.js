@@ -22,14 +22,10 @@ var counter = 0;
 
 		// when we click on the main viewer we want to move forward or backward in the chapter
 		$("#mainViewer").click(function (event){
-
 			// move forward if we click to the right or backward if we click to the left
-
 			// event.offsetX is the horizontal position of the mouse inside the
 			// element we have clicked on, it will be between 0 and the width of the element
-
 			// $(this).width()*0.3 is 30% of the with of the element
-
 			// if event.offsetX is less than 30% of the width, it means it is on the left hand side
 			if(event.offsetX
 				< $(this).width()*0.3){
