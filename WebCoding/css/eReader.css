@@ -1,0 +1,24 @@
+/*
+  This is the css for the chapter thumbnails.
+  They are small boxes that show the first few lines of a chapter.
+  There are several bits of css to make sure that they properly. */
+
+
+.night{
+    background:black;
+    color:white;
+}
+
+.chapter-thumbnail {
+  margin-top: 10px;   /* add a margin to look nice */
+  white-space : pre;  /* preserve the original line breaks and spacing */
+  overflow : hidden;  /* don't show a scroll bar when the text is too big to fit in the box  */
+  max-height: 150px;  /* make sure that the box doesn't get too big */
+  height : 150px;     /* even if the text is big */
+  border-radius: 10px;/* rounded corners */
+}
+
+#mainViewer {
+  margin-top: 10px;
+  white-space : pre;   /* preserve the original line breaks (see above)*/
+}
