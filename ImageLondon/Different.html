@@ -2,7 +2,7 @@
 <!-- This is an example of using the same template with different data -->
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Image Template</title>
+		<title>Space Album</title>
 		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -15,9 +15,16 @@
 
 <body role="document">
 
+  <nav>
+    <a href="index.html">Home</a>
+    &nbsp;
+    <a href="Different.html">Space photos</a>
+  </nav>
+  <hr>
+
   <div class="container">
     <div class="page-header">
-      <h1>Photo Albums </h1>
+      <h1>Space Photos </h1>
     </div>
 
     <!-- this is a simple nav bar for selecting between images -->
@@ -27,6 +34,12 @@
           </li>
           <li role="" id="image2btn">
             <a href="#">Image 2</a>
+          </li>
+          <li role="" id="image3btn">
+            <a href="#">Image 3</a>
+          </li>
+          <li role="" id="image4btn">
+            <a href="#">Image 4</a>
           </li>
       </ul>
     <br/><br/>
@@ -70,6 +83,18 @@
         author: "Nasa Venus 9",
     };
 
+    var data3 = {
+      src: "https://nssdc.gsfc.nasa.gov/planetary/image/cassini_titan_12.jpg",
+      title: "Second of the First Images Returned from Titan",
+      author: "Huygens"
+    };
+
+    var data4 = {
+      src: "https://nssdc.gsfc.nasa.gov/planetary/image/cassini_saturn_3.jpg",
+      title: "Third of the First Images Returned from Saturn",
+      author: "Huygens"
+    };
+
     // get the template and compile it once when the page loads
     var source   = $("#detail-template").html();
     var detail_template = Handlebars.compile(source);
@@ -78,18 +103,27 @@
     // one for each image (next week we will see a better way of doing this)
     $("#image1btn").click(function () {
       var html    = detail_template(data1);
-
       $('#content').html(html);
     });
 
-
     $("#image2btn").click(function () {
       var html    = detail_template(data2);
+      $('#content').html(html);
+    });
 
+    $("#image3btn").click(function () {
+      var html    = detail_template(data3);
       $('#content').html(html);
     });
 
 
   </script>
 
+<br>
+<hr>
+
+<footer>
+  <a href="https://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe3.jpg" target="_blank">Photo Credit website!</a>
+  <p>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</p>
+</footer>
 </body>

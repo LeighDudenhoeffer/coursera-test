@@ -8,6 +8,29 @@ body {
   margin: 0 auto;
 }
 
+nav {
+  font-size: 180%;
+  font-weight: bold;
+  text-align: center;
+  padding: 18px;
+  font-family: 'Sofia';
+}
+
+a:link {
+  color: rgb(119, 69, 3);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(8, 165, 8);
+}
+
+a:focus {
+  background: #8a3b46;
+  color: #ff9f51;
+}
+
 .crop-img{
   max-height:150px;
   max-width:100%;
