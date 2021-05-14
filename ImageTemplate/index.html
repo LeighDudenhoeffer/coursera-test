@@ -6,8 +6,10 @@
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css/webbasics.css">
+    <script src="js/handlebars-v3.0.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery.css">
 </head>
 
 <body>
@@ -28,13 +30,21 @@
     var template = Handlebars.compile(source);
 
     var data = {
-      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/600px-The_Earth_seen_from_Apollo_17.jpg ",
-      title:"The Earth seen from Apollo 17",
-      author:"Ed g2s"
+      src: "https://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe3.jpg",
+      title:"A spectacular view of the planet Mars",
+      author:"Nasa"
     };
 
     var html    = template(data);
 
     $('#content').html(html);
   </script>
+
+<br>
+<hr>
+
+<footer>
+  <a href="https://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe3.jpg" target="_blank">Photo Credit website!</a>
+  <p>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</p>
+</footer>
 </body>

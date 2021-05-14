@@ -1,3 +1,13 @@
+body {
+  background-image: url('../images/British-Wallpapers-HD-Opacity64-mda1.jpg');
+  background-color: rgb(92, 189, 156);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
 .crop-img{
   max-height:150px;
   max-width:100%;
@@ -12,14 +22,8 @@
     padding: 10px;
     max-height:300px;
     max-width:100%;
-
 }
 
-/* 
- * uncomment this for some css3 drop shadows and rounded corners.
- */
-
-/*
 .thumbnail,.nav, .large-img, .crop-img{
   border-radius: 25px;
   padding-top:5px;
@@ -28,4 +32,3 @@
 .thumbnail,.nav {
   box-shadow: 10px 10px 5px #888888;
 }
-*/
