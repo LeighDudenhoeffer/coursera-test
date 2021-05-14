@@ -93,7 +93,7 @@
       src: "https://nssdc.gsfc.nasa.gov/planetary/image/cassini_saturn_3.jpg",
       title: "Third of the First Images Returned from Saturn",
       author: "Huygens"
-    };
+    }
 
     // get the template and compile it once when the page loads
     var source   = $("#detail-template").html();
@@ -116,6 +116,10 @@
       $('#content').html(html);
     });
 
+    $("image4btn").click(function () {
+      var html    = detail_template(data4);
+      $('#content').html(html);
+    });
 
   </script>
 
@@ -123,7 +127,7 @@
 <hr>
 
 <footer>
-  <a href="https://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe3.jpg" target="_blank">Photo Credit website!</a>
+  <a href="https://nssdc.gsfc.nasa.gov/planetary/cassini_images.html" target="_blank">Photo Credit website!</a>
   <p>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</p>
 </footer>
 </body>
