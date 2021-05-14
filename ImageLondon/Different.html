@@ -1,0 +1,97 @@
+<head>
+<!-- This is an example of using the same template with different data -->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Image Template</title>
+		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+    <script src="js/handlebars-v3.0.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery.css">
+</head>
+
+<body role="document">
+
+  <div class="container">
+    <div class="page-header">
+      <h1>Photo Albums </h1>
+    </div>
+
+    <!-- this is a simple nav bar for selecting between images -->
+    <ul class="nav nav-tabs">
+          <li role=""  id="image1btn">
+            <a href="#">Image 1</a>
+          </li>
+          <li role="" id="image2btn">
+            <a href="#">Image 2</a>
+          </li>
+      </ul>
+    <br/><br/>
+
+    <!-- the content of the web page starts off empty because we will fill it later from the template -->
+    <div id="content"  class="container-fluid"  role="main"></div>
+  </div>
+
+    <!-- this is our template it displays an image with a title and author headings
+      the bits in curly brackets {{}} are template expressions.
+      This code uses Bootstrap to provide a grid based layout -->
+    <script id="detail-template" type="text/x-handlebars-template">
+      <br>
+      <div class="row-fluid">
+        <div class="col-sm-5">
+          <img  style="width:100%" src="{{src}}"/>
+        </div>
+        <div class="col-sm-7">
+          <h1>{{title}}</h1>
+            <h3 class="author">
+              {{author}}
+            </h3>
+        </div>
+      </div>
+    </script>
+
+  <!-- javascript code to fill the template -->
+  <script type="text/javascript">
+
+
+    // have two objects each representing a different image
+    var data = {
+      src: "https://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe3.jpg",
+      title:"A spectacular view of the planet Mars",
+      author:"Nasa"
+    };
+
+    var data2 = {
+        src: "https://nssdc.gsfc.nasa.gov/imgcat/hires/v09_lander.gif",
+        title: "The surface of Venus from the Venera 9 Lander",
+        author: "Nasa Venus 9",
+    };
+
+    // get the template and compile it once when
+    // the page loads
+    var source   = $("#detail-template").html();
+    var detail_template = Handlebars.compile(source);
+
+    // instantiate the tempalte with data whenever you click
+    // there are two separate functions, one for each
+    // image (next week we will see a better way of doing this)
+    $("#image1btn").click(function () {
+      var html    = detail_template(data1);
+
+      $('#content').html(html);
+    });
+
+
+    $("#image2btn").click(function () {
+      var html    = detail_template(data2);
+
+      $('#content').html(html);
+    });
+
+
+  </script>
+
+</body>
