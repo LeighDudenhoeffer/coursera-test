@@ -58,7 +58,7 @@
 
 
     // have two objects each representing a different image
-    var data = {
+    var data1 = {
       src: "https://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe3.jpg",
       title:"A spectacular view of the planet Mars",
       author:"Nasa"
@@ -70,14 +70,12 @@
         author: "Nasa Venus 9",
     };
 
-    // get the template and compile it once when
-    // the page loads
+    // get the template and compile it once when the page loads
     var source   = $("#detail-template").html();
     var detail_template = Handlebars.compile(source);
 
-    // instantiate the tempalte with data whenever you click
-    // there are two separate functions, one for each
-    // image (next week we will see a better way of doing this)
+    // instantiate the tempalte with data whenever you click there are two separate functions,
+    // one for each image (next week we will see a better way of doing this)
     $("#image1btn").click(function () {
       var html    = detail_template(data1);
 
