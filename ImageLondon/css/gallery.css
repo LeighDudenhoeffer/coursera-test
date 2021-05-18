@@ -31,6 +31,17 @@ a:focus {
   color: #ff9f51;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 500px;
+}
+
 .crop-img{
   max-height:150px;
   max-width:100%;

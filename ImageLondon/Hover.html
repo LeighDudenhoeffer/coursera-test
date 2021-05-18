@@ -1,0 +1,63 @@
+<head>
+    <!-- This is an example of using the same template with different data -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Space Album</title>
+    <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="js/handlebars-v3.0.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+</head>
+
+<body role="document">
+
+    <nav>
+        <a href="index.html">Home</a>
+        &nbsp;
+        <a href="Different.html">Space photos</a>
+        &nbsp;
+        <a href="Hover">Hover Demo</a>
+    </nav>
+    <hr>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Space Photos </h1>
+            <h2>Please hover over the photo tabs.</h2>
+        </div>
+
+        <!-- this is a simple nav bar for selecting between images -->
+        <ul class="nav nav-tabs">
+            <li role=""  id="image1btn">
+                <a href="#">Image 1</a>
+            </li>
+            <li role="" id="image2btn">
+                <a href="#">Image 2</a>
+            </li>
+            <li role="" id="image3btn">
+                <a href="#">Image 3</a>
+            </li>
+            <li role="" id="image4btn">
+                <a href="#">Image 4</a>
+            </li>
+        </ul>
+        <br/><br/>
+
+        <!-- the content of the web page starts off empty because we will fill it later from the template -->
+        <div id="content"  class="container-fluid"  role="main"></div>
+    </div>
+
+
+
+    <br>
+    <hr>
+
+    <footer>
+        <a href="https://nssdc.gsfc.nasa.gov/planetary/cassini_images.html" target="_blank">Photo Credit website!</a>
+        <p>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</p>
+    </footer>
+    </body>
