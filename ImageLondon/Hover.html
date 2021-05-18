@@ -2,7 +2,7 @@
     <!-- This is an example of using the same template with different data -->
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Space Album</title>
+    <title>Another Space Album</title>
     <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -26,22 +26,26 @@
 
     <div class="container">
         <div class="page-header">
-            <h1>Space Photos </h1>
+            <h1>NASA Photos </h1>
             <h2>Please hover over the photo tabs.</h2>
         </div>
 
         <!-- this is a simple nav bar for selecting between images -->
         <ul class="nav nav-tabs">
-            <li role=""  id="image1btn">
+            <li class="dropdown">
                 <a href="#">Image 1</a>
+                <div class="dropdown-content">
+                    <img src="images/cassini_titan_12.jpg" alt="cassini titan 12 NASA photo">
+                    <div class="desc">The Cassini Titan 12 courtesy of NASA</div>
+                </div>
             </li>
-            <li role="" id="image2btn">
+            <li>
                 <a href="#">Image 2</a>
             </li>
-            <li role="" id="image3btn">
+            <li>
                 <a href="#">Image 3</a>
             </li>
-            <li role="" id="image4btn">
+            <li>
                 <a href="#">Image 4</a>
             </li>
         </ul>
