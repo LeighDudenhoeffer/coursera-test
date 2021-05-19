@@ -53,6 +53,18 @@
         </div>
     </script>
 
+    <script id="modal-template" type="text/x-handlebars-template">
+        <div id="imageModal" class="modal fade" role="dialog">
+            <div class="modal-dialog" style="width: 400px;">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img style="width: 100%;" src="{{src}}"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
     <script type="text/javascript">
     var source   = $("#image-template").html();
 
