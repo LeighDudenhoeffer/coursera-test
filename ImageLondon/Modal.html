@@ -51,6 +51,7 @@
                     </h3>
             </div>
         </div>
+        </div>
     </script>
 
     <script id="modal-template" type="text/x-handlebars-template">
@@ -68,8 +69,11 @@
 
 <script type="text/javascript">
     var source   = $("#detail-template").html();
-    var template = Handlebars.compile(source);
+
+    var detail_template = Handlebars.compile(source);
+
     source    = $("#modal-template").html();
+
     var modal_template = Handlebars.compile(source);
 
     var data = {
@@ -80,7 +84,7 @@
 
     var Image1Data = {
         title: "image1",
-        author: "Anon",
+        author: "Huygens",
         src: "https://nssdc.gsfc.nasa.gov/planetary/image/cassini_titan_15.jpg"
     };
     //print out the variables
