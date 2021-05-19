@@ -83,13 +83,16 @@
         author: "Anon",
         src: "https://nssdc.gsfc.nasa.gov/planetary/image/cassini_titan_15.jpg"
     };
+    //print out the variables
+    console.log(Image1Data.author + " " + Image1Data.src);
 
+    //this instantiates the detail template
     $("#detailsbtn").click(function () {
         //hide the modal if it's showing
         $("#imageModal").modal('hide');
         //use the detail template to generate HTML and put it in the DOM
         var html    = detail_template(data);
-        $('content').html(html);
+        $('#content').html(html);
     });
 
     $("#modalbtn").click(function () {
