@@ -64,16 +64,35 @@
             </div>
         </div>
     </script>
+</body>
 
-    <script type="text/javascript">
-    var source   = $("#image-template").html();
-
+<script type="text/javascript">
+    var source   = $("#detail-template").html();
     var template = Handlebars.compile(source);
+    source    = $("#modal-template").html();
+    var modal_template = Handlebars.compile(source);
 
-    var html    = template(data);
+    var data = {
+        src: "https://nssdc.gsfc.nasa.gov/planetary/image/cassini_titan_15.jpg",
+        title: "First Images Returned from Titan",
+        author: "Huygens"
+    };
 
-    $('#content').html(html);
-    </script>
+    var Image1Data = {
+        title: "image1",
+        author: "Anon",
+        src: "https://nssdc.gsfc.nasa.gov/planetary/image/cassini_titan_15.jpg"
+    };
+
+    $("#detailsbtn").click(function () {
+        //hide the modal if it's showing
+        $("#imageModal").modal('hide');
+        //use the detail template to generate HTML and put it in the DOM
+        var html    = detail_template(data);
+        $('content').html(html);
+    });
+
+</script>
     <br>
     <hr>
 
