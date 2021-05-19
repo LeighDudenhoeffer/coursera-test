@@ -32,32 +32,41 @@
             <li role="" id="detailsbtn"><a href="#">Details</a></li>
             <li role="" id="modalbtn"><a href="#">Modal</a></li>
         </ul>
+        <br><br>
 
+        <div id="content" class="container-fluid" role="main">
+        </div>
     </div>
 
-<script id="image-template" type="text/x-handlebars-template">
-    <div class="title">
-        <h1>{{title}}</h1>
-            <h3 class="author"> {{author}} </h3>
-        <img  style="height:600" src="{{src}}"/>
-    </div>
-</script>
+    <script id="detail-template" type="text/x-handlebars-template">
+        <br>
+        <div class="row-fluid">
+            <div class="col-sm-5">
+                <img style="width: 100%;" src="{{src}}"/>
+            </div>
+            <div class="col-sm-7">
+                <h1>{{title}}</h1>
+                    <h3 class="author">
+                        {{author}}
+                    </h3>
+            </div>
+        </div>
+    </script>
 
-<script type="text/javascript">
-var source   = $("#image-template").html();
+    <script type="text/javascript">
+    var source   = $("#image-template").html();
 
-var template = Handlebars.compile(source);
+    var template = Handlebars.compile(source);
 
-var html    = template(data);
+    var html    = template(data);
 
-$('#content').html(html);
-</script>
+    $('#content').html(html);
+    </script>
+    <br>
+    <hr>
 
-<br>
-<hr>
-
-<footer>
-<a href="https://nssdc.gsfc.nasa.gov/" target="_blank">Photo Credit website!</a>
-<p>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</p>
-</footer>
+    <footer>
+        <a href="https://nssdc.gsfc.nasa.gov/" target="_blank">Photo Credit website!</a>
+        <p>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</p>
+    </footer>
 </body>
