@@ -92,6 +92,18 @@
         $('content').html(html);
     });
 
+    $("#modalbtn").click(function () {
+        //use the modal template to generate html and put it in the DOM
+        var html    = modal_template(data);
+        $('#content').html(html);
+        /* we can only show the modal once the template has been instantiated because it doesn't exist before */
+        $("#imageModal").modal('show');
+        //create a callback for when the modal is hidden so we can re-display the detail template
+        $('#imageModal').on('hidden.bs.modal', function () {
+            $("#detailsbtn").click();
+        });
+    });
+
 </script>
     <br>
     <hr>
