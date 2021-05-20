@@ -1,5 +1,6 @@
 body {
     background-color: #55F69D;
+    background-size: cover;
     margin: 0;
     font-family: Helvetica, sans-serif;
     font-size: 14px;
@@ -25,6 +26,7 @@ html {
 
 h1 {
     font-size: 300%;
+    color: #060606;
     margin: 0;
     padding: 0;
 }
