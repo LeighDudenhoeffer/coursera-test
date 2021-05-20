@@ -34,6 +34,10 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+footer {
+    clear: both;
+}
+
 /* Simple Responsive Framework */
 .row {
     width: 100%;
