@@ -43,3 +43,8 @@ h1 {
     font-size: 1.7em;
     margin-left: 8px;
 }
+
+/* Simple Responsive Framework */
+.row {
+    width: 100%;
+    }

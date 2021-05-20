@@ -3,6 +3,8 @@ body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     font-size: 14px;
+    font-weight: normal;
+    color: #461f04;
 }
 
 main {
@@ -21,3 +23,18 @@ html {
     background-color: #ffffff;
 }
 
+h1 {
+    font-size: 300%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Simple Responsive Framework */
+.row {
+    width: 100%;
+    }
