@@ -1,0 +1,23 @@
+body {
+    background-color: #55F69D;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.column {
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+}
+
+html {
+    background-color: #ffffff;
+}
+
