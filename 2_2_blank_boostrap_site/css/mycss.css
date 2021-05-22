@@ -51,13 +51,13 @@ a:hover {
     width: 600px;
 }
 
-.dropdown {
+/* .dropdown {
     position: relative;
     display: inline-block;
     margin: 4px;
-}
+} */
 
-.dropdown-content {
+/* .dropdown-content {
     display: none;
     position: absolute;
     min-width: 400px;
@@ -81,7 +81,7 @@ a:hover {
 
 .large-img{
     max-width:100%;
-}
+} */
 
 h1 {
     font-family: Sofia;
