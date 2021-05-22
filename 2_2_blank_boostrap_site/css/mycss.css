@@ -111,8 +111,9 @@ tr:nth-child(even) {
     background-color: rgb(230, 183, 126);
 }
 
-
-
+footer {
+    padding-top: 200px; /* needed to make space for the enlarged version of the hover photos */
+}
 
 /* Simple Responsive Framework */
 .row {
