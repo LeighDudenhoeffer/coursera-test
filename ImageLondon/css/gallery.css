@@ -33,13 +33,13 @@ a:focus {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: center;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 400px;
+  min-width: 30%;
   box-shadow: 0px 7px 15px 0px rgb(82, 112, 146);
   z-index: 1;
 }
@@ -88,3 +88,58 @@ footer {
 .row {
   width: 100%;
   }
+
+  /*********** Large devices only ***********/
+@media (min-width: 1000px) {
+  h1, h2, p {
+      width: 100%;
+  }
+}
+
+/*********** Medium devices only **********/
+@media (min-width: 500) and (max-width: 999px) {
+
+  .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 70%;
+  }
+
+  h1, h2, h3, p {
+      width: 70%;
+      font-size: small;
+  }
+
+  #wimg {
+      width: 50%;
+  }
+
+  nav a, footer {
+      width: 60%;
+      font-size: small;
+  }
+}
+
+/********** Small devices only ************/
+@media (min-width: 280px) and (max-width: 499) {
+
+  .responsive {
+      padding: 0 3px;
+      float: left;
+      width: 60%;
+  }
+
+  h1, h2, h3, p {
+      width: 50%;
+      font-size: small;
+  }
+
+  #wimg {
+      width: 40%;
+  }
+
+  nav a, footer {
+      width: 40%;
+      font-size: smaller;
+  }
+}
