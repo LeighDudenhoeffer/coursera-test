@@ -32,21 +32,20 @@ a:focus {
 }
 
 .dropdown {
-  position: relative;
   display: center;
 }
 
 .dropdown-content {
   display: none;
-  position: absolute;
   min-width: 30%;
   box-shadow: 0px 7px 15px 0px rgb(82, 112, 146);
   z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
+  margin: 0 auto;
   display: block;
-  position: absolute;
+  position: relative;
 }
 
 .desc {
@@ -107,12 +106,12 @@ footer {
   }
 
   h1, h2, h3, p {
-      width: 70%;
+      width: 60%;
       font-size: small;
   }
 
   nav a, footer {
-      width: 60%;
+      width: 50%;
       font-size: small;
   }
 }
