@@ -46,6 +46,7 @@ a:focus {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  position: absolute;
 }
 
 .desc {
@@ -110,10 +111,6 @@ footer {
       font-size: small;
   }
 
-  #wimg {
-      width: 50%;
-  }
-
   nav a, footer {
       width: 60%;
       font-size: small;
@@ -134,9 +131,6 @@ footer {
       font-size: small;
   }
 
-  #wimg {
-      width: 40%;
-  }
 
   nav a, footer {
       width: 40%;
