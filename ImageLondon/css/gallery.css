@@ -43,9 +43,9 @@ a:focus {
 }
 
 .dropdown:hover .dropdown-content {
-  margin: 0 auto;
   display: block;
-  position: relative;
+  max-width: 40%;
+  position: absolute;
 }
 
 .desc {
@@ -110,6 +110,10 @@ footer {
       font-size: small;
   }
 
+  img {
+    width: 50%;
+  }
+
   nav a, footer {
       width: 50%;
       font-size: small;
@@ -130,6 +134,9 @@ footer {
       font-size: small;
   }
 
+  img {
+    width: 30%;
+  }
 
   nav a, footer {
       width: 40%;
