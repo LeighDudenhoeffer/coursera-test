@@ -31,6 +31,14 @@ a:focus {
   color: #ff9f51;
 }
 
+h1 {
+  font-size: 210%;
+}
+
+h2 {
+  font-size: 185%;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -139,7 +147,7 @@ footer {
 
   h1, h2, h3, p {
       width: 50%;
-      font-size: small;
+      font-size: smaller;
   }
 
   #wimg {
