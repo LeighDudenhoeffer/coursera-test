@@ -29,27 +29,29 @@
 
     <div class="container">
         <div class="page-header">
-            <h1>Photo Albums (What?!? More???)</h1>
+            <h1>More photo albums!</h1>
         </div>
-        <!--A search box will go here.-->
-        <div class="navbar-form navbar-right">
-            <input id="searchbox" type="text" class="form-control" placeholder="Search...">
-        </div>
-        <ul class="nav navtabs">
+        <ul class="nav nav-tabs">
             <li role="" id="detailsbtn"><a href="#">Details</a></li>
             <li role="" id="modalbtn"><a href="#">Modal</a></li>
+            <li id="search-bar" class="pull-right">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
+            </li>
         </ul>
         <br><br>
 
-        <div id="content" class="container-fluid" role="main"></div>
+        <div id="content" class="container-fluid" role="main">
+        </div>
     </div>
 
-    <div id="modal-container"   ></div>
 
 
-    <script id="detail-template" type="text/x-handlebars-template">
 
-    </script>
+
 
     <br>
     <hr>
