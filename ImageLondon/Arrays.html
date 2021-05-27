@@ -5,8 +5,8 @@
 	<title>Templates</title>
 	<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-        crossorigin="anonymous"></script>
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
     <script src="js/handlebars-v3.0.3.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -14,46 +14,51 @@
 </head>
 
 <body role="document">
-<nav>
-    <a href="index.html">Home</a>
-    &nbsp;
-    <a href="Different.html">Space photos</a>
-    &nbsp;
-    <a href="Hover.html">Hover Demo</a>
-    &nbsp;
-    <a href="Modal.html">Modal Demo</a>
-    &nbsp;
-    <a href="Arrays.html">Array Demo</a>
-</nav>
-<hr>
 
-<div class="container">
-    <div class="page-header">
-        <h1>Photo Albums (What?!? More???</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        &nbsp;
+        <a href="Different.html">Space photos</a>
+        &nbsp;
+        <a href="Hover.html">Hover Demo</a>
+        &nbsp;
+        <a href="Modal.html">Modal Demo</a>
+        &nbsp;
+        <a href="Arrays.html">Array Demo</a>
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Photo Albums (What?!? More???)</h1>
+        </div>
+        <!--A search box will go here.-->
+        <div class="navbar-form navbar-right">
+            <input id="searchbox" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <ul class="nav navtabs">
+            <li role="" id="detailsbtn"><a href="#">Details</a></li>
+            <li role="" id="modalbtn"><a href="#">Modal</a></li>
+        </ul>
+        <br><br>
+
+        <div id="content" class="container-fluid" role="main"></div>
     </div>
-    <!--A search box will go here.-->
-    <div class="navbar-form navbar-right">
-        <input id="searchbox" type="text" class="form-control" placeholder="Search...">
-    </div>
-    <ul class="nav navtabs">
-        <li role="" id="detailsbtn"><a href="#">Details</a></li>
-        <li role="" id="modalbtn"><a href="#">Modal</a></li>
-    </ul>
-    <br><br>
-</div>
 
-<script id="detail-template" type="text/x-handlebars-template">
+    <div id="modal-container"   ></div>
 
-</script>
 
-<br>
-<hr>
-<br>
-<footer>
-    <a href="https://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe3.jpg" target="_blank">
-        Photo Credit website!</a>
-    <p>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</p>
-</footer>
+    <script id="detail-template" type="text/x-handlebars-template">
+
+    </script>
+
+    <br>
+    <hr>
+    <br>
+    <footer>
+        <a href="https://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe3.jpg" target="_blank">
+            Photo Credit website!</a>
+        <p>&copy; 2021 An alien from Mars studying HTML, CSS, and JS on Earth!</p>
+    </footer>
 
 </body>
 </html>
