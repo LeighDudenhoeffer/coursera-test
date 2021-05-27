@@ -36,7 +36,7 @@
             <li role="" id="detailsbtn"><a href="#">Details</a></li>
             <li role="" id="modalbtn"><a href="#">Modal</a></li>
             <li id="search-bar" class="pull-right">
-                <form class="navbar-form navbar-left" role="search">
+                <form class="navbar-form navbar-left" role="search" action="">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
                         <button type="submit"><i class="fa fa-search"></i></button>
@@ -48,9 +48,25 @@
 
         <div id="content" class="container-fluid" role="main">
         </div>
+        <div id="modal-container"   >
+        </div>
     </div>
 
-
+    <script id="album-template" type="text/x-handlebars-template">
+        <div class="row">
+            {{#each images}}
+            <div class="col-xs-12 col-md-3">
+                <div class="thumbnail" data-id="{{@index}}">
+                    <img class="crop-img" src="{{src}}" alt=""/>
+                    <div class="author">
+                        <h3> {{title}} </h3>
+                        <p> {{author}} </p>
+                    </div>
+                </div>
+                {{/each}}
+            </div> <!-- / col -->
+        </div> <!-- / row -->
+    </script>
 
 
 
