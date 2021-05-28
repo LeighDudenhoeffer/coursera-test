@@ -2,7 +2,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Templates</title>
+	<title>A Photo array</title>
 	<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -30,19 +30,19 @@
 
     <div class="container">
         <div class="page-header">
-            <h1>More photo albums!</h1>
+            <h1>Nebulae photos!</h1>
         </div>
-        <ul class="nav nav-tabs">
-            <li role="" id="detailsbtn"><a href="#">Details</a></li>
-            <li role="" id="modalbtn"><a href="#">Modal</a></li>
-            <li id="search-bar" class="pull-right">
+        <div id="search-bar" class="pull-right">
                 <form class="navbar-form navbar-left" role="search" action="">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </div>
                 </form>
-            </li>
+        </div>
+        <ul class="nav nav-tabs">
+            <li role="" id="detailsbtn"><a href="#">Details</a></li>
+            <li role="" id="modalbtn"><a href="#">Modal</a></li>
         </ul>
         <br><br>
 
@@ -120,18 +120,18 @@
             author:"Mohamad Abbas"
             },
 
-            ]};
+        ]};
 
-            var html    = template(data);
-            $('#content').html(html);
+        var html    = template(data);
+        $('#content').html(html);
 
         function displayModal(event){
             var imageNumber = $(this).data("id");
             var html    = modal_template(data.images[imageNumber]);
 
-        $('#modal-container').html(html);
+            $('#modal-container').html(html);
 
-        $("#imageModal").modal('show');
+            $("#imageModal").modal('show');
 
         $('.thumbnail').click(displayModal);
 
