@@ -32,6 +32,7 @@
         <div class="page-header">
             <h1>Nebulae photos!</h1>
         </div>
+
         <div id="search-bar" class="pull-right">
                 <form class="navbar-form navbar-left" role="search" action="">
                     <div class="form-group">
@@ -39,7 +40,8 @@
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </div>
                 </form>
-        </div>
+        </div> <!-- to be utilized later-->
+
         <ul class="nav nav-tabs">
             <li role="" id="detailsbtn"><a href="#">Details</a></li>
             <li role="" id="modalbtn"><a href="#">Modal</a></li>
@@ -57,15 +59,16 @@
         <div class="row">
             {{#each images}}
             <div class="col-xs-12 col-md-3">
-                <div class="thumbnail" data-id="{{@index}}">
-                    <img class="crop-img" src="{{src}}" alt=""/>
-                    <div class="author">
-                        <h3> {{title}} </h3>
-                        <p> {{author}} </p>
-                    </div>
+            <div class="thumbnail" data-id="{{@index}}">
+                <img class="crop-img" src="{{src}}" alt=""/>
+                <div class="author">
+                    <h3> {{title}} </h3>
+                    <p> {{author}} </p>
                 </div>
-                {{/each}}
+                </div>
+
             </div> <!-- / col -->
+            {{/each}}
         </div> <!-- / row -->
     </script>
     <!-- this 2nd template displays a modal pop-up of the image-->
