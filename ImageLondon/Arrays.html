@@ -122,7 +122,27 @@
 
             ]};
 
+            var html    = template(data);
+            $('#content').html(html);
 
+        function displayModal(event){
+        // get the index (position in the array)
+        // of the photo we clicked on
+        // "this" is the element that was clicked on
+        // data("id") gets the attribute data-id
+        // (which we set to the index of the photo in
+        // the array - @index)
+        var imageNumber = $(this).data("id");
+
+        // get the image out of the array using the image
+        // number and render it using the modal template
+        var html    = modal_template(data.images[imageNumber]);
+        // put the modal template in the DOM
+        $('#modal-container').html(html);
+
+        // show the modal
+        $("#imageModal").modal('show');
+    }
     </script>
 
     <br>
