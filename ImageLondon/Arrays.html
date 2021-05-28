@@ -58,7 +58,7 @@
     <script id="album-template" type="text/x-handlebars-template">
         <div class="row">
             {{#each images}}
-            <div class="col-xs-12 col-md-3">
+            <div class="col-xs-12 col-md-2">
             <div class="thumbnail" data-id="{{@index}}">
                 <img class="crop-img" src="{{src}}" alt=""/>
                 <div class="author">
@@ -86,7 +86,7 @@
 </body>
 
     <script type="text/javascript">
-        var source  = $("#modal-template").html();
+        var source  = $("#album-template").html();
         var template = Handlebars.compile(source);
 
         source  = $("#modal-template").html();

@@ -39,6 +39,10 @@ h2 {
   font-size: 185%;
 }
 
+h3 {
+  font-size: 110%;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
