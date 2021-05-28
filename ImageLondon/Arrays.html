@@ -52,6 +52,7 @@
         </div>
     </div>
 
+    <!-- first template displays many photos in an album -->
     <script id="album-template" type="text/x-handlebars-template">
         <div class="row">
             {{#each images}}
@@ -67,9 +68,62 @@
             </div> <!-- / col -->
         </div> <!-- / row -->
     </script>
+    <!-- this 2nd template displays a modal pop-up of the image-->
+    <script id="modal-template" type="text/x-handlebars-template">
+        <div id="imageModal" class="modal fade" role="dialog">
+            <div class="modal-dialog" style="width: 600">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img style="width: 100%;" src="{{src}}"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/javascript">
+        var source  = $("#modal-template").html();
+        var template = Handlebars.compile(source);
+
+        source  = $("#modal-template").html();
+        var modal_template = Handlebars.compile(source);
+
+        var data = {images:[
+            {
+        src: "https://brownspaceman.com/wp-content/uploads/2014/05/NGC2237_Ha-S-O_DN-Half-1024x682.jpg",
+            title: "The Rosette Nebula May 16, 2014",
+            author: "Zain Husain",
+            },
+            {
+        src: "https://www.brownspaceman.com/wp-content/uploads/2014/05/rosette_lula_1700.jpg",
+            title:"",
+            author:""
+            },
+            {
+        src: "https://www.brownspaceman.com/wp-content/uploads/2014/05/rosette_lula_1700.jpg",
+            title:"",
+            author:""
+            },
+            {
+        src: "https://www.brownspaceman.com/wp-content/uploads/2014/05/rosette_lula_1700.jpg",
+            title:"",
+            author:""
+            },
+            {
+        src: "https://www.brownspaceman.com/wp-content/uploads/2014/05/rosette_lula_1700.jpg",
+            title:"",
+            author:""
+            },
+            {
+        src: "https://www.brownspaceman.com/wp-content/uploads/2014/05/rosette_lula_1700.jpg",
+            title:"",
+            author:""
+            },
+
+            ]};
 
 
-
+    </script>
 
     <br>
     <hr>
