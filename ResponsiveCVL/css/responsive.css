@@ -13,13 +13,6 @@ main {
     margin: 0 auto;
 }
 
-.column {
-    width: 30%;
-    display: inline-block;
-    float: left;
-    margin-left: 2%;
-}
-
 html {
     background-color: #ffffff;
 }
@@ -45,3 +38,12 @@ footer {
 .row {
     width: 100%;
     }
+
+@media screen and (min-width: 778px) {
+    .column {
+        width: 30%;
+        display: inline-block;
+        float: left;
+        margin-left: 2%;
+    }
+}

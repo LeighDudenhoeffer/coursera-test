@@ -32,7 +32,7 @@ a:focus {
 }
 
 h1 {
-  font-size: 210%;
+  font-size: 200%;
 }
 
 h2 {
@@ -115,3 +115,10 @@ footer {
 .row {
   width: 100%;
   }
+
+  @media screen and (min-width: 778px) {
+    .image-template {
+        width: 30%;
+        height: 30%;
+    }
+}
