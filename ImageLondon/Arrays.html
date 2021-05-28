@@ -25,149 +25,21 @@
         &nbsp;
         <a href="Modal.html">Modal Demo</a>
         &nbsp;
-        <a href="Arrays.html">Array Demo</a>
+        <a href="Arrays.html">Nebulae</a>
     </nav>
 
     <div class="container">
         <div class="page-header">
             <h1>Nebulae photos!</h1>
+            <h2>Click on each photo to see a larger version!</h2>
         </div>
 
-        <div id="search-bar" class="pull-right">
-                <form class="navbar-form navbar-left" role="search" action="">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                    </div>
-                </form>
-        </div> <!-- to be utilized later-->
-
-        <ul class="nav nav-tabs">
-            <li role="" id="detailsbtn"><a href="#">Details</a></li>
-            <li role="" id="modalbtn"><a href="#">Modal</a></li>
-        </ul>
-        <br><br>
-
-        <div id="content" class="container-fluid" role="main">
-        </div>
-        <div id="modal-container"   >
-        </div>
-    </div>
-
-    <!-- first template displays many photos in an album -->
-    <script id="album-template" type="text/x-handlebars-template">
-        <div class="row">
-            {{#each images}}
-            <div class="col-xs-12 col-md-2">
-            <div class="thumbnail" data-id="{{@index}}">
-                <img class="crop-img" src="{{src}}" alt=""/>
-                <div class="author">
-                    <h3> {{title}} </h3>
-                    <p> {{author}} </p>
-                </div>
-                </div>
-
-            </div> <!-- / col -->
-            {{/each}}
-        </div> <!-- / row -->
-    </script>
-    <!-- this 2nd template displays a modal pop-up of the image-->
-    <script id="modal-template" type="text/x-handlebars-template">
-        <div id="imageModal" class="modal fade" role="dialog">
-            <div class="modal-dialog"  style="width:800">
-                <div class="modal-content">
-                <div class="modal-body">
-                    <img  style="width:100%" src="{{src}}"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </script>
-</body>
-
-    <script type="text/javascript">
-        var source  = $("#album-template").html();
-        var template = Handlebars.compile(source);
-
-        source  = $("#modal-template").html();
-        var modal_template = Handlebars.compile(source);
-
-        var data = {images:[
-            {
-        src: "https://brownspaceman.com/wp-content/uploads/2014/05/NGC2237_Ha-S-O_DN-Half-1024x682.jpg",
-            title: "The Rosette Nebula May 16, 2014",
-            author: "Zain Husain",
-            },
-            {
-        src: "https://brownspaceman.com/wp-content/uploads/2014/05/rosette_lula_1700-1024x704.jpg",
-            title:"The Rosette Nebula-another view",
-            author:"Brian Lula",
-            },
-            {
-        src: "https://brownspaceman.com/wp-content/uploads/2014/05/rosette-nebula-1024x640.jpg",
-            title:"Rosette Nebula as seen through the Hubble telescope",
-            author:"NASA",
-            },
-            {
-        src: "https://brownspaceman.com/wp-content/uploads/2014/05/rosetteSho2-1024x682.jpg",
-            title:"Rosette Nebula Show",
-            author:"Bob Franke",
-            },
-            {
-        src: "https://www.universetoday.com/wp-content/uploads/2009/06/Dumbbell-Nebula.jpg",
-            title:"The Dumbell Nebula",
-            author:"Universe Today"
-            },
-            {
-        src: "https://www.universetoday.com/wp-content/uploads/2009/06/M27_by_Mohamad_Abbas-e1479760930344.jpg",
-            title:"M27 Nebula",
-            author:"Mohamad Abbas"
-            },
-
-        ]};
-
-        var html    = template(data);
-        $('#content').html(html);
-
-        function displayModal(event){
-            var imageNumber = $(this).data("id");
-            var html    = modal_template(data.images[imageNumber]);
-
-            $('#modal-container').html(html);
-
-            $("#imageModal").modal('show');
-
-        $('.thumbnail').click(displayModal);
-
-        $('#searchbox').keypress(function (e) {
-            if (e.which == 13) {
-                var search_text = $('#searchbox').val();
-
-            console.log(search_text)
-
-            var filteredData = {
-
-            images: data.images.filter(function(d){
-
-            if (d.title.search(search_text) > -1){
-                return true;
-            }
-
-            if (d.author.search(search_text) > -1){
-                return true;
-            }
-
-            return false;
-            })
-        };
-
-        var html    = template(filteredData);
-        $('#content').html(html);
-        $('.thumbnail').click(displayModal);
-        }
-    });
-    }
-    </script>
+        <a href="Nebula_photo1.html"><img class="photo_list" src="https://brownspaceman.com/wp-content/uploads/2014/05/NGC2237_Ha-S-O_DN-Half-1024x682.jpg"></a>
+        <a href="Nebula_photo2.html"><img class="photo_list" src="https://brownspaceman.com/wp-content/uploads/2014/05/rosette_lula_1700-1024x704.jpg"></a>
+        <a href="Nebula_photo3.html"><img class="photo_list" src="https://brownspaceman.com/wp-content/uploads/2014/05/rosette-nebula-1024x640.jpg"></a>
+        <a href="Nebula_photo4.html"><img class="photo_list" src="https://brownspaceman.com/wp-content/uploads/2014/05/rosetteSho2-1024x682.jpg"></a>
+        <a href="Nebula_photo5.html"><img class="photo_list" src="https://www.universetoday.com/wp-content/uploads/2009/06/Dumbbell-Nebula.jpg"></a>
+        <a href="Nebula_photo6.html"><img class="photo_list" src="https://www.universetoday.com/wp-content/uploads/2009/06/M27_by_Mohamad_Abbas-e1479760930344.jpg" alt=""></a>
 
     <br>
     <hr>
