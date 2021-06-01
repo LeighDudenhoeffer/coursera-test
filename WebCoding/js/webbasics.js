@@ -18,6 +18,7 @@ function aFunction() {
     document.getElementById("demo2").innerHTML="How are you today?"
 };
 
+// code for hover pics begin here:
 function upDate(previewPic){
     var src = previewPic.getAttribute("src");
     var alt = previewPic.getAttribute("alt");
