@@ -88,24 +88,24 @@ h3 {
 }
 
 #image {
-  line-height: 425px;
+  line-height: 525px;
   width: 90%;
-  height: 425px;
+  height: 525px;
   margin: 0 auto;
   background-image: url('');
   background-repeat: no-repeat;
   color: #5f0404;
   text-align: center;
   background-size: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   font-size: 155%;
 }
 
 .preview{
   width: 10%;
   height: auto;
-  margin-left: 10%;
-  border: 2px solid #060606;
+  margin-left: 8%;
+  border: 1px solid #060606;
 }
 
 .carousel-img{
