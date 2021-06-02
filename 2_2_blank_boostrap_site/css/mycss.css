@@ -94,14 +94,14 @@ tr:nth-child(even) {
     }
 
 /*********** Large devices only ***********/
-/* @media (min-width: 1000px) {
+@media (min-width: 1000px) {
     h1, h2, p {
         width: 100%;
     }
-} */
+}
 
 /*********** Medium devices only **********/
-/* @media (min-width: 500) and (max-width: 999px) {
+@media (min-width: 501px) and (max-width: 768px) {
 
     .responsive {
         padding: 0 6px;
@@ -109,7 +109,7 @@ tr:nth-child(even) {
         width: auto;
     }
 
-    h1, h2, h3 {
+    a, h1, h2, h3 {
         width: 70%;
         font-size: small;
     }
@@ -118,14 +118,18 @@ tr:nth-child(even) {
         width: 30%;
     }
 
+    .slides {
+        width: 40%;
+    }
+
     nav, nav a, footer {
         width: 60%;
         font-size: small;
     }
-} */
+}
 
 /********** Small devices only ************/
-/* @media (min-width: 280px) and (max-width: 499) {
+@media (min-width: 250px) and (max-width: 500px) {
 
     .responsive {
         padding: 0 6px;
@@ -133,12 +137,21 @@ tr:nth-child(even) {
         width: auto;
     }
 
-    h1, h2, h3 {
+    .album_cover {
+        width: 30%;
+    }
+
+    a, h1, h2, h3 {
         width: 60%;
         font-size: small;
     }
-    nav, nav a, footer {
+
+    .slides {
         width: 40%;
+    }
+
+    nav, nav a, footer {
+        width: 50%;
         font-size: small;
     }
-} */
+}
