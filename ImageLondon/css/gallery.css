@@ -46,7 +46,6 @@ h3 {
 .dropdown {
   position: relative;
   display: inline-block;
-  /* display: center; */
 }
 
 .dropdown-content {
@@ -88,6 +87,27 @@ h3 {
   max-width:100%;
 }
 
+#image {
+  line-height: 425px;
+  width: 90%;
+  height: 425px;
+  margin: 0 auto;
+  background-image: url('');
+  background-repeat: no-repeat;
+  color: #5f0404;
+  text-align: center;
+  background-size: 100%;
+  margin-bottom: 25px;
+  font-size: 155%;
+}
+
+.preview{
+  width: 10%;
+  height: auto;
+  margin-left: 10%;
+  border: 2px solid #060606;
+}
+
 .carousel-img{
     margin: auto;
     padding: 10px;
@@ -96,7 +116,7 @@ h3 {
 }
 
 .thumbnail,.nav, .large-img, .crop-img{
-  border-radius: 25px;
+  border-radius: 20px;
   padding-top:5px;
 }
 
