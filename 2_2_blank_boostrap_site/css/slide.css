@@ -58,7 +58,7 @@ img {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: relative;
+    width: auto;
     padding: 16px;
     margin-top: -22px;
     color: #060606;
@@ -86,7 +86,6 @@ img {
     position: absolute;
     top: 0;
 }
-
 
 /* Simple Responsive Framework */
 .row {
