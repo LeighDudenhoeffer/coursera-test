@@ -22,7 +22,7 @@ nav {
 }
 
 h1 {
-    font-size: 150%;
+    font-size: 1.6em;
     font-weight: bold;
     font-family: Sofia;
 }
@@ -50,14 +50,15 @@ img {
 .slideshow-container {
     max-width: 400px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: auto;
+    width: relative;
     padding: 16px;
     margin-top: -22px;
     color: #060606;
@@ -108,21 +109,16 @@ img {
         width: auto;
     }
 
-    a, h1, h2, h3 {
-        width: 70%;
-        font-size: small;
-    }
-
-    .album_cover {
+    /* .album_cover {
         width: 30%;
-    }
+    } */
 
     .slides {
         width: 40%;
     }
 
-    nav, nav a, footer {
-        width: 60%;
+    footer {
+        width: 70%;
         font-size: small;
     }
 }
@@ -136,20 +132,15 @@ img {
         width: auto;
     }
 
-    .album_cover {
+    /* .album_cover {
         width: 30%;
-    }
-
-    a, h1, h2, h3 {
-        width: 60%;
-        font-size: small;
-    }
+    } */
 
     .slides {
         width: 40%;
     }
 
-    nav, nav a, footer {
+    footer {
         width: 50%;
         font-size: small;
     }

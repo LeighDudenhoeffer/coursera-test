@@ -1,3 +1,5 @@
+
+
 body {
     background-image: url('../images/pexels-djalma-paiva-armelin-705314_60opaq_sm.jpg');
     background-color: rgb(141, 238, 205);
@@ -99,8 +101,3 @@ tr:nth-child(even) {
 .row {
     width: 100%;
     }
-
-/* For mobile phones
-[class*="col-"] {
-    width: 100%;
-} */
