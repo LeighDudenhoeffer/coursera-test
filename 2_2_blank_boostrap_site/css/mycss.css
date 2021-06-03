@@ -51,6 +51,13 @@ a:hover {
     width: 600px;
 }
 
+.hummingbird_large {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 .crop-img{
     max-height:150px;
     max-width:100%;
@@ -93,9 +100,7 @@ tr:nth-child(even) {
     width: 100%;
     }
 
-@media screen and (min-width: 670px) {
-    .photo_large {
-        width: 30%;
-        height: 30%;
-    }
-}
+/* For mobile phones
+[class*="col-"] {
+    width: 100%;
+} */
