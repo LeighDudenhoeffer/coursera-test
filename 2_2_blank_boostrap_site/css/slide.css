@@ -53,9 +53,9 @@ img {
 }
 
 .slideshow-container {
-    max-width: 600px;
+    max-width: 400px;
     position: relative;
-    /* margin-left: 0; */
+    margin-left: 0;
     margin-right: auto;
 }
 
