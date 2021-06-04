@@ -34,7 +34,7 @@ a:link {
 }
 
 .container {
-    position: relative;
+    position: absolute;
 }
 
 a:hover {
@@ -44,7 +44,6 @@ a:hover {
 
 .slides {
     display: none;
-    width: auto;
 }
 
 img {
@@ -55,7 +54,7 @@ img {
 .slideshow-container {
     max-width: 400px;
     position: relative;
-    margin-left: 0;
+    margin-left: auto;
     margin-right: auto;
 }
 
