@@ -108,17 +108,13 @@ img {
         width: auto;
     }
 
-    /* .album_cover {
-        width: 30%;
-    } */
-
-    .slides {
-        width: 40%;
+    .slideshow-container {
+        max-width: 365px;
     }
 
     footer {
         width: 70%;
-        font-size: small;
+        font-size: medium;
     }
 }
 
@@ -131,16 +127,12 @@ img {
         width: auto;
     }
 
-    /* .album_cover {
-        width: 30%;
-    } */
-
-    .slides {
-        width: 40%;
+    .slideshow-container {
+        max-width: 275px;
     }
 
     footer {
         width: 50%;
-        font-size: small;
+        font-size: medium;
     }
 }
