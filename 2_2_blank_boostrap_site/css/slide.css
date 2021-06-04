@@ -25,6 +25,7 @@ h1 {
     font-size: 1.6em;
     font-weight: bold;
     font-family: Sofia;
+    text-align: center;
 }
 
 a:link {
@@ -55,7 +56,6 @@ img {
 .slideshow-container {
     max-width: 400px;
     position: relative;
-    margin-left: 0;
     margin-right: auto;
 }
 
@@ -64,7 +64,7 @@ img {
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 16px;
+    padding: 10px;
     margin-top: -22px;
     color: #060606;
     font-size: 20px;
@@ -100,8 +100,9 @@ footer {
 
 /*********** Large devices only ***********/
 @media (min-width: 1000px) {
-    h1, h2, p {
+    h1, h2, p, footer {
         width: 100%;
+        text-align: center;
     }
 }
 
@@ -114,12 +115,12 @@ footer {
         width: auto;
     }
 
-    h1, h2, p {
+    h1, h2, p, footer {
         text-align: center;
     }
 
     .slideshow-container {
-        max-width: 350px;
+        max-width: 370px;
     }
 }
 
@@ -132,11 +133,11 @@ footer {
         width: auto;
     }
 
-    h1, h2, p {
+    h1, h2, p, footer {
         text-align: center;
     }
 
     .slideshow-container {
-        max-width: 270px;
+        max-width: 260px;
     }
 }
