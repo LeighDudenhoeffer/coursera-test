@@ -87,6 +87,12 @@ img {
     top: 0;
 }
 
+footer {
+    font-family: 'Sofia';
+    font-size: 1.1em;
+    text-align: center;
+}
+
 /* Simple Responsive Framework */
 .row {
     width: 100%;
@@ -108,12 +114,12 @@ img {
         width: auto;
     }
 
-    .slideshow-container {
-        max-width: 350px;
+    h1, h2, p {
+        text-align: center;
     }
 
-    footer {
-        width: 90%;
+    .slideshow-container {
+        max-width: 350px;
     }
 }
 
@@ -126,11 +132,11 @@ img {
         width: auto;
     }
 
-    .slideshow-container {
-        max-width: 270px;
+    h1, h2, p {
+        text-align: center;
     }
 
-    footer {
-        width: 80%;
+    .slideshow-container {
+        max-width: 270px;
     }
 }
