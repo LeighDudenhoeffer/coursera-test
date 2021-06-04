@@ -13,9 +13,9 @@ main {
     margin: 0 auto;
 }
 
-/* html {
-    background-color: #ffffff;
-} */
+nav {
+    margin: 16px;
+}
 
 h1 {
     font-size: 300%;
@@ -29,8 +29,17 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#intro {
+    margin-left: 20px;
+}
+
 footer {
-    padding: 30px;
+    padding: 24px;
     clear: both;
 }
 
