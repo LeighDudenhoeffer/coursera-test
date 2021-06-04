@@ -55,7 +55,7 @@ img {
 .slideshow-container {
     max-width: 400px;
     position: relative;
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
 }
 
