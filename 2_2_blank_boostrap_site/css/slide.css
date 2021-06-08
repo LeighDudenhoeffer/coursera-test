@@ -34,22 +34,17 @@ a:link {
     font-weight: bold;
 }
 
-/* .container {
-    position: absolute;
-} */
-
 a:hover {
     color: rgb(8, 165, 8);
     font-weight: bold;
 }
 
 img {
-    /* vertical-align: middle; */
     border-radius: 8px;
 }
 
 .slides {
-    display: block;
+    /* display: block; */
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -101,7 +96,13 @@ footer {
     }
 
 /*********** Large devices only ***********/
-@media (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
+
+    .responsive {
+        padding: 0 6px;
+        float: left;
+    }
+
     h1, h2, p, footer {
         width: 100%;
         text-align: center;
@@ -114,7 +115,6 @@ footer {
     .responsive {
         padding: 0 6px;
         float: left;
-        width: auto;
     }
 
     h1, h2, p {
@@ -123,12 +123,11 @@ footer {
 }
 
 /********** Small devices only ************/
-@media (min-width: 240px) {
+@media (min-width: 240px) and (max-width: 500px) {
 
     .responsive {
         padding: 0 6px;
         float: left;
-        /* width: auto; */
     }
 
     h1, h2, p {
