@@ -43,20 +43,19 @@ a:hover {
     font-weight: bold;
 }
 
-.slides {
-    display: none;
-}
-
 img {
     vertical-align: middle;
     border-radius: 8px;
 }
 
+.slides {
+    display: none;
+}
+
 .slideshow-container {
-    max-width: 400px;
+    max-width: 100%;
     position: relative;
-    margin-left: 0;
-    margin-right: auto;
+    margin: auto;
 }
 
 .next {
@@ -107,7 +106,7 @@ footer {
 }
 
 /*********** Medium devices only **********/
-@media (min-width: 241px) and (max-width: 768px) {
+@media (min-width: 501px) and (max-width: 768px) {
 
     .responsive {
         padding: 0 6px;
@@ -117,10 +116,6 @@ footer {
 
     h1, h2, p {
         text-align: center;
-    }
-
-    .slideshow-container {
-        max-width: 470px;
     }
 }
 
@@ -135,9 +130,5 @@ footer {
 
     h1, h2, p {
         text-align: center;
-    }
-
-    .slideshow-container {
-        min-width: 220px;
     }
 }
