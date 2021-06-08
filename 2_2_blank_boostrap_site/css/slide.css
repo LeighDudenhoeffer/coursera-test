@@ -99,7 +99,7 @@ footer {
     }
 
 /*********** Large devices only ***********/
-@media (min-width: 1000px) {
+@media (max-width: 1400px) {
     h1, h2, p, footer {
         width: 100%;
         text-align: center;
@@ -107,7 +107,7 @@ footer {
 }
 
 /*********** Medium devices only **********/
-@media (min-width: 501px) and (max-width: 768px) {
+@media (min-width: 241px) and (max-width: 768px) {
 
     .responsive {
         padding: 0 6px;
@@ -120,17 +120,17 @@ footer {
     }
 
     .slideshow-container {
-        max-width: 370px;
+        max-width: 470px;
     }
 }
 
 /********** Small devices only ************/
-@media (min-width: 250px) and (max-width: 500px) {
+@media (min-width: 240px) {
 
     .responsive {
         padding: 0 6px;
         float: left;
-        width: auto;
+        /* width: auto; */
     }
 
     h1, h2, p {
@@ -138,6 +138,6 @@ footer {
     }
 
     .slideshow-container {
-        max-width: 260px;
+        min-width: 220px;
     }
 }
