@@ -13,30 +13,6 @@ main {
     margin: 0 auto;
 }
 
-nav {
-    border-radius: 8px;
-    display: inline-block;
-    width: 20%;
-    min-width: 150px;
-    margin-top: 15px;
-    margin-right: 15px;
-    height: 50vh;
-    float: left;
-}
-
-nav a{
-    box-sizing: border-box;
-    display: block;
-    line-height: 45px;
-    height: 50px;
-    color: #060606;
-    background-color: #c67bd3;
-    text-decoration: none;
-    border-radius: 14px;
-    margin: 1% 2% 1% 8%;
-    padding: .2% 6%;
-}
-
 h1 {
     font-size: 250%;
     color: #060606;
