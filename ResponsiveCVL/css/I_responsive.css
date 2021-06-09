@@ -58,7 +58,7 @@ footer {
     width: 100%;
     }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
     .column {
         width: 30%;
         display: inline-block;
@@ -67,7 +67,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
     body {
         background-color: rgb(139, 216, 241);
         font-size: 12px;
@@ -83,7 +83,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
     body {
         background-color: rgb(233, 151, 151);
         font-size: 10px;

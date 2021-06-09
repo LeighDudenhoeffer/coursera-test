@@ -30,7 +30,7 @@ nav a {
     padding: 1% 2%;
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 992px) {
 
     body {
         background-color: rgb(248, 158, 135);
