@@ -13,10 +13,17 @@ main {
     margin: 0 auto;
 }
 
-nav {
-    margin: 16px;
+nav a {
+    box-sizing: border-box;
     display: inline-block;
-
+    line-height: 45px;
+    height: 50px;
+    color: #060606;
+    background-color: #c67bd3;
+    text-decoration: none;
+    border-radius: 14px;
+    margin: 1% 2% 1% 8%;
+    padding: .2% 6%;
 }
 
 h1 {
