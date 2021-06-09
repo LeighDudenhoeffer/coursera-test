@@ -22,12 +22,12 @@ nav a {
     background-color: #c67bd3;
     text-decoration: none;
     border-radius: 14px;
-    margin: 1% 2% 1% 8%;
+    margin: 1% 2% 1% 2%;
     padding: .2% 6%;
 }
 
 h1 {
-    font-size: 250%;
+    font-size: 150%;
     color: #060606;
     margin: 0;
     padding: 0;
@@ -70,10 +70,28 @@ footer {
     body {
         background-color: rgb(139, 216, 241);
     }
+
+    main {
+        width: 90%;
+    }
+
+    nav a {
+        display: block;
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     body {
         background-color: rgb(233, 151, 151);
+    }
+
+    main {
+        width: 85%;
+    }
+
+    nav a {
+        display: block;
+        width: 50%;
     }
 }
