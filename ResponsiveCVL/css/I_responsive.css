@@ -13,6 +13,12 @@ main {
     margin: 0 auto;
 }
 
+nav {
+    margin: 16px;
+    display: inline-block;
+
+}
+
 h1 {
     font-size: 250%;
     color: #060606;
@@ -57,17 +63,10 @@ footer {
     body {
         background-color: rgb(139, 216, 241);
     }
-    nav a {
-        display: block;
-    }
 }
 
 @media only screen and (max-width: 450px) {
     body {
         background-color: rgb(233, 151, 151);
-    }
-
-    nav a {
-        display: block;
     }
 }
