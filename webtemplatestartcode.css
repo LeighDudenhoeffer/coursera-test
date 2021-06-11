@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url('../images/British-Wallpapers-HD-Opacity64-mda.jpg');
+    background-image: url();
     background-color: rgb(92, 189, 156);
     background-position: center;
     background-repeat: repeat;
@@ -48,3 +48,15 @@ h1 {
 .row {
     width: 100%;
     }
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 450px) {
+
+}
