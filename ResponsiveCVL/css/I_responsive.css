@@ -28,12 +28,14 @@ nav a {
 
 h1 {
     font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
     color: #060606;
     margin: 0;
     padding: 0;
 }
 
-h1, h2 {
+h2 {
     font-size: 110%;
     text-align: center;
     text-transform: uppercase;
@@ -46,6 +48,7 @@ h3 {
 
 #intro {
     margin-left: 20px;
+    font-size: 140%;
 }
 
 footer {
