@@ -1,5 +1,8 @@
 body {
+    background-image: url('../images/theBayofGB_60opaq.jpg');
     background-color: #8df8bd;
+    background-position: center;
+    background-repeat: repeat;
     background-size: cover;
     margin: 0;
     font-family: Helvetica, sans-serif;
@@ -72,6 +75,10 @@ footer {
 
 @media only screen and (max-width: 768px) {
     body {
+        background-image: url('../images/WinterPine_60opaq.jpg');
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
         background-color: rgb(139, 216, 241);
         font-size: 12px;
     }
@@ -88,6 +95,10 @@ footer {
 
 @media only screen and (max-width: 480px) {
     body {
+        background-image: url('../images/20190720_113651_60opaq.jpg');
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
         background-color: rgb(233, 151, 151);
         font-size: 10px;
     }
