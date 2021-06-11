@@ -1,5 +1,8 @@
 body {
+    background-image: url('../images/theBayofGB_60opaq.jpg');
     background-color: #8df8bd;
+    background-position: center;
+    background-repeat: repeat;
     background-size: cover;
     margin: 0;
     font-family: Helvetica, sans-serif;
@@ -33,7 +36,11 @@ nav a {
 @media all and (min-width: 992px) {
 
     body {
+        background-image: url('../images/WinterPine_60opaq.jpg');
         background-color: rgb(248, 158, 135);
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
     }
 
     nav {
