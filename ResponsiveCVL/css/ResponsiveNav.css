@@ -16,7 +16,7 @@ body {
 nav {
     border-radius: 18px;
     color: #060606;
-    background-color: #c67bd3;
+    background-color: #9e79a5;
     overflow: auto;
     padding-left: 4%;
 }
@@ -27,10 +27,14 @@ nav a {
     line-height: 45px;
     height: 50px;
     color: #060606;
-    background-color: #c67bd3;
+    background-color: #9e79a5;
     text-decoration: none;
     margin: 1% 2% 1% 4%;
     padding: 1% 2%;
+}
+
+div {
+    width: 50%;
 }
 
 @media all and (min-width: 992px) {
@@ -45,7 +49,7 @@ nav a {
 
     nav {
         color:#060606;
-        background-color: #c67bd3;
+        background-color: #9e79a5;
         display: inline-block;
         width: 18%;
         margin-right: 15px;
@@ -58,7 +62,7 @@ nav a {
         line-height: 45px;
         height: 45px;
         color: #060606;
-        background-color: #c67bd3;
+        background-color: #9e79a5;
         text-decoration: none;
     }
 
