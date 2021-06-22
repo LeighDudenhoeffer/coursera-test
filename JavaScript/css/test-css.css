@@ -1,0 +1,13 @@
+section {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+p.intro {font-size: 2em;}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
