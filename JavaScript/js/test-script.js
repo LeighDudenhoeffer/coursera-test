@@ -10,8 +10,8 @@ if ( test != "testing") {
     alert ("You've changed something!") // != will return this message
 }
 
-var myVariable = 7
-if (myVariable > 5) {
+var myVariable = 9
+if (myVariable > 3) {
     alert ("upper")
 } else {
     alert ("lower")
