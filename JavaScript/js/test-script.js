@@ -1,19 +1,23 @@
-var friends = ['Leigh', 'Mark', 'Judith', 'Terrence']
+var friends = ['Good afternoon, Leigh', 'I am happy for you!', 'Hey, have a peach!', 'Greetings, Miss Pepper']
 
-alert (friends [0])
+alert (friends [0]);
 
+document.getElementById("demo").innerHTML = "My First JavaScript!"
 
-var test = "testing";
-if ( test != "testing") {
-    alert ("You haven't change anything."); // == and = will return this message
+// var happy = true;
+// var sad = false;
+
+// if (happy) {
+//     alert (friends [1]);
+// } else {
+//     alert (friends [2]);
+// }
+
+var red = true;
+var blue = false;
+
+if (red) {
+
 } else {
-    alert ("You've changed something!") // != will return this message
-}
 
-var myVariable = 11
-if (myVariable > 6) {
-    alert ("higher than 6")
-} else {
-    alert ("lower than 6")
 }
-
