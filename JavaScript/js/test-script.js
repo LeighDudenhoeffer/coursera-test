@@ -1,6 +1,6 @@
-var friends = ['Jack', 'Jill', 'Judith', 'Terrence']
+var friends = ['Leigh', 'Mark', 'Judith', 'Terrence']
 
-alert (friends [2])
+alert (friends [0])
 
 
 var test = "testing";
@@ -10,10 +10,10 @@ if ( test != "testing") {
     alert ("You've changed something!") // != will return this message
 }
 
-var myVariable = 9
-if (myVariable > 3) {
-    alert ("upper")
+var myVariable = 11
+if (myVariable > 6) {
+    alert ("higher than 6")
 } else {
-    alert ("lower")
+    alert ("lower than 6")
 }
 
