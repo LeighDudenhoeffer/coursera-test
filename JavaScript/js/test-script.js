@@ -2,7 +2,7 @@ var friends = ['Good afternoon, Leigh', 'I am happy for you!', 'Hey, have a peac
 
 alert (friends [0]);
 
-document.getElementById("demo").innerHTML = "My First JavaScript!"
+document.getElementById("demo").innerHTML = "This is not my First JavaScript!"
 
 // var happy = true;
 // var sad = false;
@@ -16,8 +16,9 @@ document.getElementById("demo").innerHTML = "My First JavaScript!"
 var red = true;
 var blue = false;
 
-if (red) {
-
-} else {
-
+if ( red ) {
+    document.getElementById("red").innerHtml = "This is true!"
+}
+else {
+    document.getElementById("blue").innerHTML = "This is false!"
 }
