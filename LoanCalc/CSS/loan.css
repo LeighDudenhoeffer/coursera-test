@@ -13,9 +13,9 @@ body {
     text-decoration: underline; /* for element with id="payment" */
 }
 
-/* #graph {
+#graph {
     border: solid #000000 1px;
-} */
+}
 
 th, td {
     vertical-align: top; /* Don't center the table cells */
