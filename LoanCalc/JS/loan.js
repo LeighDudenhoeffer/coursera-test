@@ -101,9 +101,10 @@ function getLenders(amount, apr, years, zipcode) {
             // Convert array of lender objects to HTML
             var list = "";
             for(var i = 0; i < lenders.length; i++) {
-                list += "<li>"
+                list += "<li><a href='" + lenders[i].url + "'>" + lenders[i].name +"</a>";
             }
-            //
+            // Display the returned HTML
+            ad.innerHTML = "<ul>" + list + "</ul>";
         }
     }
 }
