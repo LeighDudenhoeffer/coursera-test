@@ -89,4 +89,21 @@ function getLenders(amount, apr, years, zipcode) {
     var req = new XMLHttpRequest();
     req.open("GET", url);
     req.send(null);
+
+    // register the event handler function that will be called at a later time when the server response
+    // arrives
+    req.onreadystatechange = function() {
+        if (req.readyState == 4 && req.status == 200) {
+            // If we're here, then we received a valid HTTP response
+            var response = req.responseText         // HTTP response as a string
+            var lenders = JSON.parse(response);     // Parse it to a JS array
+
+            // Convert array of lender objects to HTML
+            var list = "";
+            for(var i = 0; i < lenders.length; i++) {
+                list += "<li>"
+            }
+            //
+        }
     }
+}
