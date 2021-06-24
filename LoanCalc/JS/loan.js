@@ -27,6 +27,7 @@ function calculate(){  //Look up the input and output elements in the document.
     if (isFinite(monthly)) {  //This will fill in the output fields and round to 2 decimal places.
         payment.innerHTML = monthly.toFixed(2);
         total.innerHTML = (monthly * payments).toFixed(2);
+        totalinterest.innerHTML = ((monthly * payments) - principal).toFixed(2);
 
         // Save user input so it can be restored when they visit the loan calculater again.
         save(amount.value, apr.value, years.value, zipcode.value);
