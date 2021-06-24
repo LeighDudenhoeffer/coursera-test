@@ -1,0 +1,1 @@
+// This loan app is uses strict ECMA 5
