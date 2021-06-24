@@ -32,9 +32,15 @@ function calculate(){  //Look up the input and output elements in the document.
         save(amount.value, apr.value, years.value, zipcode.value);
 
         // Advertise: find and display local area lenders, but ignore network error trys.
-        {   // Catch any errors that occur within the curly braces
+        try {   // Catch any errors that occur within the curly braces
             getLenders(amount.value, apr.value, years.value, zipcode.value);
         }
-        catch(e) {}
+        catch(e) { /* And ignore the errors */ }
+    }
+    else { // When the result was 'Not-a-Number' or infinite, the input was incomplete or invalid.
+            // Clear previously displayed output.
+        payment.innerHTML = "";         // Erase the contents of these elements
+        total.innerHTML = "";
+        totalinterest.innerHTML = "";
     }
 }
