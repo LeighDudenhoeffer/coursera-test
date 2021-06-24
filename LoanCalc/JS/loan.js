@@ -19,5 +19,17 @@ function calculate(){  //Look up the input and output elements in the document.
     var principal = parseFloat(amount.value);
     var interest = parseFloat(apr.value) /100 / 12;
     var payments = parseFloat(years.value) * 12;
+    // Compute the monthly payments using Math.pow which calculates powers:
+    var x = Math.pow(1 + interest, payments);
+    var monthly = (principal *x* interest)/(x-1);
 
+    // If the result is a finite number, the input data was good and can display meaningful results.
+    if (isFinite(monthly)) {  //This will fill in the output fields and round to 2 decimal places.
+        payment.innerHTML = monthly.toFixed(2);
+        total.innerHTML = (monthly * payments).toFixed(2);
+
+        //Save user input so it can be restored when they visit the loan calculater again.
+        save(amount.value, apr.value, years.value, zipcode.value);
+
+    }
 }
