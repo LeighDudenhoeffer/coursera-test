@@ -69,42 +69,17 @@ window.onload = function() {
     }
 };
 
-// Pass the user input to a server-side script which will return a list of links to local lenders (zip
-// code based).
-function getLenders(amount, apr, years, zipcode) {
-    // If the browser doesn't support the XMLHttpREquest object, do nothing
-    if (!window.XMLHttpRequest) return;
+// Chart the monthly loan balance, interest and equity in an HTML <canvas element>
+var graph = document.getElementById("graph");
+graph.width = graph.width;      //Some magic to clear and reset the canvas element
 
-    // Find the element to display the list of vendors
-    if (!ad) return             // Quit if no spot for output
+// if called with no arguments, or if the browser doesn't support graphics in a <canvas> element, then just return.
+if (arguments.length == 0 || !graph.getContext) return;
 
-    // Encode the user output as query params in a URL
-    var url = getLenders.php +          // Service url plus
-        "?amt=" + encodeURIComponent(amount) +
-        "&apr=" + encodeURIComponent(apr) +
-        "&yrs=" + encodeURIComponent(years) +
-        "&zip=" + encodeURIComponent(zipcode);
+// Get the context object for the canvas
+var g = graph.getContext("2d");
+var width = graph.width, height = graph.height;
 
-    // Get the contents of the URL using the XMLHttpRequest object
-    var req = new XMLHttpRequest();
-    req.open("GET", url);
-    req.send(null);
+function paymentToX(n) { return n * width/payments; }
+function amountToY(a) { return height-(a * height/(monthly*payments*1.05));}
 
-    // register the event handler function that will be called at a later time when the server response
-    // arrives
-    req.onreadystatechange = function() {
-        if (req.readyState == 4 && req.status == 200) {
-            // If we're here, then we received a valid HTTP response
-            var response = req.responseText         // HTTP response as a string
-            var lenders = JSON.parse(response);     // Parse it to a JS array
-
-            // Convert array of lender objects to HTML
-            var list = "";
-            for(var i = 0; i < lenders.length; i++) {
-                list += "<li><a href='" + lenders[i].url + "'>" + lenders[i].name +"</a>";
-            }
-            // Display the returned HTML
-            ad.innerHTML = "<ul>" + list + "</ul>";
-        }
-    }
-}
