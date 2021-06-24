@@ -37,12 +37,12 @@ function calculate(){  //Look up the input and output elements in the document.
             getLenders(amount.value, apr.value, years.value, zipcode.value);
         }
         catch(e) { /* And ignore the errors */ }
-    }
-    else { // When the result was 'Not-a-Number' or infinite, the input was incomplete or invalid.
-            // Clear previously displayed output.
-        payment.innerHTML = "";         // Erase the contents of these elements
-        total.innerHTML = "";
-        totalinterest.innerHTML = "";
+        }
+        else { // When the result was 'Not-a-Number' or infinite, the input was incomplete or invalid.
+                // Clear previously displayed output.
+            payment.innerHTML = "";         // Erase the contents of these elements
+            total.innerHTML = "";
+            totalinterest.innerHTML = "";
     }
 }
 
@@ -55,4 +55,51 @@ function save(amount, apr, years, zipcode) {
         localStorage.loan_years = years;
         localStorage.loan_zipcode = zipcode;
     }
+}
+
+// Attempt to restore the input fields when the document first loads.
+window.onload = function() {
+    // this will occur only if the browser supports local storage
+    if (window.localStorage && localStorage.loan_amount) {
+        document.getElementById(amount).value = localStorage.loan_amount;
+        document.getElementById(apr).value = localStorage.loan_apr;
+        document.getElementById(years).value = localStorage.loan_years;
+        document.getElementById(zipcode).value = localStorage.loan_zipcode;
+    }
+};
+
+// Pass the user input to a server-side script which will return a list of links to local lenders (zip
+// code based).
+    // If the browser doesn't support XMLHttp Request object, it will do nothing
+    if (window.XMLHttpRequest) return;
+    // Find the element to display a list of available lenders.
+    var ad = document.getElementById("lenders");
+    if (!ad) return;                    // Quit if no output
+    // Encde the user's input as query parameters in a URL
+    var url = "getLenders.php" +        // Service url plus
+        "?amt=" + encodeURIComponent(amount) +              // the user data as a query string
+        "&apr=" + encodeURIComponent(apr) +
+        "&yrs" + encodeURIComponent(years) +
+        "&zip" + encodeURIComponent(zipcode);
+
+        // Get the contents of the URL using the XMLHttpRequest object
+        var req = new XMLHttpRequest();             // New request
+        req.open("GET", url);
+        req.send(null);
+
+        // Register an event handler
+        req.onreadystatechange = function() {
+            if (req.readyState == 4 && req.status == 200) {
+                // If we're here, we got a valid HTTP response.
+                var response = req.responseText     // HTTP response as a string
+                var lenders = JSON.parse(response)
+                // Convert the array of lender objects to a string of HTML
+                var list = "";
+                for (var i = 0; i < lenders.length; i++) {
+                    list += "<li><a href='" + lenders[i].url + "'>" + lenders[i].name + ",</a>";
+                }
+                // Show the HTML in the element from above.
+                ad.innerHTML = "<ul>" + list + "</ul>";
+            }
+        }
 }
