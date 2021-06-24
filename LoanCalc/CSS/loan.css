@@ -1,8 +1,6 @@
 body {
     background-image: url();
     background-color: rgb(147, 236, 207);
-    background-position: center;
-    background-repeat: repeat;
     background-size: cover;
     max-width: 95%;
     margin: 0 auto;
@@ -16,9 +14,9 @@ body {
     text-decoration: underline; /* for element with id="payment" */
 }
 
-#graph {
+/* #graph {
     border: solid #000000 1px;
-}
+} */
 
 th, td {
     vertical-align: top; /* Don't center the table cells */
