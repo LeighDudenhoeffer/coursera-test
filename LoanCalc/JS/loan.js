@@ -43,8 +43,9 @@ function calculate(){  //Look up the input and output elements in the document.
             payment.innerHTML = "";         // Erase the contents of these elements
             total.innerHTML = "";
             totalinterest.innerHTML = "";
+            chart();                        // clears the chart if there are no arguments
+        }
     }
-}
 
 // Now save the user input as properties of the localStorage object. The storage feature may not work
 // in some browsers. However, it does work over HTTP.
@@ -70,36 +71,22 @@ window.onload = function() {
 
 // Pass the user input to a server-side script which will return a list of links to local lenders (zip
 // code based).
-    // If the browser doesn't support XMLHttp Request object, it will do nothing
-    if (window.XMLHttpRequest) return;
-    // Find the element to display a list of available lenders.
-    var ad = document.getElementById("lenders");
-    if (!ad) return;                    // Quit if no output
-    // Encde the user's input as query parameters in a URL
-    var url = "getLenders.php" +        // Service url plus
-        "?amt=" + encodeURIComponent(amount) +              // the user data as a query string
+function getLenders(amount, apr, years, zipcode) {
+    // If the browser doesn't support the XMLHttpREquest object, do nothing
+    if (!window.XMLHttpRequest) return;
+
+    // Find the element to display the list of vendors
+    if (!ad) return             // Quit if no spot for output
+
+    // Encode the user output as query params in a URL
+    var url = getLenders.php +          // Service url plus
+        "?amt=" + encodeURIComponent(amount) +
         "&apr=" + encodeURIComponent(apr) +
-        "&yrs" + encodeURIComponent(years) +
-        "&zip" + encodeURIComponent(zipcode);
+        "&yrs=" + encodeURIComponent(years) +
+        "&zip=" + encodeURIComponent(zipcode);
 
-        // Get the contents of the URL using the XMLHttpRequest object
-        var req = new XMLHttpRequest();             // New request
-        req.open("GET", url);
-        req.send(null);
-
-        // Register an event handler
-        req.onreadystatechange = function() {
-            if (req.readyState == 4 && req.status == 200) {
-                // If we're here, we got a valid HTTP response.
-                var response = req.responseText     // HTTP response as a string
-                var lenders = JSON.parse(response)
-                // Convert the array of lender objects to a string of HTML
-                var list = "";
-                for (var i = 0; i < lenders.length; i++) {
-                    list += "<li><a href='" + lenders[i].url + "'>" + lenders[i].name + ",</a>";
-                }
-                // Show the HTML in the element from above.
-                ad.innerHTML = "<ul>" + list + "</ul>";
-            }
-        }
-}
+    // Get the contents of the URL using the XMLHttpRequest object
+    var req = new XMLHttpRequest();
+    req.open("GET", url);
+    req.send(null);
+    }
