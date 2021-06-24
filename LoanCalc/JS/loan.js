@@ -44,3 +44,14 @@ function calculate(){  //Look up the input and output elements in the document.
         totalinterest.innerHTML = "";
     }
 }
+
+// Now save the user input as properties of the localStorage object. The storage feature may not work
+// in some browsers. However, it does work over HTTP.
+function save(amount, apr, years, zipcode) {
+    if (window.localStorage) {  // Do this only if the browser supports it.
+        localStorage.loan_amount = amount;
+        localStorage.loan_apr = apr;
+        localStorage.loan_years = years;
+        localStorage.loan_zipcode = zipcode;
+    }
+}
