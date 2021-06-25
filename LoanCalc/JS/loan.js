@@ -29,7 +29,7 @@ function calculate(){  //Look up the input and output elements in the document.
         totalinterest.innerHTML = ((monthly * payments) - principal).toFixed(2);
 
         // Save user input so it can be restored when they visit the loan calculater again.
-        save(amount.value, apr.value, years.value, zipcode.value);
+        // save(amount.value, apr.value, years.value, zipcode.value);
 
         // Advertise: find and display local area lenders, but ignore network error trys.
         try {   // Catch any errors that occur within the curly braces
@@ -48,25 +48,25 @@ function calculate(){  //Look up the input and output elements in the document.
 
 // Now save the user input as properties of the localStorage object. The storage feature may not work
 // in some browsers. However, it does work over HTTP.
-function save(amount, apr, years, zipcode) {
-    if (window.localStorage) {  // Do this only if the browser supports it.
-        localStorage.loan_amount = amount;
-        localStorage.loan_apr = apr;
-        localStorage.loan_years = years;
-        localStorage.loan_zipcode = zipcode;
-    }
-}
+// function save(amount, apr, years, zipcode) {
+//     if (window.localStorage) {  // Do this only if the browser supports it.
+//         localStorage.loan_amount = amount;
+//         localStorage.loan_apr = apr;
+//         localStorage.loan_years = years;
+//         localStorage.loan_zipcode = zipcode;
+//     }
+// }
 
 // Attempt to restore the input fields when the document first loads.
-window.onload = function() {
-    // this will occur only if the browser supports local storage
-    if (window.localStorage && localStorage.loan_amount) {
-        document.getElementById(amount).value = localStorage.loan_amount;
-        document.getElementById(apr).value = localStorage.loan_apr;
-        document.getElementById(years).value = localStorage.loan_years;
-        document.getElementById(zipcode).value = localStorage.loan_zipcode;
-    }
-};
+// window.onload = function() {
+//     // this will occur only if the browser supports local storage
+//     if (window.localStorage && localStorage.loan_amount) {
+//         document.getElementById(amount).value = localStorage.loan_amount;
+//         document.getElementById(apr).value = localStorage.loan_apr;
+//         document.getElementById(years).value = localStorage.loan_years;
+//         document.getElementById(zipcode).value = localStorage.loan_zipcode;
+//     }
+// };
 
 // At this point it works fine. I'll rem out the graph until I can get it figured right.
 
