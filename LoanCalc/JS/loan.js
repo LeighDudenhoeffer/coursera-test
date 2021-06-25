@@ -80,6 +80,27 @@ if (arguments.length == 0 || !graph.getContext) return;
 var g = graph.getContext("2d");
 var width = graph.width, height = graph.height;
 
+// This converts payment numbers and dollar amounts to pixels
 function paymentToX(n) { return n * width/payments; }
 function amountToY(a) { return height-(a * height/(monthly*payments*1.05));}
+
+// Payments are in a straight line from (0,0) to (payments, monthly*payments)
+g.moveTo(paymentToX(0), amountToY(0));      // starts at the lower left
+g.lineTo(paymentToX(payments), amountToY(monthly*payments));        // Draws to the upper right
+g.lineTo(paymentToX(payments), amountToY(0));       // Down to lower left
+g.closePath();      // goes back to the start
+g.fillStyle = "af88";       // Light red
+g.fill();       // fill the triangle
+g.font = "bold 12px sans-serif";
+g.fillText("Total Interest Payments", 20,20);
+
+// Cumulative equity non-linear and more difficult to chart
+var equity = 0;
+g.beginPath();
+g.moveTo(paymentToX(0), amountToY(0));
+for(var p = 1; p <= payments; p++) {        // For each payment figure out the interest
+    var thisMonthsInterest = (principal-equity)*interest;
+    equity += (monthly - thisMonthsInterest);
+    g.lineTo(paymentToX(p), amountToY(equity));
+}
 
