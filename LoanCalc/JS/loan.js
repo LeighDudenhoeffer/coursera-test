@@ -8,6 +8,7 @@ function calculate(){  //Look up the input and output elements in the document.
     var amount = document.getElementById("amount");
     var apr = document.getElementById("apr");
     var years = document.getElementById("years");
+    var zipcode = document.getElementById("zipcode");
     var payment = document.getElementById("payment");
     var total = document.getElementById("total");
     var totalinterest = document.getElementById("totalinterest");
@@ -29,11 +30,11 @@ function calculate(){  //Look up the input and output elements in the document.
         totalinterest.innerHTML = ((monthly * payments) - principal).toFixed(2);
 
         // Save user input so it can be restored when they visit the loan calculater again.
-        save(amount.value, apr.value, years.value);
+        save(amount.value, apr.value, years.value, zipcode.value);
 
         // Advertise: find and display local area lenders, but ignore network error trys.
         try {   // Catch any errors that occur within the curly braces
-            getLenders(amount.value, apr.value, years.value);
+            getLenders(amount.value, apr.value, years.value, zipcode.value);
         }
         catch(e) { /* And ignore the errors */ }
         }
@@ -48,11 +49,12 @@ function calculate(){  //Look up the input and output elements in the document.
 
 // Now save the user input as properties of the localStorage object. The storage feature may not work
 // in some browsers. However, it does work over HTTP.
-function save(amount, apr, years) {
+function save(amount, apr, years, zipcode) {
     if (window.localStorage) {  // Do this only if the browser supports it.
         localStorage.loan_amount = amount;
         localStorage.loan_apr = apr;
         localStorage.loan_years = years;
+        localStorage.loan_zipcode = zipcode;
     }
 }
 
@@ -60,9 +62,10 @@ function save(amount, apr, years) {
 window.onload = function() {
     // this will occur only if the browser supports local storage
     if (window.localStorage && localStorage.loan_amount) {
-        document.getElementById(amount).value = localStorage.loan_amount;
-        document.getElementById(apr).value = localStorage.loan_apr;
-        document.getElementById(years).value = localStorage.loan_years;
+        document.getElementById("amount").value = localStorage.loan_amount;
+        document.getElementById("apr").value = localStorage.loan_apr;
+        document.getElementById("years").value = localStorage.loan_years;
+        document.getElementById("zipcode").value = localStorage.loan_zipcode;
     }
 };
 
