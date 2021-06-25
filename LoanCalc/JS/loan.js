@@ -103,4 +103,29 @@ for(var p = 1; p <= payments; p++) {        // For each payment figure out the i
     equity += (monthly - thisMonthsInterest);
     g.lineTo(paymentToX(p), amountToY(equity));
 }
+g.lineTo(paymentToX(payments), amountToY(0));
+g.closePath();
+g.fillStyle = "green";
+g.fill();
+g.fillText("Total Equity", 20, 35);
 
+// Loop again, but chart the loan balance in a thick black line
+var bal = principal;
+g.beginPath();
+g.moveTo(paymentToX(0), amountToY(bal));
+for(var p = 1; p <= payments; p++) {
+    var thisMonthsInterest = bal * interest;
+    bal -= (monthly - thisMonthsInterest);
+    g.lineTo(paymentToX(p), amountToY(bal));
+}
+g.lineWidth = 3;
+g.stroke();
+g.fillStyle = "black";
+g.fillText("Loan Balance", 20, 50);
+
+// Now make yearly tick marks and year numbers on X axis
+g.textAlign="center";
+var y = amountToY(0);
+for(var year=1; year*12 <= payments; year++) {
+
+}
