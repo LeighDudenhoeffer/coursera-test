@@ -139,4 +139,5 @@ var rightEdge = paymentToX(payments);
 for(var i = 0; i < ticks.length; i++) {
     var y = amountToY(ticks[i]);
     g.fillRect(rightEdge-3, y-0.5, 3, 1);
+    g.fillText(String(ticks[i].toFixed(0)), rightEdge-5, y);
 }
