@@ -69,6 +69,32 @@ window.onload = function() {
     }
 };
 
+// Now passing data to a useless server side script that cannot do anything because of obsolescense.
+function getLenders(amount, apr, years, zipcode) {
+    if (!window.XMLHttpRequest) return;
+var ad = document.getElementById("lenders");
+    if (!ad) return;
+var url = getLenders.php +
+    "?amt=" + encodeURIComponent(amount) +
+    "&apr=" + encodeURIComponent(apr) +
+    "&yrs=" + encodeURIComponent(years) +
+    "zip=" + encodeURIComponent(zipcode);
+var req = new XMLHttpRequest();
+req.open("GET", url);
+req.send(null);
+req.onreadystatechange = function() {
+    if (req.readyState == 4 && req.status == 200) {
+        var response = req.responseText;
+        var lenders = JSON.parse(response);
+        var list = "";
+        for(var i = 0; i < lenders.length; i++) {
+            list += "<li><a href='" + lenders[i].url + "'>" + lenders[i].name + "</ul>";
+            }
+        ad.innerHTML = "<ul>" + list + "</ul>";
+        }
+    }
+}
+
 // Chart the monthly loan balance, interest and equity in an HTML <canvas element>
 var graph = document.getElementById("graph");
 graph.width = graph.width;      //Some magic to clear and reset the canvas element
