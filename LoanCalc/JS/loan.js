@@ -8,7 +8,6 @@ function calculate(){  //Look up the input and output elements in the document.
     var amount = document.getElementById("amount");
     var apr = document.getElementById("apr");
     var years = document.getElementById("years");
-    var zipcode = document.getElementById("zipcode");
     var payment = document.getElementById("payment");
     var total = document.getElementById("total");
     var totalinterest = document.getElementById("totalinterest");
@@ -30,11 +29,11 @@ function calculate(){  //Look up the input and output elements in the document.
         totalinterest.innerHTML = ((monthly * payments) - principal).toFixed(2);
 
         // Save user input so it can be restored when they visit the loan calculater again.
-        save(amount.value, apr.value, years.value, zipcode.value);
+        save(amount.value, apr.value, years.value);
 
         // Advertise: find and display local area lenders, but ignore network error trys.
         try {   // Catch any errors that occur within the curly braces
-            getLenders(amount.value, apr.value, years.value, zipcode.value);
+            getLenders(amount.value, apr.value, years.value);
         }
         catch(e) { /* And ignore the errors */ }
         }
@@ -49,12 +48,11 @@ function calculate(){  //Look up the input and output elements in the document.
 
 // Now save the user input as properties of the localStorage object. The storage feature may not work
 // in some browsers. However, it does work over HTTP.
-function save(amount, apr, years, zipcode) {
+function save(amount, apr, years) {
     if (window.localStorage) {  // Do this only if the browser supports it.
         localStorage.loan_amount = amount;
         localStorage.loan_apr = apr;
         localStorage.loan_years = years;
-        localStorage.loan_zipcode = zipcode;
     }
 }
 
@@ -65,7 +63,6 @@ window.onload = function() {
         document.getElementById(amount).value = localStorage.loan_amount;
         document.getElementById(apr).value = localStorage.loan_apr;
         document.getElementById(years).value = localStorage.loan_years;
-        document.getElementById(zipcode).value = localStorage.loan_zipcode;
     }
 };
 
@@ -127,5 +124,19 @@ g.fillText("Loan Balance", 20, 50);
 g.textAlign="center";
 var y = amountToY(0);
 for(var year=1; year*12 <= payments; year++) {
+    var x = paymentToX(year*12);
+    g.fillRect(x-0.5, y-3, 1, 3);
+    if (year == 1) g.fillText("Year", x, y-5);
+    if (year % 5 == 0 && year*12 !== payments)
+    g.fillText(String(year), x, y-5);
+}
 
+// Mark payment amounts along right edge
+g.textAlign = "right";
+g.textBaseline = "middle";
+var ticks = [monthly*payments, principal];
+var rightEdge = paymentToX(payments);
+for(var i = 0; i < ticks.length; i++) {
+    var y = amountToY(ticks[i]);
+    g.fillRect(rightEdge-3, y-0.5, 3, 1);
 }
