@@ -44,3 +44,14 @@ switch (selectedColor) {
         break;
     default: alert("There was an error.")
 }
+// It seems to me that switch is a better selector than if, else if, and else.....
+
+var goodMood = true;
+var gotSleep = true;
+
+if (goodMood && gotSleep ) {
+    alert ("Today is a very good day!!! Keep a smile on!");
+}
+else {
+    alert ("I'm very grabby today. Go away.")
+}
