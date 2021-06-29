@@ -7,11 +7,11 @@ document.getElementById("demo").innerHTML = "This is not my First JavaScript!"
 var happy = true;
 var sad = false;
 
-if (happy) {
-    alert (friends [3]);
-} else {
-    alert (friends [2]);
-}
+// if (happy) {
+//     alert (friends [3]);
+// } else {
+//     alert (friends [2]);
+// }
 
 var colors = ['red', 'green', 'blue', 'yellow', 'chartreuse', 'violet'];
 var selectedColor = colors[5];
@@ -54,4 +54,15 @@ if (goodMood && gotSleep ) {
 }
 else {
     alert ("I'm very grabby today. Go away.")
+}
+
+var ateBreakfast = false;
+var ateLunch = false;
+var ateDinner = false;
+
+if ( ateBreakfast || ateLunch || ateDinner ) {
+    alert ("I'm not starving!!");
+}
+else {
+    alert ("I'm STARVING!!!");
 }
