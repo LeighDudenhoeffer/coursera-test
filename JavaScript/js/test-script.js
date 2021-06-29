@@ -7,19 +7,11 @@ document.getElementById("demo").innerHTML = "This is not my First JavaScript!"
 var happy = true;
 var sad = false;
 
-if (sad) {
-    alert (friends [1]);
+if (happy) {
+    alert (friends [3]);
 } else {
     alert (friends [2]);
 }
-
-var red = true;
-var blue = false;
-var green;
-var myNum = 5;
-var otherNum = 7;
-var notNum = "chicken";
-var myValue = notNum - myNum;
 
 var colors = ['red', 'green', 'blue', 'yellow'];
 var selectedColor = colors[1];
