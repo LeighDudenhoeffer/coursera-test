@@ -29,21 +29,21 @@ var selectedColor = colors[5];
 //     alert ("The color is yellow!");
 // }
 
-switch (selectedColor) {
-    case "red": alert("The color is red!");
-        break;
-    case "blue": alert("The color is blue!");
-        break;
-    case "green": alert("The color is green!");
-        break;
-    case "yellow": alert("The color is yellow!");
-        break;
-    case "chartreuse": alert("The color is chartreuse!");
-        break;
-    case "violet": alert("The color is violet!");
-        break;
-    default: alert("There was an error.")
-}
+// switch (selectedColor) {
+//     case "red": alert("The color is red!");
+//         break;
+//     case "blue": alert("The color is blue!");
+//         break;
+//     case "green": alert("The color is green!");
+//         break;
+//     case "yellow": alert("The color is yellow!");
+//         break;
+//     case "chartreuse": alert("The color is chartreuse!");
+//         break;
+//     case "violet": alert("The color is violet!");
+//         break;
+//     default: alert("There was an error.")
+// }
 // It seems to me that switch is a better selector than if, else if, and else.....
 
 var goodMood = true;
