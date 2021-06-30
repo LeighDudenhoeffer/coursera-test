@@ -10,16 +10,25 @@
     <body>
         <h1 class="center">While Loops!</h1><br><br>
 
-        <script> //while loops may not be seen often in JavaScript, the language still has them
-            var incrementor = 0;
+        <script> // while loops may not be seen often in JavaScript, the language still has them
+            var incrementor = 1;
             var text = "";
 
-            while ( incrementor < 14) {  //this will increment from 0 to 13. remember that computers don't count from 1 to 10, they count from 0 to 9
-                text += "The incrementor has gone up to " + incrementor + "\n";
+            while ( incrementor < 16) {  // this will increment from 0 to 13. remember that computers don't count from 1 to 10, they count from 0 to 9
+                text += `The incrementor has gone up to ${incrementor} \n`; // using backticks in JS along with ${} around expressions allows you to embed them in your strings.
                 incrementor++;
             }
 
             console.log (text);
+
+            var i = 1;
+            var text = "";
+
+            while (i < 19 ) {
+                text += `The counter is ${i}, the counter squared is ${i*i} \n`;
+                i++
+            }
+            console.log(text);
 
         </script>
 
