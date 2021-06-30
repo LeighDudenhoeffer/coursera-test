@@ -46,3 +46,7 @@ a:focus {
 .center {
     text-align: center;
 }
+
+p {
+    font-size: 1.5em;
+}

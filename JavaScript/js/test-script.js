@@ -1,11 +1,11 @@
-var friends = ['Good afternoon, Leigh', 'I am happy for you!', 'Hey, have a peach!', 'Kiss Miss Pepper']
+// var friends = ['Good afternoon, Leigh', 'I am happy for you!', 'Hey, have a peach!', 'Kiss Miss Pepper']
 
-alert (friends [0]);
+// alert (friends [0]);
 
 document.getElementById("demo").innerHTML = "This is not my First JavaScript!"
 
-var happy = true;
-var sad = false;
+// var happy = true;
+// var sad = false;
 
 // if (happy) {
 //     alert (friends [3]);
@@ -13,8 +13,8 @@ var sad = false;
 //     alert (friends [2]);
 // }
 
-var colors = ['red', 'green', 'blue', 'yellow', 'chartreuse', 'violet'];
-var selectedColor = colors[5];
+// var colors = ['red', 'green', 'blue', 'yellow', 'chartreuse', 'violet'];
+// var selectedColor = colors[5];
 
 // if( selectedColor == 'red') {
 //     alert ("The color is red!");
@@ -46,15 +46,15 @@ var selectedColor = colors[5];
 // }
 // It seems to me that switch is a better selector than if, else if, and else.....
 
-var goodMood = true;
-var gotSleep = true;
+// var goodMood = true;
+// var gotSleep = true;
 
-if (goodMood && gotSleep ) {
-    alert ("Today is a very good day!!! Keep a smile on!");
-}
-else {
-    alert ("I'm very grabby today. Go away.")
-}
+// if (goodMood && gotSleep ) {
+//     alert ("Today is a very good day!!! Keep a smile on!");
+// }
+// else {
+//     alert ("I'm very grabby today. Go away.")
+// }
 
 var ateBreakfast = false;
 var ateLunch = false;
@@ -65,4 +65,14 @@ if ( ateBreakfast || ateLunch || ateDinner ) {
 }
 else {
     alert ("I'm STARVING!!!");
+}
+
+function Hello() {
+    let text = document.getElementById("demo2").innerHTML;
+    document.getElementById("demo2").innerHTML = text.toUpperCase();
+}
+
+function Pizza() {
+    let text = document.getElementById("demo3").innerHTML;
+    document.getElementById("demo3").innerHTML = text.replace("cereal.", "PIZZA!")
 }
