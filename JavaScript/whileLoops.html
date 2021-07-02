@@ -38,6 +38,17 @@
             }
             console.log(text);
 
+            var myString = "I'm really hungry for some";
+            console.log(myString);
+            var myUpperString = myString.toUpperCase();
+            console.log(myUpperString);
+
+            var reallyLocation = myString.search('really');
+            var specialWord = myString.substr(reallyLocation, 6);
+            specialWord = specialWord.toUpperCase();
+            var newString = myString.replace('really', specialWord);
+            console.log(newString);
+
         </script>
 
         <footer>

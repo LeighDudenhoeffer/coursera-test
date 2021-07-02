@@ -2,7 +2,7 @@
 
 // alert (friends [0]);
 
-document.getElementById("demo").innerHTML = "This is not my First JavaScript!"
+document.getElementById("demo").innerHTML = "This isn't my First JavaScript!"
 
 // var happy = true;
 // var sad = false;
