@@ -19,18 +19,22 @@
 
     <h1 class="center">This is a JS class test page!</h1><br><br>
     <h2>Sequence Part 3 - Food Array</h2>
+    <p>You'll need to right click anywhere in the page and select 'Inspect Element' and <br>
+        switch to the console tab to see the output of this page.
+    </p>
     <br>
 
 
     <script>
         var foods = ["Pizza!", "Beef Stroganoff.", "Barbequed Chicken!", "Fried Green Tomatoes!!"];
-        var myString = "I can't wait to eat";
+        var myString = "I'm really hungry for some";
+        var eatString = "I can't wait to eat";
+        console.log(`${myString} ${foods[3]}`);
 
         for (var eachFood of foods) {
-            console.log (`${myString} ${eachFood}`);
+            console.log (`${eatString} ${eachFood}`);
         }
 
-        // console.log(`${myString} ${foods[3]}`);
     </script>
 
     <hr>
