@@ -24,9 +24,13 @@
 
     <script>
         var foods = ["Pizza!", "Beef Stroganoff.", "Barbequed Chicken!", "Fried Green Tomatoes!!"];
-        var myString = "I can't wait to eat some";
+        var myString = "I can't wait to eat";
 
-        console.log(`${myString} ${foods[3]}`);
+        for (var eachFood of foods) {
+            console.log (`${myString} ${eachFood}`);
+        }
+
+        // console.log(`${myString} ${foods[3]}`);
     </script>
 
     <hr>
