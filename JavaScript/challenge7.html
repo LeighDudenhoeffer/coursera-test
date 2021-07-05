@@ -29,12 +29,23 @@
     <p>You'll need to right click anywhere in this page and select 'Inspect Element'.
     <br> Switch to the console tab to see the output of this page.</p>
 
-    <!-- <script>
-        var firstName = "Leigh ";
-        var lastName = "Dudenhoeffer";
+    <script>
+        // need to increment if number is les than 15
+        var number = prompt("Enter a whole number.", "")
+        var text = "";
 
-        console.log (firstName);
-        console.log (lastName);
-    </script> -->
+        while (number < 15) {
+            text += `Here is a ${number} \n`;
+            number++;
+        }
+        console.log (text);
+
+        if (number > 14) {
+            console.log ("You entered a big number");
+        }
+        else {
+            console.log ("ERROR: You did NOT enter a number!");
+        }
+    </script>
 </body>
 </html>
