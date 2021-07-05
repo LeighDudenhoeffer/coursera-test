@@ -35,7 +35,12 @@
 
         if (number < 15) {
             for (var i = 0; i < 15; i++) {
-            console.log (`Here is a ${i}`)
+                if (i == number) {
+                    console.log (`Here is a ${i} <-- this is your number`);
+                }
+                else {
+                    console.log (`Here is a ${i}`)
+                }
             }
         }
         else if (number > 14) {
