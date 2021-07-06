@@ -2,7 +2,7 @@
 
 // alert (friends [0]);
 
-document.getElementById("demo").innerHTML = "This isn't my First JavaScript!"
+document.getElementById("demo").innerHTML = "This is a JavaScript class!!"
 
 // var happy = true;
 // var sad = false;
@@ -76,3 +76,12 @@ function Pizza() {
     let text = document.getElementById("demo3").innerHTML;
     document.getElementById("demo3").innerHTML = text.replace("cereal.", "PIZZA!")
 }
+
+function doStuff() {
+    var aString = "Here is a message for anyone.";
+    var bStringUpper = aString.toUpperCase();
+    console.log(aString);
+    console.log(bStringUpper);
+}
+
+doStuff();
