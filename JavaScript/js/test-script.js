@@ -97,7 +97,7 @@ function checkNum(){
             }
         }
         else if (number > 14) {
-            console.log ("You entered a big number");
+            console.log ("You entered a big number.");
         }
         else {
             console.log ("ERROR: You did NOT enter a number!");
