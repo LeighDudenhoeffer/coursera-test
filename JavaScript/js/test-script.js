@@ -104,3 +104,17 @@ function checkNum(){
         }
 }
 checkNum();
+
+function upperMessage (message) {
+    var upperMessage = message.toUpperCase();
+    console.log(upperMessage);
+}
+
+upperMessage('Here is a message!');
+
+function addNums( num1, num2 ) {
+    var sum = num1 + num2;
+    console.log(`The sum is: ${sum}`);
+}
+
+addNums(329, 412);
