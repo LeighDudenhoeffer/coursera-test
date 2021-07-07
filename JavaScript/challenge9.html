@@ -31,23 +31,23 @@
 
     <script>
         var pickColor = prompt ("Enter a color", "");
-        var primaryColor = ['red', 'yellow', 'blue'];
-        var secondaryColor = ['green', 'orange', 'violet'];
+        var primaryColor = ["red", "yellow", "blue"];
+        var secondaryColor = ["green", "orange", "violet"];
         var otherColor = "";
 
-        if (primaryColor || secondaryColor || otherColor);
+        // if (primaryColor || secondaryColor || otherColor);
 
             if (pickColor = primaryColor) {
-                console.log (`You entered a primary color: ${primaryColor}`);
+                console.log (`You entered a primary color: ${pickColor}`);
             }
 
             else if (pickColor = secondaryColor) {
-                console.log (`You picked a secondary color: ${secondaryColor}`);
+                console.log (`You picked a secondary color: ${pickColor}`);
             }
 
-        else {
-            console.log (`You picked another color: ${otherColor}`);
-        }
+            else {
+                console.log (`You picked another color: ${pickColor}`);
+            }
 
     </script>
 </body>

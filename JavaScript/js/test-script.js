@@ -83,5 +83,24 @@ function doStuff() {
     console.log(aString);
     console.log(bStringUpper);
 }
-
 doStuff();
+
+
+function checkNum(){
+
+    var number = prompt("Enter a whole number.", "")
+
+        if (number < 15) {
+            console.log ("You've entered a number less than 15!");
+            for (var i = 0; i < 15; i++) {
+            console.log (`Here is a ${i}`)
+            }
+        }
+        else if (number > 14) {
+            console.log ("You entered a big number");
+        }
+        else {
+            console.log ("ERROR: You did NOT enter a number!");
+        }
+}
+checkNum();
