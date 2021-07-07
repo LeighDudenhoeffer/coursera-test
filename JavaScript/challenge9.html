@@ -30,24 +30,21 @@
     <br> Switch to the console tab to see the output of this page.</p>
 
     <script>
-        var pickColor = prompt ("Pick a color.", "");
+        var pickColor = prompt ("Enter a color", "");
         var primaryColor = ['red', 'yellow', 'blue'];
         var secondaryColor = ['green', 'orange', 'violet'];
-        var otherColor = ['black', 'gray', 'white'];
+        var otherColor = "";
 
         if (primaryColor || secondaryColor || otherColor);
-            for (var i )
 
             if (pickColor = primaryColor) {
-                console.log (`You picked a primary color: ${primaryColor}`);
+                console.log (`You entered a primary color: ${primaryColor}`);
             }
-            else (pickColor = secondaryColor) {
+
+            else if (pickColor = secondaryColor) {
                 console.log (`You picked a secondary color: ${secondaryColor}`);
             }
-        }
-        else if (color = secondaryColor) {
-            console.log (`You picked a secondary color: ${secondaryColor}`);
-        }
+
         else {
             console.log (`You picked another color: ${otherColor}`);
         }
