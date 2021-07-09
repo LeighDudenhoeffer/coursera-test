@@ -1,0 +1,13 @@
+body {
+    background-image: url('../images/theBayofGB_60opaq.jpg');
+    background-color: #8df8bd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #461f04;
+    margin: 1%;
+    padding: 1%;
+}
