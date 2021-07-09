@@ -122,7 +122,9 @@ addNums(329, 412);
 function randomInt ( min, max ) {
     var numOfValues = max - min + 1;
     var randomNum = Math.random();
-    var randomVal = randomNum * numOfValues;
-    console.log (randomVal);
+    var randomVal = randomNum * numOfValues
+    var roundedRandomVal = Math.floor(randomVal);
+    var finalNum = min + roundedRandomVal;
+    console.log (finalNum);
 }
-randomInt(6, 11);
+randomInt(6, 33);
