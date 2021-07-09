@@ -1,6 +1,6 @@
-// var friends = ['Good afternoon, Leigh', 'I am happy for you!', 'Hey, have a peach!', 'Kiss Miss Pepper']
+var friends = ['Good afternoon, Leigh', 'I am happy for you!', 'Hey, have a peach!', 'Kiss Miss Pepper']
 
-// alert (friends [0]);
+alert (friends [0]);
 
 document.getElementById("demo").innerHTML = "This is a JavaScript class!!"
 
@@ -66,15 +66,6 @@ function Pizza() {
     let text = document.getElementById("demo3").innerHTML;
     document.getElementById("demo3").innerHTML = text.replace("cereal.", "PIZZA!")
 }
-
-// function doStuff() {
-//     var aString = "Here is a message for anyone.";
-//     var bStringUpper = aString.toUpperCase();
-//     console.log(aString);
-//     console.log(bStringUpper);
-// }
-// doStuff();
-
 
 function checkNum(){
 
