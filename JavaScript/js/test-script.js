@@ -119,4 +119,10 @@ function addNums( num1, num2 ) {
 
 addNums(329, 412);
 
-console.log ( Math.random ());
+function randomInt ( min, max ) {
+    var numOfValues = max - min + 1;
+    var randomNum = Math.random();
+    var randomVal = randomNum * numOfValues;
+    console.log (randomVal);
+}
+randomInt(6, 11);
