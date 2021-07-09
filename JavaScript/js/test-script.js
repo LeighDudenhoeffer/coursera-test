@@ -118,3 +118,5 @@ function addNums( num1, num2 ) {
 }
 
 addNums(329, 412);
+
+console.log ( Math.random ());
