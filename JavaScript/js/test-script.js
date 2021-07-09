@@ -46,16 +46,6 @@ document.getElementById("demo").innerHTML = "This is a JavaScript class!!"
 // }
 // It seems to me that switch is a better selector than if, else if, and else.....
 
-// var goodMood = true;
-// var gotSleep = true;
-
-// if (goodMood && gotSleep ) {
-//     alert ("Today is a very good day!!! Keep a smile on!");
-// }
-// else {
-//     alert ("I'm very grabby today. Go away.")
-// }
-
 var ateBreakfast = false;
 var ateLunch = false;
 var ateDinner = false;
@@ -77,13 +67,13 @@ function Pizza() {
     document.getElementById("demo3").innerHTML = text.replace("cereal.", "PIZZA!")
 }
 
-function doStuff() {
-    var aString = "Here is a message for anyone.";
-    var bStringUpper = aString.toUpperCase();
-    console.log(aString);
-    console.log(bStringUpper);
-}
-doStuff();
+// function doStuff() {
+//     var aString = "Here is a message for anyone.";
+//     var bStringUpper = aString.toUpperCase();
+//     console.log(aString);
+//     console.log(bStringUpper);
+// }
+// doStuff();
 
 
 function checkNum(){
