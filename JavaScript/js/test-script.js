@@ -102,13 +102,9 @@ addNums(329, 412);
 
 var foods = ["Muenster", "Swiss cheese", "Turkey Sandwich", "Potato Salad", "Homemade Brownies"];
 function randomInt ( min, max ) {
-    var numOfValues = max - min + 1;
-    var randomNum = Math.random();
-    var randomVal = randomNum * numOfValues
-    var roundedRandomVal = Math.floor(randomVal);
-    var finalNum = min + roundedRandomVal;
+    // creating a random integer from min and max values.
 
-    return (finalNum);
+    return Math.floor((max - min + 1 ) * Math.random()) + min;
 }
 
 console.log ( foods [randomInt(0, 4) ]);
