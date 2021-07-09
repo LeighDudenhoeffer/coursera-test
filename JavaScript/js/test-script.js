@@ -100,12 +100,15 @@ function addNums( num1, num2 ) {
 
 addNums(329, 412);
 
+var foods = ["Muenster", "Swiss cheese", "Turkey Sandwich", "Potato Salad", "Homemade Brownies"];
 function randomInt ( min, max ) {
     var numOfValues = max - min + 1;
     var randomNum = Math.random();
     var randomVal = randomNum * numOfValues
     var roundedRandomVal = Math.floor(randomVal);
     var finalNum = min + roundedRandomVal;
-    console.log (finalNum);
+
+    return (finalNum);
 }
-randomInt(6, 33);
+
+console.log ( foods [randomInt(0, 4) ]);
