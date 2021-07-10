@@ -57,6 +57,7 @@ else {
     alert ("I'm STARVING!!!");
 }
 
+
 function Hello() {
     let text = document.getElementById("demo2").innerHTML;
     document.getElementById("demo2").innerHTML = text.toUpperCase();
@@ -66,6 +67,7 @@ function Pizza() {
     let text = document.getElementById("demo3").innerHTML;
     document.getElementById("demo3").innerHTML = text.replace("cereal.", "PIZZA!")
 }
+
 
 function checkNum(){
 
@@ -86,12 +88,14 @@ function checkNum(){
 }
 checkNum();
 
+
 function upperMessage (message) {
     var upperMessage = message.toUpperCase();
     console.log(upperMessage);
 }
 
 upperMessage('Here is a message!');
+
 
 function addNums( num1, num2 ) {
     var sum = num1 + num2;
@@ -100,6 +104,7 @@ function addNums( num1, num2 ) {
 
 addNums(329, 412);
 
+
 var foods = ["Muenster", "Swiss cheese", "Turkey Sandwich", "Potato Salad", "Homemade Brownies"];
 function randomInt ( min, max ) {
     // creating a random integer from min and max values.
@@ -107,4 +112,5 @@ function randomInt ( min, max ) {
     return Math.floor((max - min + 1 ) * Math.random()) + min;
 }
 
+document.getElementById("demo1").innerHTML = (foods [randomInt(0, 4)]); // prints to the main page.
 console.log ( foods [randomInt(0, 4) ]);
