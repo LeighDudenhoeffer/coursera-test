@@ -1,0 +1,109 @@
+body {
+    background-image: url('../images/theBayofGB_60opaq.jpg');
+    background-color: #8df8bd;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #461f04;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav {
+    border-radius: 8px;
+    display: inline-block;
+    width: 20%;
+    min-width: 110px;
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 70vh;
+    float: left;
+}
+
+nav a{
+    box-sizing: border-box;
+    display: block;
+    line-height: 45px;
+    height: 50px;
+    color: #060606;
+    background-color: #c67bd3;
+    text-decoration: none;
+    border-radius: 14px;
+    margin: 1% 2% 1% 8%;
+    padding: .2% 6%;
+}
+
+h1 {
+    font-size: 150%;
+    color: #060606;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#intro {
+    margin-left: 20px;
+}
+
+footer {
+    padding: 24px;
+    clear: both;
+}
+
+/* Simple Responsive Framework */
+.row {
+    width: 100%;
+    }
+
+@media screen and (min-width: 992px) {
+    .column {
+        width: 30%;
+        display: inline-block;
+        float: left;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    body {
+        background-image: url('../images/WinterPine_60opaq.jpg');
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+        background-color: rgb(139, 216, 241);
+    }
+
+    nav a {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        background-image: url('../images/20190720_113651_60opaq.jpg');
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+        background-color: rgb(233, 151, 151);
+    }
+
+    nav a {
+        display: block;
+    }
+}
