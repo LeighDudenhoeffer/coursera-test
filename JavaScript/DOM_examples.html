@@ -30,7 +30,13 @@
         <div id="special">
             <p class="happy">¯\_(ツ)_/¯ </p>
             <br>
-            <p> ¯\_(ツ)_/¯ </p>
+            <p class="happy">¯\_(ツ)_/¯ </p>
+        </div>
+
+        <div id="kooky">
+            <p>Just one more paragraph, please.</p>
+            <br>
+            <p> Not ANOTHER paragraph!!! Grrrrr!</p>
         </div>
     <br>
     <p>The document method, <strong>getElementById() </strong>will go into your document and
@@ -54,6 +60,11 @@
 
         var myText = document.querySelector('#special .happy');
         myText.style.fontSize = "28px";
+
+        var myText = document.querySelectorAll('#kooky p')
+        for (var i=0; i<myText.length; i++) {
+            myText[i].style.color = "DarkMagenta"
+        }
 
         console.log(myParagraphs); // This shows a collection of how many paragraphs are here and their type
     </script>
