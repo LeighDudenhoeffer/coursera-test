@@ -21,7 +21,7 @@
         </nav>
     </header>
 
-    <h1>DOM Examples</h1>
+    <h1>DOM Examples Part 2</h1>
     <h2 id="one">Here is a heading with a unique ID.</h2>
 
     <br>
@@ -35,32 +35,8 @@
 
 
     <script>
-        document.getElementById("one").style.color = "purple";
 
-        var myParagraphs = document.getElementsByTagName('p');
 
-        for(var i = 0; i < myParagraphs.length; i++) {
-            myParagraphs[i].style.color = "green";
-            console.log(`showing paragraph ${i}`);
-        }
-
-        var myClass = document.getElementsByClassName('special');
-        for (var i=0; i<myClass.length; i++) {
-            myClass[i].style.color = "DarkRed"
-        }
-
-        var myText = document.querySelector('#special .happy');
-        myText.style.fontSize = "28px";
-
-        var myText = document.querySelectorAll('#kooky p')
-        for (var i=0; i<myText.length; i++) {
-            myText[i].style.color = "DarkMagenta"
-        }
-
-        var firstPara = document.querySelector('#riddle p');
-        firstPara.style.color = "blue";
-
-        console.log(myParagraphs); // This shows a collection of how many paragraphs are here and their type
     </script>
 
 </body>
