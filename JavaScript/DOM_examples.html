@@ -23,7 +23,9 @@
     <h1>DOM Examples</h1>
     <h2 id="one">Here is a paragraph with a unique ID.</h2>
     <p>Dot Syntax and Methods</p>
-    <p>Here is another paragraph about nothing.</p>
+    <p class="special">Here is a paragraph about nothing.</p>
+    <p>Here is another paragraph about nothing!!</p>
+    <p class="special">Seriously, do we really need another paragraph......??  ¯\_(ツ)_/¯ </p>
     <p>The document method, <strong>getElementById() </strong>will go into your document and
         look for that specific element.</p>
 
@@ -38,7 +40,13 @@
             myParagraphs[i].style.color = "green";
             console.log(`showing paragraph ${i}`);
         }
-        console.log(myParagraphs);
+
+        var myClass = document.getElementsByClassName('special');
+        for (var i=0; i<myClass.length; i++) {
+            myClass[i].style.color = "DarkRed"
+        }
+
+        console.log(myParagraphs); // This shows a collection of how many paragraphs are here and their type
     </script>
 
 </body>
