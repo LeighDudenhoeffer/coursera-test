@@ -16,18 +16,28 @@
             <a href="sequence_array.html">Food-Array</a>
             <a href="functions.html">Functions</a>
             <a href="challenge1.html">C1</a>
-            <a href="dotSyntax.html">Dot-Syntax</a>
+            <a href="DOM_examples.html">DOM</a>
         </nav>
     </header>
 
-    <h1>Dot Syntax and Methods</h1>
+    <h1>DOM Examples</h1>
+    <h2 id="one">Here is a paragraph with a unique ID.</h2>
+    <p>Dot Syntax and Methods</p>
+    <p>Here is another paragraph about nothing.</p>
     <p>The document method, <strong>getElementById() </strong>will go into your document and
         look for that specific element.</p>
 
-    <p id="one">Here is a paragraph with a unique ID.</p>
+
 
     <script>
         document.getElementById("one").style.color = "purple";
+
+        var myParagraphs = document.getElementsByTagName('p');
+
+        for(var i = 0; i < myParagraphs.length; i++) {
+            myParagraphs[i].style.color = "green";
+        }
+        console.log(myParagraphs);
     </script>
 
 </body>
