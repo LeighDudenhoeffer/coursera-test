@@ -22,21 +22,27 @@
     </header>
 
     <h1>DOM Examples Part 2</h1>
-    <h2 id="one">Here is a heading with a unique ID.</h2>
+    <h2>This is a sub-heading that's sitting around doing nothing.</h2>
 
     <br>
-        <div id="special">
-            <p class="happy">¯\_(ツ)_/¯ </p>
-            <br>
-            <p class="happy">¯\_(ツ)_/¯ </p>
+        <div>
+            <p>This is the first paragraph of this page.</p>
+            <p>Remove this paragraph!</p>
         </div>
 
-
-
+    <br>
+    <p class="happy">¯\_(ツ)_/¯ </p>
+    <br>
+    <p class="happy">¯\_(ツ)_/¯ </p>
 
     <script>
+        var myTag = document.createElement('p');
+        var mySentence = document.createTextNode('Here is a second paragraph.');
+        myTag.appendChild(mySentence);
+        document.querySelector('div').appendChild(myTag);
 
-
+        var myDiv = document.querySelector('div');
+        myDiv.removeChild(myDiv.children[1]);
     </script>
 
 </body>
