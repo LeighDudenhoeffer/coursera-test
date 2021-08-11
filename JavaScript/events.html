@@ -13,34 +13,24 @@
         <a href="index.html">Home</a>
         <a href="loops.html">For-Loops</a>
         <a href="whileLoops.html">While-Loops</a>
-        <a href="sequence_array.html">Array</a>
-        <a href="functions.html">Functions</a>
-        <a href="challenge1.html">C1</a>
-        <a href="DOM_examples.html">DOM</a>
-        <a href="DOM_examples2.html">DOM2</a>
         <a href="events.html">Events</a>
     </nav>
     </header>
 
-    <h1 class="center">This is a Java Script class test page!</h1><br><br>
-    <h2>Testing Selectors, Booleans, and Sequences</h2>
+    <h1 class="center">This is a Java Script class page!</h1><br><br>
+    <h2>JavaScript Events Happen!!</h2>
+    <h3>JavaScript can listen for events and handle them, when they occur.</h3>
+    <br>
+    <button type="button" onclick="aFunction()">Don't Press Me!</button>
+        <p id="demo1" style="color: rgb(177, 6, 40);"></p>
     <br>
 
-    <p id="demo"></p>
-    <br>
+    <script>
+        function aFunction() {
+    document.getElementById("demo1").innerHTML="Ouch! That hurts!!";
+    };
+    </script>
 
-    <button onclick="Hello()">Click this</button>
-    <p id="demo2">Hello World!</p>
-
-    <button onclick="Pizza()">Click this button to see <br> what I'm really hungry for!</button>
-    <p id="demo3">All this talk about food has made me really hungry for some cereal.... and ...</p>
-
-    <p id="demo1"></p>
-
-    <br><br>
-    <p id="demo4"></p>
-
-    <script src="js/test-script.js"></script>
 
     <hr>
     <footer>
