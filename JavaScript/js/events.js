@@ -24,8 +24,8 @@ document.getElementById("result").innerHTML = str;
 
 
 
-var heading = document.querySelector('h3');
-var myDiv = document.querySelector('roll');
+var heading = document.querySelector('h2');
+var box = document.querySelector('#roll');
 
 box.addEventListener('mouseover', function() {
     heading.innerHTML = "The mouse is over the box!";
