@@ -38,3 +38,11 @@ box.addEventListener('mouseout', function() {
 heading.addEventListener('mouseover', function() {
     heading.innerHTML = "Roll your mouse over the box!";
 });
+
+
+var pagetop;
+
+window.addEventListener('scroll', function() {
+    pagetop = this.window.pageYOffset;
+    console.log(pagetop);
+});
