@@ -5,6 +5,8 @@ function aFunction() {
 document.getElementById('validate').addEventListener('click', function (evnt) {
 evnt.preventDefault();
 
+
+
 var elems = document.getElementById("picker").elements;
 var elemArray = new Object();
 for (var i = 0; i < elems.length; i++) {
@@ -19,3 +21,13 @@ Object.keys(elemArray).forEach(function (key) {
 
 document.getElementById("result").innerHTML = str;
 }, false);
+
+
+
+var heading = document.querySelector('h3');
+var myDiv = document.querySelector('roll');
+
+box.addEventListener('mouseover', function() {
+    heading.innerHTML = "The mouse is over the box!";
+});
+
