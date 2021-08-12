@@ -21,14 +21,35 @@
     <h2>JavaScript Events Happen!!</h2>
     <h3>JavaScript can listen for events and handle them, when they occur.</h3>
     <br>
-    <button type="button" style="background: black; color: rgb(250, 108, 132);" onclick="aFunction()">Don't Press Me!</button>
+
+    <button type="button" style="background: black; color: rgb(250, 108, 132);"
+    onclick="aFunction()">Don't Press Me!</button>
         <p id="demo1" style="color: rgb(177, 6, 40);"></p>
+
+    <br>
+    <form id="myForm">
+        <label id="formSub">Your Name: <input type="text" name="name"></label>
+        <input type="submit">
+    </form>
+    <br>
     <br>
 
+
     <script>
+
         function aFunction() {
-            document.getElementById("demo1").innerHTML="Ouch! That hurts!!";
-        };
+            document.getElementById("demo1").innerHTML="Ouch! That hurts!!!";
+        }
+
+        var myForm = document.querySelector('form');
+
+        myForm.addEventListener( 'submit', function(e) {
+            e.preventDefault();
+
+            var formData = document.querySelector('input').value;
+
+    });
+
     </script>
 
 
