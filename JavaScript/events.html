@@ -27,8 +27,8 @@
         <p id="demo1" style="color: rgb(177, 6, 40);"></p>
 
     <br>
-    <form id="myForm">
-        <label id="formSub">Your Name: <input type="text" name="name"></label>
+    <form method="get" action="processor.php">
+        <label>Your Name: <input type="text" name="name"></label>
         <input type="submit">
     </form>
     <br>
@@ -47,6 +47,8 @@
             e.preventDefault();
 
             var formData = document.querySelector('input').value;
+
+            alert(formData);
 
     });
 
