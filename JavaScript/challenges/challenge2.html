@@ -3,11 +3,12 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Challenge 8</title>
+    <title>Challenge 2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/test-css.css">
+    <link rel="stylesheet" href="../css/test-css.css">
 </head>
 <body>
+
     <header>
         <nav>
             <a href="challenge1.html">C1</a>
@@ -24,31 +25,16 @@
     <br>
 
     <h1>Basic JavaScript Challenges</h1>
-    <h2>Challenge 8</h2>
+    <h2>Challenge 2</h2>
     <br>
     <p>You'll need to right click anywhere in this page and select 'Inspect Element'.
-    <br> Switch to the console tab to see the output of this page.</p>
+        <br> Switch to the console tab to see the output of this page.</p>
 
     <script>
-        // need to point to the number that was entered
-        var number = prompt("Enter a whole number.", "");
+        var firstName = "Leigh ";
+        var lastName = "Dudenhoeffer";
 
-        if (number < 15) {
-            for (var i = 0; i < 15; i++) {
-                if (i == number) {
-                    console.log (`Here is a ${i} <-- this is your number`);
-                }
-                else {
-                    console.log (`Here is a ${i}`)
-                }
-            }
-        }
-        else if (number > 14) {
-            console.log ("You entered a big number");
-        }
-        else {
-            console.log ("ERROR: You did NOT enter a number!");
-        }
+        console.log (firstName + lastName);
     </script>
 </body>
 </html>

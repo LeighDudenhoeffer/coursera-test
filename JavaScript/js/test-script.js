@@ -39,24 +39,24 @@ function Pizza() {
 }
 
 
-function checkNum(){
+// function checkNum(){
 
-    var number = prompt("Enter a whole number.", "")
+//     var number = prompt("Enter a whole number.", "")
 
-        if (number < 15) {
-            console.log ("You've entered a number less than 15!");
-            for (var i = 0; i < 15; i++) {
-            console.log (`Here is a ${i}`)
-            }
-        }
-        else if (number > 14) {
-            console.log ("You entered a big number.");
-        }
-        else {
-            console.log ("ERROR: You did NOT enter a number!");
-        }
-}
-checkNum();
+//         if (number < 15) {
+//             console.log ("You've entered a number less than 15!");
+//             for (var i = 0; i < 15; i++) {
+//             console.log (`Here is a ${i}`)
+//             }
+//         }
+//         else if (number > 14) {
+//             console.log ("You entered a big number.");
+//         }
+//         else {
+//             console.log ("ERROR: You did NOT enter a number!");
+//         }
+// }
+// checkNum();
 
 
 function upperMessage (message) {
@@ -64,7 +64,7 @@ function upperMessage (message) {
     console.log(upperMessage);
 }
 
-upperMessage('Here is a message!');
+upperMessage('Here is a post!');
 
 
 function addNums( num1, num2 ) {
@@ -91,9 +91,9 @@ var greeting = function() {
 }
 
 // document.getElementById("demo4").innerHTML = ("Hello from the function!");
-var greeting = function() {
-    var name = prompt("Please tell me you name", "");
-    console.log (`Hello ${name}, how are you doing today?`);
-}
-greeting();
+// var greeting = function() {
+//     var name = prompt("Please tell me your name", "");
+//     console.log (`Hello ${name}, how are you doing today?`);
+// }
+// greeting();
 // document.getElementById("demo4").innerHTML = "Hello,  how are you doing today?";
