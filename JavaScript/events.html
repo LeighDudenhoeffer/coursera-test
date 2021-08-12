@@ -27,25 +27,53 @@
         <p id="demo1" style="color: rgb(177, 6, 40);"></p>
 
     <br><br>
-    <p>Please enter your first name:</p>
+
+    <form id="picker">
+        <label>First Name:</label><input type="text" id="fName" /> <br><br>
+        <label>Last Name (or Initial):</label><input type="text" id="lName"/><br><br>
+        <button id="validate">Submit</button><br><br>
+    </form>
+    <div id="result"></div>
+
+    <!-- <p>Please enter your first name:</p>
     <input id="name">
     <button type="button" onclick="myForm()">Submit</button>
-    <p id="qName"></p>
+    <p id="qName"></p> -->
 
     <br>
     <br>
-
 
     <script>
 
-        function aFunction() {
+    function aFunction() {
             document.getElementById("demo1").innerHTML="Ouch! That hurts!!!";
         }
 
-        function myForm() {
-            var formData = document.querySelector('input').value;
-            document.getElementById("qName").innerHTML="Your name has been validated.";
+    document.getElementById('validate').addEventListener('click', function (evnt) {
+        evnt.preventDefault();
+
+        var elems = document.getElementById("picker").elements;
+        var elemArray = new Object();
+        for (var i = 0; i < elems.length; i++) {
+            if (elems[i].type == "text") elemArray[elems[i].id] = elems[i].value;
         }
+
+        var str = '';
+        Object.keys(elemArray).forEach(function (key) {
+            var value = elemArray[key];
+            str+=key + '->' + value + '<br>';
+        })
+
+        document.getElementById("result").innerHTML = str;
+    }, false);
+
+
+
+
+        // function myForm() {
+        //     var formData = document.querySelector('input').value;
+        //     document.getElementById("qName").innerHTML="Your name has been validated.";
+        // }
 
     </script>
 
