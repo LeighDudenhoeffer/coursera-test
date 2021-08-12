@@ -35,3 +35,6 @@ box.addEventListener('mouseout', function() {
     heading.innerHTML = "The mouse has left the box!"
 });
 
+heading.addEventListener('mouseover', function() {
+    heading.innerHTML = "Roll your mouse over the box!";
+});
