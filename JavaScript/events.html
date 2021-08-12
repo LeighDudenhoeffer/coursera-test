@@ -22,15 +22,15 @@
     <h3>JavaScript can listen for events and handle them, when they occur.</h3>
     <br>
 
-    <button type="button" style="background: black; color: rgb(250, 108, 132);"
+    <button type="button" style="font-size: 1.5em; background: black; color: rgb(250, 108, 132);"
     onclick="aFunction()">Don't Press Me!</button>
         <p id="demo1" style="color: rgb(177, 6, 40);"></p>
 
     <br><br>
 
     <form id="picker">
-        <label>First Name:</label><input type="text" id="fName" /> <br><br>
-        <label>Last Name (or Initial):</label><input type="text" id="lName"/><br><br>
+        <label style="font-size: 1.5em;">First Name:</label><br><input type="text" id="First Name" /> <br><br>
+        <label style="font-size: 1.5em;">Last Name (or Initial):</label><br><input type="text" id="Last Name"/><br><br>
         <button id="validate">Submit</button><br><br>
     </form>
     <div id="result"></div>
@@ -61,7 +61,7 @@
         var str = '';
         Object.keys(elemArray).forEach(function (key) {
             var value = elemArray[key];
-            str+=key + '->' + value + '<br>';
+            str+=key + '  -->  ' + value + '<br>';
         })
 
         document.getElementById("result").innerHTML = str;
