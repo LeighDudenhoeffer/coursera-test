@@ -27,10 +27,10 @@
         <p id="demo1" style="color: rgb(177, 6, 40);"></p>
 
     <br>
-    <form method="get" action="processor.php">
-        <label>Your Name: <input type="text" name="name"></label>
-        <input type="submit">
-    </form>
+    <input id="name">
+    <button type="button" onclick="myForm()">Submit</button>
+    <p id="qName"></p>
+
     <br>
     <br>
 
@@ -41,16 +41,10 @@
             document.getElementById("demo1").innerHTML="Ouch! That hurts!!!";
         }
 
-        var myForm = document.querySelector('form');
-
-        myForm.addEventListener( 'submit', function(e) {
-            e.preventDefault();
-
+        function myForm() {
             var formData = document.querySelector('input').value;
-
-            alert(formData);
-
-    });
+            document.getElementById("qName").innerHTML="Your name has been validated.";
+        }
 
     </script>
 
