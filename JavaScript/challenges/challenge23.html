@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Challenge 22</title>
+    <title>Challenge 23</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/test-css.css">
 </head>
@@ -11,20 +11,26 @@
     <header>
         <nav>
             <a href="challenge22.html">C22</a>
-            <a href="challenge23.html"></a>
+            <a href="challenge23.html">C23</a>
         </nav>
     </header>
     <br>
 
-    <h1>Basic JavaScript Challenges Wk3</h1>
-    <h2>Challenge 2</h2>
-    <br>
-    <p>This is a paragraph of inane text. Click the button below to change it's color.</p>
+    <div>
+        <p id="green_text">This is a paragraph of inane text. Click the button below to change the color of the text.</p>
+    </div>
+
+    <button id="toGreen" style="font-size: 1.5em; border-radius: 16px;">Turn Green!</button>
+
     <br>
 
     <script>
 
+        document.getElementById("toGreen").onclick = function() {
+            document.getElementById("green_text").style.color = 'green';
+        }
 
     </script>
+
 </body>
 </html>
