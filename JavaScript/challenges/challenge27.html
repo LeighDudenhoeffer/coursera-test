@@ -57,7 +57,7 @@
         });
 
         btnDelete.addEventListener('click', function() {
-            if(numOfPs >= 0) {
+            if(numOfPs > 1) {
                 divTag.removeChild(divTag.children[numOfPs-1]);
                 numOfPs--;
             }
