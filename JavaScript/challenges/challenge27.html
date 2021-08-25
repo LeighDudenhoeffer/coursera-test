@@ -22,27 +22,31 @@
 
     <h1>JavaScript Event Challenges:</h1>
     <h2>Challenge 27</h2>
-    <br>
+    <br><br>
+
+    <h3>This text will become the size of the number you enter. Not too big please.</h3>
 
     <form>
-        <label>Enter a number <input type="text"></label>
-        <input type="submit" value="send number">
+        <label style="font-size: 1.5em;">Enter a number <input type="text" style="font-size: 1.5em;"></label>
+        <input type="submit" value="Submit" style="font-size: 1.5em; border-radius: 16px;">
     </form>
 
     <br>
 
     <script>
 
-        var h1_tag = document.querySelector('h1');
-        var form_tag = document.querySelectorAll('form');
+        var h3_tag = document.querySelector('h3');
+        var form_tag = document.querySelector('form');
 
         form_tag.addEventListener('submit', function(event) {
             event.preventDefault();
             var myNum = parseInt(document.querySelector('input').value);
 
             if(myNum) {
-                h1_tag.style.fontSize = myNum + "px"
+                h3_tag.style.fontSize = myNum + 6 + "px";
             }
+            else
+                alert('Enter a number!!!');
         })
 
     </script>
