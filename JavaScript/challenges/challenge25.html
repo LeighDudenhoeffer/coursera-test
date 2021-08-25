@@ -24,13 +24,12 @@
 
         <div>
             <p id="paragraph_1">This is a paragraph of inane text. Click the button below to add another paragraph of inane text.</p>
-        </div>
-        <div id="remove1">
+
             <p id="paragraph_2"></p>
         </div>
 
     <button id="addOne" style="font-size: 1.5em; border-radius: 16px;">Add a paragraph!</button>
-    <button id="removeOne" style="font-size: 1.5em; border-radius: 16px;">Remove a paragraph!</button>
+    <button onclick="remove_1()" style="font-size: 1.5em; border-radius: 16px;">Remove paragraph!</button>
 
     <br>
 
@@ -39,8 +38,13 @@
             document.getElementById("paragraph_2").innerHTML="This is the new paragraph that you've added. Now, click the 'Remove Paragraph' button.";
         }
 
-        document.getElementById("removeOne").onclick = function() {
-            document.getElementById("paragraph_2").innerHTML="";
+        // document.getElementById("removeOne").onclick = function() {
+        //     document.getElementById("paragraph_2").innerHTML="";
+        //     } //I've remmed this out because I believe there's a more sensible way
+
+        function remove_1() {
+            var paragraph_2 = document.getElementById("paragraph_2");
+            paragraph_2.parentNode.removeChild(paragraph_2);
         }
 
     </script>
