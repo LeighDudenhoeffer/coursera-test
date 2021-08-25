@@ -24,13 +24,14 @@
     <h2>Challenge 23</h2>
     <br>
 
-    <div id="green_text">
-        <p id="red_text">This is a paragraph of inane text. Click the button below to change the color
-            of the text.</p>
-        <p id="violet_text">"Here is another silly paragraph that wants to change colors.</p>
-        <p id="blue_text">And..... yet another paragraph that isn't satisfied with just being itself.</p>
-    </div>
+        <div id="green_text">
+            <p id="red_text">This is a paragraph of inane text. Click the button below to change the color
+                of the text.</p>
+            <p id="violet_text">"Here is another silly paragraph that wants to change colors.</p>
+            <p id="blue_text">And..... yet another paragraph that isn't satisfied with just being itself.</p>
+        </div>
     <br>
+
     <div>
         <p>Please click the buttons from left to right. Thank you.</p>
     </div>
@@ -39,7 +40,7 @@
     <button id="toRed" style="font-size: 1.5em; border-radius: 16px;">Turn 1 Red!</button>
     <button id="toViolet" style="font-size: 1.5em; border-radius: 16px;">Turn 2 Violet!</button>
     <button id="toBlue" style="font-size: 1.5em; border-radius: 16px;">Turn 3 Blue!</button>
-    <!-- <button id="turnBack" style="font-size: 1.5em; border-radius: 16px;">Turn it all back!</button> -->
+    <input type="button" style="font-size: 1.5em; border-radius: 16px;" value="Turn it back again!" onclick="location.reload();">
 
     <br>
 
@@ -61,9 +62,7 @@
             document.getElementById("blue_text").style.color = '#0053FF';
         }
 
-        // document.getElementById("turnBack").onclick = function() {
-        //     document.getElementById("black_text").style.color = 'black';
-        // }
+
 
     </script>
 
