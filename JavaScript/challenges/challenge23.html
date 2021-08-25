@@ -25,15 +25,19 @@
     <br>
 
     <div id="green_text">
-        <p>This is a paragraph of inane text. Click the button below to change the color
-            of the text.</p>
-        <p>Here is another silly paragraph that wants to change colors.</p>
-        <p>And..... yet another paragraph that isn't satisfied with just being itself.</p>
+        <span id="black_text">
+            <p id="red_text">This is a paragraph of inane text. Click the button below to change the color
+                of the text.</p>
+            <p id="violet_text">"Here is another silly paragraph that wants to change colors.</p>
+            <p id="blue_text">And..... yet another paragraph that isn't satisfied with just being itself.</p>
+        </span>
     </div>
 
     <button id="toGreen" style="font-size: 1.5em; border-radius: 16px;">Turn it all Green!</button>
-    <button id="toRed" style="font-size: 1.5em; border-radius: 16px;">Turn it all Red!</button>
-    <button id="toViolet" style="font-size: 1.5em; border-radius: 16px;">Turn it Violet!</button>
+    <button id="toRed" style="font-size: 1.5em; border-radius: 16px;">Turn 1 Red!</button>
+    <button id="toViolet" style="font-size: 1.5em; border-radius: 16px;">Turn 2 Violet!</button>
+    <button id="toBlue" style="font-size: 1.5em; border-radius: 16px;">Turn 3 Blue!</button>
+    <button id="turnBack" style="font-size: 1.5em; border-radius: 16px;">Turn it all back!</button>
 
     <br>
 
@@ -41,6 +45,22 @@
 
         document.getElementById("toGreen").onclick = function() {
             document.getElementById("green_text").style.color = 'green';
+        }
+
+        document.getElementById("toRed").onclick = function() {
+            document.getElementById("red_text").style.color = 'red';
+        }
+
+        document.getElementById("toViolet").onclick = function() {
+            document.getElementById("violet_text").style.color = '#B957D7';
+        }
+
+        document.getElementById("toBlue").onclick = function() {
+            document.getElementById("blue_text").style.color = '#0053FF';
+        }
+
+        document.getElementById("turnBack").onclick = function() {
+            document.getElementById("black_text").style.color = '#000000';
         }
 
     </script>
