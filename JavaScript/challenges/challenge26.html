@@ -51,18 +51,15 @@
             numOfPs++;
             var newP = document.createElement('p');
             var pText = document.createTextNode(
-                `This is another paragraph!`);
+                `This is paragraph number ${numOfPs}`);
             newP.appendChild(pText);
             divTag.appendChild(newP);
         });
 
         btnDelete.addEventListener('click', function() {
-            if(numOfPs >= 0) {
+            if(numOfPs = 1) {
                 divTag.removeChild(divTag.children[numOfPs-1]);
                 numOfPs--;
-            }
-            else {
-                alert ("You've reached the first paragraph! Don't delete it!")
             }
         });
 
