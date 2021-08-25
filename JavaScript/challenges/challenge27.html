@@ -33,15 +33,15 @@
 
     <script>
 
-        var h1Tag = document.querySelector('h1');
-        var formTag = document.querySelectorAll('form');
+        var h1_tag = document.querySelector('h1');
+        var form_tag = document.querySelectorAll('form');
 
-        formTag.addEventListener('submit', function(event) {
+        form_tag.addEventListener('submit', function(event) {
             event.preventDefault();
             var myNum = parseInt(document.querySelector('input').value);
 
             if(myNum) {
-                h1Tag.style.fontSize
+                h1_tag.style.fontSize = myNum + "px"
             }
         })
 
