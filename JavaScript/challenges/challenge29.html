@@ -7,12 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/test-css.css">
     <style>
-        body {height: 1500px;}
-        .one {background-color: rgb(238, 238, 146); transition: all 2s;}
-        .two {background-color: blueviolet; transition: all 2s;}
-        .three {background-color: coral; transition: all 2s;}
-        .four {background-color: cornflowerblue; transition: all 2s;}
-        .five {background-color: darkgreen; transition: all 2s;}
+        body {height: 100vh;}
+        .one {background-color: rgb(238, 238, 146); height: 100%;}
+        .two {background-color: blueviolet; height: 100%;}
+        .three {background-color: coral; height: 100%;}
+        .four {background-color: cornflowerblue; height: 100%;}
+        .five {background-color: darkgreen; 100%}
     </style>
 </head>
 <body class="one">
@@ -33,30 +33,24 @@
     <h1>JavaScript Event Challenges:</h1>
     <h2>Challenge 29</h2>
     <br><br>
-    <h3>Scroll Down!</h3>
 
-    <div></div>
+    <h3 style="position: fixed;">Scroll Down!</h3>
 
-    <br>
-
-    <script>
-
-        var topPage;
-        var bodyPage;
-
-        window.addEventListener('scroll', function() {
-            topPage = window.pageYOffset;
-
-            switch(true) {
-                case topPage < 250: bodyPage.className="one"; break;
-                case topPage < 500: bodyPage.className = "two"; break;
-                case topPage < 750: bodyPage.className = "three"; break;
-                case topPage < 1000: bodyPage.className = "four"; break;
-                default
-            }
-        })
-
-    </script>
+    <section class="one">
+        Section 1
+    </section>
+    <section class="two">
+        Section 2
+    </section>
+    <section class="three">
+        Section 3
+    </section>
+    <section class="four">
+        Section 4
+    </section>
+    <section class="five">
+        Section 5
+    </section>
 
 </body>
 </html>
