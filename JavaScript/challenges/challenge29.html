@@ -13,18 +13,23 @@
             text-align: center;
             height: 100vh;
         }
-
-        /* body {height: 3000px;}
-        .one {background-color: #F9E79F; height: 100%;}
-        .two {background: linear-gradient(#865DF3); height:100%;}
-        .three {background: linear-gradient(#F37F66); height: 100%;}
-        .four {background: linear-gradient(#66DEF3); height: 100%;}
-        .five {background-color: linear-gradient(#157603); height: 100%} */
+        h3 {
+            font-size: 12em;
+            font-weight: 700;
+            margin: 0 0.1em;
+        }
+        .clear {
+            clear: both;
+        }
+        @media (max-width: 750px) {
+            h3 {
+                font-size: 4rem;
+            }
+        }
     </style>
 </head>
 
-<body class="one">
-
+<body>
     <header>
         <nav>
             <a href="challenge22.html">C22</a>
@@ -43,7 +48,22 @@
     <h2>Challenge 29</h2>
     <br><br>
 
-    <h3 style="position: fixed;">Scroll Down!</h3>
+    <article id="one" data-color=#F9E79F>
+        <h3>First</h3>
+    </article>
+    <article id="two" data-color=#865DF3>
+        <h3>First</h3>
+    </article>
+    <article id="three" data-color=#F37F66>
+        <h3>First</h3>
+    </article>
+    <article id="four" data-color=#66DEF3>
+        <h3>First</h3>
+    </article>
+    <article id="five" data-color=#157603>
+        <h3>First</h3>
+    </article>
+
 
     <script>
 
