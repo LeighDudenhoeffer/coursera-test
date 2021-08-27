@@ -41,14 +41,23 @@
     <h1>JavaScript Event Challenges:</h1>
     <h2>Challenge 28</h2>
     <br><br>
+    <h3>Hover the mouse over the cube to see what happens. <br>
+    Then move it away to see it change back.</h3>
 
-
+    <div></div>
 
     <br>
 
     <script>
 
+        var divBig = document.querySelector('div');
+        divBig.addEventListener('mouseover', function() {
+            divBig.className="big"
+        });
 
+        divBig.addEventListener('mouseout', function() {
+            divBig.removeAttribute('class');
+        })
 
     </script>
 
