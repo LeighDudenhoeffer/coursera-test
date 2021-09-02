@@ -1,12 +1,12 @@
-/* body {
-    background-color: rgb(145, 238, 207);
+body {
+    background-color: #ffffff;
     background-repeat: repeat;
     background-size: cover;
     max-width: 95%;
     margin: 0 auto;
-} */
+}
 
-/* header {
+header {
     background: #7ed4f7;
     background: -moz-linear-gradient (top, #5D6D7E 0%, #7ed4f7 100%);
     background: -webkit-linear-gradient (#5D6D7E 0%, #7ed4f7 100%);
@@ -14,7 +14,7 @@
     background: linear-gradient(#5D6D7E 0%, #7ed4f7 100%);
     border-radius: 12px;
     max-width: 100%;
-} */
+}
 
 header {
     text-align: center;
@@ -40,7 +40,7 @@ a:hover {
 }
 
 a:focus {
-    color: rgb(241, 185, 112);
+    color: rgb(190, 134, 61);
 }
 
 .center {
@@ -56,15 +56,3 @@ a:focus {
 p {
     font-size: 1.5em;
 }
-
-/* #roll {
-    width: 50px;
-    height: 50px;
-    background-color: #9d74d6;
-}
-
-#scroll {
-    width: 80px;
-    height: 800px;
-    background-color: rgb(225, 103, 241);
-} */
