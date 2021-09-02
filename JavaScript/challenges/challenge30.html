@@ -5,14 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Challenge 30</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/test-css.css">
-    <style>
-        .one {background-color: #f9e79f; transition: all 1s;}
-        .two {background-color: #cc99ff; transition: all 1s;}
-        .three {background-color: #f37f66; transition: all 1s;}
-        .four {background-color: #66def3; transition: all 1s;}
-        .five {background-color: #99ff66; transition: all 1s;}
-    </style>
+    <link rel="stylesheet" href="../css/test-css2.css">
 </head>
 
 <body class="one">
@@ -34,11 +27,11 @@
     <h1>JavaScript Event Challenges:</h1>
     <h2>Challenge 30</h2>
     <br><br>
-    <p>Press B to change the page color to light yellow.</p>
-    <p>Press V to change the page color to light violet.</p>
-    <p>Press C to change the page color to light saffron.</p>
-    <p>Press F to change the page color to light blue.</p>
-    <p>Press G to change the page color to light green.</p>
+    <p>Press a to change the page color to light yellow.</p>
+    <p>Press v to change the page color to light violet.</p>
+    <p>Press c to change the page color to light saffron.</p>
+    <p>Press f to change the page color to light blue.</p>
+    <p>Press g to change the page color to light green.</p>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
@@ -51,7 +44,7 @@
             var keyPressed = event.which;
 
             switch(keyPressed) {
-                case 66: bodyTag.className="one"; break;
+                case 65: bodyTag.className="one"; break;
                 case 86: bodyTag.className="two"; break;
                 case 67: bodyTag.className="three"; break;
                 case 70: bodyTag.className="four"; break;
