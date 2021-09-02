@@ -47,12 +47,12 @@ a:focus {
     text-align: center;
 }
 
+p {
+    font-size: 1.5em;
+}
+
 .one {background-color: #f9e79f; transition: all 1s;}
 .two {background-color: #cc99ff; transition: all 1s;}
 .three {background-color: #f37f66; transition: all 1s;}
 .four {background-color: #66def3; transition: all 1s;}
 .five {background-color: #99ff66; transition: all 1s;}
-
-p {
-    font-size: 1.5em;
-}
