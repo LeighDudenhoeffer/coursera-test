@@ -15,7 +15,7 @@
     </style>
 </head>
 
-<body>
+<body class="one">
     <header>
         <nav>
             <a href="challenge22.html">C22</a>
@@ -34,39 +34,31 @@
     <h1>JavaScript Event Challenges:</h1>
     <h2>Challenge 30</h2>
     <br><br>
-
-    <article id="one" data-color=#F9E79F><p></p></article>
-    <article id="two" data-color=#cc99ff><p></p></article>
-    <article id="three" data-color=#F37F66><p></p></article>
-    <article id="four" data-color=#66DEF3><p></p></article>
-    <article id="five" data-color=#99ff66><p></p></article>
+    <p>Press B to change the page color to light yellow.</p>
+    <p>Press V to change the page color to light violet.</p>
+    <p>Press C to change the page color to light saffron.</p>
+    <p>Press F to change the page color to light blue.</p>
+    <p>Press G to change the page color to light green.</p>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <script>
 
-        var one = "#F9E79F",
-        two = "#865DF3",
-        three = "#F37F66",
-        four = "#66DEF3",
-        five = "#157603";
+        var bodyTag = document.querySelector('body');
 
-        $(window).on("scroll touchmove", function() {
-            if ($(document).scrollTop() >= $("#one").position().top) {
-                $('body').css('background', $("#one").attr("data-color"))
-            };
-            if ($(document).scrollTop() >= $("#two").position().top) {
-                $('body').css('background', $("#two").attr("data-color"))
-            };
-            if ($(document).scrollTop() >= $("#three").position().top) {
-                $('body').css('background', $("#three").attr("data-color"))
-            };
-            if ($(document).scrollTop() >= $("#four").position().top) {
-                $('body').css('background', $("#four").attr("data-color"))
-            };
-            if ($(document).scrollTop() >= $("#five").position().top) {
-                $('body').css('background', $("#five").attr("data-color"))
-            };
+        document.addEventListener('keydown', function(event) {
+
+            var keyPressed = event.which;
+
+            switch(keyPressed) {
+                case 66: bodyTag.className="one"; break;
+                case 86: bodyTag.className="two"; break;
+                case 67: bodyTag.className="three"; break;
+                case 70: bodyTag.className="four"; break;
+                case 71: bodyTag.className="five"; break;
+                default: alert("You didn't press one of the specified keys!");
+            }
+
         });
 
     </script>
