@@ -49,6 +49,14 @@
         The "let" keyword can change values, but it has block level scope.
     </h3>
     <br>
+    <h2>Hoisting in JavaScript</h2>
+    <h3>By default, JS hoists variables. This means you can use them before you
+        specifically declare them. This can lead to unexpected results. <br>
+        You should declare your variables first. <br>
+        Const and Let are not hoisted.
+    </h3>
+    <br>
+
 
     <p>Here is a paragraph.</p>
     <p>Here is another paragraph.</p>
@@ -70,6 +78,12 @@
 
         newVar = "not properly defined";
         console.log(newVar);
+
+        var cheese = "yummy";
+        console.log(cheese);
+
+        console.log(cheese);
+        const swissCheese = "yummy";
 
         for (let i=0; i<10; i++) {
             console.log(i);
