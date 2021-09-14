@@ -24,9 +24,24 @@
     <h1 class="center">This is a Java Script class test page!</h1><br><br>
     <h2>Scope in JS</h2>
     <p>Scope in JavaScript has, historically, been problematic. Some
-        variables are global and some are local to a function.
+        variables are global and some are local to a function. <br> (Aside: It's
+        not really a good thing to use the same variable for different
+        things just because you can. It can get confusing.)
     </p>
     <br>
+
+    <script>
+        var aVariable = "this is in the global scope";
+
+        function testScope() {
+            var aVariable = "This is the local scope.";
+            console.log(aVariable);
+        }
+
+        testScope();
+
+        console.log(aVariable);
+    </script>
 
 </body>
 </html>
