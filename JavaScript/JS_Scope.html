@@ -34,6 +34,21 @@
         expression). This anonymous function runs as soon as the script loads,
         and it will also keep variables out of the global scope.</h3>
     <h4>Note: all functions are closures!</h4>
+    <br>
+    <h2>"Use strict"</h2>
+    <h3>ES5, which came out in 2009, included this directive to help cut down on
+        accidental declarations of variables without using the var keyword.
+    </h3>
+    <br>
+    <h2>const and let</h2>
+    <h3>ES6 (ES 2015) introduced two new ways to declare variables in JS. They
+        both help minimize the chances that a variable holds an unexpected value.
+        <br>const cheese = "yummy";<br>
+        The variable cheese can't hold any other value other than "yummy" for the
+        life of the program. <br>
+        The "let" keyword can change values, but it has block level scope.
+    </h3>
+    <br>
 
     <p>Here is a paragraph.</p>
     <p>Here is another paragraph.</p>
@@ -51,13 +66,21 @@
         }
 
         testScope();
-
         console.log(oopsGlobal);
+
+        newVar = "not properly defined";
+        console.log(newVar);
+
+        for (let i=0; i<10; i++) {
+            console.log(i);
+        }
+        console.log(`the value of i ${i}`);
+        // "let" has block level scope. when we try to get the value of i, it will return an error
 
         (function() {
         var myPs = document.querySelectorAll('p');
 
-            for (var i = 0; i<myPs.length; i++){
+            for ( i = 0; i<myPs.length; i++){
                 myPs[i].style.color = "Olive";
             }
         }());
