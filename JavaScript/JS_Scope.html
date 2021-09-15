@@ -95,13 +95,10 @@
         console.log(`the value of i ${i}`);
         // "let" has block level scope. when we try to get the value of i, it will return an error
 
-        (function() {
         var myPs = document.querySelectorAll('p');
-
-            for ( i = 0; i<myPs.length; i++){
+            for (var i = 0; i<myPs.length; i++){
                 myPs[i].style.color = "Olive";
             }
-        }());
 
     </script>
 
