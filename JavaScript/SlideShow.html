@@ -19,6 +19,11 @@
             <a href="JS_Scope.html">JS-Scope</a>
         </nav>
     </header>
+    <br><br><br><br>
+
+    <h1>Simple JS Slideshow</h1>
+    <h2>Demonstrating Basic DOM Manipulation & Event Handling</h2>
+    <br>
 
     <div>
         <img src="images/image1.jpg" alt="slideshow image" id="myImage">
@@ -26,5 +31,26 @@
 
     <p><a href="#" id="previous">previous</a> --- <a href="#" id="next">next</a></p>
 
+    <script>
+
+        var myImages = ["images/image1.jpg", "images/image2.jpg", "images/image3.jpg", "images/image4.jpg", "images/image5.jpg"];
+        var currentImage =0;
+
+        document.getElementById('next').onclick = nextPhoto;
+        document.getElementById('previous').onclick = previousPhoto;
+
+        function nextPhoto() {
+            currentImage++;
+            if(currentImage>myImages.length-1) {currentImage=0;}
+            document.getElementById('myImage').src = myImages[currentImage];
+        }
+
+        function previousPhoto() {
+            currentImage--;
+            if(currentImage < 0) {currentImage=4;}
+            document.getElementById('myImage').src = myImages[currentImage];
+        }
+
+    </script>
 </body>
 </html>
