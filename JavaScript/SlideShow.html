@@ -47,7 +47,7 @@
 
         function previousPhoto() {
             currentImage--;
-            if(currentImage < 0) {currentImage=4;}
+            if(currentImage < 0) {currentImage= myImages.length - 1;}
             document.getElementById('myImage').src = myImages[currentImage];
         }
 
