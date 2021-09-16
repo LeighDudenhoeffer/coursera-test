@@ -93,6 +93,7 @@ p { text-align: center; }
 #links a {
 	display: block;
 	flex: 1;
+	margin: 8px;
 	background: #074e5a;
 	height: 50px;
 	line-height: 50px;
