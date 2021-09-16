@@ -53,15 +53,15 @@ a:focus {
     text-align: center;
 }
 
-#content {
-	margin: 100px auto 20px auto;
-	border: 10px solid #4C4C4C;
+#myImage {
+	margin: 40px auto 20px auto;
+	border: 10px solid #1f7483;
 	width: 400px;
 	height: 266px;
 	position: relative;
 }
 
-#content img {
+#myImage img {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -119,3 +119,8 @@ p { text-align: center; }
 }
 
 /************ Animation Styles ************/
+
+.fadeInImage {
+	animation: fadein 2s;
+}
+
