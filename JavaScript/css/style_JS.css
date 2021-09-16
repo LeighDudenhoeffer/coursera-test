@@ -1,10 +1,15 @@
+body, p {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-    background-color: rgb(145, 238, 207);
+	padding:50px;
+	background: #717171;
+	background-color: rgb(145, 238, 207);
     background-repeat: repeat;
     background-size: cover;
     max-width: 95%;
-    margin: 0 auto;
-    padding:50px;
 }
 
 header {
@@ -48,9 +53,21 @@ a:focus {
     text-align: center;
 }
 
-p {
-    font-size: 1.5em;
+#content {
+	margin: 100px auto 20px auto;
+	border: 10px solid #4C4C4C;
+	width: 400px;
+	height: 266px;
+	position: relative;
 }
+
+#content img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+p { text-align: center; }
 
 #roll {
     width: 50px;
@@ -63,3 +80,31 @@ p {
     height: 800px;
     background-color: rgb(225, 103, 241);
 }
+
+/********** Link Styles ***********/
+
+#links {
+	width: 420px;
+	display: flex;
+	margin: auto;
+}
+
+#links a {
+	display: block;
+	flex: 1;
+	background: #6C0204;
+	height: 50px;
+	line-height: 50px;
+	color: #D5D5D5;
+	text-decoration: none;
+	font-family: Arial;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#links a:hover {
+	background: #A51D1F;
+	color: #fff;
+}
+
+/************ Animation Styles ************/

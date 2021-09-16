@@ -4,6 +4,7 @@ body {
     background-size: cover;
     max-width: 95%;
     margin: 0 auto;
+    padding:50px;
 }
 
 header {
