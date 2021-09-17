@@ -56,6 +56,18 @@
             }
         });
 
+        prevBtn.addEventListener('click', function(event) {
+            event.preventDefault();
+
+            currentImage--;
+            if(currentImage < 0) {currentImage=myImages.length-1}
+
+            var newSlide = document.createElement('img');
+            newSlide.src = `images/${myImages[currentImage]}`;
+            newSlide.className = 'fadeinimg';
+            container.appendChild(newSlide);
+        });
+
     </script>
 </body>
 </html>
