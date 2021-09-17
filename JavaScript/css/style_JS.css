@@ -53,15 +53,15 @@ a:focus {
     text-align: center;
 }
 
-#myImage {
+#content {
 	margin: .6em auto;
 	border: .6em solid #1f7483;
-	width: 30em;
-	height: 20em;
+	width: 400px;
+	height: 266px;
 	position: relative;
 }
 
-#myImage img {
+#content img {
 	position: absolute;
 	left: 0;
 	top: 0;
