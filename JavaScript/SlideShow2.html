@@ -23,16 +23,34 @@
     </header>
     <br>
 
-    <h1>A JS Slideshow with Cross Fade</h1>
+    <h1>JS Slideshow with Cross Fade</h1>
     <br>
 
-    <div>
+    <div id="content">
         <img src="images/image1.jpg" alt="slideshow image" id="myImage">
     </div>
 
-    <p style="text-align: left; font-size: 1.6em;" id="links">
-        <a href="#" id="previous">previous</a>
-        <a href="#" id="next">next</a></p>
+    <p id="links"><a href="#" id="previous">previous</a><a href="#" id="next">next</a></p>
 
+    <script>
+        var currentImage = 0;
+        var myImages = ['image1.jpg', 'image2.jpg', 'image3.jpg','image4.jpg', 'image5.jpg', 'image7.jpg', 'image8.jpg', 'image9.jpg', 'image10.jpg', 'image11.jpg', 'image12.jpg', 'image13.jpg', 'image14.jpg'];
+        var container = document.getElementById('content');
+        var nextBtn = document.getElementById('next');
+        var prevBtn = document.getElementById('previous');
+
+        nextBtn.addEventListener('click', function(event) {
+            event.preventDefault();
+
+            currentImage++;
+            if(currentImage > myImages.length-1){currentImage = 0;}
+
+            var newSlide = document.createElement('img');
+            newSlide.src = `images/${myImages[currentImage]}`;
+            newSlide.className = 'fadeinimg';
+            container.appendChild(newSlide);
+        });
+
+    </script>
 </body>
 </html>

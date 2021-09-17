@@ -53,78 +53,22 @@ a:focus {
     text-align: center;
 }
 
-#myImage {
-	margin: .6em auto;
-	border: .6em solid #1f7483;
-	width: 30em;
-	height: 20em;
-	position: relative;
+.slide {
+    border: .6em solid #1f7483;;
+    position: absolute;
+    width: 32em;
+	height: 22em;
+    opacity: 0;
+    top: 12em;
+    left: 4em;;
+    -webkit-transition: opacity 2s linear;
+    -moz-transition: opacity 2s linear;
+    -o-transition: opacity 2s linear;
+    transition: opacity 2s linear;
 }
 
-#myImage img {
-	position: absolute;
-	left: 0;
-	top: 0;
-}
-
-p { text-align: center; }
-
-/********** Link Styles ***********/
-
-#links {
-	font-size: 1.6em;
-	width: 18em;
-	text-align: left;
-	display: inline-flex;
-	margin: left;
-}
-
-#links a {
-	display: block;
-	flex: 3;
-	margin: 10px;
-	background: #074e5a;
-	height: 2.8em;
-	line-height: 2.8em;
-	background: -moz-linear-gradient (top, #5D6D7E 0%, #074e5a 100%);
-    background: -webkit-linear-gradient (#5D6D7E 0%, #074e5a 100%);
-    background: -o-linear-gradient(#5D6D7E 0%, #074e5a 100%);
-    background: linear-gradient(#5D6D7E 0%, #074e5a 100%);
-	color: #D5D5D5;
-	border-radius: 12px;
-	text-decoration: none;
-	font-family: Arial;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-#links a:hover {
-	background: #1da56c;
-	background: -moz-linear-gradient (top, #5D6D7E 0%, #1da56c 100%);
-    background: -webkit-linear-gradient (#5D6D7E 0%, #1da56c 100%);
-    background: -o-linear-gradient(#5D6D7E 0%, #1da56c 100%);
-    background: linear-gradient(#5D6D7E 0%, #1da56c 100%);
-	color: #fff;
-}
-
-/************ Animation Styles ************/
-
-.fadeinimg {
-	animation: fadein 2s;
-}
-
-@keyframes fadein{
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 2;
-	}
-}
-
-/* For mobile phones: */
-[class*="col-"] {
-	width: 100%;
+.visible {
+    opacity: 1;
 }
 
 @media only screen and (min-width: 600px) {
