@@ -49,6 +49,11 @@
             newSlide.src = `images/${myImages[currentImage]}`;
             newSlide.className = 'fadeinimg';
             container.appendChild(newSlide);
+
+            if (container.children.length>2) {
+                container.removeChild(container.children[0]); // This will remove the bottom most child. This is necessary
+                // because every time we click the link, it adds one more and this fills up the DOM.
+            }
         });
 
     </script>
