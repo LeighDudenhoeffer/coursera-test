@@ -1,3 +1,4 @@
+// This code is for the simple slideshow in Lesson 1
 // we're keeping this inside of this function, so it doesn't mess with anything else
 // we may do on this page.
 
