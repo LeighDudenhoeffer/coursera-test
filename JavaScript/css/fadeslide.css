@@ -4,7 +4,7 @@ body, p {
 }
 
 body {
-	padding:10px;
+	padding:8px;
 	background: #717171;
 	background-color: rgb(145, 238, 207);
     background-repeat: repeat;
@@ -60,7 +60,7 @@ a:focus {
 	height: 266px;
     opacity: 0;
     top: 10em;
-    left: 3em;;
+    left: 2em;;
     -webkit-transition: opacity 2s linear;
     -moz-transition: opacity 2s linear;
     -o-transition: opacity 2s linear;
