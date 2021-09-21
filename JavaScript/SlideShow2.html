@@ -39,21 +39,25 @@
         var nextBtn = document.getElementById('next');
         var prevBtn = document.getElementById('previous');
 
+        function swapImage() {
+            var newSlide = document.createElement('img');
+            newSlide.src = `images/${myImages[currentImage]}`;
+            newSlide.className = 'fadeinimg';
+            container.appendChild(newSlide);
+
+            if (container.children.length > 2) {
+                container.removeChild(container.children[0]); // This will remove the bottom most child. This is necessary
+                // because every time we click the link, it adds one more and this fills up the DOM.
+            }
+        }
+
         nextBtn.addEventListener('click', function(event) {
             event.preventDefault();
 
             currentImage++;
             if(currentImage > myImages.length-1){currentImage = 0;}
 
-            var newSlide = document.createElement('img');
-            newSlide.src = `images/${myImages[currentImage]}`;
-            newSlide.className = 'fadeinimg';
-            container.appendChild(newSlide);
-
-            if (container.children.length>2) {
-                container.removeChild(container.children[0]); // This will remove the bottom most child. This is necessary
-                // because every time we click the link, it adds one more and this fills up the DOM.
-            }
+            swapImage();
         });
 
         prevBtn.addEventListener('click', function(event) {
@@ -62,14 +66,7 @@
             currentImage--;
             if(currentImage < 0) {currentImage=myImages.length-1}
 
-            var newSlide = document.createElement('img');
-            newSlide.src = `images/${myImages[currentImage]}`;
-            newSlide.className = 'fadeinimg';
-            container.appendChild(newSlide);
-
-            if (container.children.length>2) {
-                container.removeChild(container.children[0]);
-            }
+            swapImage();
         });
 
     </script>
