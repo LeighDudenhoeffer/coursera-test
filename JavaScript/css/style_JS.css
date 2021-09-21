@@ -71,7 +71,7 @@ p { text-align: center; }
 /********** Link Styles ***********/
 
 #links {
-	font-size: 1.6em;
+	font-size: 1.4em;
 	width: 20em;
 	text-align: left;
 	display: inline-flex;
@@ -90,7 +90,7 @@ p { text-align: center; }
     background: -o-linear-gradient(#7d93aa 0%, #074e5a 100%);
     background: linear-gradient(#7d93aa 0%, #074e5a 100%);
 	color: #D5D5D5;
-	border-radius: 12px;
+	border-radius: 10px;
 	text-decoration: none;
 	font-family: Arial;
 	text-transform: uppercase;
@@ -124,7 +124,7 @@ p { text-align: center; }
 @media screen and (max-width: 599px){
 /* For mobile phones: */
 	#content img {
-	width: 40%;
+	width: fit-content;
 }
 	#links, #links a {
 		width: fit-content;
