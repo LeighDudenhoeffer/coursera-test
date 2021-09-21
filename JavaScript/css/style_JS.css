@@ -124,10 +124,10 @@ p { text-align: center; }
 @media screen and (max-width: 599px){
 /* For mobile phones: */
 	#content img {
-	width: fit-content;
+	width: 60%;
 }
 	#links, #links a {
-		width: fit-content;
+		width: 100%;
 	}
 }
 
