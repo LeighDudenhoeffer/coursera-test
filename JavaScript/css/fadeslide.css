@@ -1,9 +1,7 @@
-body, p {
-	margin: 0;
-	padding: 0;
-}
-
 body {
+    height: auto;
+    margin: 0;
+    padding: 0;
 	padding:8px;
 	background: #717171;
 	background-color: rgb(145, 238, 207);
@@ -59,7 +57,7 @@ a:focus {
     width: 400px;
 	height: 266px;
     opacity: 0;
-    top: 10em;
+    top: 12em;
     left: 2em;;
     -webkit-transition: opacity 2s linear;
     -moz-transition: opacity 2s linear;
