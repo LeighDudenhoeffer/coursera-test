@@ -54,13 +54,13 @@ a:focus {
 }
 
 .slide {
-    border: .6em solid #1f7483;;
+    border: .6em solid #1f7483;
     position: absolute;
-    width: 32em;
-	height: 22em;
+    width: 400px;
+	height: 266px;
     opacity: 0;
-    top: 12em;
-    left: 4em;;
+    top: 10em;
+    left: 3em;;
     -webkit-transition: opacity 2s linear;
     -moz-transition: opacity 2s linear;
     -o-transition: opacity 2s linear;
@@ -69,6 +69,13 @@ a:focus {
 
 .visible {
     opacity: 1;
+}
+
+@media screen and (max-width: 599px){
+/* For mobile phones: */
+	#content img {
+	width: 85%;
+    }
 }
 
 @media only screen and (min-width: 600px) {
