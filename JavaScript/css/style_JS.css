@@ -124,7 +124,7 @@ p { text-align: center; }
 @media screen and (max-width: 599px){
 /* For mobile phones: */
 	#content img {
-	width: 60%;
+	width: 65%;
 }
 	#links, #links a {
 		width: 100%;
