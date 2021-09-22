@@ -62,12 +62,20 @@ p {
 }
 
 .invisible {
-    color: #AABCCC;
+    color: #a1c0e0;
 }
 
 .container {
     width: 700px;
     margin: auto;
-    padding: 20px;
+    padding: 16px;
     text-align: center;
+}
+
+.top {
+    background: #EBF6BE;
+}
+
+.bottom {
+    background: #a1c0e0;
 }
