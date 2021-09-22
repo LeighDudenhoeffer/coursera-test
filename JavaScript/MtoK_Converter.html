@@ -53,7 +53,10 @@
             var distance = parseFloat(document.getElementById('distance').value);
 
             if (distance) {
+                var convertMiles = distance * 1.609344;
                 // convert and round the distance
+
+                alert(convertMiles);
                 // put the answer in the bottom div using innerHTML
             }
 
@@ -61,7 +64,7 @@
                 //put an error message in the bottom div
             }
 
-            alert(distance);
+            //
             // (mile * 1.609344) kilometers
         });
 
