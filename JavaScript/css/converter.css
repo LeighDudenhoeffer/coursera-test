@@ -2,9 +2,10 @@ body {
     background-color: rgb(145, 238, 207);
     background-repeat: repeat;
     background-size: cover;
+    font-family: 'Pt Sans', sans-serif;
     max-width: 95%;
     margin: 0 auto;
-    padding:50px;
+    padding:40px;
 }
 
 header {
