@@ -55,8 +55,8 @@
             if (distance) {
                 var convertMiles = distance * 1.609344;
                 // convert and round the distance
-
-                alert(convertMiles);
+                var roundDistance = (Math.round(convertMiles * 1000))/1000;
+                alert(roundDistance);
                 // put the answer in the bottom div using innerHTML
             }
 
