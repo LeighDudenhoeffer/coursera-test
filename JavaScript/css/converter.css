@@ -81,6 +81,10 @@ p {
     background: #a1c0e0;
 }
 
+#instructions {
+    padding-left: 12px;
+}
+
 /* Forms */
 input [type="text"]{
     height: 2em;
