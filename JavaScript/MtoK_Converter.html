@@ -51,17 +51,18 @@
             event.preventDefault();
 
             var distance = parseFloat(document.getElementById('distance').value);
+            var answer = document.getElementById('answer');
 
             if (distance) {
                 var convertMiles = (distance * 1.609344).toFixed(3);
                 // convert and round the distance to 3 decimal points
 
-                var answer = document.getElementById('answer');
                 answer.innerHTML = `<h2>${distance} miles converts to ${convertMiles} kilometers.</h2>`;
                 // put the answer in the bottom div using innerHTML
             }
 
             else {
+                answer.innerHTML = '<h2>Please provide a number!!</h2>'
                 //put an error message in the bottom div
             }
 
