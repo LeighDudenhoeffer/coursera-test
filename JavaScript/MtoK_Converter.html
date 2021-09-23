@@ -55,7 +55,9 @@
             if (distance) {
                 var convertMiles = (distance * 1.609344).toFixed(3);
                 // convert and round the distance to 3 decimal points
-                alert(convertMiles);
+
+                var answer = document.getElementById('answer');
+                answer.innerHTML = `<h2>${distance} miles converts to ${convertMiles} kilometers.</h2>`;
                 // put the answer in the bottom div using innerHTML
             }
 
@@ -63,8 +65,6 @@
                 //put an error message in the bottom div
             }
 
-            //
-            // (mile * 1.609344) kilometers
         });
 
     </script>
