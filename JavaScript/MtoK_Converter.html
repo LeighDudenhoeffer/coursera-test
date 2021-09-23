@@ -53,10 +53,9 @@
             var distance = parseFloat(document.getElementById('distance').value);
 
             if (distance) {
-                var convertMiles = distance * 1.609344;
-                // convert and round the distance
-                var roundDistance = (Math.round(convertMiles * 1000))/1000;
-                alert(roundDistance);
+                var convertMiles = (distance * 1.609344).toFixed(3);
+                // convert and round the distance to 3 decimal points
+                alert(convertMiles);
                 // put the answer in the bottom div using innerHTML
             }
 
