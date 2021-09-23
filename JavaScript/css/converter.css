@@ -5,7 +5,7 @@ body {
     font-family: 'Pt Sans', sans-serif;
     max-width: 95%;
     margin: 0 auto;
-    padding:40px;
+    padding:8px;
 }
 
 header {
@@ -59,7 +59,7 @@ h1 {
 }
 
 p {
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 .invisible {
@@ -80,6 +80,87 @@ p {
 .bottom {
     background: #a1c0e0;
 }
+
+/* Forms */
+input [type="text"]{
+    height: 2em;
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid #390f61;
+    border-radius: 4px;
+    box-shadow: inset;
+    box-sizing: border-box;
+    width: 2em;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #390f61;
+    outline: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+/* Buttons */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: rgb(131, 76, 13);
+    text-align: center;
+    font-size: .85em;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    color: #602497;
+    border-color: #888;
+    outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #390f61; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #390f61; }
 
 @media screen and (max-width: 599px){
 /* For mobile phones: */
