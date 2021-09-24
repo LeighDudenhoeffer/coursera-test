@@ -16,7 +16,7 @@
         }
 
         else {
-            answer.innerHTML = '<h2>Please provide a number!!</h2>'
+            answer.innerHTML = '<h2>Please provide a number!!</h2>';
             //put an error message in the bottom div
         }
 

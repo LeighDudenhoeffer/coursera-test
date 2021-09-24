@@ -33,7 +33,7 @@
     <h1>Kilometers to Miles Converter</h1>
 
     <div class="container top">
-        <p>Enter the miles to convert & click the convert button.</p>
+        <p>Enter the miles to convert & click the CONVERT DISTANCE button.</p>
 
         <form method="post" action="somephpfile.php" id="convert">
 
@@ -63,19 +63,35 @@
             var key = event.code;
 
             if (key === 'KeyK'){
-                //change the heading.
-                //change the intro paragraph
-                //change the value of the convertType variable
+                convertType = 'kilometers';
+                heading.innerHTML ="Kilometers to Miles Converter";
+                intro.innerHTML = "Enter the kilometers you want to convert & click the CONVERT DISTANCE button";
             }
             else if (key === 'KeyM') {
-                //change the heading.
-                //change the intro paragraph
-                //change the value of the convertType variable
+                convertType = 'miles';
+                heading.innerHTML = "Miles to Kilometers Converter";
+                intro.innerHTML = "Enter the miles you want to convert & click the CONVERT DISTANCE button";
             }
         });
 
         form.addEventListener('submit', function(){
+            event.preventDefault();
+            var distance = parseFloat(document.getElementById('distance').value);
 
+            if (distance){
+                //convert M to K 1.609344
+                //convert K to M 0.621371192
+                if (convertType == "miles"){
+                    var converted = (distance * 1.609344).toFixed(3);
+                }
+                else {
+                    var converted = (distance * 0.621371192).toFixed(3);
+                }
+            }
+
+            else {
+                answer.innerHTML = '<h2>Please provide a number!!</h2>';
+            }
         });
 
     </script>
