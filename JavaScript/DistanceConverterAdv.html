@@ -83,9 +83,11 @@
                 //convert K to M 0.621371192
                 if (convertType == "miles"){
                     var converted = (distance * 1.609344).toFixed(3);
+                    answer.innerHTML = `<h2>${distance} miles converts to ${converted} kilometers.</h2>`;
                 }
                 else {
                     var converted = (distance * 0.621371192).toFixed(3);
+                    answer.innerHTML = `<h2>${distance} kilometers converts to ${converted} miles. </h2>`;
                 }
             }
 
