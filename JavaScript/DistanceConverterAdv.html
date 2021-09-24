@@ -11,8 +11,8 @@
     <!--/ /-------- Google Fonts --------/ /-->
     <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/converter.css">
-    <script src="js/converter.js" defer></script>
 </head>
+
 <body>
     <header>
         <nav>
@@ -46,7 +46,21 @@
         <h2 class="invisible">The answer goes here.</h2>
     </div>
 
-    <footer style="font-size: 1.6em;"><a href="DistanceConverterAdv.html">Click Here</a> for the Advance Converter!</footer>
+    <p id="instructions">Press the "K" key to convert Kilometers to Miles;
+        Press the "M" key to convert Miles to Kilometers!
+    </p>
+
+    <script>
+
+        var convertType = "miles";
+        var heading = document.querySelector('h1');
+        var intro = document.querySelector('p');
+        var answerDiv = document.getElementById('answer');
+        var form = document.getElementById('convert');
+
+
+
+    </script>
 
 </body>
 </html>
