@@ -45,6 +45,7 @@
     <div class="container bottom" id="answer">
         <h2 class="invisible">The answer goes here.</h2>
     </div>
+    <br>
 
     <p id="instructions">Press the "K" key to convert Kilometers to Miles;
         Press the "M" key to convert Miles to Kilometers!
@@ -58,7 +59,24 @@
         var answerDiv = document.getElementById('answer');
         var form = document.getElementById('convert');
 
+        document.addEventListener('keydown', function(){
+            var key = event.code;
 
+            if (key === 'KeyK'){
+                //change the heading.
+                //change the intro paragraph
+                //change the value of the convertType variable
+            }
+            else if (key === 'KeyM') {
+                //change the heading.
+                //change the intro paragraph
+                //change the value of the convertType variable
+            }
+        });
+
+        form.addEventListener('submit', function(){
+
+        });
 
     </script>
 
