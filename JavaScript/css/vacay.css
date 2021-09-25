@@ -24,6 +24,14 @@ header {
     padding-bottom: 10px;
 }
 
+main {
+    max-width: 90%;
+    padding: 1.5em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 nav {
     box-sizing: border-box;
     font-variant: small-caps;
@@ -49,7 +57,50 @@ a:focus {
     text-align: center;
 }
 
+h1, h2, h3, h4, ul, li, p {
+    margin: 0;
+    padding: .6em;
+}
 
+h1, h2, h3, h4, p {
+    margin-bottom: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+#title {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+}
+
+main form {
+    width: 40%;
+}
+
+main article {
+    width: 45%
+}
+
+input, textarea, #destination_details_form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid #666;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card {
+    padding: 20px;
+    background-color: #efefef;
+    margin-bottom: 20px;
+}
 
 @media screen and (max-width: 599px){
 /* For mobile phones: */

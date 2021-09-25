@@ -4,7 +4,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JavaScriptClass</title>
+    <title>Vacation Destinations Wishlist</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/vacay.css">
 </head>
 
@@ -21,10 +22,47 @@
             <a href="DistanceConverterAdv.html">Converter2</a>
             <a href="Vacation.html">Vacation!</a>
         </nav>
+
+        <h1>Vacation Destinations Wishlist</h1>
+        <p>Did you find some interesting places to visit for vacation! Use the form below to add
+            to this wishlist!!</p>
     </header>
 
+    <main>
+        <form id="destination_details_form">
+            <label for="name">Destination Name</label>
+            <input required type="text" id="name" placeholder="Enter the destination.">
 
+            <label for="location">Location</label>
+            <input required type="text" id="location" placeholder="Where is it located?">
 
+            <label for="Photo">Photo</label>
+            <input type="url" id="photo" placeholder="Enter an image url of the location.">
 
+            <label for="description">Description</label>
+            <textarea type="text" id="description" placeholder="Destination description."></textarea>
+
+            <button type="submit" style="border-radius: 12px; background-color: rgb(161, 104, 214);">Add to list!</button>
+        </form>
+
+        <article>
+            <h2 id="title">Enter destination details:</h2>
+            <div id="destinations_container">
+                <!-- Dynamically populated by JS -->
+                <div class="card">
+                    <img src="images/signpost.jpg" alt="A travel signpost">
+                    <div class="card-body">
+                        <h3>Destination Name</h3>
+                        <h4>Destination Location</h4>
+                        <p class="card-text">Destination Description</p>
+                        <button>Remove</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <script src="vacay.js"></script>
 </body>
 </html>
