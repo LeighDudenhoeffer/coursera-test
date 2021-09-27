@@ -17,6 +17,9 @@ function handleFormSubmit(event) {
 
     // create card here....
 
-    var wishListContainer = document.getElementById('title');
+    var wishListContainer = document.getElementById('destinations_container');
 
+    if (wishListContainer.children.length === 0){
+        document.getElementById('title').innerHTML = "My Travel Wish List";
+    }
 }
