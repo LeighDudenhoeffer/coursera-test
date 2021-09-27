@@ -23,3 +23,8 @@ function handleFormSubmit(event) {
         document.getElementById('title').innerHTML = "My Travel Wish List";
     }
 }
+
+function createDestinationCard(name, location, photoUrl, description) {
+    var card = document.createElement("div");
+    card.className = "card";
+}
