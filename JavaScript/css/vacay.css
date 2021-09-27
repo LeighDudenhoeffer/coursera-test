@@ -66,13 +66,13 @@ img {
     max-width: 100%;
 }
 
-#title {
+#titleTop {
     padding-top: 1.6em;
     text-align: center;
     font-size: 1.7em;
 }
 
-#title2, #title3 {
+#pTitle, #title {
     text-align: center;
     font-size: 1.3em;
 }
