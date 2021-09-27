@@ -11,3 +11,6 @@ detailsForm.addEventListener("submit", handleFormSubmit);
         var destDesc = event.target.elements["description"].value;
     }
 
+    for (var i = 0; i < detailsForm.length; i++) {
+
+    }
