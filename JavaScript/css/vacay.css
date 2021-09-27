@@ -67,13 +67,14 @@ img {
 }
 
 #title {
+    padding-top: 1.6em;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 
-#title2 {
+#title2, #title3 {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #destination_details_form {
