@@ -76,23 +76,27 @@ img {
     font-size: 1.2em;
 }
 
+#destination_details_form {
+    font-size: 1.2em;
+}
+
 label {
     display: block;
     margin-bottom: .5em;
 }
 
 main form {
-    width: 44%;
+    width: 42%;
 }
 
 main article {
-    width: 48%
+    width: 46%
 }
 
 input, textarea, #destination_details_form button {
     display: block;
     width: 100%;
-    margin-bottom: 1.3em;
+    margin-bottom: 1.5em;
     border: 1px solid #666;
     padding: 10px;
     box-sizing: border-box;
