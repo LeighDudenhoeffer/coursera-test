@@ -66,6 +66,12 @@ function createDestinationCard(name, location, photoUrl, description) {
     cardDeleteBtn.addEventListener("click", removeDestination);
     cardBody.appendChild(cardDeleteBtn);
 
-
-
+    card.appendChild(cardBody);
+    return card;
 }
+
+function removeDestination(event) {
+    var card = event.target.parentElement.parentElement;
+    card.remove();
+}
+
