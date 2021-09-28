@@ -26,21 +26,21 @@ function handleFormSubmit(event) {
     document.querySelector('#destinations_container').appendChild(destCard);
 }
 
-function createDestinationCard(name, location, photoUrl, description) {
+function createDestinationCard(name, location, photoURL, description) {
 
     var card = document.createElement('div');
     card.className = "card";
 
-    var photo = document.createElement('img');
-    img.setAttribute('alt', imageName); // setting the alt attribute for individuals with screenreaders
+    var img = document.createElement('img');
+    img.setAttribute('alt', name); // setting the alt attribute for individuals with screenreaders
 
-    var constantPhotoUrl = "images/signpost.jpg";
+    var constantphotoURL = "images/signpost.jpg";
 
-    if(photoUrl.length === 0) {
-        img.setAttribute('src', constantPhotoUrl);
+    if (photoURL.length === 0) {
+        img.setAttribute('src', constantphotoURL);
     }
     else {
-        img.setAttribute('src', photoUrl);
+        img.setAttribute('src', photoURL);
     }
 
     card.appendChild(img);
