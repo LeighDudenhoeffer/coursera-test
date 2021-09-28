@@ -1,6 +1,6 @@
-var detailsForm = document.querySelector("#destination_details_form");
+var detailsForm = document.querySelector('destination_details_form');
 
-detailsForm.addEventListener("submit", handleFormSubmit);
+detailsForm.addEventListener('submit', handleFormSubmit);
 
 function handleFormSubmit(event) {
     event.preventDefault();
@@ -12,24 +12,27 @@ function handleFormSubmit(event) {
 
 
     for (var i = 0; i < detailsForm.length; i++) {
-        detailsForm.element[i].value = "";
+        detailsForm.elements[i].value = "";
     }
 
-    // create card here....
+    var destCard = createDestinationCard(destName, destLocation, destPhoto, destDesc);
 
     var wishListContainer = document.getElementById('destinations_container');
 
     if (wishListContainer.children.length === 0) {
         document.getElementById('title').innerHTML = "My Travel Wish List";
     }
+
+    document.querySelector('#destinations_container').appendChild(destCard);
 }
 
 function createDestinationCard(name, location, photoUrl, description) {
-    var card = document.createElement(div);
+
+    var card = document.createElement('div');
     card.className = "card";
 
     var photo = document.createElement('img');
-    img.setAttribute('alt', name); // setting the alt attribute for individuals with screenreaders
+    img.setAttribute('alt', imageName); // setting the alt attribute for individuals with screenreaders
 
     var constantPhotoUrl = "images/signpost.jpg";
 
