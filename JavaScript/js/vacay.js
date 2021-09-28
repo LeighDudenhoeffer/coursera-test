@@ -25,6 +25,14 @@ function handleFormSubmit(event) {
 }
 
 function createDestinationCard(name, location, photoUrl, description) {
-    var card = document.createElement("div");
+    var card = document.createElement(div);
     card.className = "card";
+
+    var photo = document.createElement('img');
+    img.setAttribute('alt', name); // setting the alt attribute for individuals with screenreaders
+
+    var constantPhotoUrl = "images/signpost.jpg";
+
+
+
 }
