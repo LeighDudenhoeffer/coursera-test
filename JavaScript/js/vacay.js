@@ -1,9 +1,11 @@
 var detailsForm = document.querySelector('destination_details_form');
 
-detailsForm.addEventListener('submit', handleFormSubmit);
-
 function handleFormSubmit(event) {
     event.preventDefault();
+
+detailsForm.addEventListener('submit', handleFormSubmit);
+
+
 
     var destName = event.target.elements["name"].value;
     var destLocation = event.target.elements["location"].value;
