@@ -110,6 +110,11 @@ input, textarea, #destination_details_form button {
     margin-bottom: 20px;
 }
 
+.remove {
+    border-radius: 8px;
+    background-color: rgb(189, 137, 238);
+}
+
 @media screen and (max-width: 599px){
 /* For mobile phones: */
 	.container, .invisible, #distance {

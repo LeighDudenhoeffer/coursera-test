@@ -19,7 +19,7 @@ function handleFormSubmit(event) {
 
     var wishListContainer = document.getElementById('destinations_container');
 
-    if (wishListContainer.children.length === 0){
+    if (wishListContainer.children.length === 0) {
         document.getElementById('title').innerHTML = "My Travel Wish List";
     }
 }
@@ -33,6 +33,29 @@ function createDestinationCard(name, location, photoUrl, description) {
 
     var constantPhotoUrl = "images/signpost.jpg";
 
+    if(photoUrl.length === 0) {
+        img.setAttribute('src', constantPhotoUrl);
+    }
+    else {
+        img.setAttribute('src', photoUrl);
+    }
 
+    var cardBody = document.createElement("div");
+    cardBody.className = "card-body";
+
+    var cardTitle = document.createElement("h3");
+    cardTitle.innerText = name;
+    cardBody.appendChild(cardTitle);
+
+    var cardSubtitle = document.createElement("h4");
+    cardSubtitle.innerText = location;
+    cardBody.appendChild(cardSubtitle);
+
+    if (description.length !== 0) {
+        var cardText = document.createElement("p");
+        cardText.className = "card-text";
+        cardText.innerText = description;
+        cardBody.appendChild(cardText);
+    }
 
 }
