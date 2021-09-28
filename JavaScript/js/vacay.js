@@ -40,6 +40,8 @@ function createDestinationCard(name, location, photoUrl, description) {
         img.setAttribute('src', photoUrl);
     }
 
+    card.appendChild(img);
+
     var cardBody = document.createElement("div");
     cardBody.className = "card-body";
 
@@ -57,5 +59,13 @@ function createDestinationCard(name, location, photoUrl, description) {
         cardText.innerText = description;
         cardBody.appendChild(cardText);
     }
+
+    var cardDeleteBtn = document.createElement("button");
+    cardDeleteBtn.innerText = "Remove";
+
+    cardDeleteBtn.addEventListener("click", removeDestination);
+    cardBody.appendChild(cardDeleteBtn);
+
+
 
 }
