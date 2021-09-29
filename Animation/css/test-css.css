@@ -47,3 +47,11 @@ a:focus {
 .center {
     text-align: center;
 }
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+}
