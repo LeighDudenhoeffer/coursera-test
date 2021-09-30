@@ -5,6 +5,7 @@ body {
     max-width: 95%;
     margin: 0 auto;
     padding:15px;
+    line-height: 1.35em;
 }
 
 header {
@@ -44,10 +45,18 @@ a:focus {
     color: rgb(241, 185, 112);
 }
 
-h1 {
-    text-align: center;
+main {
+    width: 80%;
+    margin: auto;
+    padding: 1.4em;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-p {
-    font-size: 1.5em;
+aside {
+    width: 20%;
+}
+
+article {
+    width: 65%;
 }
