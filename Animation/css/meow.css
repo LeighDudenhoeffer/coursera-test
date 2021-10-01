@@ -60,3 +60,24 @@ aside {
 article {
     width: 65%;
 }
+
+h1 {
+    height: 160px;
+    background: url("https://placekitten.com/525/150") no-repeat;
+    line-height: 160px;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(247, 220, 183);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hide-menu {
+    display: none;
+}
+
+.show-menu {
+    display: block;
+}
