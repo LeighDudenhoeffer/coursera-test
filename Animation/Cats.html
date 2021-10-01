@@ -9,13 +9,13 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <nav>
             <a href="index.html">Home</a>
             <a href="ExamplePage.html">Example</a>
             <a href="Cats.html">Cats-Example</a>
         </nav>
-    </header>
+    </header> -->
 
     <main>
         <article>
@@ -62,27 +62,27 @@
                 <li><a href="#" class="menulink">Menu 2</a>
                     <ul>
                         <li><a href="#">Menu 2A</a></li>
-                        <li><a href="#">Menu 2A</a></li>
-                        <li><a href="#">Menu 2A</a></li>
-                        <li><a href="#">Menu 2A</a></li>
+                        <li><a href="#">Menu 2B</a></li>
+                        <li><a href="#">Menu 2C</a></li>
+                        <li><a href="#">Menu 2D</a></li>
                     </ul>
                 </li>
 
                 <li><a href="#" class="menulink">Menu 3</a>
                     <ul>
                         <li><a href="#">Menu 3A</a></li>
-                        <li><a href="#">Menu 3A</a></li>
-                        <li><a href="#">Menu 3A</a></li>
-                        <li><a href="#">Menu 3A</a></li>
+                        <li><a href="#">Menu 3B</a></li>
+                        <li><a href="#">Menu 3C</a></li>
+                        <li><a href="#">Menu 3D</a></li>
                     </ul>
                 </li>
 
                 <li><a href="#" class="menulink">Menu 4</a>
                     <ul>
                         <li><a href="#">Menu 4A</a></li>
-                        <li><a href="#">Menu 4A</a></li>
-                        <li><a href="#">Menu 4A</a></li>
-                        <li><a href="#">Menu 4A</a></li>
+                        <li><a href="#">Menu 4B</a></li>
+                        <li><a href="#">Menu 4C</a></li>
+                        <li><a href="#">Menu 4D</a></li>
                     </ul>
                 </li>
             </ul>
@@ -94,11 +94,19 @@
 <script>
 
     var submenus = document.querySelectorAll('ul li ul');
-
     for (var i=0; i<submenus.length; i++) {
         submenus[i].className = 'hide-menu';
     }
 
+    var menuLinks = document.querySelectorAll('.menulink');
+    for (var i = 1; i < menuLinks.length; i++) {
+        menuLinks[i].addEventListener('click', function(event) {
+            event.preventDefault();
+
+            var thisMenu = this.parentNode.querySelector('ul');
+            console.log(thisMenu.innerHTML);
+        });
+    }
 
 
 </script>
