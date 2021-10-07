@@ -96,8 +96,13 @@
     <script>
 
         $('ul li ul').hide();
-        $('.menulink').click (function(){} );
 
+        $('.menulink').click (function(){
+            var thisMenu = $(this).next('ul');
+
+            thisMenu.toggle();
+
+        });
     </script>
 
     <hr>
