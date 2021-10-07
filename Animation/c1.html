@@ -41,7 +41,7 @@
         <p>Here's paragraph three.</p>
         <p>Here's paragraph four.</p>
         <p>Here's paragraph five.</p>
-        <p>Here's paragraph six.</p>
+        <p>Sheep, Pigs, and Turkeys!!!</p>
         <p>Here's paragraph seven.</p>
         <p>Here's paragraph eight.</p>
         <p>Here's paragraph nine.</p>
@@ -49,6 +49,7 @@
         <p>Here's paragraph eleven.</p>
         <p>Here's paragraph twelve.</p>
     </div>
+    <hr>
 
     <script>
 
@@ -63,6 +64,13 @@
         var parasInMain2 = document.querySelectorAll("#main2 p:nth-child(even)");
             for (var i=0; i<parasInMain2.length; i++){
                 parasInMain2[i].style.color="darkgreen";
+            }
+
+        var parasInMain2 = document.querySelectorAll("#main2 p");
+            for (var i = 0; i < parasInMain2.length; i++) {
+                if (parasInMain2[i].innerHTML == "Sheep, Pigs, and Turkeys!!!") {
+                    parasInMain2[i].style.color="Maroon";
+                }
             }
 
     </script>

@@ -10,14 +10,6 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="ExamplePage.html">Example</a>
-            <a href="Cats.html">Cats-Example</a>
-            <a href="Cats2.html">Cats2-Exp</a>
-        </nav>
-    </header>
 
     <h1>Challenge 1 with jQuery</h1>
 
@@ -41,7 +33,7 @@
         <p>Here's paragraph three.</p>
         <p>Here's paragraph four.</p>
         <p>Here's paragraph five.</p>
-        <p>Here's paragraph six.</p>
+        <p>Chickens, pigs, and Alpacas!!!</p>
         <p>Here's paragraph seven.</p>
         <p>Here's paragraph eight.</p>
         <p>Here's paragraph nine.</p>
@@ -49,6 +41,7 @@
         <p>Here's paragraph eleven.</p>
         <p>Here's paragraph twelve.</p>
     </div>
+    <hr>
 
 
     <script>
@@ -56,7 +49,8 @@
         $("#paragraph").css("font-size", "24px");
         $("#main p").css("font-size", "24px").css("color", "red");
         $("#main p").last().css({"font-size": "30px", "color": "hotpink"});
-        $("#main2 p").even().css("color", "darkgreen");
+        $("#main2").even().css("color", "darkgreen");
+        $("#main2 p:contains(Chickens, pigs, and Alpacas!!!)").css("color", "DarkOliveGreen");
 
     </script>
 
