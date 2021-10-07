@@ -38,11 +38,11 @@ a:link {
 }
 
 a:hover {
-    color: rgb(172, 240, 104);
+    color: rgb(72, 136, 8);
 }
 
 a:focus {
-    color: rgb(241, 185, 112);
+    color: rgb(117, 72, 12);
 }
 
 main {
@@ -67,7 +67,7 @@ h1 {
     line-height: 300px;
     text-align: center;
     font-size: 3em;
-    color: rgb(247, 220, 183);
+    color: rgb(215, 125, 243);
 }
 
 ul {

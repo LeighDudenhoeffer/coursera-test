@@ -7,6 +7,7 @@
     <title>A Menu Example</title>
     <link rel="stylesheet" href="css/meow.css">
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/meow2.js" defer></script>
 </head>
 
 <body>
@@ -50,42 +51,42 @@
         </article>
 
     <aside>
-        <h2>Navigation</h2>
+        <h2>Find your cat journey below!</h2>
         <nav>
             <ul>
-                <li><a href="#" class="menulink">Menu 1</a>
+                <li><a href="#" class="menulink">Cats Pages 1</a>
                     <ul>
-                        <li><a href="#">Menu 1A</a></li>
-                        <li><a href="#">Menu 1B</a></li>
-                        <li><a href="#">Menu 1C</a></li>
-                        <li><a href="#">Menu 1D</a></li>
+                        <li><a href="https://thecatsite.com" target="_blank">• The Cat Site</a></li>
+                        <li><a href="https://pethelpful.com/cats/How-to-Make-Christmas-Safe-For-Your-Cat" target="_blank">• Christmas for your Cat</a></li>
+                        <li><a href="https://www.catster.com" target="_blank">• Catster Magazine</a></li>
+                        <li><a href="https://www.lovemeow.com" target="_blank">• LoveMeow</a></li>
                     </ul>
                 </li>
 
-                <li><a href="#" class="menulink">Menu 2</a>
+                <li><a href="#" class="menulink">Cats Pages 2</a>
                     <ul>
-                        <li><a href="#">Menu 2A</a></li>
-                        <li><a href="#">Menu 2B</a></li>
-                        <li><a href="#">Menu 2C</a></li>
-                        <li><a href="#">Menu 2D</a></li>
+                        <li><a href="https://floppycats.com" target="_blank">• Ragdoll Cats</a></li>
+                        <li><a href="https://thejoyofcats.com" target="_blank">• The Joy of Cats</a></li>
+                        <li><a href="https://www.glogirly.com" target="_blank">• GloGirly</a></li>
+                        <li><a href="https://cattitudedaily.com/" target="_blank">• Catitude Daily</a></li>
                     </ul>
                 </li>
 
-                <li><a href="#" class="menulink">Menu 3</a>
+                <li><a href="#" class="menulink">Cats Pages 3</a>
                     <ul>
-                        <li><a href="#">Menu 3A</a></li>
-                        <li><a href="#">Menu 3B</a></li>
-                        <li><a href="#">Menu 3C</a></li>
-                        <li><a href="#">Menu 3D</a></li>
+                        <li><a href="https://simonscat.com/blog/" target="_blank">• Simon's Cat</a></li>
+                        <li><a href="https://bionicbasil.blogspot.com/" target="_blank">• Bionic Basil</a></li>
+                        <li><a href="https://www.livingwithloulou.com/" target="_blank">• Living with Lou Lou</a></li>
+                        <li><a href="https://www.sweetpurrfections.com/" target="_blank">• Living with Persian Cats</a></li>
                     </ul>
                 </li>
 
-                <li><a href="#" class="menulink">Menu 4</a>
+                <li><a href="#" class="menulink">Cats Pages 4</a>
                     <ul>
-                        <li><a href="#">Menu 4A</a></li>
-                        <li><a href="#">Menu 4B</a></li>
-                        <li><a href="#">Menu 4C</a></li>
-                        <li><a href="#">Menu 4D</a></li>
+                        <li><a href="https://www.mochasmysteriesmeows.com/2021/10/fun-feline-finds-for-halloween-from-etsy.html" target="_blank">• Etsy Feline Finds 4 Halloween</a></li>
+                        <li><a href="https://www.island-cats.com/" target="_blank">• Island Cats</a></li>
+                        <li><a href="https://15andmeowing.com/" target="_blank">• 15 & Meowing!</a></li>
+                        <li><a href="https://badcatchris.com" target="_blank">• Bad Cat Chris</a></li>
                     </ul>
                 </li>
             </ul>
@@ -93,18 +94,7 @@
     </aside>
 </main>
 
-    <script>
-
-        $('ul li ul').hide();
-        $('.menulink').click (function(){
-            var thisMenu = $(this).next('ul');
-            $('ul li ul').not(thisMenu).hide();
-            thisMenu.toggle(); /* We don't need to use loops in jQuery because all of the
-            code is already written for us.*/
-        });
-    </script>
-
-    <hr>
+<hr>
     <footer>
         <a href="https://www.cnet.com/news/nasa-says-we-should-search-for-aliens-by-looking-for-their-pollution/"
             target="_blank">How to Find Aliens from Outer Space!</a>
