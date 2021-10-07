@@ -31,7 +31,23 @@
     <div id="main">
         <p>Change this paragraph.</p>
         <p>Change this paragraph too.</p>
-        <p>Seriously, this is the last paragraph for you to change.</p>
+        <p id="last">Seriously, this is the last paragraph for you to change.</p>
+    </div>
+    <hr>
+
+    <div id="main2">
+        <p>Here's paragraph one.</p>
+        <p>Here's paragraph two.</p>
+        <p>Here's paragraph three.</p>
+        <p>Here's paragraph four.</p>
+        <p>Here's paragraph five.</p>
+        <p>Here's paragraph six.</p>
+        <p>Here's paragraph seven.</p>
+        <p>Here's paragraph eight.</p>
+        <p>Here's paragraph nine.</p>
+        <p>Here's paragraph ten.</p>
+        <p>Here's paragraph eleven.</p>
+        <p>Here's paragraph twelve.</p>
     </div>
 
     <script>
@@ -40,6 +56,14 @@
 
         document.getElementById("main").style.fontSize="24px";
         document.getElementById("main").style.color="red";
+
+        document.getElementById("last").style.fontSize="30px";
+        document.getElementById("last").style.color="hotpink";
+
+        var parasInMain2 = document.querySelectorAll("#main2 p:nth-child(even)");
+            for (var i=0; i<parasInMain2.length; i++){
+                parasInMain2[i].style.color="darkgreen";
+            }
 
     </script>
 

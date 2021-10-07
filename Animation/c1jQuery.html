@@ -33,12 +33,30 @@
         <p>Change this paragraph too.</p>
         <p>Seriously, this is the last paragraph for you to change.</p>
     </div>
+    <hr>
+
+    <div id="main2">
+        <p>Here's paragraph one.</p>
+        <p>Here's paragraph two.</p>
+        <p>Here's paragraph three.</p>
+        <p>Here's paragraph four.</p>
+        <p>Here's paragraph five.</p>
+        <p>Here's paragraph six.</p>
+        <p>Here's paragraph seven.</p>
+        <p>Here's paragraph eight.</p>
+        <p>Here's paragraph nine.</p>
+        <p>Here's paragraph ten.</p>
+        <p>Here's paragraph eleven.</p>
+        <p>Here's paragraph twelve.</p>
+    </div>
 
 
     <script>
 
         $("#paragraph").css("font-size", "24px");
         $("#main p").css("font-size", "24px").css("color", "red");
+        $("#main p").last().css({"font-size": "30px", "color": "hotpink"});
+        $("#main2 p").even().css("color", "darkgreen");
 
     </script>
 
