@@ -51,7 +51,7 @@
             <li><a href="#">Link 5</a></li>
         </ul>
     </nav>
-    <p>Here is a paragraph with a <a href="https://www.google.com">link to Google </a>in it!</p>
+    <p>Here is a paragraph with a <a href="https://www.google.com" target="_blank">link to Google </a>in it!</p>
 
     <script>
 
@@ -76,6 +76,11 @@
             }
 
     /*Challenge 11: This should NOT be used as the jQuery min lib already lets the user know they've clicked by changing the color*/
+
+        const navLinks = document.querySelectorAll("nav ul li a");
+            for (let i=0; i<navLinks.length; i++) {
+                navLinks[i].addEventListener("click", function(){alert(this.innerHTML)});
+            }
 
     </script>
 
