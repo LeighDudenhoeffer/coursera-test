@@ -35,11 +35,17 @@
     <br>
 
     <script>
-
         $('#hidebox').click(function(){
-            $('#box').hide('normal');
+            $('#box').hide(1500);
         });
 
+        $('#showbox').click(function(){
+            $('#box').show(1500);
+        });
+
+        $('#togglebox').click(function(){
+            $('#box').toggle('normal')
+        });
     </script>
 
 <hr>
