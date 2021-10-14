@@ -71,6 +71,7 @@ nav ul li a:hover { background:#D5D4D4; }
     text-align:center;
     font-size: 1.5em;
     color: rgb(122, 164, 241);
+    padding: 1em;
     }
 
 /* Simple Responsive Framework */
