@@ -38,15 +38,19 @@
 
     <script>
         $('#fadeboxout').click(function(){
-            $('#box').fadeOut(2300);
+            $('#box').fadeOut(2000);
         });
 
         $('#fadeinbox').click(function(){
-            $('#box').fadeIn(2500);
+            $('#box').fadeIn(2750);
         });
 
         $('#fadeto20box').click(function(){
-            $('#box').fadeTo(20000);
+            $('#box').fadeTo(3000, 0.1);
+        });
+
+        $('#fadeto100box').click(function(){
+            $('#box').fadeTo(3500, 1);
         });
 
     </script>
