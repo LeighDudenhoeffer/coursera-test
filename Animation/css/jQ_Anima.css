@@ -4,7 +4,7 @@ body {
     background-size: cover;
     max-width: 95%;
     margin: 0 auto;
-    padding:15px;
+    padding:12px;
     line-height: 1.4em;
 }
 
@@ -65,11 +65,11 @@ nav ul li a {
 nav ul li a:hover { background:#D5D4D4; }
 
 #box {
-    width:375px;
-    height:300px;
+    width:220px;
+    height:250px;
     background:#531775;
     text-align:center;
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: rgb(122, 164, 241);
     padding: 1em;
     }
