@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(145, 238, 207);
+    background-repeat: repeat;
+    background-size: cover;
+    max-width: 95%;
+    margin: 0 auto;
+    padding:12px;
+    line-height: 1.4em;
+}
+
+header {
+    background: #7ed4f7;
+    background: -moz-linear-gradient (top, #5D6D7E 0%, #7ed4f7 100%);
+    background: -webkit-linear-gradient (#5D6D7E 0%, #7ed4f7 100%);
+    background: -o-linear-gradient(#5D6D7E 0%, #7ed4f7 100%);
+    background: linear-gradient(#5D6D7E 0%, #7ed4f7 100%);
+    border-radius: 12px;
+    max-width: 100%;
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    box-sizing: border-box;
+    font-variant: small-caps;
+    font-size: 130%;
+    font-family: Helvetica, 'Times New Roman', Serif;
+    word-spacing: 10px;
+}
+
+a:link {
+    color: #200742;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(72, 136, 8);
+}
+
+a:focus {
+    color: rgb(117, 72, 12);
+}
+
+
+
+
+
+/* Simple Responsive Framework */
+.row {
+    width: 100%;
+    }
+
+/*********** Large devices only ***********/
+@media (min-width: 1000px) {
+
+}
+
+/*********** Medium devices only **********/
+@media (min-width: 481px) and (max-width: 999px) {
+    h1 {
+        font-size: medium;
+    }
+    .column {
+        width: 100%;
+    }
+}
+
+/********** Small devices only ************/
+@media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: small;
+    }
+    .column {
+        width: 100%;
+    }
+}
