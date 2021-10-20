@@ -47,7 +47,6 @@ a:focus {
 
 #tabs {
     width: 400px;
-    text-align: left;
     margin: auto;
 }
 
@@ -60,7 +59,7 @@ a:focus {
     display: block;
     height: 3em;
     line-height: 3em;
-    margin-right: 2px;
+    margin-right: 8px;
     background: #b48cec;
     color: #200742;
     text-decoration: none;
