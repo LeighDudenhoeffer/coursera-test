@@ -65,7 +65,7 @@ a:focus {
     color: #200742;
     text-decoration: none;
     padding: 0 35px;
-    border-radius: 6px 6px 0 0;
+    border-radius: 8px 8px 0 0;
 }
 
 #tabs>div{
@@ -77,6 +77,10 @@ a:focus {
 #tabs>div:first-of-type {
     display: block;
     background: #c4a6ee;
+}
+
+#tabs>ul>li:first-of-type a {
+    color: darkgreen;
 }
 
 /* Simple Responsive Framework */
