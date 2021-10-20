@@ -49,8 +49,6 @@ a:focus {
     width: 400px;
     text-align: left;
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 #tabs>ul {
@@ -66,17 +64,17 @@ a:focus {
     background: #b48cec;
     color: #200742;
     text-decoration: none;
-    padding: 0 15px;
+    padding: 0 35px;
     border-radius: 3px 3px 0 0;
 }
 
-#tab1, #tab2, #tab3>div{
+#tabs>div{
     display: none;
     padding: 15px;
     background: #c4a6ee;
 }
 
-#tab1, #tab2, #tab3>div:first-of-type {
+#tabs>div:first-of-type {
     display: block;
     background: #c4a6ee;
 }
