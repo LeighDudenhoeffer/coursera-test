@@ -4,8 +4,8 @@ body {
     background-size: cover;
     max-width: 95%;
     margin: 0 auto;
-    padding:12px;
-    line-height: 1.4em;
+    padding:18px;
+    line-height: 1.5em;
 }
 
 header {
@@ -45,7 +45,15 @@ a:focus {
     color: rgb(117, 72, 12);
 }
 
+#tabs {
+    width: 400px;
+    margin: auto;
+}
 
+#tabs > ul {
+    list-style-type: none;
+    display: flex;
+}
 
 
 
