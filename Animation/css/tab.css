@@ -50,12 +50,22 @@ a:focus {
     margin: auto;
 }
 
-#tabs > ul {
+#tabs>ul {
     list-style-type: none;
     display: flex;
 }
 
-
+#tabs>ul>li>a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 2px;
+    background: #b48cec;
+    color: #200742;
+    text-decoration: none;
+    padding: 0 15px;
+    border-radius: 3px 3px 0 0;
+}
 
 /* Simple Responsive Framework */
 .row {
