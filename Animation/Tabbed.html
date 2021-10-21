@@ -33,8 +33,11 @@
             <p>We have cakes that you'll want to devour after a small taste. They're so moist
                 it melts in your mouth and practically makes you drool! </p>
             <ul>
-                <li>Zucchini Bundt Cake</li>
-                <li>Supreme Pumpkin Bundt Cake</li>
+                <li><a href="images/zucchiniBundtCake.jpg"
+                    alt="A Frosted Zucchini Bundt Cake" target="_blank">Zucchini Bundt Cake</a></li>
+                <li><a href="images/darkChocolateBundtCake.jpg"
+                    alt="A decadent dark chocolate bundt cake with chocolate buttercream frosting"
+                    target="_blank">Supreme Pumpkin Bundt Cake</a></li>
             </ul>
             <p>The dark chocolate fudge bundt cake with chocolate buttercream frosting is just
                 one of many cakes that you will want to take home to serve as your dessert and will
@@ -58,9 +61,15 @@
     </div>
 
     <script>
-        $('#tabs>ul>li>a').click(function(){
-            $('#tabs>ul>li>a').css({background: '#b48cec', color: '#200742'});
+        $('#tabs > ul > li > a').click(function(){
+            $('#tabs > ul > li > a').css({background: '#b48cec', color: '#200742'});
             $(this).css({background: '#6C507E', color: '#DFDC8B'});
+
+            const thisTab = $(this).attr("href");
+
+            $("#tabs > div:visible").fadeOut(200, function(){
+                $(thisTab).fadeIn(200);
+            });
         });
 
     </script>
