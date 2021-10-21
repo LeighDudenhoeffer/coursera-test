@@ -70,6 +70,10 @@ a:focus {
     transition: opacity 200ms linear;
 }
 
+#tabs .hidden {display: none;}
+#tabs .visible {display: block;}
+#tabs .visuallyhidden {opacity: 0;}
+
 /* #tabs > div:first-of-type {
     display: block;
     background: #c4a6ee;
@@ -83,6 +87,7 @@ p {
     line-height: 1.5em;
     margin-bottom: 1em;
     } */
+
 
 /* Simple Responsive Framework */
 .row {
