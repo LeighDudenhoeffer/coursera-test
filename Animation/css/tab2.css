@@ -74,20 +74,6 @@ a:focus {
 #tabs .visible {display: block;}
 #tabs .visuallyhidden {opacity: 0;}
 
-/* #tabs > div:first-of-type {
-    display: block;
-    background: #c4a6ee;
-}
-
-#tabs > ul > li:first-of-type a {
-    color: rgb(5, 66, 5);
-}
-
-p {
-    line-height: 1.5em;
-    margin-bottom: 1em;
-    } */
-
 
 /* Simple Responsive Framework */
 .row {
