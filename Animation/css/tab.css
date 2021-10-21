@@ -48,36 +48,35 @@ a:focus {
     margin: auto;
 }
 
-#tabs>ul {
+#tabs > ul {
     list-style-type: none;
     display: flex;
 }
 
-#tabs>ul>li>a {
+#tabs > ul > li > a {
     display: block;
     height: 3em;
     line-height: 3em;
-    margin-right: 8px;
+    margin-right: 2px;
     background: #b48cec;
     color: #200742;
     text-decoration: none;
     padding: 0 35px;
-    border-radius: 8px 8px 0 0;
 }
 
-#tabs>div{
+#tabs > div{
     display: none;
     padding: 15px;
     background: #c4a6ee;
 }
 
-#tabs>div:first-of-type {
+#tabs > div:first-of-type {
     display: block;
     background: #c4a6ee;
 }
 
-#tabs>ul>li:first-of-type a {
-    color: darkgreen;
+#tabs > ul > li:first-of-type a {
+    color: rgb(5, 66, 5);
 }
 
 p {
