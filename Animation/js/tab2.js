@@ -10,9 +10,9 @@
     function selectTab(event) {
         event.preventDefault();
 
-        for (var i = 0; i < tabs.length; i++) {
-            tabs[i].removeAttribute('class');
-        }
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].removeAttribute('class');
+            }
 
         event.target.className = 'active';
 
@@ -21,4 +21,14 @@
 
         var oldTabContent = document.querySelector('.visible');
         oldTabContent.className = 'visuallyhidden';
+
+        oldTabContent.addEventListener('transitioned', function(){
+            oldTabContent.className = 'hidden';
+
+            thisContent.className = 'visible visuallyhidden';
+            setTimeout(function(){
+                thisContent.classList.remove('visuallyhidden');
+            }, 20);
+        }, {capture: false, once: true, passive: false});
+
     }
