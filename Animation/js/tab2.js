@@ -18,6 +18,7 @@
 
         const thisTab = event.target.getAttribute('href');
         const thisContent = document.querySelector(thisTab);
+
         const oldContent = document.querySelector('.visible');
         oldContent.className = 'visuallyhidden';
         oldContent.addEventListener('transitionend', function(){
