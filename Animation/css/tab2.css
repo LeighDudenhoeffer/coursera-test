@@ -70,9 +70,17 @@ a:focus {
     transition: opacity 200ms linear;
 }
 
-#tabs .hidden {display: none;}
-#tabs .visible {display: block;}
-#tabs .visuallyhidden {opacity: 0;}
+#tabs .hidden {
+    display: none;
+}
+
+#tabs .visible {
+    display: block;
+}
+
+#tabs .visuallyhidden {
+    opacity: 0;
+}
 
 
 /* Simple Responsive Framework */
