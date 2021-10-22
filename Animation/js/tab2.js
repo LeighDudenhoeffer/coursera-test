@@ -10,9 +10,9 @@
     function selectTab(event) {
         event.preventDefault();
 
-            for (let i = 0; i < tabs.length; i++) {
-                tabs[i].removeAttribute('class');
-            }
+            tabs.forEach(function(tab) {
+                tab.removeAttribute('class');
+            });
 
         event.target.className = 'active';
 
