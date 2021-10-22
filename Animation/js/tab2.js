@@ -1,30 +1,32 @@
-var tabs = document.querySelectorAll('#tabs > ul > li > a');
 
-for (var i=0; i < tabs.length; i++) {
-    tabs[i].addEventListener('click', selectTab);
-}
 
-function selectTab(event) {
-    event.preventDefault();
 
-    for (var i = 0; i < tabs.length; i++) {
-        tabs[i].removeAttribute('class');
-    }
 
-    event.target.className = 'active';
+// var tabs = document.querySelectorAll('#tabs > ul > li > a');
 
-    var thisTab = event.target.getAttribute('href');
-    var thisContent = document.querySelector(thisTab);
+// for (var i=0; i < tabs.length; i++) {
+//     tabs[i].addEventListener('click', selectTab);
+// }
 
-    var oldTabContent = document.querySelector('.visible');
-    oldTabContent.className = 'visuallyhidden';
+// function selectTab(event) {
+//     event.preventDefault();
 
-    oldTabContent.addEventListener('transitionend', function(){
-        oldTabContent.className = 'hidden';
+//     for (var i = 0; i < tabs.length; i++) {
+//         tabs[i].removeAttribute('class');
+//     }
 
-        thisContent.className = 'visible visually hidden';
-        setTimeout(function(){
-            thisContent.classList.remove('visuallyhidden');
-        }, 20);
-    }, {capture:false, once:true, passive:false});
-}
+//     event.target.className = 'active';
+
+//     var thisTab = event.target.getAttribute('href');
+//     var thisContent = document.querySelector(thisTab);
+
+//     var oldContent = document.querySelector('.visible');
+//     oldContent.className = 'visuallyhidden';
+//     oldContent.addEventListener('transitionend', function(){
+//         oldContent.className = 'hidden';
+//         thisContent.className = 'visible visually hidden';
+//         setTimeout(function(){
+//             thisContent.classList.remove('visuallyhidden');
+//         }, 20);
+//     }, {capture:false, once:true, passive:false});
+// }
