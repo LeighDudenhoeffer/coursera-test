@@ -78,11 +78,17 @@ a:focus {
     display: block;
     width: 210px;
     background: #c9a8f7;
+    color: rgb(44, 34, 105);
     height: 50px;
     line-height: 50px;
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     text-align: center;
+}
+
+#links a:hover {
+    background:rgb(172, 240, 104);
+    color: black;
 }
 
 h1 {
