@@ -15,6 +15,7 @@ header {
     background: linear-gradient(#5D6D7E 0%, #7ed4f7 100%);
     border-radius: 12px;
     max-width: 100%;
+    margin-bottom: 15px;
 }
 
 header {
@@ -42,6 +43,41 @@ a:hover {
 
 a:focus {
     color: rgb(241, 185, 112);
+}
+
+#slider {
+    width: 400px;
+    overflow: hidden;
+    border: 5px solid #9f6de6;
+    height: 266px;
+    position: relative;
+    margin: auto;
+}
+
+#slider ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+#slider ul li img {
+    display: block;
+}
+
+#links {
+    width: 420px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#links a {
+    display: block;
+    width: 210px;
+    background: #c9a8f7;
 }
 
 h1 {
