@@ -48,7 +48,7 @@ a:focus {
 #slider {
     width: 400px;
     overflow: hidden;
-    border: 5px solid #9f6de6;
+    border: 10px solid #7e4ac7;
     height: 266px;
     position: relative;
     margin: auto;
@@ -78,6 +78,11 @@ a:focus {
     display: block;
     width: 210px;
     background: #c9a8f7;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 h1 {
@@ -90,8 +95,8 @@ p {
 
 @media screen and (max-width: 599px){
 /* For mobile phones: */
-	#links, #links a {
-		width: 100%;
+	#slider, #slider ul li img #links, #links a {
+		width: 380px;
 	}
 }
 
