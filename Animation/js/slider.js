@@ -14,6 +14,11 @@ $(window).on('load', function(){
 
     $("#next").click(function(){
         counter++;
+
+        if(counter == imageCount){
+            counter = 0;
+        }
+
         leftPosition = `-${counter * imageWidth}px`;
         $("slider ul").animate( {left:leftPosition}, 700, "easeInQuad");
     });
