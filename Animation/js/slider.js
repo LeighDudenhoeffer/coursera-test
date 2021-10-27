@@ -15,13 +15,18 @@ $(window).on('load', function(){
         counter++;
 
         if(counter === imageCount){
-            $("slider ul").clone().appendTo("#slider");
-            $("slider ul").last().css("left", imageWidth + "px");
+
+            $("#slider ul").clone().appendTo("#slider");
+            $("#slider ul").last().css("left", imageWidth + "px");
 
             leftPosition = `-${totalWidth}`;
 
             $("#slider ul").last().animate({left: 0}, 500, "easeInQuad");
-            $("#slider ul").first().animate({left:leftPosition}, 500, "easeInQuad");
+            $("#slider ul").first().animate({left:leftPosition}, 500, "easeInQuad", function(){
+                $("#slider ul").first().remove();
+            });
+
+            counter = 0;
 
         } else {
             leftPosition = `-${counter * imageWidth}px`;
@@ -30,15 +35,25 @@ $(window).on('load', function(){
     });
 
     $("#previous").click(function(){
-
         counter--;
 
         if(counter < 0) {
-            counter = imageCount-1
+            counter = imageCount-1;
+
+            $("slider ul").clone().appendTo("#slider");
+            $("slider ul").last().css("left", `-${totalWidth}`);
+
+            leftPosition = `-${counter * imageWidth}px`;
+
+            $("#slider ul").last().animate({left:leftPosition}, 500, "easeInQuad");
+            $("#slider ul").first().animate({left: imageWidth + "px"}, 500, "easeInQuad", function(){
+                $("#slider ul").first().remove();
+            });
+
+        } else {
+            leftPosition = `-${counter * imageWidth}px`;
+            $("#slider ul").animate({left: leftPosition}, 500, "easeInQuad");
         }
-
-        leftPosition = `-${counter * imageWidth}px`;
-
-        $("#slider ul").animate({left: leftPosition}, 500, "easeInQuad");
     });
 
+});
