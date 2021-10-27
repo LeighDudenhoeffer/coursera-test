@@ -15,6 +15,9 @@ $(window).on('load', function(){
         counter++;
 
         if(counter === imageCount){
+            $("slider ul").clone().appendTo("#slider");
+            $("slider ul").last().css("left", imageWidth + "px");
+
             counter = 0;
         }
         else {
