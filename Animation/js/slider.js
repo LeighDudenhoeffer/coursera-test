@@ -39,10 +39,10 @@ $(window).on('load', function(){
         counter--;
 
         if(counter < 0) {
-            counter = imageCount-1;
+            counter = imageCount - 1;
 
-            $("slider ul").clone().appendTo("#slider");
-            $("slider ul").last().css("left", `-${totalWidth}`);
+            $("#slider ul").clone().appendTo("#slider");
+            $("#slider ul").last().css("left", `-${totalWidth}`);
 
             leftPosition = `-${counter * imageWidth}px`;
 
@@ -55,7 +55,6 @@ $(window).on('load', function(){
             leftPosition = `-${counter * imageWidth}px`;
             $("#slider ul").animate({left: leftPosition}, 500, "easeInQuad");
         }
-
     });
 
 });
