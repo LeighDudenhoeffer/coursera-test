@@ -33,7 +33,7 @@ $(window).on('load', function(){
 
         leftPosition = `-${counter * imageWidth}px`;
 
-        $("#slider ul").animate({left: leftPosition}, 500, "easeInQuad");
+        $("#slider ul").animate({left: leftPosition}, 400, "easeInQuad");
     });
 
 });
