@@ -17,10 +17,10 @@ $(window).on('load', function(){
         if(counter === imageCount){
             counter = 0;
         }
-
-        leftPosition = `-${counter * imageWidth}px`;
-
-        $("#slider ul").animate({ left: leftPosition }, 700, "easeInQuad");
+        else {
+            leftPosition = `-${counter * imageWidth}px`;
+            $("#slider ul").animate({left:leftPosition}, 700, "easeInQuad")
+        }
     });
 
     $("#previous").click(function(){
