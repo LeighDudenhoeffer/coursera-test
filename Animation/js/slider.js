@@ -2,34 +2,36 @@ $(window).on('load', function(){
     "use strict";
 
     const imageCount = $("#slider ul li").length;
-    const imageWidth = $("#slider ul li img").first() .width();
-    // const totalWidth = (imageCount * imageWidth) + "px";
+    const imageWidth = $("#slider ul li img").first().width();
+    alert(imageWidth);
 
-    // alert(totalWidth);
+    const totalWidth = (imageCount * imageWidth) + "px";
+
+    alert(totalWidth);
 
     let leftPosition = 0;
     let counter = 0;
 
     $("#slider ul").css("width", totalWidth);
 
-    $("#next").click(function(){
-        counter++;
+//     $("#next").click(function(){
+//         counter++;
 
-        if(counter == imageCount){
-            counter = 0;
-        }
+//         if(counter == imageCount){
+//             counter = 0;
+//         }
 
-        leftPosition = `-${counter * imageWidth}px`;
-        $("slider ul").animate( {left:leftPosition}, 700, "easeInQuad");
-    });
+//         leftPosition = `-${counter * imageWidth}px`;
+//         $("slider ul").animate( {left:leftPosition}, 700, "easeInQuad");
+//     });
 
-    $("#previous").click(function(){
+//     $("#previous").click(function(){
 
-        counter--;
+//         counter--;
 
-        if(counter < 0) {
-            counter = imageCount-1
-        }
-    });
+//         if(counter < 0) {
+//             counter = imageCount-1
+//         }
+//     });
 
 });
