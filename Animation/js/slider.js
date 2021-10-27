@@ -23,4 +23,13 @@ $(window).on('load', function(){
         $("slider ul").animate( {left:leftPosition}, 700, "easeInQuad");
     });
 
+    $("#previous").click(function(){
+
+        counter--;
+
+        if(counter < 0) {
+            counter = imageCount-1
+        }
+    });
+
 });
