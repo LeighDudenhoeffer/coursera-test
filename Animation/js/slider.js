@@ -23,21 +23,17 @@ $(window).on('load', function(){
         $("#slider ul").animate({ left: leftPosition }, 700, "easeInQuad");
     });
 
-//         if(counter == imageCount){
-//             counter = 0;
-//         }
+    $("#previous").click(function(){
 
-//
-//
-//
+        counter--;
 
-//     $("#previous").click(function(){
+        if(counter < 0) {
+            counter = imageCount-1
+        }
 
-//         counter--;
+        leftPosition = `-${counter * imageWidth}px`;
 
-//         if(counter < 0) {
-//             counter = imageCount-1
-//         }
-//     });
+        $("#slider ul").animate({left: leftPosition}, 500, "easeInQuad");
+    });
 
 });
