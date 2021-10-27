@@ -18,11 +18,14 @@ $(window).on('load', function(){
             $("slider ul").clone().appendTo("#slider");
             $("slider ul").last().css("left", imageWidth + "px");
 
-            counter = 0;
-        }
-        else {
+            leftPosition = `-${totalWidth}`;
+
+            $("#slider ul").last().animate({left: 0}, 500, "easeInQuad");
+            $("#slider ul").first().animate({left:leftPosition}, 500, "easeInQuad");
+
+        } else {
             leftPosition = `-${counter * imageWidth}px`;
-            $("#slider ul").animate({left:leftPosition}, 700, "easeInQuad")
+            $("#slider ul").animate({left:leftPosition}, 500, "easeInQuad");
         }
     });
 
@@ -36,7 +39,6 @@ $(window).on('load', function(){
 
         leftPosition = `-${counter * imageWidth}px`;
 
-        $("#slider ul").animate({left: leftPosition}, 400, "easeInQuad");
+        $("#slider ul").animate({left: leftPosition}, 500, "easeInQuad");
     });
 
-});
