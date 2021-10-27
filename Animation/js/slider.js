@@ -35,6 +35,7 @@ $(window).on('load', function(){
     });
 
     $("#previous").click(function(){
+
         counter--;
 
         if(counter < 0) {
@@ -54,6 +55,7 @@ $(window).on('load', function(){
             leftPosition = `-${counter * imageWidth}px`;
             $("#slider ul").animate({left: leftPosition}, 500, "easeInQuad");
         }
+
     });
 
 });
