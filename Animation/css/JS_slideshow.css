@@ -81,7 +81,7 @@ ul, li {
 }
 
 #slider-wrapper ul li:nth-child(1) {
-    background-image: url(images/herbs_herbs.jpg);
+    background-image: url(images/herb_herbs.jpg);
 }
 #slider-wrapper ul li:nth-child(2) {
     background-image: url(images/herb_lavender.png);
@@ -90,25 +90,25 @@ ul, li {
     background-image: url(images/herb_marjoram.jpg);
 }
 #slider-wrapper ul li:nth-child(4) {
-    background-image: url(images/herbs_parsley.jpg);
+    background-image: url(images/herb_parsley.jpg);
 }
 #slider-wrapper ul li:nth-child(5) {
-    background-image: url(images/herbs_peppermint.jpg);
+    background-image: url(images/herb_peppermint.jpg);
 }
 #slider-wrapper ul li:nth-child(6) {
-    background-image: url(images/herbs_rosemary.jpg);
+    background-image: url(images/herb_rosemary.jpg);
 }
 #slider-wrapper ul li:nth-child(7) {
-    background-image: url(images/herbs_sage.jpg);
+    background-image: url(images/herb_sage.jpg);
 }
 #slider-wrapper ul li:nth-child(8) {
-    background-image: url(images/herbs_SweetBasil.jpg);
+    background-image: url(images/herb_SweetBasil.jpg);
 }
 #slider-wrapper ul li:nth-child(9) {
-    background-image: url(images/herbs_thyme.jpg);
+    background-image: url(images/herb_thyme.jpg);
 }
 #slider-wrapper ul li:nth-child(10) {
-    background-image: url(images/herbs_yarrow.jpg);
+    background-image: url(images/herb_yarrow.jpg);
 }
 
 .content {

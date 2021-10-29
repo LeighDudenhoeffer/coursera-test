@@ -25,9 +25,11 @@ window.addEventListener('load', function(){
         counter++;
         if (counter === slideCount) {
             // set the counter to 0
-
+            counter = 0;
             // set the left position to 0
+            leftPosition = 0;
             // move the slider into position
+            slider.style.left = leftPosition;
         } else {
             // move the slider to the next slide
         }
