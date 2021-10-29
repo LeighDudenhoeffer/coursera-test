@@ -73,7 +73,7 @@ ul, li {
     position: absolute;
     top: 0;
     left: 0;
-    transition: left 460ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: left 460ms cubic-bezier(0.075, 0.820, 0.165, 1);
 }
 
 #slider-wrapper ul li{
