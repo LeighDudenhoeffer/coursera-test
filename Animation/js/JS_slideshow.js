@@ -20,5 +20,17 @@ window.addEventListener('load', function(){
     // Set the width of the slider (also in the css)
     slider.style.width = totalWidth;
 
+    next.addEventListener('click', function(event){
+        event.preventDefault();
+        counter++;
+        if (counter === slideCount) {
+            // set the counter to 0
+
+            // set the left position to 0
+            // move the slider into position
+        } else {
+            // move the slider to the next slide
+        }
+    });
 
 });
