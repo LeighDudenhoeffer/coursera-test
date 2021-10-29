@@ -50,7 +50,7 @@ h1 {
 }
 
 #slider-wrapper {
-    width: 1000px;
+    width: 920px;
     height: 358px;
     margin: auto;
     position: relative;
@@ -64,7 +64,7 @@ ul, li {
 }
 
 #slider-wrapper ul {
-    width: 5000px;
+    width: 4000px;
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -75,7 +75,7 @@ ul, li {
 #slider-wrapper ul li{
     background-size: cover;
     position: relative;
-    width: 1000px;
+    width: 920px;
     height: 300px;
     float: left;
 }
@@ -145,7 +145,7 @@ ul, li {
 
 @media screen and (max-width: 599px){
 /* For mobile phones: */
-	#slider, #slider ul li img #links, #links a {
+	#slider-wrapper, #slider-wrapper ul li, #slider ul li img, #slider-controls {
 		width: 380px;
 	}
 }
