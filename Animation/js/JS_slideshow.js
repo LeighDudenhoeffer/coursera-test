@@ -26,14 +26,12 @@ window.addEventListener('load', function(){
         if (counter === slideCount) {
             // set the counter to 0
             counter = 0;
+        }
             // set the left position to 0
-            leftPosition = 0;
+            leftPosition = `-${counter * slideWidth}px`;
             // move the slider into position
             slider.style.left = leftPosition;
-        } else {
-            // move the slider to the next slide
-            leftPosition = `-${counter * slideWidth}px`;
-        }
+
     });
 
 });
