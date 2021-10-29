@@ -32,6 +32,7 @@ window.addEventListener('load', function(){
             slider.style.left = leftPosition;
         } else {
             // move the slider to the next slide
+
         }
     });
 
