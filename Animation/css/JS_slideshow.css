@@ -145,7 +145,8 @@ ul, li {
 
 @media screen and (max-width: 599px){
 /* For mobile phones: */
-	#slider-wrapper, #slider-wrapper ul li, #slider ul li img, #slider-controls {
+	#slider-wrapper, #slider-wrapper ul, #slider-wrapper ul li, #slider ul li img,
+    #slider-controls, #slider-controls a {
 		width: 380px;
 	}
 }

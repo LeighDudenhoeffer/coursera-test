@@ -11,7 +11,7 @@ window.addEventListener('load', function(){
     // Next button
     const next = document.getElementById('next');
     // Previous button
-    const previous = document.getElementById('previous');
+    const previous = document.getElementById('prev');
 
     // Upper left corner of the slider
     let leftPosition = 0;
@@ -22,6 +22,7 @@ window.addEventListener('load', function(){
 
     next.addEventListener('click', function(event){
         event.preventDefault();
+
         counter++;
         if (counter === slideCount) {
             // set the counter to 0
@@ -31,7 +32,16 @@ window.addEventListener('load', function(){
             leftPosition = `-${counter * slideWidth}px`;
             // move the slider into position
             slider.style.left = leftPosition;
+    });
 
+    previous.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        counter--;
+        if (counter < 0 ) {counter = slideCount - 1;
+        }
+        leftPosition = `-${counter * slideWidth}px`;
+        slider.style.left = leftPosition;
     });
 
 });
