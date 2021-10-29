@@ -53,6 +53,40 @@ p {
     font-size: 1.5em;
 }
 
+#slider-wrapper {
+    width: 1000px;
+    height: 358px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#slider-wrapper ul {
+    width: 5000px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 460ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#slider-wrapper ul li{
+    background-size: cover;
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    float: left;
+}
+
+
+
+
 @media screen and (max-width: 599px){
 /* For mobile phones: */
 	#slider, #slider ul li img #links, #links a {
