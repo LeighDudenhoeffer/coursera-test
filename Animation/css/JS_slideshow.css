@@ -84,7 +84,67 @@ ul, li {
     float: left;
 }
 
+#slider-wrapper ul li:nth-child(1) {
+    background-image: url(images/herbs_herbs.jpg);
+}
+#slider-wrapper ul li:nth-child(2) {
+    background-image: url(images/herb_lavender.png);
+}
+#slider-wrapper ul li:nth-child(3) {
+    background-image: url(images/herb_marjoram.jpg);
+}
+#slider-wrapper ul li:nth-child(4) {
+    background-image: url(images/herbs_parsley.jpg);
+}
+#slider-wrapper ul li:nth-child(5) {
+    background-image: url(images/herbs_peppermint.jpg);
+}
+#slider-wrapper ul li:nth-child(6) {
+    background-image: url(images/herbs_rosemary.jpg);
+}
+#slider-wrapper ul li:nth-child(7) {
+    background-image: url(images/herbs_sage.jpg);
+}
+#slider-wrapper ul li:nth-child(8) {
+    background-image: url(images/herbs_SweetBasil.jpg);
+}
+#slider-wrapper ul li:nth-child(9) {
+    background-image: url(images/herbs_thyme.jpg);
+}
+#slider-wrapper ul li:nth-child(10) {
+    background-image: url(images/herbs_yarrow.jpg);
+}
 
+.content {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(222, 155, 243, 0.7);
+}
+
+#slider-controls{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: #ab7fe7;
+    justify-content: space-between;
+}
+
+#slider-controls a {
+    display: block;
+    padding: 20px;
+    color: #8c63c5;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    background-color: #200742;
+}
 
 
 @media screen and (max-width: 599px){
