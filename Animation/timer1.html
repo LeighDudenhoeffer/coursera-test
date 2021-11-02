@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Testing jQuery</title>
+    <title>JS Timers 1</title>
     <link rel="stylesheet" href="css/test-css.css">
 </head>
 
@@ -12,34 +12,29 @@
     <header>
         <nav>
             <a href="index.html">Home</a>
-            <a href="Cats2.html">🐱</a>
             <a href="Animation1.html">Ani1</a>
             <a href="Animation2.html">Ani2</a>
             <a href="Animation3.html">Ani3</a>
             <a href="Animation4.html">Ani4</a>
-            <a href="Tabbed.html">Tabs</a>
             <a href="ImageSlider.html">Slides_v1</a>
-            <a href="JS_Slideshow.html">Slides_v2</a>
-            <a href="timer1.html">Timer1</a>
         </nav>
     </header>
 
-    <h1>Is jQuery Working??</h1>
-    <h2>If you see colored paragraphs below, then, YES!</h2>
-
-    <p>This is paragraph One!!!</p>
-    <p>This is another paragraph.</p>
-    <p>Seriously? Another paragraph?</p>
-
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <p><a href="#" id="stop">Stop the script!</a></p>
+    <div id="thediv">Some default content.</div>
+    <br><br><br>
 
     <script>
+        var theDiv = document.getElementById("thediv");
+        var content = "<p>This is adding another paragraph.</p>";
 
-        $('h2').css('font-size', '1.4em');
-        $('h1').css('color','DarkViolet');
-        $('p').css('color', 'DarkOliveGreen');
+        var timer = setInterval(function(){theDiv.innerHTML += content;}, 1500);
 
+        document.getElementById("stop").addEventListener("click", function(){
+            clearInterval(timer);
+        });
     </script>
+
 
     <hr>
     <footer>
@@ -49,4 +44,5 @@
     </footer>
 
 </body>
+
 </html>
