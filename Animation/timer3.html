@@ -4,8 +4,27 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JS Timers 3</title>
+    <title>JS Timers & Recursion</title>
     <link rel="stylesheet" href="css/test-css.css">
+    <style>
+        .one {
+            width: 100px;
+            height: 100px;
+            background: #500191;
+            border-radius: 50%;
+            margin: auto;
+            transition: all 2s;
+        }
+
+        .two {
+            width: 500px;
+            height: 500px;
+            background: rgb(96, 212, 108);
+            border-radius: 50%;
+            margin: auto;
+            transition: all 2s;
+        }
+    </style>
 </head>
 
 <body>
@@ -22,11 +41,30 @@
         </nav>
     </header>
 
-    <div></div>
+    <div id="thediv" class="one"></div>
     <br><br><br>
 
     <script>
         var theDiv = document.getElementById("thediv");
+        var currentClass = "one";
+
+        function classRotator()
+        {
+            if(currentClass == "one")
+            {
+                setTimeout(function(){
+                    theDiv.className="two";
+                    currentClass = "two";
+                    classRotator(); }, 2000 );
+            }
+            else
+            {
+                setTimeout(function(){
+                    theDiv.className="one";
+                    currentClass="one";
+                    classRotator(); }, 2000 );
+            }
+        }
 
     </script>
 
