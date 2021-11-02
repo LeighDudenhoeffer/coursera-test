@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>JS Timers 2</title>
     <link rel="stylesheet" href="css/test-css.css">
+    <style>
+        .one {
+            width: 100px;
+            height: 100px;
+            background: #500191;
+            transition: all 2s;
+        }
+
+        .two {
+            width: 500px;
+            height: 500px;
+            background: #1B2;
+            transition: all 2s;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,19 +35,13 @@
         </nav>
     </header>
 
-    <p><a href="#" id="stop">Stop the script!</a></p>
-    <div id="thediv">Some default content.</div>
+    <div id="thediv" class="one"></div>
     <br><br><br>
 
     <script>
         var theDiv = document.getElementById("thediv");
-        var content = "<p>This is adding another paragraph.</p>";
 
-        var timer = setInterval(function(){theDiv.innerHTML += content;}, 1500);
-
-        document.getElementById("stop").addEventListener("click", function(){
-            clearInterval(timer);
-        });
+        setTimeout(function(){theDiv.setAttribute("class", "two"); }, 2000 );
     </script>
 
 
