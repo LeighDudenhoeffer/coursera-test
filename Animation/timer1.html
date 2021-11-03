@@ -16,20 +16,22 @@
             <a href="Animation2.html">Ani2</a>
             <a href="Animation3.html">Ani3</a>
             <a href="Animation4.html">Ani4</a>
-            <a href="ImageSlider.html">Slides_v1</a>
+            <a href="ImageSlider.html">Slides1</a>
             <a href="timer2.html">Timer2</a>
         </nav>
     </header>
 
-    <p ><a href="#" id="stop">Stop the script!</a></p>
-    <div id="thediv">Some default content.</div>
+    <p style="font-size: 1.8em;"><a href="#" id="stop" style="color: #2a700e;">
+        Click to STOP the script!</a></p>
+    <div id="thediv">Some utter nonsense!! <br>
+        What's going on here is just repetitive nonsense </div>
     <br><br><br>
 
     <script>
         var theDiv = document.getElementById("thediv");
-        var content = "<p>This is adding another paragraph.</p>";
+        var content = "<p>We're adding another paragraph.</p>";
 
-        var timer = setInterval(function(){theDiv.innerHTML += content;}, 1000);
+        setInterval(function(){theDiv.innerHTML += content;}, 1000);
 
         document.getElementById("stop").addEventListener("click", function(){
             clearInterval(timer);
