@@ -10,51 +10,25 @@ $(window).on('load', function(){
 
     $('#slider ul').css("width", totalWidth);
 
-    $("#next").click(function(){
+    counter++;
 
-        counter++;
+    if(counter === imageCount){
 
-        if(counter === imageCount){
+        $("#slider ul").clone().appendTo("#slider");
+        $("#slider ul").last().css("left", imageWidth + "px");
 
-            $("#slider ul").clone().appendTo("#slider");
-            $("#slider ul").last().css("left", imageWidth + "px");
+        leftPosition = `-${totalWidth}`;
 
-            leftPosition = `-${totalWidth}`;
+        $("#slider ul").last().animate({left: 0}, 500, "easeInQuad");
+        $("#slider ul").first().animate({left:leftPosition}, 500, "easeInQuad", function(){
+            $("#slider ul").first().remove();
+        });
 
-            $("#slider ul").last().animate({left: 0}, 500, "easeInQuad");
-            $("#slider ul").first().animate({left:leftPosition}, 500, "easeInQuad", function(){
-                $("#slider ul").first().remove();
-            });
+        counter = 0;
 
-            counter = 0;
-
-        } else {
-            leftPosition = `-${counter * imageWidth}px`;
-            $("#slider ul").animate({left:leftPosition}, 500, "easeInQuad");
-        }
-    });
-
-    $("#previous").click(function(){
-
-        counter--;
-
-        if(counter < 0) {
-            counter = imageCount - 1;
-
-            $("#slider ul").clone().appendTo("#slider");
-            $("#slider ul").last().css("left", `-${totalWidth}`);
-
-            leftPosition = `-${counter * imageWidth}px`;
-
-            $("#slider ul").last().animate({left:leftPosition}, 500, "easeInQuad");
-            $("#slider ul").first().animate({left: imageWidth + "px"}, 500, "easeInQuad", function(){
-                $("#slider ul").first().remove();
-            });
-
-        } else {
-            leftPosition = `-${counter * imageWidth}px`;
-            $("#slider ul").animate({left: leftPosition}, 500, "easeInQuad");
-        }
-    });
+    } else {
+        leftPosition = `-${counter * imageWidth}px`;
+        $("#slider ul").animate({left:leftPosition}, 500, "easeInQuad");
+    }
 
 });
