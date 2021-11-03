@@ -31,7 +31,7 @@
         var theDiv = document.getElementById("thediv");
         var content = "<p>We're adding another paragraph.</p>";
 
-        setInterval(function(){theDiv.innerHTML += content;}, 1000);
+        var timer = setInterval(function(){theDiv.innerHTML += content;}, 1000);
 
         document.getElementById("stop").addEventListener("click", function(){
             clearInterval(timer);
