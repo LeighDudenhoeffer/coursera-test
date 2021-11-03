@@ -10,25 +10,26 @@ $(window).on('load', function(){
 
     $('#slider ul').css("width", totalWidth);
 
-
-    setInterval(slider, 3000);
-
-    function slider(){
         counter++;
 
         if (counter === imageCount) {
-            counter = 0;}
 
+            $("#slider ul").clone().appendTo("#slider");
+            $("#slider ul").last().css("left", imageWidth + "px");
+
+            leftPosition = `-${totalWidth}`;
+
+            $("#slider ul").last().animate( { left: 0 }, 500, "easeInQuad");
+            $("#slider ul").first().animate( {left:leftPosition}, 500, "easeInQuad", function(){
+                $("#slider ul").first().remove();
+            });
+
+            counter = 0;
+
+        }
+        else {
             leftPosition = `-${counter * imageWidth}px`;
-
-            $("#slider ul").animate(
-                { left: leftPosition }, 500, "easeInQuad");
-
-    };
+            $("#slider ul").animate({left: leftPosition}, 500, "easeInQuad");
+        }
 
 });
-
-let mySlider = setInterval(slider, 3000);
-
-$("#slider").mouseover(function(){ clearInterval(mySlider) });
-$("#slider").mouseout(function(){ mySlider = setInterval(slider, 3000); });
