@@ -10,7 +10,10 @@
             }
             else{
                 setTimeout(function(){
-                    $(`#container p:nth-child(${counter})`).fadeOut(2000, function(){});
+                    $(`#container p:nth-child(${counter})`).fadeOut(2000, function(){
+                        counter++;
+                        contentRotator();
+                    });
                 }, 5000);
             }
         });
