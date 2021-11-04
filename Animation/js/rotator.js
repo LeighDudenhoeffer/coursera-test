@@ -1,6 +1,9 @@
 (function () {
     'use strict';
 
+    // This auto-rotator can be used to rotate anything, including pictures, block quotes,
+    // and other types of content!
+
     let counter = 1;
 
     function contentRotator(){
