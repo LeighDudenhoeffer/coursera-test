@@ -1,4 +1,5 @@
 body {
+    font-family: 'Gentium Basic', serif;
     background-color: rgb(145, 238, 207);
     background-repeat: repeat;
     background-size: cover;
@@ -20,8 +21,10 @@ header {
 
 header {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
 }
 
 nav {
@@ -45,19 +48,34 @@ a:focus {
     color: rgb(241, 185, 112);
 }
 
-h1 {
+header h1 {
     text-align: center;
+
+}
+
+main {
+    margin-top: 60px;
+    padding: 0 10px;
 }
 
 p {
     font-size: 1.5em;
 }
 
+
+
 /*************** Bill's Resets ***************/
-h1, h2, h3, p, ul, ol {
+h2, h3, p, ul, ol {
     margin: 0;
     padding: 0;
 }
+
+nav ul, nav ol { list-style-type: none; }
+
+img { width: 100%; }
+
+a {text-decoration: none;}
+/******* END *******/
 
 
 
