@@ -69,6 +69,10 @@ nav ul, nav ol { list-style-type: none; }
     border-radius: 8px;
 }
 
+.flex-control-paging li a.flex-active {
+    background: #572bcf;
+}
+
 img { width: 100%; }
 
 a {text-decoration: none;}
