@@ -5,7 +5,7 @@ body {
     background-size: cover;
     max-width: 95%;
     margin: 0 auto;
-    padding:15px;
+    padding:10px;
 }
 
 header {
@@ -22,9 +22,9 @@ header {
 header {
     text-align: center;
     padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 nav {
@@ -32,7 +32,7 @@ nav {
     font-variant: small-caps;
     font-size: 130%;
     font-family: Helvetica, 'Times New Roman', Serif;
-    word-spacing: 10px;
+    word-spacing: 8px;
 }
 
 a:link {
@@ -50,9 +50,7 @@ a:focus {
 
 header h1 {
     text-align: center;
-
 }
-
 
 /*************** Bill's Resets ***************/
 h2, h3, p, ul, ol {
