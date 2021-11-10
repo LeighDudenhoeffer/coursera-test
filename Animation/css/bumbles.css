@@ -30,7 +30,7 @@ header {
 nav {
     box-sizing: border-box;
     font-variant: small-caps;
-    font-size: 130%;
+    font-size: 120%;
     font-family: Helvetica, 'Times New Roman', Serif;
     word-spacing: 8px;
 }
@@ -145,10 +145,11 @@ p {
 	.column { flex: 1; }
 
     .cta {
-        height: 20vw;
-        width: 20vw;
-        font-size: 2vw;
+        height: 150px;
+        width: 150px;
+        font-size: 14px;
     }
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -161,8 +162,8 @@ p {
 	header h1 {font-size: 120px;}
 
     .cta {
-        height: 150px;
-        width: 150px;
-        font-size: 18px;
+        height: 20vw;
+        width: 20vw;
+        font-size: 4vw;
     }
 }
