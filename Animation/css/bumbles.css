@@ -72,12 +72,12 @@ nav ul, nav ol { list-style-type: none; }
     background: #572bcf;
 }
 
-.slide1 {background: url(images/bumblebee1lg.jpg) top left no-repeat;}
-.slide2 {background: url(images/bumblebee2lg.jpg) top left no-repeat;}
-.slide3 {background: url(images/bumblebee3lg.jpg) top left no-repeat;}
-.slide4 {background: url(images/bumblebee4lg.jpg) top left no-repeat;}
-.slide5 {background: url(images/bumblebee5lg.jpg) top left no-repeat;}
-.slide6 {background: url(images/bumblebee6lg.jpg) top left no-repeat;}
+.slide1 {background: url(../images/bumblebee1lg.jpg) top left no-repeat;}
+.slide2 {background: url(../images/bumblebee2lg.jpg) top left no-repeat;}
+.slide3 {background: url(../images/bumblebee3lg.jpg) top left no-repeat;}
+.slide4 {background: url(../images/bumblebee4lg.jpg) top left no-repeat;}
+.slide5 {background: url(../images/bumblebee5lg.jpg) top left no-repeat;}
+.slide6 {background: url(../images/bumblebee6lg.jpg) top left no-repeat;}
 
 .slides li div {
     width: 100%;
@@ -115,8 +115,6 @@ nav ul, nav ol { list-style-type: none; }
     font-size: 3vw;
     color: #200742;
 }
-
-.light {color: #ededed;}
 
 img { width: 100%; }
 
