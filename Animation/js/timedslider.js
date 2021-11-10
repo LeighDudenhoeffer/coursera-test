@@ -10,7 +10,7 @@ $(window).on('load', function(){
 
     $('#slider ul').css("width", totalWidth);
 
-    let mySlider = setInterval( slider, 2500 );
+    let mySlider = setInterval( slider, 2750 );
 
     function slider(){
         counter++;
