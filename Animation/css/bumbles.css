@@ -105,7 +105,18 @@ nav ul, nav ol { list-style-type: none; }
     bottom: 100%;
 
     background: #8b66f1;
+    border-radius: 50%;
+    border: 5px solid #e2d1fb;
+
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3vw;
+    color: #200742;
 }
+
+.light {color: #ededed;}
 
 img { width: 100%; }
 
@@ -135,6 +146,11 @@ p {
 
 	.column { flex: 1; }
 
+    .cta {
+        height: 20vw;
+        width: 20vw;
+        font-size: 2vw;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -145,4 +161,10 @@ p {
 	}
 
 	header h1 {font-size: 120px;}
+
+    .cta {
+        height: 150px;
+        width: 150px;
+        font-size: 18px;
+    }
 }
