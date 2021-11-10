@@ -95,7 +95,16 @@ nav ul, nav ol { list-style-type: none; }
 }
 
 .cta {
+    display: flex;
+    align-items: center;
+    height: 25vw;
+    width: 25vw;
 
+    position: absolute;
+    right: 20px;
+    bottom: 100%;
+
+    background: #8b66f1;
 }
 
 img { width: 100%; }
