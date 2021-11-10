@@ -61,6 +61,7 @@ h2, h3, p, ul, ol {
 nav ul, nav ol { list-style-type: none; }
 
 /*************** flexslider styles ****************/
+
 .flexslider {
     margin: 0 20px;
     /* border: none; */
@@ -69,6 +70,32 @@ nav ul, nav ol { list-style-type: none; }
 
 .flex-control-paging li a.flex-active {
     background: #572bcf;
+}
+
+.slide1 {background: url(images/bumblebee1lg.jpg) top left no-repeat;}
+.slide2 {background: url(images/bumblebee2lg.jpg) top left no-repeat;}
+.slide3 {background: url(images/bumblebee3lg.jpg) top left no-repeat;}
+.slide4 {background: url(images/bumblebee4lg.jpg) top left no-repeat;}
+.slide5 {background: url(images/bumblebee5lg.jpg) top left no-repeat;}
+.slide6 {background: url(images/bumblebee6lg.jpg) top left no-repeat;}
+
+.slides li div {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 50%;
+    background-size: cover;
+}
+
+.slides li div h2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #200742;
+}
+
+.cta {
+
 }
 
 img { width: 100%; }
