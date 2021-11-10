@@ -30,7 +30,7 @@ header {
 nav {
     box-sizing: border-box;
     font-variant: small-caps;
-    font-size: 120%;
+    font-size: 140%;
     font-family: Helvetica, 'Times New Roman', Serif;
     word-spacing: 8px;
 }
@@ -83,7 +83,7 @@ nav ul, nav ol { list-style-type: none; }
     width: 100%;
     height: 0;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 70%;
     background-size: cover;
 }
 
@@ -104,12 +104,12 @@ nav ul, nav ol { list-style-type: none; }
     right: 20px;
     bottom: 100%;
 
-    background: #8b66f1;
+    background: #9d7ef3;
     border-radius: 50%;
     border: 5px solid #e2d1fb;
 
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     font-size: 3vw;
@@ -141,21 +141,6 @@ p {
 
 
 /**************** Media Queries ****************/
-
-@media only screen and (min-width: 600px) {
-
-	main { display: flex; }
-
-	.column { flex: 1; }
-
-    .cta {
-        height: 150px;
-        width: 150px;
-        font-size: 14px;
-    }
-
-}
-
 @media only screen and (min-width: 1000px) {
 
 	#page {
@@ -163,11 +148,30 @@ p {
 		margin: auto;
 	}
 
-	header h1 {font-size: 120px;}
+	header h1 {
+        font-size: 120px;
+    }
+
+    .cta {
+        height: 40vw;
+        width: 40vw;
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 250px) {
+
+	main {
+        display: flex;
+    }
+
+	.column {
+        flex: 1;
+    }
 
     .cta {
         height: 20vw;
         width: 20vw;
-        font-size: 4vw;
+        font-size: 3vw;
     }
 }
