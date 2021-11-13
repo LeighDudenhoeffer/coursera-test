@@ -52,6 +52,10 @@ header h1 {
     text-align: center;
 }
 
+footer {
+    text-align: center;
+}
+
 /*************** Bill's Resets ***************/
 h2, h3, p, ul, ol {
     margin: 0;

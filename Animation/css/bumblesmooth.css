@@ -3,9 +3,9 @@ body {
     background-color: rgb(145, 238, 207);
     background-repeat: repeat;
     background-size: cover;
-    max-width: 95%;
+    max-width: 98%;
     margin: 0 auto;
-    padding:0 auto;
+    padding-top: 15%;
 }
 
 header {
@@ -84,6 +84,10 @@ section {
     transition: all 1s;
 }
 
+footer {
+    text-align: center;
+}
+
 /**************** Media Queries ****************/
 @media only screen and (min-width: 600px){
 
@@ -96,13 +100,12 @@ section {
         margin-left: 25px;
     }
 
-    #second div, #fifth div {
-        display: flex;
-        justify-content: space-between;
+    #second article img {
+        margin-right: 25px;
     }
 
     #second article {
-        width: 30%;
+        margin-right: 25px;
     }
 
     #third article img {
@@ -112,6 +115,14 @@ section {
     #third article {
         display: flex;
         align-items: flex-start;
+    }
+
+    #fifth article img {
+        margin-right: 25px;
+    }
+
+    #fifth {
+        margin-bottom:20% ;
     }
 
 }
